@@ -34,7 +34,7 @@ background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image
      tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
 background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
      tags$p(style='font-size:9px;color:#BBBBBB;font-family:Segoe UI','I play on MapleSEA Izar, IGN vireys. If you think this app is useful, drop me a thanks in-game!'),
-     tags$a(href='starforce.pdf',style='font-size:6.5px;font-weight:bold;',"WARNING: NERDS ONLY (formula derivation)")
+     tags$a(href='starforce.pdf',style='font-size:6.5px;font-weight:bold;color:#CCCCCC',"WARNING: NERDS ONLY (formula derivation)")
      ),
      
      mainPanel(
@@ -226,7 +226,7 @@ server <- function(input, output) {
                                                   outcomes$boom[11] * L(11) +
                                                   c(0,outcomes$boom[11]))
      costTable[12,] <- outcomes$pass[12]^(-1) * (c(baseCost[12],0) + 
-                                                  outcomes$fail[12] * costTable[12,] + 
+                                                  outcomes$fail[12] * costTable[11,] + 
                                                   outcomes$boom[12] * L(12) +
                                                   c(0,outcomes$boom[12]))
      for(i in 13:15) {
