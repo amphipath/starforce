@@ -33,9 +33,10 @@ background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image
      numericInput(inputId = "to", label = "to", value = 17, min = 11, max = 25, step = 1),
      tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
 background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
-     tags$a(href='starforce.pdf',style='font-size:6px',"WARNING: NERDS ONLY (formula derivation)"),
-     tags$p(style='font-size:9px;color:#BBBBBB;font-family:Segoe UI','I play on MapleSEA Izar, IGN vireys. If you think this app is useful, drop me a thanks in-game!')
+     tags$p(style='font-size:9px;color:#BBBBBB;font-family:Segoe UI','I play on MapleSEA Izar, IGN vireys. If you think this app is useful, drop me a thanks in-game!'),
+     tags$a(href='starforce.pdf',style='font-size:6.5px;font-weight:bold;',"WARNING: NERDS ONLY (formula derivation)")
      ),
+     
      mainPanel(
      DT::DTOutput('table'),
      tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
