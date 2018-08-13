@@ -1,0 +1,143 @@
+---
+title: "Star Force"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Preface
+
+This is a document to show the derivations behind the equations used in the web-app and the various star-forcing strategies it permits.
+
+While there have been many spreadsheets posted online regarding Monte Carlo simulations of star-forcing equipment, there are many reasons why one may find them inadequately useful:
+
+\begin{itemize}
+  \item They are too specific, for example only showing simulations of a couple of levels of equipment when for general purposes not everyone will be starforcing only Level 160 or 200 equipment
+  \item They are inflexible in their strategies; some people may find it preferable to skip the star catcher for time reasons below 20 but will take it slow after, others may prefer to use destroy-protection on some levels but not others
+  \item While the law of large numbers makes Monte Carlo simulations very reliable, why not take it a step further and make it analytic?
+\end{itemize}
+
+This web-app was created in response to this to allow a more in-depth and comprehensive look at the starring costs.
+
+## Definitions
+
+We choose to model the star-force of an equipment as a Markov chain taking values in the integers. Our main attention will be focused on the following definition: We define $E(a,b)$ to be the expected mesos spent until we \emph{first} reach $b$ starforce, starting from $a$. We clearly require $b > a$. $E(a,b)$ will be fixed given a \emph{strategy}, which is defined by the parameters you can set (whether to star-catch, which levels to safeguard, etc).
+
+This definition is particularly convenient, because if we consider any "path" taken by our Markov chain starting from 10 and arriving at 12, say, it necessarily has to attain 11 at some point, allowing us to split every path from 10 to 12 into two paths, one from 10 to the first 11 and one from 11 to 12. The following will be very useful in later calculations:
+
+\begin{align*}
+E(a,c) = E(a,b) + E(b,c) \\
+E(a,b) = \sum^{b-1}_{i=a} E(i,i+1)
+\end{align*}
+
+For convenience, from now on we use the notation that $E_a$ is the expected meso cost to get to the next star.
+
+We use $s_a$ for the success rate at the $a^{\text{th}}$ star, which may or may not use the Star Catcher depending on the strategy. If anti-destruction protection is used, $f_a = 1 - s_a$ is the failure-without-destruction chance, and otherwise we have $f_a = (1-b_a)(1-s_a)$, and $d_a = b_a(1-s_a)$ is the destruction chance, while $b_a$ is the chance of destruction \emph{given} a failure, which we assume to be constant. 
+
+The Star Catcher is modelled as a simple 1.04x multiplier, so $s_a$ is multiplied by 1.04 if the minigame is used at that particular star force level and $f_a$ and $d_a$ will proportionally become smaller.
+
+We also define $c_a$ as the meso cost to attempt a star force enhancement at the $a^{\text{th}}$ star.
+
+Finally, $r$ will be the replacement cost of the equipment. Past 12 stars, the expected cost will take the form $p + qr$ where $p$ is a fixed meso cost and $q$ is the expected number of booms.
+
+## Deriving the formulae
+
+Because of the complications regarding the Star Force system, we have no choice but to slowly derive our expected costs step-by-step. Going from 0 to 9 stars isn't costly and after hitting 10 we can forget about those stars (barring an Innocence), so we just disregard 0-9 completely and start at 10.
+
+Because of the checkpoint at 10, the meso cost to reach 11 is simply a geometric distribution and we have a rather simple first step:
+
+$$E_{10} = \frac{c_{10}}{s_{10}}$$
+
+Subsequently, to calculate $E_{11}$ we condition on the first step:
+
+\begin{align*}
+E_{11} &= c_{11} + f_{11} E(10,12) \\
+&= c_{11} + f_{11}(E_{10} + E_{11}) \\
+s_{11} E_{11} &= c_{11} + f_{11} E_{10} \\
+E_{11} &= \frac{c_{11}}{s_{11}} + \frac{f_{11}}{s_{11}} E_{10} 
+\end{align*}
+
+The next step is where it gets tricky. We would first immediately think to condition on the first step, which is correct. But the "first step" isn't as simple as attempting a star on as 12-star equipment. If the first attempt fails, we fall down to 11 stars, but this "11" doesn't actually exist in our state space, because a second failure at "11" will cause a chance time to occur at 10 stars. After the chance time is when we will reach the "actual" 11 in our state space.
+
+So all in all, these are all the possible first steps from 12:
+
+\begin{itemize}
+  \item $d_{12}$ chance of destruction, giving a subsequent cost of $r + E_{12}$
+  \item $s_{12}$ chance of success, giving a subsequent cost of 0
+  \item $f_{12}f_{11}$ chance of a double failure, costing $c_{11} + c_{10} + E(11,13)$ after the first star attempt at 12
+  \item $f_{12}s_{11}$ chance of a failure into success, costing $c_{11} + E_{12}$
+\end{itemize}
+
+This gives us, assuming no safeguard:
+
+\begin{align*}
+E_{12} &= c_{12} + d_{12}(r + E_{12}) + f_{12}f_{11}(c_{11} + c_{10} + E_{11} + E_{12}) + f_{12}s_{11}(c_{11} + E_{12}) \\
+s_{12}E_{12} &= c_{12} + f_{12}c_{11} + f_{12}f_{11}c_{10} + f_{12}f_{11}E_{11} + d_{12} r \\
+E_{12} &= \frac{c_{12}}{s_{12}} + \frac{f_{12}}{s_{12}}c_{11} + \frac{f_{12}f_{11}}{s_{12}} (c_{10} + E_{11}) + \frac{d_{12}}{s_{12}} r 
+\end{align*}
+
+With anti-destruction, we instead have
+
+\begin{align*} 
+E_{12} = \frac{1}{s_{12}} (2c_{12} + (1 - s_{12})c_{11} + (1 - s_{12})f_{11}(c_{10} + E_{11}))
+\end{align*}
+
+Stars 13 and 14 are tough, because we have the following consideration: suppose we fail a star at 13, and go down to 12. Do you want to safeguard at 12? For most replaceable equipment the answer is very definitely no; if the equipment is destroyed at 12, it stays at 12. If instead we safeguard it, not only do we pay more, but it goes down to 11 instead, significantly increasing the costs.
+
+The situation is more complicated at 14; if we fail a 14 and go down to 13, do we protect this 13? If we protect and fail, we get a chance time and hence a guaranteed second-try at 13. If not, the equipment booms and not only do we replace the equipment, the subsequent 12-star equipment has no chance time.
+
+Hence, just for these two stars, we have a grand total of FOUR possible formulae depending on whether we protect the first enhancement AND on whether we protect a post-failure enhancement.
+
+For convenience we first define $F_i = E_{12} + E_{13} + ... +E_{i-1}$ which is the expected cost to return to $i$ stars after replacement of a destroyed item. The two formulae, with anti-destruction and without:
+
+The four equations represent, in order, the expected costs without any safeguards, safeguarding only the first enhancement, safeguarding only a post-failure, and safeguarding both.
+
+\begin{align*}
+E_{13} &= \frac{1}{s_{13}} \big( c_{13} + f_{13}c_{12} + f_{13}f_{12}c_{11} + [f_{13}(1-s_{12}) + d_{13}] E_{12}\big) + \frac{d_{13} + f_{13}d_{12}}{s_{13}} r \\
+E_{13} &= \frac{1}{s_{13}} \big( 2c_{13} + (1 - s_{13})c_{12} + (1-s_{13})f_{12}c_{11} + (1-s_{13})(1 - s_{12})E_{12}\big) + \frac{(1-s_{13})d_{12}}{s_{13}} r \\
+E_{13} &= \frac{1}{s_{13}} \big( c_{13} + 2f_{13}c_{12} + f_{13}(1-s_{12})c_{11} + (d_{13} + f_{13}(1-s_{12}))E_{12} \big) + \frac{d_{13}}{s_{13}} r \\
+E_{13} &= \frac{1}{s_{13}} \Big( 2c_{13} + 2(1-s_{13})c_{12} + (1-s_{13})(1-s_{12})c_{11} + (1-s_{13})(1-s_{12})E_{12} \Big)
+\end{align*}
+
+For 14 stars:
+
+\begin{align*}
+E_{14} &= \frac{1}{s_{14}} \big( c_{14} + f_{14}c_{13} + f_{14}f_{13}c_{12} + f_{14}f_{13} E_{13} + (f_{14}d_{13} + d_{14}) F_{14}\big) + \frac{d_{14} + f_{14}d_{13}}{s_{14}} r \\
+E_{14} &= \frac{1}{s_{14}} \big( 2c_{14} + (1 - s_{14})c_{13} + (1-s_{14})f_{13}c_{12} + (1-s_{14})(1 - s_{13})E_{13} + (1-s_{14})d_{13}E_{12}\big) + \frac{(1-s_{14})d_{13}}{s_{14}} r \\
+E_{14} &= \frac{1}{s_{14}} \big( c_{14} + 2f_{14}c_{13} + f_{14}(1-s_{13})(c_{12} + E_{13}) + d_{14}F_{14} \big) + \frac{d_{14}}{s_{14}} r \\
+E_{14} &= \frac{1}{s_{14}} \Big( 2c_{14} + 2(1-s_{14})c_{13} + (1-s_{14})(1-s_{13})c_{12} + (1-s_{14})(1-s_{13})E_{13} \Big)
+\end{align*}
+
+Note that the no-safeguard formula applies also to stars 17 onward (except 20 and 21, because of the checkpoint) and so we can generalise it for $i \in \{14, 17, 18, 19, 22, 23, 24\}$:
+
+\begin{equation} E_{i} = \frac{1}{s_{i}} \big( c_{i} + f_{i}c_{i-1} + f_{i}f_{i-1}c_{i-2} + f_{i}f_{i-1}E_{i-1} + (f_{i}d_{i-1} + d_{i})F_{i} + (f_{i}d_{i-1} + d_{i}) r \big) 
+\end{equation}
+
+At 15 stars, we get a bit of breathing room because of the checkpoint.
+
+\begin{align*}
+E_{15} &= \frac{2c_{15}}{s_{15}} \\
+E_{15} &= \frac{c_{15}}{s_{15}} + d_{15} F_{15} + d_{15}r
+\end{align*}
+
+For 16 stars, again with anti-destruction and then without:
+\begin{align*}
+E_{16} &= \frac{2c_{16} + (1-s_{16})E_{15}}{s_{16}} \\
+E_{16} &= \frac{1}{s_{16}} (c_{16} + f_{16}E_{15} + d_{16}F_{16}) + \frac{d_{16}}{s_{16}} r
+\end{align*}
+
+Starting from 17 stars, we no longer have the option to safeguard, and the formula follows equation (1) above. However, at 17 stars there's still a choice whether to protect after an initial failure, and with this choice we instead have:
+
+\begin{align*}
+E_{17} = \frac{1}{s_{17}} \big( c_{17} + 2f_{17}c_{16} + f_{17}(1-s_{16})(c_{15}+E_{16}) + d_{17}F_{17}\big) + \frac{d_{17}}{s_{17}}r
+\end{align*}
+
+Equation (1) applies to all stars above 17 except for 20 and 21. For 20 and 21, we instead use the no-safeguard formulae from 15 and 16.
+
+\begin{align*}
+E_{20} &= \frac{c_{20}}{s_{20}} + d_{20} F_{20} + d_{20}r \\
+E_{21} &= \frac{1}{s_{21}} (c_{21} + f_{21}E_{20} + d_{21}F_{21}) + \frac{d_{21}}{s_{21}} r
+\end{align*}
+
