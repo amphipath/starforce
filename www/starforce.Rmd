@@ -119,7 +119,7 @@ At 15 stars, we get a bit of breathing room because of the checkpoint.
 
 \begin{align*}
 E_{15} &= \frac{2c_{15}}{s_{15}} \\
-E_{15} &= \frac{c_{15}}{s_{15}} + d_{15} F_{15} + d_{15}r
+E_{15} &= \frac{c_{15} + d_{15} F_{15} + d_{15}r}{s_{15}} 
 \end{align*}
 
 For 16 stars, again with anti-destruction and then without:

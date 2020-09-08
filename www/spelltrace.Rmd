@@ -1,0 +1,86 @@
+---
+title: "Perfect Tracing"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Preface
+
+This is a tool that calculates the expected cost (and variance) of an attempt to perfect-trace an equipment, taking into account costs of Spell Traces, Innocence Scrolls, Clean Slates, etc.
+
+These calculations are done **analytically** rather than through simulations. The logic behind these will be explained here.
+
+## The rational player
+
+Suppose you've set out to fully scroll a piece of equipment. You throw a bunch of spelltraces, but only 4 out of 8 slots pass. You have a decision here; do you throw an Innocence and try to get 5/8 and above, or do you just brute force the remaining slots with Clean Slates?
+
+It's a decision that balances the costs of Clean Slates against those of Innocence Scrolls. Assuming the player is rational (very strong assumption, I know), the decision to Innocence or CSS will depend purely on the current state of the equipment; that is to say, the number of slots that passed or failed. This leads to the idea of a "target" number of slots; if you hit this number of success, you don't inno; if you miss it, you do inno.
+
+Alternatively, we may formulate it in terms of the number of *fails* instead; if we fail a certain number of scrolls $F$, we inno; otherwise, we don't. Let $p$ be the probability of success of whatever scroll/spelltrace we use, and $n$ be the base number of slots on the equip (without considering hammers)
+
+Since an Innocence Scroll sets us back at square one, we can try to investigate the probability behind a single *cycle*, basically just a round of throwing scrolls and seeing what sticks.
+
+The probability table will look something like this:
+
+\begin{table}[h]
+  \begin{center}
+    \label{tab:table1}
+    \begin{tabular}{|l|c|c|c|c|}
+      \hline
+      \textbf{Outcome} & \textbf{Probability $q$} & \textbf{Scrolls} & \textbf{Hammers} & \textbf{Inno?} \\
+      \hline
+      $F$ fails in a row & $(1-p)^F$ & $F$ & 0 & Y\\
+      1 pass before $F$ fail & $\binom{F}{F-1}p(1-p)^F$ & $F+1$ & 0 & Y\\
+      {} & \vdots & \vdots & \vdots & \vdots \\
+      $n-F$ pass, $F$ fail & $\binom{n-1}{F-1}p^{n-F}(1-p)^F$ & $n$ & 0 & Y\\
+      $F-1$ fail, rest pass, hammer fails & $\frac{1}{2}\binom{n}{F-1}p^{n-F+1}(1-p)^{F-1}$ & $n$ & 1 & Y\\
+       $F-1$ fail, rest pass, hammer + fail & $\frac{1}{2}\binom{n}{F-1}p^{n-F+1}(1-p)^{F}$ & $n+1$ & 1 & Y\\
+      $F-1$ fails, rest pass, hammer + pass & $\frac{1}{2}\binom{n}{F-1}p^{n-F+2}(1-p)^{F-1}$ & $n+1$ & 1 & N \\
+      $n-F+2$ passes, hammer fails & $\frac{1}{2}\binom{n}{F-2}p^{n-F+2}(1-p)^{F-2}$ & $n$ & 1 & N \\
+      {} & \vdots & \vdots & \vdots & \vdots \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+The hammer makes things complicated, but only slightly. It is possible to ignore the hammer entirely and pretend that the equipment has $n+1$ slots, since so few of them are needed on average, but we'll leave it in for the purpose of being thorough.
+
+Sum up the probabilities in the rows that have "N" on inno, and call this some $P$. This is the chance, per cycle, that we decide not to use an Innocent Scroll.
+
+The total cost $T$ of perfect-tracing can hence be modelled as
+
+$$T = I + c(A) + C$$
+
+Where $I$ is the resources (in units of scrolls, hammers, innos, css's) spent on outcomes that were rejected, $A$ is the resources spent on the eventual-accepted outcome, and $C$ is the amount spent on the final step of filling up failed slots with CSS and scrolls. Note that while $I$ are independent of $A$ and $C$, $C$ is dependent on $A$.
+
+$I$ can be modelled as $\sum_{i=1}^{N}Q_i$, where $N$ is a $Geom(P)$ random variable (here we use the convention where geometric r.v.s can be 0-valued). This is the number of times we'll end up inno-ing. For each of those $N$ cycles before we Inno, the costs incurred are a random variable $Q$ sampled according to the probability $q$ in the table amongs the rows with Y under Inno, and we let $Q_i$ be i.i.d. realisations of $Q$.
+
+The following result will be used many times throughout this calculation:
+
+Suppose that $(X_i)_{i \geq 1}$ are i.i.d., and $Z$ is an independent $Geom_1(p)$ random variable. Then if $A = \sum_{i=1}^Z X_i$, 
+
+\begin{align*}
+\mathbb{E}(A | Z = n) &= n\mathbb{E}(X) \\
+\text{Var}(A | Z = n) &= n\text{Var}(X) \\
+\mathbb{E}(A) &= \sum_{n=1}^{\infty}\mathbb{E}(A | Z = n) \mathbb{P}(Z=n) \\
+&= \mathbb{E}(Z)\mathbb{E}(X) \\
+\text{Var}(A) &= \mathbb{E}(Z)\text{Var}(X) \\
+\end{align*}
+
+Hence the mean and variance of $I$ are $\frac{1-P}{P}\mathbb{E}(Q)$ and $\frac{1-P}{P}\text{Var}(Q)$ respectively.
+
+After we have inno'd for the $N$th time, we finally hit on an "accepted" non-inno state; this state $A$ is sampled from the probabilities under the rows with N under Inno, and has its own cost associated with it, $c(A)$.
+
+$C$ depends on the number of failed slots, $s$, which depends on $A$. $C$ can be written as $\sum_{i=1}^{s} K_i$, where $K$ is the number of Clean Slates and stat-scrolls spent on the equipment.
+
+$K$ has two components, the number of Clean Slates spent and the number of scrolls spent. The number of Clean Slates is itself a sum of independent $Geom(CSS)$ variables where $CSS$ is the success chance of a Clean Slate (0.05 using traces outside of fever, or 0.1 during fever/using css10s). Hence $\mathbb{E}(K) = \frac{1}{p \times CSS}$, Var$(K) = \frac{1-CSS}{p \times CSS^2}$, while the number of scrolls spent is a simple $Geom(p)$ random variable.
+
+So, given an outcome $A$, and the number of failed slots $s(A)$ which depends on $A$, we have:
+
+$$ \mathbb{E}(C | A = a) = \frac{s(a)}{p \times CSS} $$
+$$ \text{Var}(C | A = a) = \frac{s(a)(1-CSS)}{p \times CSS^2} $$
+
+Note that since $C$ is independent of the history $A, I$ when conditioned on $A = a$ we can just add up the means and variances together to get the mean and variance of $T$.
