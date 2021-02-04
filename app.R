@@ -48,6 +48,10 @@ ui <- navbarPage("Maplestory Statistics",
                             actionButton('allsafe', label = HTML("Always safeguard")),
                             actionButton('nosafe', label = HTML("Never safeguard")),
                             tags$br(),
+                            selectInput(inputId = "gap", label = strong("Guardian Angel: Polaris"),
+                                        choices = c('Inactive','1.25','1.5','1.75','2'), selected = 'None'),
+                            selectInput(inputId = 'gal', label = strong('Guardian Angel: Lil White Star'),
+                                        choices = c('Inactive','10%','20%','40%','50%'), selected = 'Inactive'),
                             tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
                                     background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
                             tags$b("Below the Table:"),
@@ -198,6 +202,14 @@ server <- function(input, output, session) {
      }
      if('1015nb' %in% input$event) {
        boom[1:5] <- 0
+     }
+     if(input$gal != 'Inactive'){
+        factor = 1 - (as.numeric(substr(input$gal,1,2))/100)
+        boom <- factor * boom
+     }
+     if(input$gap != 'Inactive'){
+        factor = as.numeric(input$gap)
+        basePass = pmin(1,basePass*factor)
      }
      result <- data.frame(pass = basePass, fail = (1 - boom)*(1 - basePass), boom = boom*(1-basePass))
     result

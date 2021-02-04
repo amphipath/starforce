@@ -51,6 +51,14 @@ successRates <- reactive({
   if('1015nb' %in% input$event) {
     boom[1:5] <- 0
   }
+  if(input$gal != 'Inactive'){
+    factor = 1 - (as.numeric(substr(input$gal,1,2))/100)
+    boom <- factor * boom
+  }
+  if(input$gap != 'Inactive'){
+    factor = as.numeric(input$gap)
+    basePass = pmin(1,basePass*factor)
+  }
   result <- data.frame(pass = basePass, fail = (1 - boom)*(1 - basePass), boom = boom*(1-basePass))
   result
 })
