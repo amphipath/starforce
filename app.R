@@ -147,7 +147,9 @@ ui <- navbarPage("Maplestory Statistics",
                              
                           ),
                           mainPanel(
-                             echarts4rOutput('flamePlot')
+                             echarts4rOutput('flamePlot'),
+                             htmlOutput('titlefirst100'),
+                             DT::DTOutput('first100')
                           )
                      )
                  )
@@ -192,7 +194,11 @@ server <- function(input, output, session) {
             e_legend(F) %>%
             e_tooltip(trigger='item')
       })
-      
+      flameSample <- df[1:100,]
+      output$titlefirst100 <- renderUI({HTML(paste0('<h4>The first 100 flames (out of ',n,')</h4>'))})
+      output$first100 <- DT::renderDT({
+         DT::datatable(flameSample)
+      })
    })
 
   
@@ -345,7 +351,8 @@ server <- function(input, output, session) {
                                       fixedHeader.footer = FALSE
                                      )
                                       
-     )
+     ) %>%
+        formatCurrency(columns = "Expected Meso to Next Star (mil)",currency = "", interval = 3, mark = ",")
      })
    output$lvwarning <- renderUI({
      if(input$lv < 140 & input$lv > 129) { HTML("<font color=#FF0000>Warning: Level 130-139 equipment can be enhanced only to a max of 20*</color>")} 
