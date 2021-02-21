@@ -14,8 +14,9 @@ library(scales)
 library(dplyr)
 library(tidyr)
 library(RColorBrewer)
-
+source('flamegen.R')
 source('spelltrace.R')
+require(echarts4r)
 
 # Define UI for application that draws a histogram
 ui <- navbarPage("Maplestory Statistics",
@@ -86,7 +87,7 @@ ui <- navbarPage("Maplestory Statistics",
                  tabPanel("Scrolling",
                           titlePanel("Scrolling strategies/costs"),
                           sidebarPanel(
-                            HTML("<h3>Prices <a title='Enter prices on auction house'>(?)</a></h2>"),
+                            HTML("<h2>Prices <a title='Enter prices on auction house'>(?)</a></h2>"),
                             numericInput(inputId = "pTrace", label = "Spell Traces (each)", value = 2000, min = 1, max = 29999999999, step=1),
                             numericInput(inputId = "pInno", label = "Innocence Scroll 50%", value = 0, min = 0, max = 29999999999, step=1),
                             numericInput(inputId = "pCSS", label = "Clean Slate Scroll 10%", value = 0, min = 0, max = 29999999999, step=1),
@@ -122,12 +123,78 @@ ui <- navbarPage("Maplestory Statistics",
                             
                           
                           )
+                          ),
+                 tabPanel("Flame Statistics",
+                          titlePanel("Flame Distribution Plots"),
+                          sidebarPanel(
+                             selectInput(inputId = 'flameSource',label = 'Equip generation method', choices = list(`Monster Drop`='drop',
+                                                                                                                   `Crimson Resurrection Flame` = 'crimson',
+                                                                                                                   `Rainbow Resurrection Flame` = 'rainbow',
+                                                                                                                   `Lv1 - 10 Crafting/Fusing` = 'smallcraft',
+                                                                                                                   `Master Craftsman Crafting` = 'mccraft',
+                                                                                                                   `Meister Crafting` = 'meistercraft',
+                                                                                                                   `Master Craftsman Fusing` = 'mcfuse',
+                                                                                                                   `Meister Fusing` = 'meisterfuse',
+                                                                                                                   `Boss Fragment Chance Time` = 'chancetime'),selected='rainbow'),
+                             checkboxInput(inputId = 'flameBoss', label = 'Does the equip have strong flames?', value=T),
+                             numericInput(inputId = 'flameLevel', label = 'Equip level', value = 160, min=100,max=200,step=1),
+                             selectInput(inputId = 'flameMainstat', label = 'Main Stat', choices = list(STR=1,DEX=2,INT=3,LUK=4,HP = 9,`STR+DEX+LUK` = -1)),
+                             numericInput(inputId = 'flameAsweight', label = 'All Stats % weight', value = 10, min=0),
+                             numericInput(inputId = 'flameAttweight', label = 'ATT/MATT weight', value = 4, min=0),
+                             numericInput(inputId = 'flameThreshold', label = 'Desired Flame Score threshold', value = 100, min=0),
+                             actionButton('flameGo',label = 'Go!')
+                             
+                             
+                          ),
+                          mainPanel(
+                             echarts4rOutput('flamePlot')
                           )
+                     )
                  )
 
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
+  #######################################################
+  ## START OF FLAME SECTION
+  #######################################################
+   observeEvent(input$flameGo, {
+      level <- input$flameLevel
+      tierweights <- tier.weights[[input$flameSource]]
+      boss <- input$flameBoss
+      n <- 20000
+      df <- data.frame(simulateflame(level,n,boss,tierweights=tierweights))
+      colnames(df) <- c('STR','DEX','INT','LUK', '%AS', 'ATT','MA','DEF','HP','MP','SPD','JUMP','Lv Reduction')
+      df$Score <- scoreoutput(df,as.numeric(input$flameMainstat),input$flameAsweight,input$flameAttweight)
+      ordered <- df$Score[order(df$Score)]
+      print(ordered)
+      index <- (1:nrow(df)) / nrow(df)
+      q99 <- ordered[n*0.99 + 1]
+      q995 <- ordered[n*0.995 + 1]
+      q999 <- ordered[n*0.999 + 1]
+      q90 <- ordered[n*0.9+1]
+      cdfdf <- data.frame(Score=ordered,Quantile=index,q99=0,q995=0,q999=0,q90=0)
+      flameThresholdProb <- sum(ordered > input$flameThreshold)/length(ordered)
+      meanFlames <- 1/flameThresholdProb
+      
+      
+      output$flamePlot <- renderEcharts4r({
+         cdfdf %>%
+            e_charts(Quantile) %>%
+            e_line(Score,symbol='circle') %>%
+            e_title('Flame Score Quantiles','Like cumulative density but with swapped axes')%>%
+            e_visual_map(Score,show=F,type='piecewise',inRange=list(color=c('rgb(0,123,198)','rgb(194,53,49)')))%>%
+            e_mark_line('Score',data=list(name='',xAxis=1-flameThresholdProb),label=list(overflow='break',width=100),title=paste0("Avg ",format(meanFlames,digits=2),' attempts\nto get threshold'),lineStyle=list(color='#aaa'))%>%
+            e_mark_line('Score',data=list(name='90th Percentile',yAxis=q90),lineStyle=list(color='rgb(194,53,49)')) %>%
+            e_mark_line('Score',data=list(name='99th Percentile',yAxis=q99),lineStyle=list(color='rgb(183,50,47)')) %>%
+            e_mark_line('Score',data=list(name='99.5th Percentile',yAxis=q995),lineStyle=list(color='rgb(149,41,38)')) %>%
+            e_mark_line('Score',data=list(name='99.9th Percentile',yAxis=q999),lineStyle=list(color='rgb(128,34,32)')) %>%
+            e_legend(F) %>%
+            e_tooltip(trigger='item')
+      })
+      
+   })
+
   
   #######################################################
   ## START OF STARFORCE SECTION
@@ -181,15 +248,15 @@ server <- function(input, output, session) {
    successRates <- reactive({
      starCatch <- catchChoiceUpdate()
      if(input$type %in% c('KMS 25* (old)','GMS/MSEA 25* (old)')) {
-       basePass <- 1.04 ^ starCatch * c(0.45,0.35,rep(0.3,10),0.03,0.02,0.01)
+       basePass <- 1.05 ^ starCatch * c(0.45,0.35,rep(0.3,10),0.03,0.02,0.01)
        boom <- c(0,0,0.01,0.02,0.02,rep(0.03,3),0.04,0.04,rep(0.1,2),0.2,0.3,0.4)
      }
      if(input$type == 'MSEA 20* (old)') {
-       basePass <- 1.04 ^ starCatch * c(0.45,0.35,0.3,0.3,0.25,0.25,0.20,0.15,0.1,0.05,0,0,0,0,0)
+       basePass <- 1.05 ^ starCatch * c(0.45,0.35,0.3,0.3,0.25,0.25,0.20,0.15,0.1,0.05,0,0,0,0,0)
        boom <- c(0,0,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,rep(0,5))
      }
      if(input$type %in% c("KMS/MSEA Adventure 25*","GMS Adventure 25*")) {
-       basePass <- 1.04 ^ starCatch * c(0.5, 0.45, 0.4, 0.35, 0.3, rep(0.3,7),0.03,0.02,0.01) 
+       basePass <- 1.05 ^ starCatch * c(0.5, 0.45, 0.4, 0.35, 0.3, rep(0.3,7),0.03,0.02,0.01) 
        boom <- c(0,0,0.01,0.02,0.02,rep(0.03,3),0.04,0.04,rep(0.1,2),0.2,0.3,0.4)
      }
      if('12g' %in% input$event) {
