@@ -1,0 +1,4291 @@
+Equip,Level Requirement,Grade,Stat,Value,Weight,Cube
+Weapon,120,Normal,STR,6,3,Red
+Weapon,120,Normal,DEX,6,3,Red
+Weapon,120,Normal,INT,6,3,Red
+Weapon,120,Normal,LUK,6,3,Red
+Weapon,120,Normal,Max HP,60,3,Red
+Weapon,120,Normal,Max MP,60,3,Red
+Weapon,120,Normal,Attack,6,2,Red
+Weapon,120,Normal,Magic Attack,6,2,Red
+Weapon,120,Rare,STR,12,3,Red
+Weapon,120,Rare,DEX,12,3,Red
+Weapon,120,Rare,INT,12,3,Red
+Weapon,120,Rare,LUK,12,3,Red
+Weapon,120,Rare,Max HP,120,3,Red
+Weapon,120,Rare,Max MP,120,3,Red
+Weapon,120,Rare,Attack,12,2,Red
+Weapon,120,Rare,Magic Attack,12,2,Red
+Weapon,120,Rare,STR %,3,3,Red
+Weapon,120,Rare,DEX %,3,3,Red
+Weapon,120,Rare,INT %,3,3,Red
+Weapon,120,Rare,LUK %,3,3,Red
+Weapon,120,Rare,ATT %,3,1,Red
+Weapon,120,Rare,Magic ATT %,3,1,Red
+Weapon,120,Rare,Critical Rate %,4,1,Red
+Weapon,120,Rare,Damage %,3,1,Red
+Weapon,120,Rare,All Stats,5,2,Red
+Weapon,120,Rare,20% chance to recover 240 HP on attack,1,1,Red
+Weapon,120,Rare,20% chance to recover 120 MP on attack,1,1,Red
+Weapon,120,Rare,20% chance to apply Lv 6 Poison on attack,1,1,Red
+Weapon,120,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Red
+Weapon,120,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Red
+Weapon,120,Rare,20% chance to apply Lv 3 Darkness on attack,1,1,Red
+Weapon,120,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Red
+Weapon,120,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Red
+Weapon,120,Rare,Ignore Enemy DEF %,15,1,Red
+Weapon,120,Epic,STR %,6,5,Red
+Weapon,120,Epic,DEX %,6,5,Red
+Weapon,120,Epic,INT %,6,5,Red
+Weapon,120,Epic,LUK %,6,5,Red
+Weapon,120,Epic,Max HP %,6,5,Red
+Weapon,120,Epic,Max MP %,6,5,Red
+Weapon,120,Epic,ATT %,6,2,Red
+Weapon,120,Epic,Magic ATT %,6,2,Red
+Weapon,120,Epic,Critical Rate %,8,2,Red
+Weapon,120,Epic,Damage %,6,2,Red
+Weapon,120,Epic,All Stats %,3,2,Red
+Weapon,120,Epic,20% chance to recover 360 HP on attack,1,2,Red
+Weapon,120,Epic,20% chance to recover 180 MP on attack,1,2,Red
+Weapon,120,Epic,Ignore Enemy DEF %,15,2,Red
+Weapon,120,Unique,STR %,9,5,Red
+Weapon,120,Unique,DEX %,9,5,Red
+Weapon,120,Unique,INT %,9,5,Red
+Weapon,120,Unique,LUK %,9,5,Red
+Weapon,120,Unique,ATT %,9,3,Red
+Weapon,120,Unique,Magic ATT %,9,3,Red
+Weapon,120,Unique,Critical Rate %,9,4,Red
+Weapon,120,Unique,Damage %,9,3,Red
+Weapon,120,Unique,All Stats %,6,4,Red
+Weapon,120,Unique,Ignore Enemy DEF %,30,3,Red
+Weapon,120,Unique,Boss Damage %,20,3,Red
+Weapon,120,Unique,Boss Damage %,30,2,Red
+Weapon,120,Legendary,STR %,12,4,Red
+Weapon,120,Legendary,DEX %,12,4,Red
+Weapon,120,Legendary,INT %,12,4,Red
+Weapon,120,Legendary,LUK %,12,4,Red
+Weapon,120,Legendary,ATT %,12,2,Red
+Weapon,120,Legendary,Magic ATT %,12,2,Red
+Weapon,120,Legendary,Critical Rate %,12,2,Red
+Weapon,120,Legendary,Damage %,12,2,Red
+Weapon,120,Legendary,All Stats %,9,3,Red
+Weapon,120,Legendary,ATT per 10 character levels,1,2,Red
+Weapon,120,Legendary,Magic ATT per 10 character levels,1,2,Red
+Weapon,120,Legendary,Ignore Enemy DEF %,35,2,Red
+Weapon,120,Legendary,Ignore Enemy DEF %,40,2,Red
+Weapon,120,Legendary,Boss Damage %,30,2,Red
+Weapon,120,Legendary,Boss Damage %,35,2,Red
+Weapon,120,Legendary,Boss Damage %,40,2,Red
+Emblem,100,Normal,STR,6,3,Red
+Emblem,100,Normal,DEX,6,3,Red
+Emblem,100,Normal,INT,6,3,Red
+Emblem,100,Normal,LUK,6,3,Red
+Emblem,100,Normal,Max HP,50,3,Red
+Emblem,100,Normal,Max MP,50,3,Red
+Emblem,100,Normal,Attack,6,2,Red
+Emblem,100,Normal,Magic Attack,6,2,Red
+Emblem,100,Rare,STR,12,3,Red
+Emblem,100,Rare,DEX,12,3,Red
+Emblem,100,Rare,INT,12,3,Red
+Emblem,100,Rare,LUK,12,3,Red
+Emblem,100,Rare,Max HP,100,3,Red
+Emblem,100,Rare,Max MP,100,3,Red
+Emblem,100,Rare,Attack,12,2,Red
+Emblem,100,Rare,Magic Attack,12,2,Red
+Emblem,100,Rare,STR %,3,3,Red
+Emblem,100,Rare,DEX %,3,3,Red
+Emblem,100,Rare,INT %,3,3,Red
+Emblem,100,Rare,LUK %,3,3,Red
+Emblem,100,Rare,ATT %,3,1,Red
+Emblem,100,Rare,Magic ATT %,3,1,Red
+Emblem,100,Rare,Critical Rate %,4,1,Red
+Emblem,100,Rare,Damage %,3,1,Red
+Emblem,100,Rare,All Stats,5,2,Red
+Emblem,100,Rare,20% chance to recover 200 HP on attack,1,1,Red
+Emblem,100,Rare,20% chance to recover 110 MP on attack,1,1,Red
+Emblem,100,Rare,20% chance to apply Lv 5 Poison on attack,1,1,Red
+Emblem,100,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Red
+Emblem,100,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Red
+Emblem,100,Rare,20% chance to apply Lv 2 Darkness on attack,1,1,Red
+Emblem,100,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Red
+Emblem,100,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Red
+Emblem,100,Rare,Ignore Enemy DEF %,15,1,Red
+Emblem,100,Epic,STR %,6,5,Red
+Emblem,100,Epic,DEX %,6,5,Red
+Emblem,100,Epic,INT %,6,5,Red
+Emblem,100,Epic,LUK %,6,5,Red
+Emblem,100,Epic,Max HP %,6,5,Red
+Emblem,100,Epic,Max MP %,6,5,Red
+Emblem,100,Epic,ATT %,6,2,Red
+Emblem,100,Epic,Magic ATT %,6,2,Red
+Emblem,100,Epic,Critical Rate %,8,2,Red
+Emblem,100,Epic,Damage %,6,2,Red
+Emblem,100,Epic,All Stats %,3,2,Red
+Emblem,100,Epic,20% chance to recover 300 HP on attack,1,2,Red
+Emblem,100,Epic,20% chance to recover 165 MP on attack,1,2,Red
+Emblem,100,Epic,Ignore Enemy DEF %,15,2,Red
+Emblem,100,Unique,STR %,9,5,Red
+Emblem,100,Unique,DEX %,9,5,Red
+Emblem,100,Unique,INT %,9,5,Red
+Emblem,100,Unique,LUK %,9,5,Red
+Emblem,100,Unique,ATT %,9,3,Red
+Emblem,100,Unique,Magic ATT %,9,3,Red
+Emblem,100,Unique,Critical Rate %,9,4,Red
+Emblem,100,Unique,Damage %,9,3,Red
+Emblem,100,Unique,All Stats %,6,4,Red
+Emblem,100,Unique,Ignore Enemy DEF %,30,3,Red
+Emblem,100,Legendary,STR %,12,4,Red
+Emblem,100,Legendary,DEX %,12,4,Red
+Emblem,100,Legendary,INT %,12,4,Red
+Emblem,100,Legendary,LUK %,12,4,Red
+Emblem,100,Legendary,ATT %,12,2,Red
+Emblem,100,Legendary,Magic ATT %,12,2,Red
+Emblem,100,Legendary,Critical Rate %,12,2,Red
+Emblem,100,Legendary,Damage %,12,2,Red
+Emblem,100,Legendary,All Stats %,9,3,Red
+Emblem,100,Legendary,ATT per 10 character levels,1,2,Red
+Emblem,100,Legendary,Magic ATT per 10 character levels,1,2,Red
+Emblem,100,Legendary,Ignore Enemy DEF %,35,2,Red
+Emblem,100,Legendary,Ignore Enemy DEF %,40,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,STR,6,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,DEX,6,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,INT,6,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,LUK,6,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max HP,50,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max MP,50,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Attack,6,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Magic Attack,6,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR,12,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX,12,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT,12,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK,12,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max HP,100,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max MP,100,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Attack,12,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic Attack,12,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR %,3,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX %,3,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT %,3,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK %,3,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,ATT %,3,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic ATT %,3,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Critical Rate %,4,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Damage %,3,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,All Stats,5,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to recover 200 HP on attack,1,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to recover 110 MP on attack,1,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 5 Poison on attack,1,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 2 Darkness on attack,1,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Ignore Enemy DEF %,15,1,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,STR %,6,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,DEX %,6,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,INT %,6,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,LUK %,6,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max HP %,6,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max MP %,6,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,ATT %,6,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Magic ATT %,6,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Critical Rate %,8,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Damage %,6,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,All Stats %,3,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to recover 300 HP on attack,1,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to recover 165 MP on attack,1,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Ignore Enemy DEF %,15,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,STR %,9,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,DEX %,9,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,INT %,9,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,LUK %,9,5,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,ATT %,9,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Magic ATT %,9,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Critical Rate %,9,4,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Damage %,9,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,All Stats %,6,4,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Ignore Enemy DEF %,30,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,5% chance to ignore 20% damage received,1,4,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,5% chance to ignore 40% damage received,1,4,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,20,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,30,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,STR %,12,4,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,DEX %,12,4,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,INT %,12,4,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,LUK %,12,4,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,ATT %,12,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Magic ATT %,12,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Critical Rate %,12,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Damage %,12,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,All Stats %,9,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,ATT per 10 character levels,1,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Magic ATT per 10 character levels,1,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,35,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,40,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,30,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,35,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,40,2,Red
+Force Shield/Soul Ring,100,Normal,STR,6,3,Red
+Force Shield/Soul Ring,100,Normal,DEX,6,3,Red
+Force Shield/Soul Ring,100,Normal,INT,6,3,Red
+Force Shield/Soul Ring,100,Normal,LUK,6,3,Red
+Force Shield/Soul Ring,100,Normal,Max HP,50,3,Red
+Force Shield/Soul Ring,100,Normal,Attack,6,2,Red
+Force Shield/Soul Ring,100,Normal,Magic Attack,6,2,Red
+Force Shield/Soul Ring,100,Rare,STR,12,3,Red
+Force Shield/Soul Ring,100,Rare,DEX,12,3,Red
+Force Shield/Soul Ring,100,Rare,INT,12,3,Red
+Force Shield/Soul Ring,100,Rare,LUK,12,3,Red
+Force Shield/Soul Ring,100,Rare,Max HP,100,3,Red
+Force Shield/Soul Ring,100,Rare,Attack,12,2,Red
+Force Shield/Soul Ring,100,Rare,Magic Attack,12,2,Red
+Force Shield/Soul Ring,100,Rare,STR %,3,3,Red
+Force Shield/Soul Ring,100,Rare,DEX %,3,3,Red
+Force Shield/Soul Ring,100,Rare,INT %,3,3,Red
+Force Shield/Soul Ring,100,Rare,LUK %,3,3,Red
+Force Shield/Soul Ring,100,Rare,ATT %,3,1,Red
+Force Shield/Soul Ring,100,Rare,Magic ATT %,3,1,Red
+Force Shield/Soul Ring,100,Rare,Critical Rate %,4,1,Red
+Force Shield/Soul Ring,100,Rare,Damage %,3,1,Red
+Force Shield/Soul Ring,100,Rare,All Stats,5,2,Red
+Force Shield/Soul Ring,100,Rare,20% chance to recover 200 HP on attack,1,1,Red
+Force Shield/Soul Ring,100,Rare,20% chance to recover 110 MP on attack,1,1,Red
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 5 Poison on attack,1,1,Red
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Red
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Red
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 2 Darkness on attack,1,1,Red
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Red
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Red
+Force Shield/Soul Ring,100,Rare,Ignore Enemy DEF %,15,1,Red
+Force Shield/Soul Ring,100,Epic,STR %,6,5,Red
+Force Shield/Soul Ring,100,Epic,DEX %,6,5,Red
+Force Shield/Soul Ring,100,Epic,INT %,6,5,Red
+Force Shield/Soul Ring,100,Epic,LUK %,6,5,Red
+Force Shield/Soul Ring,100,Epic,Max HP %,6,5,Red
+Force Shield/Soul Ring,100,Epic,ATT %,6,2,Red
+Force Shield/Soul Ring,100,Epic,Magic ATT %,6,2,Red
+Force Shield/Soul Ring,100,Epic,Critical Rate %,8,2,Red
+Force Shield/Soul Ring,100,Epic,Damage %,6,2,Red
+Force Shield/Soul Ring,100,Epic,All Stats %,3,2,Red
+Force Shield/Soul Ring,100,Epic,20% chance to recover 300 HP on attack,1,2,Red
+Force Shield/Soul Ring,100,Epic,20% chance to recover 165 MP on attack,1,2,Red
+Force Shield/Soul Ring,100,Epic,Ignore Enemy DEF %,15,2,Red
+Force Shield/Soul Ring,100,Unique,STR %,9,5,Red
+Force Shield/Soul Ring,100,Unique,DEX %,9,5,Red
+Force Shield/Soul Ring,100,Unique,INT %,9,5,Red
+Force Shield/Soul Ring,100,Unique,LUK %,9,5,Red
+Force Shield/Soul Ring,100,Unique,ATT %,9,3,Red
+Force Shield/Soul Ring,100,Unique,Magic ATT %,9,3,Red
+Force Shield/Soul Ring,100,Unique,Critical Rate %,9,4,Red
+Force Shield/Soul Ring,100,Unique,Damage %,9,3,Red
+Force Shield/Soul Ring,100,Unique,All Stats %,6,4,Red
+Force Shield/Soul Ring,100,Unique,Ignore Enemy DEF %,30,3,Red
+Force Shield/Soul Ring,100,Unique,5% chance to ignore 20% damage received,1,4,Red
+Force Shield/Soul Ring,100,Unique,5% chance to ignore 40% damage received,1,4,Red
+Force Shield/Soul Ring,100,Unique,Boss Damage %,20,3,Red
+Force Shield/Soul Ring,100,Unique,Boss Damage %,30,2,Red
+Force Shield/Soul Ring,100,Legendary,STR %,12,4,Red
+Force Shield/Soul Ring,100,Legendary,DEX %,12,4,Red
+Force Shield/Soul Ring,100,Legendary,INT %,12,4,Red
+Force Shield/Soul Ring,100,Legendary,LUK %,12,4,Red
+Force Shield/Soul Ring,100,Legendary,ATT %,12,2,Red
+Force Shield/Soul Ring,100,Legendary,Magic ATT %,12,2,Red
+Force Shield/Soul Ring,100,Legendary,Critical Rate %,12,2,Red
+Force Shield/Soul Ring,100,Legendary,Damage %,12,2,Red
+Force Shield/Soul Ring,100,Legendary,All Stats %,9,3,Red
+Force Shield/Soul Ring,100,Legendary,ATT per 10 character levels,1,2,Red
+Force Shield/Soul Ring,100,Legendary,Magic ATT per 10 character levels,1,2,Red
+Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,35,2,Red
+Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,40,2,Red
+Force Shield/Soul Ring,100,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Force Shield/Soul Ring,100,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,30,2,Red
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,35,2,Red
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,40,2,Red
+Shield,120,Normal,STR,6,3,Red
+Shield,120,Normal,DEX,6,3,Red
+Shield,120,Normal,INT,6,3,Red
+Shield,120,Normal,LUK,6,3,Red
+Shield,120,Normal,Max HP,60,3,Red
+Shield,120,Normal,Max MP,60,3,Red
+Shield,120,Normal,Attack,6,2,Red
+Shield,120,Normal,Magic Attack,6,2,Red
+Shield,120,Rare,STR,12,3,Red
+Shield,120,Rare,DEX,12,3,Red
+Shield,120,Rare,INT,12,3,Red
+Shield,120,Rare,LUK,12,3,Red
+Shield,120,Rare,Max HP,120,3,Red
+Shield,120,Rare,Max MP,120,3,Red
+Shield,120,Rare,Attack,12,2,Red
+Shield,120,Rare,Magic Attack,12,2,Red
+Shield,120,Rare,STR %,3,3,Red
+Shield,120,Rare,DEX %,3,3,Red
+Shield,120,Rare,INT %,3,3,Red
+Shield,120,Rare,LUK %,3,3,Red
+Shield,120,Rare,ATT %,3,1,Red
+Shield,120,Rare,Magic ATT %,3,1,Red
+Shield,120,Rare,Critical Rate %,4,1,Red
+Shield,120,Rare,Damage %,3,1,Red
+Shield,120,Rare,All Stats,5,2,Red
+Shield,120,Rare,20% chance to recover 240 HP on attack,1,1,Red
+Shield,120,Rare,20% chance to recover 120 MP on attack,1,1,Red
+Shield,120,Rare,20% chance to apply Lv 6 Poison on attack,1,1,Red
+Shield,120,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Red
+Shield,120,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Red
+Shield,120,Rare,20% chance to apply Lv 3 Darkness on attack,1,1,Red
+Shield,120,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Red
+Shield,120,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Red
+Shield,120,Rare,Ignore Enemy DEF %,15,1,Red
+Shield,120,Epic,STR %,6,5,Red
+Shield,120,Epic,DEX %,6,5,Red
+Shield,120,Epic,INT %,6,5,Red
+Shield,120,Epic,LUK %,6,5,Red
+Shield,120,Epic,Max HP %,6,5,Red
+Shield,120,Epic,Max MP %,6,5,Red
+Shield,120,Epic,ATT %,6,2,Red
+Shield,120,Epic,Magic ATT %,6,2,Red
+Shield,120,Epic,Critical Rate %,8,2,Red
+Shield,120,Epic,Damage %,6,2,Red
+Shield,120,Epic,All Stats %,3,2,Red
+Shield,120,Epic,20% chance to recover 360 HP on attack,1,2,Red
+Shield,120,Epic,20% chance to recover 180 MP on attack,1,2,Red
+Shield,120,Epic,Ignore Enemy DEF %,15,2,Red
+Shield,120,Unique,STR %,9,5,Red
+Shield,120,Unique,DEX %,9,5,Red
+Shield,120,Unique,INT %,9,5,Red
+Shield,120,Unique,LUK %,9,5,Red
+Shield,120,Unique,ATT %,9,3,Red
+Shield,120,Unique,Magic ATT %,9,3,Red
+Shield,120,Unique,Critical Rate %,9,4,Red
+Shield,120,Unique,Damage %,9,3,Red
+Shield,120,Unique,All Stats %,6,4,Red
+Shield,120,Unique,Ignore Enemy DEF %,30,3,Red
+Shield,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Shield,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Shield,120,Unique,Boss Damage %,20,3,Red
+Shield,120,Unique,Boss Damage %,30,2,Red
+Shield,120,Legendary,STR %,12,4,Red
+Shield,120,Legendary,DEX %,12,4,Red
+Shield,120,Legendary,INT %,12,4,Red
+Shield,120,Legendary,LUK %,12,4,Red
+Shield,120,Legendary,ATT %,12,2,Red
+Shield,120,Legendary,Magic ATT %,12,2,Red
+Shield,120,Legendary,Critical Rate %,12,2,Red
+Shield,120,Legendary,Damage %,12,2,Red
+Shield,120,Legendary,All Stats %,9,3,Red
+Shield,120,Legendary,ATT per 10 character levels,1,2,Red
+Shield,120,Legendary,Magic ATT per 10 character levels,1,2,Red
+Shield,120,Legendary,Ignore Enemy DEF %,35,2,Red
+Shield,120,Legendary,Ignore Enemy DEF %,40,2,Red
+Shield,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Shield,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Shield,120,Legendary,Boss Damage %,30,2,Red
+Shield,120,Legendary,Boss Damage %,35,2,Red
+Shield,120,Legendary,Boss Damage %,40,2,Red
+Helmet,120,Normal,STR,6,1,Red
+Helmet,120,Normal,DEX,6,1,Red
+Helmet,120,Normal,INT,6,1,Red
+Helmet,120,Normal,LUK,6,1,Red
+Helmet,120,Normal,Max HP,60,1,Red
+Helmet,120,Normal,Max MP,60,1,Red
+Helmet,120,Normal,DEF,60,1,Red
+Helmet,120,Rare,STR,12,3,Red
+Helmet,120,Rare,DEX,12,3,Red
+Helmet,120,Rare,INT,12,3,Red
+Helmet,120,Rare,LUK,12,3,Red
+Helmet,120,Rare,Max HP,120,3,Red
+Helmet,120,Rare,Max MP,120,3,Red
+Helmet,120,Rare,DEF,120,2,Red
+Helmet,120,Rare,STR %,3,3,Red
+Helmet,120,Rare,DEX %,3,3,Red
+Helmet,120,Rare,INT %,3,3,Red
+Helmet,120,Rare,LUK %,3,3,Red
+Helmet,120,Rare,Max HP %,3,2,Red
+Helmet,120,Rare,Max MP %,3,2,Red
+Helmet,120,Rare,DEF %,3,2,Red
+Helmet,120,Rare,All Stats,5,2,Red
+Helmet,120,Epic,STR %,6,5,Red
+Helmet,120,Epic,DEX %,6,5,Red
+Helmet,120,Epic,INT %,6,5,Red
+Helmet,120,Epic,LUK %,6,5,Red
+Helmet,120,Epic,Max HP %,6,5,Red
+Helmet,120,Epic,Max MP %,6,5,Red
+Helmet,120,Epic,DEF %,6,3,Red
+Helmet,120,Epic,All Stats %,3,2,Red
+Helmet,120,Unique,STR %,9,5,Red
+Helmet,120,Unique,DEX %,9,5,Red
+Helmet,120,Unique,INT %,9,5,Red
+Helmet,120,Unique,LUK %,9,5,Red
+Helmet,120,Unique,Max HP %,9,6,Red
+Helmet,120,Unique,Max MP %,9,6,Red
+Helmet,120,Unique,DEF %,9,4,Red
+Helmet,120,Unique,All Stats %,6,4,Red
+Helmet,120,Unique,All Skill Levels,1,4,Red
+Helmet,120,Unique,All Skill Levels,2,2,Red
+Helmet,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Helmet,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Helmet,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Helmet,120,Unique,Decent Mystic Door,1,4,Red
+Helmet,120,Legendary,STR %,12,4,Red
+Helmet,120,Legendary,DEX %,12,4,Red
+Helmet,120,Legendary,INT %,12,4,Red
+Helmet,120,Legendary,LUK %,12,4,Red
+Helmet,120,Legendary,Max HP %,12,4,Red
+Helmet,120,Legendary,Max MP %,12,4,Red
+Helmet,120,Legendary,DEF %,12,4,Red
+Helmet,120,Legendary,All Stats %,9,3,Red
+Helmet,120,Legendary,All Skill Levels,2,3,Red
+Helmet,120,Legendary,All Skill Levels,3,2,Red
+Helmet,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Helmet,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Helmet,120,Legendary,Skill Cooldown Reduction,1,3,Red
+Helmet,120,Legendary,Skill Cooldown Reduction,2,2,Red
+Helmet,120,Legendary,Decent Advanced Blessing,1,3,Red
+Top,120,Normal,STR,6,1,Red
+Top,120,Normal,DEX,6,1,Red
+Top,120,Normal,INT,6,1,Red
+Top,120,Normal,LUK,6,1,Red
+Top,120,Normal,Max HP,60,1,Red
+Top,120,Normal,Max MP,60,1,Red
+Top,120,Normal,DEF,60,1,Red
+Top,120,Rare,STR,12,3,Red
+Top,120,Rare,DEX,12,3,Red
+Top,120,Rare,INT,12,3,Red
+Top,120,Rare,LUK,12,3,Red
+Top,120,Rare,Max HP,120,3,Red
+Top,120,Rare,Max MP,120,3,Red
+Top,120,Rare,DEF,120,2,Red
+Top,120,Rare,STR %,3,3,Red
+Top,120,Rare,DEX %,3,3,Red
+Top,120,Rare,INT %,3,3,Red
+Top,120,Rare,LUK %,3,3,Red
+Top,120,Rare,Max HP %,3,2,Red
+Top,120,Rare,Max MP %,3,2,Red
+Top,120,Rare,DEF %,3,2,Red
+Top,120,Rare,All Stats,5,2,Red
+Top,120,Epic,STR %,6,5,Red
+Top,120,Epic,DEX %,6,5,Red
+Top,120,Epic,INT %,6,5,Red
+Top,120,Epic,LUK %,6,5,Red
+Top,120,Epic,Max HP %,6,5,Red
+Top,120,Epic,Max MP %,6,5,Red
+Top,120,Epic,DEF %,6,3,Red
+Top,120,Epic,All Stats %,3,2,Red
+Top,120,Epic,Invincibility duration after getting attacked,1,3,Red
+Top,120,Unique,STR %,9,5,Red
+Top,120,Unique,DEX %,9,5,Red
+Top,120,Unique,INT %,9,5,Red
+Top,120,Unique,LUK %,9,5,Red
+Top,120,Unique,Max HP %,9,6,Red
+Top,120,Unique,Max MP %,9,6,Red
+Top,120,Unique,DEF %,9,4,Red
+Top,120,Unique,All Stats %,6,4,Red
+Top,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Top,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Top,120,Unique,Invincibility duration after getting attacked,2,4,Red
+Top,120,Unique,2% chance of 7 second invincibility after being attacked,1,4,Red
+Top,120,Unique,30% chance to reflect 50% of incoming damage,1,4,Red
+Top,120,Unique,30% chance to reflect 70% of incoming damage,1,2,Red
+Top,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Top,120,Legendary,STR %,12,4,Red
+Top,120,Legendary,DEX %,12,4,Red
+Top,120,Legendary,INT %,12,4,Red
+Top,120,Legendary,LUK %,12,4,Red
+Top,120,Legendary,Max HP %,12,4,Red
+Top,120,Legendary,Max MP %,12,4,Red
+Top,120,Legendary,DEF %,12,4,Red
+Top,120,Legendary,All Stats %,9,3,Red
+Top,120,Legendary,All Elemental Resistances %,10,2,Red
+Top,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Top,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Top,120,Legendary,Invincibility duration after getting attacked,3,3,Red
+Top,120,Legendary,4% chance of 7 second invincibility after being attacked,1,3,Red
+Overall,120,Normal,STR,6,1,Red
+Overall,120,Normal,DEX,6,1,Red
+Overall,120,Normal,INT,6,1,Red
+Overall,120,Normal,LUK,6,1,Red
+Overall,120,Normal,Max HP,60,1,Red
+Overall,120,Normal,Max MP,60,1,Red
+Overall,120,Normal,DEF,60,1,Red
+Overall,120,Rare,STR,12,3,Red
+Overall,120,Rare,DEX,12,3,Red
+Overall,120,Rare,INT,12,3,Red
+Overall,120,Rare,LUK,12,3,Red
+Overall,120,Rare,Max HP,120,3,Red
+Overall,120,Rare,Max MP,120,3,Red
+Overall,120,Rare,DEF,120,2,Red
+Overall,120,Rare,STR %,3,3,Red
+Overall,120,Rare,DEX %,3,3,Red
+Overall,120,Rare,INT %,3,3,Red
+Overall,120,Rare,LUK %,3,3,Red
+Overall,120,Rare,Max HP %,3,2,Red
+Overall,120,Rare,Max MP %,3,2,Red
+Overall,120,Rare,DEF %,3,2,Red
+Overall,120,Rare,All Stats,5,2,Red
+Overall,120,Epic,STR %,6,5,Red
+Overall,120,Epic,DEX %,6,5,Red
+Overall,120,Epic,INT %,6,5,Red
+Overall,120,Epic,LUK %,6,5,Red
+Overall,120,Epic,Max HP %,6,5,Red
+Overall,120,Epic,Max MP %,6,5,Red
+Overall,120,Epic,DEF %,6,3,Red
+Overall,120,Epic,All Stats %,3,2,Red
+Overall,120,Epic,Invincibility duration after getting attacked,1,3,Red
+Overall,120,Unique,STR %,9,5,Red
+Overall,120,Unique,DEX %,9,5,Red
+Overall,120,Unique,INT %,9,5,Red
+Overall,120,Unique,LUK %,9,5,Red
+Overall,120,Unique,Max HP %,9,6,Red
+Overall,120,Unique,Max MP %,9,6,Red
+Overall,120,Unique,DEF %,9,4,Red
+Overall,120,Unique,All Stats %,6,4,Red
+Overall,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Overall,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Overall,120,Unique,Invincibility duration after getting attacked,2,4,Red
+Overall,120,Unique,2% chance of 7 second invincibility after being attacked,1,4,Red
+Overall,120,Unique,30% chance to reflect 50% of incoming damage,1,4,Red
+Overall,120,Unique,30% chance to reflect 70% of incoming damage,1,2,Red
+Overall,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Overall,120,Legendary,STR %,12,4,Red
+Overall,120,Legendary,DEX %,12,4,Red
+Overall,120,Legendary,INT %,12,4,Red
+Overall,120,Legendary,LUK %,12,4,Red
+Overall,120,Legendary,Max HP %,12,4,Red
+Overall,120,Legendary,Max MP %,12,4,Red
+Overall,120,Legendary,DEF %,12,4,Red
+Overall,120,Legendary,All Stats %,9,3,Red
+Overall,120,Legendary,All Elemental Resistances %,10,2,Red
+Overall,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Overall,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Overall,120,Legendary,Invincibility duration after getting attacked,3,3,Red
+Overall,120,Legendary,4% chance of 7 second invincibility after being attacked,1,3,Red
+Bottom,120,Normal,STR,6,1,Red
+Bottom,120,Normal,DEX,6,1,Red
+Bottom,120,Normal,INT,6,1,Red
+Bottom,120,Normal,LUK,6,1,Red
+Bottom,120,Normal,Max HP,60,1,Red
+Bottom,120,Normal,Max MP,60,1,Red
+Bottom,120,Normal,DEF,60,1,Red
+Bottom,120,Rare,STR,12,3,Red
+Bottom,120,Rare,DEX,12,3,Red
+Bottom,120,Rare,INT,12,3,Red
+Bottom,120,Rare,LUK,12,3,Red
+Bottom,120,Rare,Max HP,120,3,Red
+Bottom,120,Rare,Max MP,120,3,Red
+Bottom,120,Rare,DEF,120,2,Red
+Bottom,120,Rare,STR %,3,3,Red
+Bottom,120,Rare,DEX %,3,3,Red
+Bottom,120,Rare,INT %,3,3,Red
+Bottom,120,Rare,LUK %,3,3,Red
+Bottom,120,Rare,Max HP %,3,2,Red
+Bottom,120,Rare,Max MP %,3,2,Red
+Bottom,120,Rare,DEF %,3,2,Red
+Bottom,120,Rare,All Stats,5,2,Red
+Bottom,120,Epic,STR %,6,5,Red
+Bottom,120,Epic,DEX %,6,5,Red
+Bottom,120,Epic,INT %,6,5,Red
+Bottom,120,Epic,LUK %,6,5,Red
+Bottom,120,Epic,Max HP %,6,5,Red
+Bottom,120,Epic,Max MP %,6,5,Red
+Bottom,120,Epic,DEF %,6,3,Red
+Bottom,120,Epic,All Stats %,3,2,Red
+Bottom,120,Unique,STR %,9,5,Red
+Bottom,120,Unique,DEX %,9,5,Red
+Bottom,120,Unique,INT %,9,5,Red
+Bottom,120,Unique,LUK %,9,5,Red
+Bottom,120,Unique,Max HP %,9,6,Red
+Bottom,120,Unique,Max MP %,9,6,Red
+Bottom,120,Unique,DEF %,9,4,Red
+Bottom,120,Unique,All Stats %,6,4,Red
+Bottom,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Bottom,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Bottom,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Bottom,120,Unique,Decent Hyper Body,1,4,Red
+Bottom,120,Legendary,STR %,12,4,Red
+Bottom,120,Legendary,DEX %,12,4,Red
+Bottom,120,Legendary,INT %,12,4,Red
+Bottom,120,Legendary,LUK %,12,4,Red
+Bottom,120,Legendary,Max HP %,12,4,Red
+Bottom,120,Legendary,Max MP %,12,4,Red
+Bottom,120,Legendary,DEF %,12,4,Red
+Bottom,120,Legendary,All Stats %,9,3,Red
+Bottom,120,Legendary,Status Resistance,10,2,Red
+Bottom,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Bottom,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Shoes,120,Normal,STR,6,3,Red
+Shoes,120,Normal,DEX,6,3,Red
+Shoes,120,Normal,INT,6,3,Red
+Shoes,120,Normal,LUK,6,3,Red
+Shoes,120,Normal,Max HP,60,3,Red
+Shoes,120,Normal,Max MP,60,3,Red
+Shoes,120,Normal,Speed,4,2,Red
+Shoes,120,Normal,Jump,4,2,Red
+Shoes,120,Normal,DEF,60,3,Red
+Shoes,120,Rare,STR,12,3,Red
+Shoes,120,Rare,DEX,12,3,Red
+Shoes,120,Rare,INT,12,3,Red
+Shoes,120,Rare,LUK,12,3,Red
+Shoes,120,Rare,Max HP,120,3,Red
+Shoes,120,Rare,Max MP,120,3,Red
+Shoes,120,Rare,Speed,8,2,Red
+Shoes,120,Rare,Jump,8,2,Red
+Shoes,120,Rare,DEF,120,2,Red
+Shoes,120,Rare,STR %,3,3,Red
+Shoes,120,Rare,DEX %,3,3,Red
+Shoes,120,Rare,INT %,3,3,Red
+Shoes,120,Rare,LUK %,3,3,Red
+Shoes,120,Rare,Max HP %,3,2,Red
+Shoes,120,Rare,Max MP %,3,2,Red
+Shoes,120,Rare,DEF %,3,2,Red
+Shoes,120,Rare,All Stats,5,2,Red
+Shoes,120,Epic,STR %,6,5,Red
+Shoes,120,Epic,DEX %,6,5,Red
+Shoes,120,Epic,INT %,6,5,Red
+Shoes,120,Epic,LUK %,6,5,Red
+Shoes,120,Epic,Max HP %,6,5,Red
+Shoes,120,Epic,Max MP %,6,5,Red
+Shoes,120,Epic,DEF %,6,3,Red
+Shoes,120,Epic,All Stats %,3,2,Red
+Shoes,120,Unique,STR %,9,5,Red
+Shoes,120,Unique,DEX %,9,5,Red
+Shoes,120,Unique,INT %,9,5,Red
+Shoes,120,Unique,LUK %,9,5,Red
+Shoes,120,Unique,Max HP %,9,6,Red
+Shoes,120,Unique,Max MP %,9,6,Red
+Shoes,120,Unique,DEF %,9,4,Red
+Shoes,120,Unique,All Stats %,6,4,Red
+Shoes,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Shoes,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Shoes,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Shoes,120,Unique,Decent Haste,1,4,Red
+Shoes,120,Legendary,STR %,12,4,Red
+Shoes,120,Legendary,DEX %,12,4,Red
+Shoes,120,Legendary,INT %,12,4,Red
+Shoes,120,Legendary,LUK %,12,4,Red
+Shoes,120,Legendary,Max HP %,12,4,Red
+Shoes,120,Legendary,Max MP %,12,4,Red
+Shoes,120,Legendary,DEF %,12,4,Red
+Shoes,120,Legendary,All Stats %,9,3,Red
+Shoes,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Shoes,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Shoes,120,Legendary,Decent Combat Orders,1,3,Red
+Gloves,120,Normal,STR,6,1,Red
+Gloves,120,Normal,DEX,6,1,Red
+Gloves,120,Normal,INT,6,1,Red
+Gloves,120,Normal,LUK,6,1,Red
+Gloves,120,Normal,Max HP,60,1,Red
+Gloves,120,Normal,Max MP,60,1,Red
+Gloves,120,Normal,DEF,60,1,Red
+Gloves,120,Rare,STR,12,3,Red
+Gloves,120,Rare,DEX,12,3,Red
+Gloves,120,Rare,INT,12,3,Red
+Gloves,120,Rare,LUK,12,3,Red
+Gloves,120,Rare,Max HP,120,3,Red
+Gloves,120,Rare,Max MP,120,3,Red
+Gloves,120,Rare,DEF,120,2,Red
+Gloves,120,Rare,STR %,3,3,Red
+Gloves,120,Rare,DEX %,3,3,Red
+Gloves,120,Rare,INT %,3,3,Red
+Gloves,120,Rare,LUK %,3,3,Red
+Gloves,120,Rare,Max HP %,3,2,Red
+Gloves,120,Rare,Max MP %,3,2,Red
+Gloves,120,Rare,DEF %,3,2,Red
+Gloves,120,Rare,All Stats,5,2,Red
+Gloves,120,Epic,STR %,6,5,Red
+Gloves,120,Epic,DEX %,6,5,Red
+Gloves,120,Epic,INT %,6,5,Red
+Gloves,120,Epic,LUK %,6,5,Red
+Gloves,120,Epic,Max HP %,6,5,Red
+Gloves,120,Epic,Max MP %,6,5,Red
+Gloves,120,Epic,DEF %,6,3,Red
+Gloves,120,Epic,All Stats %,3,2,Red
+Gloves,120,Epic,15% chance of recovering 95 HP on defeating an enemy,1,3,Red
+Gloves,120,Epic,15% chance of recovering 95 MP on defeating an enemy,1,3,Red
+Gloves,120,Unique,STR %,9,5,Red
+Gloves,120,Unique,DEX %,9,5,Red
+Gloves,120,Unique,INT %,9,5,Red
+Gloves,120,Unique,LUK %,9,5,Red
+Gloves,120,Unique,Max HP %,9,6,Red
+Gloves,120,Unique,Max MP %,9,6,Red
+Gloves,120,Unique,DEF %,9,4,Red
+Gloves,120,Unique,All Stats %,6,4,Red
+Gloves,120,Unique,STR per 10 character levels,1,1,Red
+Gloves,120,Unique,DEX per 10 character levels,1,1,Red
+Gloves,120,Unique,INT per 10 character levels,1,1,Red
+Gloves,120,Unique,LUK per 10 character levels,1,1,Red
+Gloves,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Gloves,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Gloves,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Gloves,120,Unique,Decent Sharp Eyes,1,4,Red
+Gloves,120,Legendary,STR %,12,4,Red
+Gloves,120,Legendary,DEX %,12,4,Red
+Gloves,120,Legendary,INT %,12,4,Red
+Gloves,120,Legendary,LUK %,12,4,Red
+Gloves,120,Legendary,Max HP %,12,4,Red
+Gloves,120,Legendary,Max MP %,12,4,Red
+Gloves,120,Legendary,DEF %,12,4,Red
+Gloves,120,Legendary,Critical Damage %,8,2,Red
+Gloves,120,Legendary,Critical Damage %,8,2,Red
+Gloves,120,Legendary,All Stats %,9,3,Red
+Gloves,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Gloves,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Gloves,120,Legendary,Decent Speed Infusion,1,3,Red
+Cape,120,Normal,STR,6,1,Red
+Cape,120,Normal,DEX,6,1,Red
+Cape,120,Normal,INT,6,1,Red
+Cape,120,Normal,LUK,6,1,Red
+Cape,120,Normal,Max HP,60,1,Red
+Cape,120,Normal,Max MP,60,1,Red
+Cape,120,Normal,DEF,60,1,Red
+Cape,120,Rare,STR,12,3,Red
+Cape,120,Rare,DEX,12,3,Red
+Cape,120,Rare,INT,12,3,Red
+Cape,120,Rare,LUK,12,3,Red
+Cape,120,Rare,Max HP,120,3,Red
+Cape,120,Rare,Max MP,120,3,Red
+Cape,120,Rare,DEF,120,2,Red
+Cape,120,Rare,STR %,3,3,Red
+Cape,120,Rare,DEX %,3,3,Red
+Cape,120,Rare,INT %,3,3,Red
+Cape,120,Rare,LUK %,3,3,Red
+Cape,120,Rare,Max HP %,3,2,Red
+Cape,120,Rare,Max MP %,3,2,Red
+Cape,120,Rare,DEF %,3,2,Red
+Cape,120,Rare,All Stats,5,2,Red
+Cape,120,Epic,STR %,6,5,Red
+Cape,120,Epic,DEX %,6,5,Red
+Cape,120,Epic,INT %,6,5,Red
+Cape,120,Epic,LUK %,6,5,Red
+Cape,120,Epic,Max HP %,6,5,Red
+Cape,120,Epic,Max MP %,6,5,Red
+Cape,120,Epic,DEF %,6,3,Red
+Cape,120,Epic,All Stats %,3,2,Red
+Cape,120,Unique,STR %,9,5,Red
+Cape,120,Unique,DEX %,9,5,Red
+Cape,120,Unique,INT %,9,5,Red
+Cape,120,Unique,LUK %,9,5,Red
+Cape,120,Unique,Max HP %,9,6,Red
+Cape,120,Unique,Max MP %,9,6,Red
+Cape,120,Unique,DEF %,9,4,Red
+Cape,120,Unique,All Stats %,6,4,Red
+Cape,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Cape,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Cape,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Cape,120,Legendary,STR %,12,4,Red
+Cape,120,Legendary,DEX %,12,4,Red
+Cape,120,Legendary,INT %,12,4,Red
+Cape,120,Legendary,LUK %,12,4,Red
+Cape,120,Legendary,Max HP %,12,4,Red
+Cape,120,Legendary,Max MP %,12,4,Red
+Cape,120,Legendary,DEF %,12,4,Red
+Cape,120,Legendary,All Stats %,9,3,Red
+Cape,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Cape,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Belt,120,Normal,STR,6,1,Red
+Belt,120,Normal,DEX,6,1,Red
+Belt,120,Normal,INT,6,1,Red
+Belt,120,Normal,LUK,6,1,Red
+Belt,120,Normal,Max HP,60,1,Red
+Belt,120,Normal,Max MP,60,1,Red
+Belt,120,Normal,DEF,60,1,Red
+Belt,120,Rare,STR,12,3,Red
+Belt,120,Rare,DEX,12,3,Red
+Belt,120,Rare,INT,12,3,Red
+Belt,120,Rare,LUK,12,3,Red
+Belt,120,Rare,Max HP,120,3,Red
+Belt,120,Rare,Max MP,120,3,Red
+Belt,120,Rare,DEF,120,2,Red
+Belt,120,Rare,STR %,3,3,Red
+Belt,120,Rare,DEX %,3,3,Red
+Belt,120,Rare,INT %,3,3,Red
+Belt,120,Rare,LUK %,3,3,Red
+Belt,120,Rare,Max HP %,3,2,Red
+Belt,120,Rare,Max MP %,3,2,Red
+Belt,120,Rare,DEF %,3,2,Red
+Belt,120,Rare,All Stats,5,2,Red
+Belt,120,Epic,STR %,6,5,Red
+Belt,120,Epic,DEX %,6,5,Red
+Belt,120,Epic,INT %,6,5,Red
+Belt,120,Epic,LUK %,6,5,Red
+Belt,120,Epic,Max HP %,6,5,Red
+Belt,120,Epic,Max MP %,6,5,Red
+Belt,120,Epic,DEF %,6,3,Red
+Belt,120,Epic,All Stats %,3,2,Red
+Belt,120,Unique,STR %,9,5,Red
+Belt,120,Unique,DEX %,9,5,Red
+Belt,120,Unique,INT %,9,5,Red
+Belt,120,Unique,LUK %,9,5,Red
+Belt,120,Unique,Max HP %,9,6,Red
+Belt,120,Unique,Max MP %,9,6,Red
+Belt,120,Unique,DEF %,9,4,Red
+Belt,120,Unique,All Stats %,6,4,Red
+Belt,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Belt,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Belt,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Belt,120,Legendary,STR %,12,4,Red
+Belt,120,Legendary,DEX %,12,4,Red
+Belt,120,Legendary,INT %,12,4,Red
+Belt,120,Legendary,LUK %,12,4,Red
+Belt,120,Legendary,Max HP %,12,4,Red
+Belt,120,Legendary,Max MP %,12,4,Red
+Belt,120,Legendary,DEF %,12,4,Red
+Belt,120,Legendary,All Stats %,9,3,Red
+Belt,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Belt,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Shoulder,120,Normal,STR,6,1,Red
+Shoulder,120,Normal,DEX,6,1,Red
+Shoulder,120,Normal,INT,6,1,Red
+Shoulder,120,Normal,LUK,6,1,Red
+Shoulder,120,Normal,Max HP,60,1,Red
+Shoulder,120,Normal,Max MP,60,1,Red
+Shoulder,120,Normal,DEF,60,1,Red
+Shoulder,120,Rare,STR,12,3,Red
+Shoulder,120,Rare,DEX,12,3,Red
+Shoulder,120,Rare,INT,12,3,Red
+Shoulder,120,Rare,LUK,12,3,Red
+Shoulder,120,Rare,Max HP,120,3,Red
+Shoulder,120,Rare,Max MP,120,3,Red
+Shoulder,120,Rare,DEF,120,2,Red
+Shoulder,120,Rare,STR %,3,3,Red
+Shoulder,120,Rare,DEX %,3,3,Red
+Shoulder,120,Rare,INT %,3,3,Red
+Shoulder,120,Rare,LUK %,3,3,Red
+Shoulder,120,Rare,Max HP %,3,2,Red
+Shoulder,120,Rare,Max MP %,3,2,Red
+Shoulder,120,Rare,DEF %,3,2,Red
+Shoulder,120,Rare,All Stats,5,2,Red
+Shoulder,120,Epic,STR %,6,5,Red
+Shoulder,120,Epic,DEX %,6,5,Red
+Shoulder,120,Epic,INT %,6,5,Red
+Shoulder,120,Epic,LUK %,6,5,Red
+Shoulder,120,Epic,Max HP %,6,5,Red
+Shoulder,120,Epic,Max MP %,6,5,Red
+Shoulder,120,Epic,DEF %,6,3,Red
+Shoulder,120,Epic,All Stats %,3,2,Red
+Shoulder,120,Unique,STR %,9,5,Red
+Shoulder,120,Unique,DEX %,9,5,Red
+Shoulder,120,Unique,INT %,9,5,Red
+Shoulder,120,Unique,LUK %,9,5,Red
+Shoulder,120,Unique,Max HP %,9,6,Red
+Shoulder,120,Unique,Max MP %,9,6,Red
+Shoulder,120,Unique,DEF %,9,4,Red
+Shoulder,120,Unique,All Stats %,6,4,Red
+Shoulder,120,Unique,5% chance to ignore 20% damage received,1,4,Red
+Shoulder,120,Unique,5% chance to ignore 40% damage received,1,4,Red
+Shoulder,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Shoulder,120,Legendary,STR %,12,4,Red
+Shoulder,120,Legendary,DEX %,12,4,Red
+Shoulder,120,Legendary,INT %,12,4,Red
+Shoulder,120,Legendary,LUK %,12,4,Red
+Shoulder,120,Legendary,Max HP %,12,4,Red
+Shoulder,120,Legendary,Max MP %,12,4,Red
+Shoulder,120,Legendary,DEF %,12,4,Red
+Shoulder,120,Legendary,All Stats %,9,3,Red
+Shoulder,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
+Shoulder,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
+Face Accessory,120,Normal,STR,6,1,Red
+Face Accessory,120,Normal,DEX,6,1,Red
+Face Accessory,120,Normal,INT,6,1,Red
+Face Accessory,120,Normal,LUK,6,1,Red
+Face Accessory,120,Normal,Max HP,60,1,Red
+Face Accessory,120,Normal,Max MP,60,1,Red
+Face Accessory,120,Normal,DEF,60,1,Red
+Face Accessory,120,Rare,STR,12,3,Red
+Face Accessory,120,Rare,DEX,12,3,Red
+Face Accessory,120,Rare,INT,12,3,Red
+Face Accessory,120,Rare,LUK,12,3,Red
+Face Accessory,120,Rare,Max HP,120,3,Red
+Face Accessory,120,Rare,Max MP,120,3,Red
+Face Accessory,120,Rare,DEF,120,2,Red
+Face Accessory,120,Rare,STR %,3,3,Red
+Face Accessory,120,Rare,DEX %,3,3,Red
+Face Accessory,120,Rare,INT %,3,3,Red
+Face Accessory,120,Rare,LUK %,3,3,Red
+Face Accessory,120,Rare,Max HP %,3,2,Red
+Face Accessory,120,Rare,Max MP %,3,2,Red
+Face Accessory,120,Rare,DEF %,3,2,Red
+Face Accessory,120,Rare,All Stats,5,2,Red
+Face Accessory,120,Epic,STR %,6,5,Red
+Face Accessory,120,Epic,DEX %,6,5,Red
+Face Accessory,120,Epic,INT %,6,5,Red
+Face Accessory,120,Epic,LUK %,6,5,Red
+Face Accessory,120,Epic,Max HP %,6,5,Red
+Face Accessory,120,Epic,Max MP %,6,5,Red
+Face Accessory,120,Epic,DEF %,6,3,Red
+Face Accessory,120,Epic,All Stats %,3,2,Red
+Face Accessory,120,Unique,STR %,9,5,Red
+Face Accessory,120,Unique,DEX %,9,5,Red
+Face Accessory,120,Unique,INT %,9,5,Red
+Face Accessory,120,Unique,LUK %,9,5,Red
+Face Accessory,120,Unique,Max HP %,9,6,Red
+Face Accessory,120,Unique,Max MP %,9,6,Red
+Face Accessory,120,Unique,DEF %,9,4,Red
+Face Accessory,120,Unique,All Stats %,6,4,Red
+Face Accessory,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Face Accessory,120,Legendary,STR %,12,4,Red
+Face Accessory,120,Legendary,DEX %,12,4,Red
+Face Accessory,120,Legendary,INT %,12,4,Red
+Face Accessory,120,Legendary,LUK %,12,4,Red
+Face Accessory,120,Legendary,Max HP %,12,4,Red
+Face Accessory,120,Legendary,Max MP %,12,4,Red
+Face Accessory,120,Legendary,DEF %,12,4,Red
+Face Accessory,120,Legendary,All Stats %,9,3,Red
+Face Accessory,120,Legendary,All Skill MP Cost %,15,3,Red
+Face Accessory,120,Legendary,All Skill MP Cost %,30,3,Red
+Face Accessory,120,Legendary,Meso Obtained %,20,3,Red
+Face Accessory,120,Legendary,Item Drop Rate %,20,3,Red
+Eye Accessory,120,Normal,STR,6,1,Red
+Eye Accessory,120,Normal,DEX,6,1,Red
+Eye Accessory,120,Normal,INT,6,1,Red
+Eye Accessory,120,Normal,LUK,6,1,Red
+Eye Accessory,120,Normal,Max HP,60,1,Red
+Eye Accessory,120,Normal,Max MP,60,1,Red
+Eye Accessory,120,Normal,DEF,60,1,Red
+Eye Accessory,120,Rare,STR,12,3,Red
+Eye Accessory,120,Rare,DEX,12,3,Red
+Eye Accessory,120,Rare,INT,12,3,Red
+Eye Accessory,120,Rare,LUK,12,3,Red
+Eye Accessory,120,Rare,Max HP,120,3,Red
+Eye Accessory,120,Rare,Max MP,120,3,Red
+Eye Accessory,120,Rare,DEF,120,2,Red
+Eye Accessory,120,Rare,STR %,3,3,Red
+Eye Accessory,120,Rare,DEX %,3,3,Red
+Eye Accessory,120,Rare,INT %,3,3,Red
+Eye Accessory,120,Rare,LUK %,3,3,Red
+Eye Accessory,120,Rare,Max HP %,3,2,Red
+Eye Accessory,120,Rare,Max MP %,3,2,Red
+Eye Accessory,120,Rare,DEF %,3,2,Red
+Eye Accessory,120,Rare,All Stats,5,2,Red
+Eye Accessory,120,Epic,STR %,6,5,Red
+Eye Accessory,120,Epic,DEX %,6,5,Red
+Eye Accessory,120,Epic,INT %,6,5,Red
+Eye Accessory,120,Epic,LUK %,6,5,Red
+Eye Accessory,120,Epic,Max HP %,6,5,Red
+Eye Accessory,120,Epic,Max MP %,6,5,Red
+Eye Accessory,120,Epic,DEF %,6,3,Red
+Eye Accessory,120,Epic,All Stats %,3,2,Red
+Eye Accessory,120,Unique,STR %,9,5,Red
+Eye Accessory,120,Unique,DEX %,9,5,Red
+Eye Accessory,120,Unique,INT %,9,5,Red
+Eye Accessory,120,Unique,LUK %,9,5,Red
+Eye Accessory,120,Unique,Max HP %,9,6,Red
+Eye Accessory,120,Unique,Max MP %,9,6,Red
+Eye Accessory,120,Unique,DEF %,9,4,Red
+Eye Accessory,120,Unique,All Stats %,6,4,Red
+Eye Accessory,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Eye Accessory,120,Legendary,STR %,12,4,Red
+Eye Accessory,120,Legendary,DEX %,12,4,Red
+Eye Accessory,120,Legendary,INT %,12,4,Red
+Eye Accessory,120,Legendary,LUK %,12,4,Red
+Eye Accessory,120,Legendary,Max HP %,12,4,Red
+Eye Accessory,120,Legendary,Max MP %,12,4,Red
+Eye Accessory,120,Legendary,DEF %,12,4,Red
+Eye Accessory,120,Legendary,All Stats %,9,3,Red
+Eye Accessory,120,Legendary,All Skill MP Cost %,15,3,Red
+Eye Accessory,120,Legendary,All Skill MP Cost %,30,3,Red
+Eye Accessory,120,Legendary,Meso Obtained %,20,3,Red
+Eye Accessory,120,Legendary,Item Drop Rate %,20,3,Red
+Earring,120,Normal,STR,6,1,Red
+Earring,120,Normal,DEX,6,1,Red
+Earring,120,Normal,INT,6,1,Red
+Earring,120,Normal,LUK,6,1,Red
+Earring,120,Normal,Max HP,60,1,Red
+Earring,120,Normal,Max MP,60,1,Red
+Earring,120,Normal,DEF,60,1,Red
+Earring,120,Rare,STR,12,3,Red
+Earring,120,Rare,DEX,12,3,Red
+Earring,120,Rare,INT,12,3,Red
+Earring,120,Rare,LUK,12,3,Red
+Earring,120,Rare,Max HP,120,3,Red
+Earring,120,Rare,Max MP,120,3,Red
+Earring,120,Rare,DEF,120,2,Red
+Earring,120,Rare,STR %,3,3,Red
+Earring,120,Rare,DEX %,3,3,Red
+Earring,120,Rare,INT %,3,3,Red
+Earring,120,Rare,LUK %,3,3,Red
+Earring,120,Rare,Max HP %,3,2,Red
+Earring,120,Rare,Max MP %,3,2,Red
+Earring,120,Rare,DEF %,3,2,Red
+Earring,120,Rare,All Stats,5,2,Red
+Earring,120,Epic,STR %,6,5,Red
+Earring,120,Epic,DEX %,6,5,Red
+Earring,120,Epic,INT %,6,5,Red
+Earring,120,Epic,LUK %,6,5,Red
+Earring,120,Epic,Max HP %,6,5,Red
+Earring,120,Epic,Max MP %,6,5,Red
+Earring,120,Epic,DEF %,6,3,Red
+Earring,120,Epic,All Stats %,3,2,Red
+Earring,120,Unique,STR %,9,5,Red
+Earring,120,Unique,DEX %,9,5,Red
+Earring,120,Unique,INT %,9,5,Red
+Earring,120,Unique,LUK %,9,5,Red
+Earring,120,Unique,Max HP %,9,6,Red
+Earring,120,Unique,Max MP %,9,6,Red
+Earring,120,Unique,DEF %,9,4,Red
+Earring,120,Unique,All Stats %,6,4,Red
+Earring,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Earring,120,Legendary,STR %,12,4,Red
+Earring,120,Legendary,DEX %,12,4,Red
+Earring,120,Legendary,INT %,12,4,Red
+Earring,120,Legendary,LUK %,12,4,Red
+Earring,120,Legendary,Max HP %,12,4,Red
+Earring,120,Legendary,Max MP %,12,4,Red
+Earring,120,Legendary,DEF %,12,4,Red
+Earring,120,Legendary,All Stats %,9,3,Red
+Earring,120,Legendary,All Skill MP Cost %,15,3,Red
+Earring,120,Legendary,All Skill MP Cost %,30,3,Red
+Earring,120,Legendary,Meso Obtained %,20,3,Red
+Earring,120,Legendary,Item Drop Rate %,20,3,Red
+Ring,120,Normal,STR,6,1,Red
+Ring,120,Normal,DEX,6,1,Red
+Ring,120,Normal,INT,6,1,Red
+Ring,120,Normal,LUK,6,1,Red
+Ring,120,Normal,Max HP,60,1,Red
+Ring,120,Normal,Max MP,60,1,Red
+Ring,120,Normal,DEF,60,1,Red
+Ring,120,Rare,STR,12,3,Red
+Ring,120,Rare,DEX,12,3,Red
+Ring,120,Rare,INT,12,3,Red
+Ring,120,Rare,LUK,12,3,Red
+Ring,120,Rare,Max HP,120,3,Red
+Ring,120,Rare,Max MP,120,3,Red
+Ring,120,Rare,DEF,120,2,Red
+Ring,120,Rare,STR %,3,3,Red
+Ring,120,Rare,DEX %,3,3,Red
+Ring,120,Rare,INT %,3,3,Red
+Ring,120,Rare,LUK %,3,3,Red
+Ring,120,Rare,Max HP %,3,2,Red
+Ring,120,Rare,Max MP %,3,2,Red
+Ring,120,Rare,DEF %,3,2,Red
+Ring,120,Rare,All Stats,5,2,Red
+Ring,120,Epic,STR %,6,5,Red
+Ring,120,Epic,DEX %,6,5,Red
+Ring,120,Epic,INT %,6,5,Red
+Ring,120,Epic,LUK %,6,5,Red
+Ring,120,Epic,Max HP %,6,5,Red
+Ring,120,Epic,Max MP %,6,5,Red
+Ring,120,Epic,DEF %,6,3,Red
+Ring,120,Epic,All Stats %,3,2,Red
+Ring,120,Unique,STR %,9,5,Red
+Ring,120,Unique,DEX %,9,5,Red
+Ring,120,Unique,INT %,9,5,Red
+Ring,120,Unique,LUK %,9,5,Red
+Ring,120,Unique,Max HP %,9,6,Red
+Ring,120,Unique,Max MP %,9,6,Red
+Ring,120,Unique,DEF %,9,4,Red
+Ring,120,Unique,All Stats %,6,4,Red
+Ring,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Ring,120,Legendary,STR %,12,4,Red
+Ring,120,Legendary,DEX %,12,4,Red
+Ring,120,Legendary,INT %,12,4,Red
+Ring,120,Legendary,LUK %,12,4,Red
+Ring,120,Legendary,Max HP %,12,4,Red
+Ring,120,Legendary,Max MP %,12,4,Red
+Ring,120,Legendary,DEF %,12,4,Red
+Ring,120,Legendary,All Stats %,9,3,Red
+Ring,120,Legendary,All Skill MP Cost %,15,3,Red
+Ring,120,Legendary,All Skill MP Cost %,30,3,Red
+Ring,120,Legendary,Meso Obtained %,20,3,Red
+Ring,120,Legendary,Item Drop Rate %,20,3,Red
+Pendant,120,Normal,STR,6,1,Red
+Pendant,120,Normal,DEX,6,1,Red
+Pendant,120,Normal,INT,6,1,Red
+Pendant,120,Normal,LUK,6,1,Red
+Pendant,120,Normal,Max HP,60,1,Red
+Pendant,120,Normal,Max MP,60,1,Red
+Pendant,120,Normal,DEF,60,1,Red
+Pendant,120,Rare,STR,12,3,Red
+Pendant,120,Rare,DEX,12,3,Red
+Pendant,120,Rare,INT,12,3,Red
+Pendant,120,Rare,LUK,12,3,Red
+Pendant,120,Rare,Max HP,120,3,Red
+Pendant,120,Rare,Max MP,120,3,Red
+Pendant,120,Rare,DEF,120,2,Red
+Pendant,120,Rare,STR %,3,3,Red
+Pendant,120,Rare,DEX %,3,3,Red
+Pendant,120,Rare,INT %,3,3,Red
+Pendant,120,Rare,LUK %,3,3,Red
+Pendant,120,Rare,Max HP %,3,2,Red
+Pendant,120,Rare,Max MP %,3,2,Red
+Pendant,120,Rare,DEF %,3,2,Red
+Pendant,120,Rare,All Stats,5,2,Red
+Pendant,120,Epic,STR %,6,5,Red
+Pendant,120,Epic,DEX %,6,5,Red
+Pendant,120,Epic,INT %,6,5,Red
+Pendant,120,Epic,LUK %,6,5,Red
+Pendant,120,Epic,Max HP %,6,5,Red
+Pendant,120,Epic,Max MP %,6,5,Red
+Pendant,120,Epic,DEF %,6,3,Red
+Pendant,120,Epic,All Stats %,3,2,Red
+Pendant,120,Unique,STR %,9,5,Red
+Pendant,120,Unique,DEX %,9,5,Red
+Pendant,120,Unique,INT %,9,5,Red
+Pendant,120,Unique,LUK %,9,5,Red
+Pendant,120,Unique,Max HP %,9,6,Red
+Pendant,120,Unique,Max MP %,9,6,Red
+Pendant,120,Unique,DEF %,9,4,Red
+Pendant,120,Unique,All Stats %,6,4,Red
+Pendant,120,Unique,HP Recovery % (on items and skills),30,4,Red
+Pendant,120,Legendary,STR %,12,4,Red
+Pendant,120,Legendary,DEX %,12,4,Red
+Pendant,120,Legendary,INT %,12,4,Red
+Pendant,120,Legendary,LUK %,12,4,Red
+Pendant,120,Legendary,Max HP %,12,4,Red
+Pendant,120,Legendary,Max MP %,12,4,Red
+Pendant,120,Legendary,DEF %,12,4,Red
+Pendant,120,Legendary,All Stats %,9,3,Red
+Pendant,120,Legendary,All Skill MP Cost %,15,3,Red
+Pendant,120,Legendary,All Skill MP Cost %,30,3,Red
+Pendant,120,Legendary,Meso Obtained %,20,3,Red
+Pendant,120,Legendary,Item Drop Rate %,20,3,Red
+Heart,100,Normal,STR,6,1,Red
+Heart,100,Normal,DEX,6,1,Red
+Heart,100,Normal,INT,6,1,Red
+Heart,100,Normal,LUK,6,1,Red
+Heart,100,Normal,Max HP,50,1,Red
+Heart,100,Normal,Max MP,50,1,Red
+Heart,100,Normal,DEF,50,1,Red
+Heart,100,Rare,STR,12,3,Red
+Heart,100,Rare,DEX,12,3,Red
+Heart,100,Rare,INT,12,3,Red
+Heart,100,Rare,LUK,12,3,Red
+Heart,100,Rare,Max HP,100,3,Red
+Heart,100,Rare,Max MP,100,3,Red
+Heart,100,Rare,DEF,100,2,Red
+Heart,100,Rare,STR %,3,3,Red
+Heart,100,Rare,DEX %,3,3,Red
+Heart,100,Rare,INT %,3,3,Red
+Heart,100,Rare,LUK %,3,3,Red
+Heart,100,Rare,Max HP %,3,2,Red
+Heart,100,Rare,Max MP %,3,2,Red
+Heart,100,Rare,DEF %,3,2,Red
+Heart,100,Rare,All Stats,5,2,Red
+Heart,100,Epic,STR %,6,5,Red
+Heart,100,Epic,DEX %,6,5,Red
+Heart,100,Epic,INT %,6,5,Red
+Heart,100,Epic,LUK %,6,5,Red
+Heart,100,Epic,Max HP %,6,5,Red
+Heart,100,Epic,Max MP %,6,5,Red
+Heart,100,Epic,DEF %,6,3,Red
+Heart,100,Epic,All Stats %,3,2,Red
+Heart,100,Unique,STR %,9,5,Red
+Heart,100,Unique,DEX %,9,5,Red
+Heart,100,Unique,INT %,9,5,Red
+Heart,100,Unique,LUK %,9,5,Red
+Heart,100,Unique,Max HP %,9,6,Red
+Heart,100,Unique,Max MP %,9,6,Red
+Heart,100,Unique,DEF %,9,4,Red
+Heart,100,Unique,All Stats %,6,4,Red
+Heart,100,Unique,HP Recovery % (on items and skills),30,4,Red
+Heart,100,Legendary,STR %,12,4,Red
+Heart,100,Legendary,DEX %,12,4,Red
+Heart,100,Legendary,INT %,12,4,Red
+Heart,100,Legendary,LUK %,12,4,Red
+Heart,100,Legendary,Max HP %,12,4,Red
+Heart,100,Legendary,Max MP %,12,4,Red
+Heart,100,Legendary,DEF %,12,4,Red
+Heart,100,Legendary,All Stats %,9,3,Red
+Weapon,120,Normal,STR,6,3,Black
+Weapon,120,Normal,DEX,6,3,Black
+Weapon,120,Normal,INT,6,3,Black
+Weapon,120,Normal,LUK,6,3,Black
+Weapon,120,Normal,Max HP,60,3,Black
+Weapon,120,Normal,Max MP,60,3,Black
+Weapon,120,Normal,Attack,6,2,Black
+Weapon,120,Normal,Magic Attack,6,2,Black
+Weapon,120,Rare,STR,12,3,Black
+Weapon,120,Rare,DEX,12,3,Black
+Weapon,120,Rare,INT,12,3,Black
+Weapon,120,Rare,LUK,12,3,Black
+Weapon,120,Rare,Max HP,120,3,Black
+Weapon,120,Rare,Max MP,120,3,Black
+Weapon,120,Rare,Attack,12,2,Black
+Weapon,120,Rare,Magic Attack,12,2,Black
+Weapon,120,Rare,STR %,3,3,Black
+Weapon,120,Rare,DEX %,3,3,Black
+Weapon,120,Rare,INT %,3,3,Black
+Weapon,120,Rare,LUK %,3,3,Black
+Weapon,120,Rare,ATT %,3,1,Black
+Weapon,120,Rare,Magic ATT %,3,1,Black
+Weapon,120,Rare,Critical Rate %,4,1,Black
+Weapon,120,Rare,Damage %,3,1,Black
+Weapon,120,Rare,All Stats,5,2,Black
+Weapon,120,Rare,20% chance to recover 240 HP on attack,1,1,Black
+Weapon,120,Rare,20% chance to recover 120 MP on attack,1,1,Black
+Weapon,120,Rare,20% chance to apply Lv 6 Poison on attack,1,1,Black
+Weapon,120,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Black
+Weapon,120,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Black
+Weapon,120,Rare,20% chance to apply Lv 3 Darkness on attack,1,1,Black
+Weapon,120,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Black
+Weapon,120,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Black
+Weapon,120,Rare,Ignore Enemy DEF %,15,1,Black
+Weapon,120,Epic,STR %,6,5,Black
+Weapon,120,Epic,DEX %,6,5,Black
+Weapon,120,Epic,INT %,6,5,Black
+Weapon,120,Epic,LUK %,6,5,Black
+Weapon,120,Epic,Max HP %,6,5,Black
+Weapon,120,Epic,Max MP %,6,5,Black
+Weapon,120,Epic,ATT %,6,2,Black
+Weapon,120,Epic,Magic ATT %,6,2,Black
+Weapon,120,Epic,Critical Rate %,8,2,Black
+Weapon,120,Epic,Damage %,6,2,Black
+Weapon,120,Epic,All Stats %,3,2,Black
+Weapon,120,Epic,20% chance to recover 360 HP on attack,1,2,Black
+Weapon,120,Epic,20% chance to recover 180 MP on attack,1,2,Black
+Weapon,120,Epic,Ignore Enemy DEF %,15,2,Black
+Weapon,120,Unique,STR %,9,5,Black
+Weapon,120,Unique,DEX %,9,5,Black
+Weapon,120,Unique,INT %,9,5,Black
+Weapon,120,Unique,LUK %,9,5,Black
+Weapon,120,Unique,ATT %,9,3,Black
+Weapon,120,Unique,Magic ATT %,9,3,Black
+Weapon,120,Unique,Critical Rate %,9,4,Black
+Weapon,120,Unique,Damage %,9,3,Black
+Weapon,120,Unique,All Stats %,6,4,Black
+Weapon,120,Unique,Ignore Enemy DEF %,30,3,Black
+Weapon,120,Unique,Boss Damage %,20,3,Black
+Weapon,120,Unique,Boss Damage %,30,2,Black
+Weapon,120,Legendary,STR %,12,4,Black
+Weapon,120,Legendary,DEX %,12,4,Black
+Weapon,120,Legendary,INT %,12,4,Black
+Weapon,120,Legendary,LUK %,12,4,Black
+Weapon,120,Legendary,ATT %,12,2,Black
+Weapon,120,Legendary,Magic ATT %,12,2,Black
+Weapon,120,Legendary,Critical Rate %,12,2,Black
+Weapon,120,Legendary,Damage %,12,2,Black
+Weapon,120,Legendary,All Stats %,9,3,Black
+Weapon,120,Legendary,ATT per 10 character levels,1,2,Black
+Weapon,120,Legendary,Magic ATT per 10 character levels,1,2,Black
+Weapon,120,Legendary,Ignore Enemy DEF %,35,2,Black
+Weapon,120,Legendary,Ignore Enemy DEF %,40,2,Black
+Weapon,120,Legendary,Boss Damage %,30,2,Black
+Weapon,120,Legendary,Boss Damage %,35,2,Black
+Weapon,120,Legendary,Boss Damage %,40,2,Black
+Emblem,100,Normal,STR,6,3,Black
+Emblem,100,Normal,DEX,6,3,Black
+Emblem,100,Normal,INT,6,3,Black
+Emblem,100,Normal,LUK,6,3,Black
+Emblem,100,Normal,Max HP,50,3,Black
+Emblem,100,Normal,Max MP,50,3,Black
+Emblem,100,Normal,Attack,6,2,Black
+Emblem,100,Normal,Magic Attack,6,2,Black
+Emblem,100,Rare,STR,12,3,Black
+Emblem,100,Rare,DEX,12,3,Black
+Emblem,100,Rare,INT,12,3,Black
+Emblem,100,Rare,LUK,12,3,Black
+Emblem,100,Rare,Max HP,100,3,Black
+Emblem,100,Rare,Max MP,100,3,Black
+Emblem,100,Rare,Attack,12,2,Black
+Emblem,100,Rare,Magic Attack,12,2,Black
+Emblem,100,Rare,STR %,3,3,Black
+Emblem,100,Rare,DEX %,3,3,Black
+Emblem,100,Rare,INT %,3,3,Black
+Emblem,100,Rare,LUK %,3,3,Black
+Emblem,100,Rare,ATT %,3,1,Black
+Emblem,100,Rare,Magic ATT %,3,1,Black
+Emblem,100,Rare,Critical Rate %,4,1,Black
+Emblem,100,Rare,Damage %,3,1,Black
+Emblem,100,Rare,All Stats,5,2,Black
+Emblem,100,Rare,20% chance to recover 200 HP on attack,1,1,Black
+Emblem,100,Rare,20% chance to recover 110 MP on attack,1,1,Black
+Emblem,100,Rare,20% chance to apply Lv 5 Poison on attack,1,1,Black
+Emblem,100,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Black
+Emblem,100,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Black
+Emblem,100,Rare,20% chance to apply Lv 2 Darkness on attack,1,1,Black
+Emblem,100,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Black
+Emblem,100,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Black
+Emblem,100,Rare,Ignore Enemy DEF %,15,1,Black
+Emblem,100,Epic,STR %,6,5,Black
+Emblem,100,Epic,DEX %,6,5,Black
+Emblem,100,Epic,INT %,6,5,Black
+Emblem,100,Epic,LUK %,6,5,Black
+Emblem,100,Epic,Max HP %,6,5,Black
+Emblem,100,Epic,Max MP %,6,5,Black
+Emblem,100,Epic,ATT %,6,2,Black
+Emblem,100,Epic,Magic ATT %,6,2,Black
+Emblem,100,Epic,Critical Rate %,8,2,Black
+Emblem,100,Epic,Damage %,6,2,Black
+Emblem,100,Epic,All Stats %,3,2,Black
+Emblem,100,Epic,20% chance to recover 300 HP on attack,1,2,Black
+Emblem,100,Epic,20% chance to recover 165 MP on attack,1,2,Black
+Emblem,100,Epic,Ignore Enemy DEF %,15,2,Black
+Emblem,100,Unique,STR %,9,5,Black
+Emblem,100,Unique,DEX %,9,5,Black
+Emblem,100,Unique,INT %,9,5,Black
+Emblem,100,Unique,LUK %,9,5,Black
+Emblem,100,Unique,ATT %,9,3,Black
+Emblem,100,Unique,Magic ATT %,9,3,Black
+Emblem,100,Unique,Critical Rate %,9,4,Black
+Emblem,100,Unique,Damage %,9,3,Black
+Emblem,100,Unique,All Stats %,6,4,Black
+Emblem,100,Unique,Ignore Enemy DEF %,30,3,Black
+Emblem,100,Legendary,STR %,12,4,Black
+Emblem,100,Legendary,DEX %,12,4,Black
+Emblem,100,Legendary,INT %,12,4,Black
+Emblem,100,Legendary,LUK %,12,4,Black
+Emblem,100,Legendary,ATT %,12,2,Black
+Emblem,100,Legendary,Magic ATT %,12,2,Black
+Emblem,100,Legendary,Critical Rate %,12,2,Black
+Emblem,100,Legendary,Damage %,12,2,Black
+Emblem,100,Legendary,All Stats %,9,3,Black
+Emblem,100,Legendary,ATT per 10 character levels,1,2,Black
+Emblem,100,Legendary,Magic ATT per 10 character levels,1,2,Black
+Emblem,100,Legendary,Ignore Enemy DEF %,35,2,Black
+Emblem,100,Legendary,Ignore Enemy DEF %,40,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,STR,6,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,DEX,6,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,INT,6,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,LUK,6,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max HP,50,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max MP,50,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Attack,6,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Magic Attack,6,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR,12,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX,12,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT,12,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK,12,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max HP,100,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max MP,100,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Attack,12,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic Attack,12,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR %,3,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX %,3,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT %,3,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK %,3,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,ATT %,3,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic ATT %,3,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Critical Rate %,4,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Damage %,3,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,All Stats,5,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to recover 200 HP on attack,1,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to recover 110 MP on attack,1,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 5 Poison on attack,1,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 2 Darkness on attack,1,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Ignore Enemy DEF %,15,1,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,STR %,6,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,DEX %,6,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,INT %,6,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,LUK %,6,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max HP %,6,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max MP %,6,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,ATT %,6,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Magic ATT %,6,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Critical Rate %,8,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Damage %,6,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,All Stats %,3,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to recover 300 HP on attack,1,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to recover 165 MP on attack,1,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Ignore Enemy DEF %,15,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,STR %,9,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,DEX %,9,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,INT %,9,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,LUK %,9,5,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,ATT %,9,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Magic ATT %,9,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Critical Rate %,9,4,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Damage %,9,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,All Stats %,6,4,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Ignore Enemy DEF %,30,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,5% chance to ignore 20% damage received,1,4,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,5% chance to ignore 40% damage received,1,4,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,20,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,30,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,STR %,12,4,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,DEX %,12,4,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,INT %,12,4,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,LUK %,12,4,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,ATT %,12,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Magic ATT %,12,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Critical Rate %,12,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Damage %,12,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,All Stats %,9,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,ATT per 10 character levels,1,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Magic ATT per 10 character levels,1,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,35,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,40,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,30,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,35,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,40,2,Black
+Force Shield/Soul Ring,100,Normal,STR,6,3,Black
+Force Shield/Soul Ring,100,Normal,DEX,6,3,Black
+Force Shield/Soul Ring,100,Normal,INT,6,3,Black
+Force Shield/Soul Ring,100,Normal,LUK,6,3,Black
+Force Shield/Soul Ring,100,Normal,Max HP,50,3,Black
+Force Shield/Soul Ring,100,Normal,Attack,6,2,Black
+Force Shield/Soul Ring,100,Normal,Magic Attack,6,2,Black
+Force Shield/Soul Ring,100,Rare,STR,12,3,Black
+Force Shield/Soul Ring,100,Rare,DEX,12,3,Black
+Force Shield/Soul Ring,100,Rare,INT,12,3,Black
+Force Shield/Soul Ring,100,Rare,LUK,12,3,Black
+Force Shield/Soul Ring,100,Rare,Max HP,100,3,Black
+Force Shield/Soul Ring,100,Rare,Attack,12,2,Black
+Force Shield/Soul Ring,100,Rare,Magic Attack,12,2,Black
+Force Shield/Soul Ring,100,Rare,STR %,3,3,Black
+Force Shield/Soul Ring,100,Rare,DEX %,3,3,Black
+Force Shield/Soul Ring,100,Rare,INT %,3,3,Black
+Force Shield/Soul Ring,100,Rare,LUK %,3,3,Black
+Force Shield/Soul Ring,100,Rare,ATT %,3,1,Black
+Force Shield/Soul Ring,100,Rare,Magic ATT %,3,1,Black
+Force Shield/Soul Ring,100,Rare,Critical Rate %,4,1,Black
+Force Shield/Soul Ring,100,Rare,Damage %,3,1,Black
+Force Shield/Soul Ring,100,Rare,All Stats,5,2,Black
+Force Shield/Soul Ring,100,Rare,20% chance to recover 200 HP on attack,1,1,Black
+Force Shield/Soul Ring,100,Rare,20% chance to recover 110 MP on attack,1,1,Black
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 5 Poison on attack,1,1,Black
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Black
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Black
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 2 Darkness on attack,1,1,Black
+Force Shield/Soul Ring,100,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Black
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Black
+Force Shield/Soul Ring,100,Rare,Ignore Enemy DEF %,15,1,Black
+Force Shield/Soul Ring,100,Epic,STR %,6,5,Black
+Force Shield/Soul Ring,100,Epic,DEX %,6,5,Black
+Force Shield/Soul Ring,100,Epic,INT %,6,5,Black
+Force Shield/Soul Ring,100,Epic,LUK %,6,5,Black
+Force Shield/Soul Ring,100,Epic,Max HP %,6,5,Black
+Force Shield/Soul Ring,100,Epic,ATT %,6,2,Black
+Force Shield/Soul Ring,100,Epic,Magic ATT %,6,2,Black
+Force Shield/Soul Ring,100,Epic,Critical Rate %,8,2,Black
+Force Shield/Soul Ring,100,Epic,Damage %,6,2,Black
+Force Shield/Soul Ring,100,Epic,All Stats %,3,2,Black
+Force Shield/Soul Ring,100,Epic,20% chance to recover 300 HP on attack,1,2,Black
+Force Shield/Soul Ring,100,Epic,20% chance to recover 165 MP on attack,1,2,Black
+Force Shield/Soul Ring,100,Epic,Ignore Enemy DEF %,15,2,Black
+Force Shield/Soul Ring,100,Unique,STR %,9,5,Black
+Force Shield/Soul Ring,100,Unique,DEX %,9,5,Black
+Force Shield/Soul Ring,100,Unique,INT %,9,5,Black
+Force Shield/Soul Ring,100,Unique,LUK %,9,5,Black
+Force Shield/Soul Ring,100,Unique,ATT %,9,3,Black
+Force Shield/Soul Ring,100,Unique,Magic ATT %,9,3,Black
+Force Shield/Soul Ring,100,Unique,Critical Rate %,9,4,Black
+Force Shield/Soul Ring,100,Unique,Damage %,9,3,Black
+Force Shield/Soul Ring,100,Unique,All Stats %,6,4,Black
+Force Shield/Soul Ring,100,Unique,Ignore Enemy DEF %,30,3,Black
+Force Shield/Soul Ring,100,Unique,5% chance to ignore 20% damage received,1,4,Black
+Force Shield/Soul Ring,100,Unique,5% chance to ignore 40% damage received,1,4,Black
+Force Shield/Soul Ring,100,Unique,Boss Damage %,20,3,Black
+Force Shield/Soul Ring,100,Unique,Boss Damage %,30,2,Black
+Force Shield/Soul Ring,100,Legendary,STR %,12,4,Black
+Force Shield/Soul Ring,100,Legendary,DEX %,12,4,Black
+Force Shield/Soul Ring,100,Legendary,INT %,12,4,Black
+Force Shield/Soul Ring,100,Legendary,LUK %,12,4,Black
+Force Shield/Soul Ring,100,Legendary,ATT %,12,2,Black
+Force Shield/Soul Ring,100,Legendary,Magic ATT %,12,2,Black
+Force Shield/Soul Ring,100,Legendary,Critical Rate %,12,2,Black
+Force Shield/Soul Ring,100,Legendary,Damage %,12,2,Black
+Force Shield/Soul Ring,100,Legendary,All Stats %,9,3,Black
+Force Shield/Soul Ring,100,Legendary,ATT per 10 character levels,1,2,Black
+Force Shield/Soul Ring,100,Legendary,Magic ATT per 10 character levels,1,2,Black
+Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,35,2,Black
+Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,40,2,Black
+Force Shield/Soul Ring,100,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Force Shield/Soul Ring,100,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,30,2,Black
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,35,2,Black
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,40,2,Black
+Shield,120,Normal,STR,6,3,Black
+Shield,120,Normal,DEX,6,3,Black
+Shield,120,Normal,INT,6,3,Black
+Shield,120,Normal,LUK,6,3,Black
+Shield,120,Normal,Max HP,60,3,Black
+Shield,120,Normal,Max MP,60,3,Black
+Shield,120,Normal,Attack,6,2,Black
+Shield,120,Normal,Magic Attack,6,2,Black
+Shield,120,Rare,STR,12,3,Black
+Shield,120,Rare,DEX,12,3,Black
+Shield,120,Rare,INT,12,3,Black
+Shield,120,Rare,LUK,12,3,Black
+Shield,120,Rare,Max HP,120,3,Black
+Shield,120,Rare,Max MP,120,3,Black
+Shield,120,Rare,Attack,12,2,Black
+Shield,120,Rare,Magic Attack,12,2,Black
+Shield,120,Rare,STR %,3,3,Black
+Shield,120,Rare,DEX %,3,3,Black
+Shield,120,Rare,INT %,3,3,Black
+Shield,120,Rare,LUK %,3,3,Black
+Shield,120,Rare,ATT %,3,1,Black
+Shield,120,Rare,Magic ATT %,3,1,Black
+Shield,120,Rare,Critical Rate %,4,1,Black
+Shield,120,Rare,Damage %,3,1,Black
+Shield,120,Rare,All Stats,5,2,Black
+Shield,120,Rare,20% chance to recover 240 HP on attack,1,1,Black
+Shield,120,Rare,20% chance to recover 120 MP on attack,1,1,Black
+Shield,120,Rare,20% chance to apply Lv 6 Poison on attack,1,1,Black
+Shield,120,Rare,20% chance to apply Lv 2 Stun on attack,1,1,Black
+Shield,120,Rare,20% chance to apply Lv 2 Slow on attack,1,1,Black
+Shield,120,Rare,20% chance to apply Lv 3 Darkness on attack,1,1,Black
+Shield,120,Rare,20% chance to apply Lv 2 Freeze on attack,1,1,Black
+Shield,120,Rare,10% chance to apply Lv 2 Seal on attack,1,1,Black
+Shield,120,Rare,Ignore Enemy DEF %,15,1,Black
+Shield,120,Epic,STR %,6,5,Black
+Shield,120,Epic,DEX %,6,5,Black
+Shield,120,Epic,INT %,6,5,Black
+Shield,120,Epic,LUK %,6,5,Black
+Shield,120,Epic,Max HP %,6,5,Black
+Shield,120,Epic,Max MP %,6,5,Black
+Shield,120,Epic,ATT %,6,2,Black
+Shield,120,Epic,Magic ATT %,6,2,Black
+Shield,120,Epic,Critical Rate %,8,2,Black
+Shield,120,Epic,Damage %,6,2,Black
+Shield,120,Epic,All Stats %,3,2,Black
+Shield,120,Epic,20% chance to recover 360 HP on attack,1,2,Black
+Shield,120,Epic,20% chance to recover 180 MP on attack,1,2,Black
+Shield,120,Epic,Ignore Enemy DEF %,15,2,Black
+Shield,120,Unique,STR %,9,5,Black
+Shield,120,Unique,DEX %,9,5,Black
+Shield,120,Unique,INT %,9,5,Black
+Shield,120,Unique,LUK %,9,5,Black
+Shield,120,Unique,ATT %,9,3,Black
+Shield,120,Unique,Magic ATT %,9,3,Black
+Shield,120,Unique,Critical Rate %,9,4,Black
+Shield,120,Unique,Damage %,9,3,Black
+Shield,120,Unique,All Stats %,6,4,Black
+Shield,120,Unique,Ignore Enemy DEF %,30,3,Black
+Shield,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Shield,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Shield,120,Unique,Boss Damage %,20,3,Black
+Shield,120,Unique,Boss Damage %,30,2,Black
+Shield,120,Legendary,STR %,12,4,Black
+Shield,120,Legendary,DEX %,12,4,Black
+Shield,120,Legendary,INT %,12,4,Black
+Shield,120,Legendary,LUK %,12,4,Black
+Shield,120,Legendary,ATT %,12,2,Black
+Shield,120,Legendary,Magic ATT %,12,2,Black
+Shield,120,Legendary,Critical Rate %,12,2,Black
+Shield,120,Legendary,Damage %,12,2,Black
+Shield,120,Legendary,All Stats %,9,3,Black
+Shield,120,Legendary,ATT per 10 character levels,1,2,Black
+Shield,120,Legendary,Magic ATT per 10 character levels,1,2,Black
+Shield,120,Legendary,Ignore Enemy DEF %,35,2,Black
+Shield,120,Legendary,Ignore Enemy DEF %,40,2,Black
+Shield,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Shield,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Shield,120,Legendary,Boss Damage %,30,2,Black
+Shield,120,Legendary,Boss Damage %,35,2,Black
+Shield,120,Legendary,Boss Damage %,40,2,Black
+Helmet,120,Normal,STR,6,1,Black
+Helmet,120,Normal,DEX,6,1,Black
+Helmet,120,Normal,INT,6,1,Black
+Helmet,120,Normal,LUK,6,1,Black
+Helmet,120,Normal,Max HP,60,1,Black
+Helmet,120,Normal,Max MP,60,1,Black
+Helmet,120,Normal,DEF,60,1,Black
+Helmet,120,Rare,STR,12,3,Black
+Helmet,120,Rare,DEX,12,3,Black
+Helmet,120,Rare,INT,12,3,Black
+Helmet,120,Rare,LUK,12,3,Black
+Helmet,120,Rare,Max HP,120,3,Black
+Helmet,120,Rare,Max MP,120,3,Black
+Helmet,120,Rare,DEF,120,2,Black
+Helmet,120,Rare,STR %,3,3,Black
+Helmet,120,Rare,DEX %,3,3,Black
+Helmet,120,Rare,INT %,3,3,Black
+Helmet,120,Rare,LUK %,3,3,Black
+Helmet,120,Rare,Max HP %,3,2,Black
+Helmet,120,Rare,Max MP %,3,2,Black
+Helmet,120,Rare,DEF %,3,2,Black
+Helmet,120,Rare,All Stats,5,2,Black
+Helmet,120,Epic,STR %,6,5,Black
+Helmet,120,Epic,DEX %,6,5,Black
+Helmet,120,Epic,INT %,6,5,Black
+Helmet,120,Epic,LUK %,6,5,Black
+Helmet,120,Epic,Max HP %,6,5,Black
+Helmet,120,Epic,Max MP %,6,5,Black
+Helmet,120,Epic,DEF %,6,3,Black
+Helmet,120,Epic,All Stats %,3,2,Black
+Helmet,120,Unique,STR %,9,5,Black
+Helmet,120,Unique,DEX %,9,5,Black
+Helmet,120,Unique,INT %,9,5,Black
+Helmet,120,Unique,LUK %,9,5,Black
+Helmet,120,Unique,Max HP %,9,6,Black
+Helmet,120,Unique,Max MP %,9,6,Black
+Helmet,120,Unique,DEF %,9,4,Black
+Helmet,120,Unique,All Stats %,6,4,Black
+Helmet,120,Unique,All Skill Levels,1,4,Black
+Helmet,120,Unique,All Skill Levels,2,2,Black
+Helmet,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Helmet,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Helmet,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Helmet,120,Unique,Decent Mystic Door,1,4,Black
+Helmet,120,Legendary,STR %,12,4,Black
+Helmet,120,Legendary,DEX %,12,4,Black
+Helmet,120,Legendary,INT %,12,4,Black
+Helmet,120,Legendary,LUK %,12,4,Black
+Helmet,120,Legendary,Max HP %,12,4,Black
+Helmet,120,Legendary,Max MP %,12,4,Black
+Helmet,120,Legendary,DEF %,12,4,Black
+Helmet,120,Legendary,All Stats %,9,3,Black
+Helmet,120,Legendary,All Skill Levels,2,3,Black
+Helmet,120,Legendary,All Skill Levels,3,2,Black
+Helmet,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Helmet,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Helmet,120,Legendary,Skill Cooldown Reduction,1,3,Black
+Helmet,120,Legendary,Skill Cooldown Reduction,2,2,Black
+Helmet,120,Legendary,Decent Advanced Blessing,1,3,Black
+Top,120,Normal,STR,6,1,Black
+Top,120,Normal,DEX,6,1,Black
+Top,120,Normal,INT,6,1,Black
+Top,120,Normal,LUK,6,1,Black
+Top,120,Normal,Max HP,60,1,Black
+Top,120,Normal,Max MP,60,1,Black
+Top,120,Normal,DEF,60,1,Black
+Top,120,Rare,STR,12,3,Black
+Top,120,Rare,DEX,12,3,Black
+Top,120,Rare,INT,12,3,Black
+Top,120,Rare,LUK,12,3,Black
+Top,120,Rare,Max HP,120,3,Black
+Top,120,Rare,Max MP,120,3,Black
+Top,120,Rare,DEF,120,2,Black
+Top,120,Rare,STR %,3,3,Black
+Top,120,Rare,DEX %,3,3,Black
+Top,120,Rare,INT %,3,3,Black
+Top,120,Rare,LUK %,3,3,Black
+Top,120,Rare,Max HP %,3,2,Black
+Top,120,Rare,Max MP %,3,2,Black
+Top,120,Rare,DEF %,3,2,Black
+Top,120,Rare,All Stats,5,2,Black
+Top,120,Epic,STR %,6,5,Black
+Top,120,Epic,DEX %,6,5,Black
+Top,120,Epic,INT %,6,5,Black
+Top,120,Epic,LUK %,6,5,Black
+Top,120,Epic,Max HP %,6,5,Black
+Top,120,Epic,Max MP %,6,5,Black
+Top,120,Epic,DEF %,6,3,Black
+Top,120,Epic,All Stats %,3,2,Black
+Top,120,Epic,Invincibility duration after getting attacked,1,3,Black
+Top,120,Unique,STR %,9,5,Black
+Top,120,Unique,DEX %,9,5,Black
+Top,120,Unique,INT %,9,5,Black
+Top,120,Unique,LUK %,9,5,Black
+Top,120,Unique,Max HP %,9,6,Black
+Top,120,Unique,Max MP %,9,6,Black
+Top,120,Unique,DEF %,9,4,Black
+Top,120,Unique,All Stats %,6,4,Black
+Top,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Top,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Top,120,Unique,Invincibility duration after getting attacked,2,4,Black
+Top,120,Unique,2% chance of 7 second invincibility after being attacked,1,4,Black
+Top,120,Unique,30% chance to reflect 50% of incoming damage,1,4,Black
+Top,120,Unique,30% chance to reflect 70% of incoming damage,1,2,Black
+Top,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Top,120,Legendary,STR %,12,4,Black
+Top,120,Legendary,DEX %,12,4,Black
+Top,120,Legendary,INT %,12,4,Black
+Top,120,Legendary,LUK %,12,4,Black
+Top,120,Legendary,Max HP %,12,4,Black
+Top,120,Legendary,Max MP %,12,4,Black
+Top,120,Legendary,DEF %,12,4,Black
+Top,120,Legendary,All Stats %,9,3,Black
+Top,120,Legendary,All Elemental Resistances %,10,2,Black
+Top,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Top,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Top,120,Legendary,Invincibility duration after getting attacked,3,3,Black
+Top,120,Legendary,4% chance of 7 second invincibility after being attacked,1,3,Black
+Overall,120,Normal,STR,6,1,Black
+Overall,120,Normal,DEX,6,1,Black
+Overall,120,Normal,INT,6,1,Black
+Overall,120,Normal,LUK,6,1,Black
+Overall,120,Normal,Max HP,60,1,Black
+Overall,120,Normal,Max MP,60,1,Black
+Overall,120,Normal,DEF,60,1,Black
+Overall,120,Rare,STR,12,3,Black
+Overall,120,Rare,DEX,12,3,Black
+Overall,120,Rare,INT,12,3,Black
+Overall,120,Rare,LUK,12,3,Black
+Overall,120,Rare,Max HP,120,3,Black
+Overall,120,Rare,Max MP,120,3,Black
+Overall,120,Rare,DEF,120,2,Black
+Overall,120,Rare,STR %,3,3,Black
+Overall,120,Rare,DEX %,3,3,Black
+Overall,120,Rare,INT %,3,3,Black
+Overall,120,Rare,LUK %,3,3,Black
+Overall,120,Rare,Max HP %,3,2,Black
+Overall,120,Rare,Max MP %,3,2,Black
+Overall,120,Rare,DEF %,3,2,Black
+Overall,120,Rare,All Stats,5,2,Black
+Overall,120,Epic,STR %,6,5,Black
+Overall,120,Epic,DEX %,6,5,Black
+Overall,120,Epic,INT %,6,5,Black
+Overall,120,Epic,LUK %,6,5,Black
+Overall,120,Epic,Max HP %,6,5,Black
+Overall,120,Epic,Max MP %,6,5,Black
+Overall,120,Epic,DEF %,6,3,Black
+Overall,120,Epic,All Stats %,3,2,Black
+Overall,120,Epic,Invincibility duration after getting attacked,1,3,Black
+Overall,120,Unique,STR %,9,5,Black
+Overall,120,Unique,DEX %,9,5,Black
+Overall,120,Unique,INT %,9,5,Black
+Overall,120,Unique,LUK %,9,5,Black
+Overall,120,Unique,Max HP %,9,6,Black
+Overall,120,Unique,Max MP %,9,6,Black
+Overall,120,Unique,DEF %,9,4,Black
+Overall,120,Unique,All Stats %,6,4,Black
+Overall,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Overall,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Overall,120,Unique,Invincibility duration after getting attacked,2,4,Black
+Overall,120,Unique,2% chance of 7 second invincibility after being attacked,1,4,Black
+Overall,120,Unique,30% chance to reflect 50% of incoming damage,1,4,Black
+Overall,120,Unique,30% chance to reflect 70% of incoming damage,1,2,Black
+Overall,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Overall,120,Legendary,STR %,12,4,Black
+Overall,120,Legendary,DEX %,12,4,Black
+Overall,120,Legendary,INT %,12,4,Black
+Overall,120,Legendary,LUK %,12,4,Black
+Overall,120,Legendary,Max HP %,12,4,Black
+Overall,120,Legendary,Max MP %,12,4,Black
+Overall,120,Legendary,DEF %,12,4,Black
+Overall,120,Legendary,All Stats %,9,3,Black
+Overall,120,Legendary,All Elemental Resistances %,10,2,Black
+Overall,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Overall,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Overall,120,Legendary,Invincibility duration after getting attacked,3,3,Black
+Overall,120,Legendary,4% chance of 7 second invincibility after being attacked,1,3,Black
+Bottom,120,Normal,STR,6,1,Black
+Bottom,120,Normal,DEX,6,1,Black
+Bottom,120,Normal,INT,6,1,Black
+Bottom,120,Normal,LUK,6,1,Black
+Bottom,120,Normal,Max HP,60,1,Black
+Bottom,120,Normal,Max MP,60,1,Black
+Bottom,120,Normal,DEF,60,1,Black
+Bottom,120,Rare,STR,12,3,Black
+Bottom,120,Rare,DEX,12,3,Black
+Bottom,120,Rare,INT,12,3,Black
+Bottom,120,Rare,LUK,12,3,Black
+Bottom,120,Rare,Max HP,120,3,Black
+Bottom,120,Rare,Max MP,120,3,Black
+Bottom,120,Rare,DEF,120,2,Black
+Bottom,120,Rare,STR %,3,3,Black
+Bottom,120,Rare,DEX %,3,3,Black
+Bottom,120,Rare,INT %,3,3,Black
+Bottom,120,Rare,LUK %,3,3,Black
+Bottom,120,Rare,Max HP %,3,2,Black
+Bottom,120,Rare,Max MP %,3,2,Black
+Bottom,120,Rare,DEF %,3,2,Black
+Bottom,120,Rare,All Stats,5,2,Black
+Bottom,120,Epic,STR %,6,5,Black
+Bottom,120,Epic,DEX %,6,5,Black
+Bottom,120,Epic,INT %,6,5,Black
+Bottom,120,Epic,LUK %,6,5,Black
+Bottom,120,Epic,Max HP %,6,5,Black
+Bottom,120,Epic,Max MP %,6,5,Black
+Bottom,120,Epic,DEF %,6,3,Black
+Bottom,120,Epic,All Stats %,3,2,Black
+Bottom,120,Unique,STR %,9,5,Black
+Bottom,120,Unique,DEX %,9,5,Black
+Bottom,120,Unique,INT %,9,5,Black
+Bottom,120,Unique,LUK %,9,5,Black
+Bottom,120,Unique,Max HP %,9,6,Black
+Bottom,120,Unique,Max MP %,9,6,Black
+Bottom,120,Unique,DEF %,9,4,Black
+Bottom,120,Unique,All Stats %,6,4,Black
+Bottom,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Bottom,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Bottom,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Bottom,120,Unique,Decent Hyper Body,1,4,Black
+Bottom,120,Legendary,STR %,12,4,Black
+Bottom,120,Legendary,DEX %,12,4,Black
+Bottom,120,Legendary,INT %,12,4,Black
+Bottom,120,Legendary,LUK %,12,4,Black
+Bottom,120,Legendary,Max HP %,12,4,Black
+Bottom,120,Legendary,Max MP %,12,4,Black
+Bottom,120,Legendary,DEF %,12,4,Black
+Bottom,120,Legendary,All Stats %,9,3,Black
+Bottom,120,Legendary,Status Resistance,10,2,Black
+Bottom,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Bottom,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Shoes,120,Normal,STR,6,3,Black
+Shoes,120,Normal,DEX,6,3,Black
+Shoes,120,Normal,INT,6,3,Black
+Shoes,120,Normal,LUK,6,3,Black
+Shoes,120,Normal,Max HP,60,3,Black
+Shoes,120,Normal,Max MP,60,3,Black
+Shoes,120,Normal,Speed,4,2,Black
+Shoes,120,Normal,Jump,4,2,Black
+Shoes,120,Normal,DEF,60,3,Black
+Shoes,120,Rare,STR,12,3,Black
+Shoes,120,Rare,DEX,12,3,Black
+Shoes,120,Rare,INT,12,3,Black
+Shoes,120,Rare,LUK,12,3,Black
+Shoes,120,Rare,Max HP,120,3,Black
+Shoes,120,Rare,Max MP,120,3,Black
+Shoes,120,Rare,Speed,8,2,Black
+Shoes,120,Rare,Jump,8,2,Black
+Shoes,120,Rare,DEF,120,2,Black
+Shoes,120,Rare,STR %,3,3,Black
+Shoes,120,Rare,DEX %,3,3,Black
+Shoes,120,Rare,INT %,3,3,Black
+Shoes,120,Rare,LUK %,3,3,Black
+Shoes,120,Rare,Max HP %,3,2,Black
+Shoes,120,Rare,Max MP %,3,2,Black
+Shoes,120,Rare,DEF %,3,2,Black
+Shoes,120,Rare,All Stats,5,2,Black
+Shoes,120,Epic,STR %,6,5,Black
+Shoes,120,Epic,DEX %,6,5,Black
+Shoes,120,Epic,INT %,6,5,Black
+Shoes,120,Epic,LUK %,6,5,Black
+Shoes,120,Epic,Max HP %,6,5,Black
+Shoes,120,Epic,Max MP %,6,5,Black
+Shoes,120,Epic,DEF %,6,3,Black
+Shoes,120,Epic,All Stats %,3,2,Black
+Shoes,120,Unique,STR %,9,5,Black
+Shoes,120,Unique,DEX %,9,5,Black
+Shoes,120,Unique,INT %,9,5,Black
+Shoes,120,Unique,LUK %,9,5,Black
+Shoes,120,Unique,Max HP %,9,6,Black
+Shoes,120,Unique,Max MP %,9,6,Black
+Shoes,120,Unique,DEF %,9,4,Black
+Shoes,120,Unique,All Stats %,6,4,Black
+Shoes,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Shoes,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Shoes,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Shoes,120,Unique,Decent Haste,1,4,Black
+Shoes,120,Legendary,STR %,12,4,Black
+Shoes,120,Legendary,DEX %,12,4,Black
+Shoes,120,Legendary,INT %,12,4,Black
+Shoes,120,Legendary,LUK %,12,4,Black
+Shoes,120,Legendary,Max HP %,12,4,Black
+Shoes,120,Legendary,Max MP %,12,4,Black
+Shoes,120,Legendary,DEF %,12,4,Black
+Shoes,120,Legendary,All Stats %,9,3,Black
+Shoes,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Shoes,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Shoes,120,Legendary,Decent Combat Orders,1,3,Black
+Gloves,120,Normal,STR,6,1,Black
+Gloves,120,Normal,DEX,6,1,Black
+Gloves,120,Normal,INT,6,1,Black
+Gloves,120,Normal,LUK,6,1,Black
+Gloves,120,Normal,Max HP,60,1,Black
+Gloves,120,Normal,Max MP,60,1,Black
+Gloves,120,Normal,DEF,60,1,Black
+Gloves,120,Rare,STR,12,3,Black
+Gloves,120,Rare,DEX,12,3,Black
+Gloves,120,Rare,INT,12,3,Black
+Gloves,120,Rare,LUK,12,3,Black
+Gloves,120,Rare,Max HP,120,3,Black
+Gloves,120,Rare,Max MP,120,3,Black
+Gloves,120,Rare,DEF,120,2,Black
+Gloves,120,Rare,STR %,3,3,Black
+Gloves,120,Rare,DEX %,3,3,Black
+Gloves,120,Rare,INT %,3,3,Black
+Gloves,120,Rare,LUK %,3,3,Black
+Gloves,120,Rare,Max HP %,3,2,Black
+Gloves,120,Rare,Max MP %,3,2,Black
+Gloves,120,Rare,DEF %,3,2,Black
+Gloves,120,Rare,All Stats,5,2,Black
+Gloves,120,Epic,STR %,6,5,Black
+Gloves,120,Epic,DEX %,6,5,Black
+Gloves,120,Epic,INT %,6,5,Black
+Gloves,120,Epic,LUK %,6,5,Black
+Gloves,120,Epic,Max HP %,6,5,Black
+Gloves,120,Epic,Max MP %,6,5,Black
+Gloves,120,Epic,DEF %,6,3,Black
+Gloves,120,Epic,All Stats %,3,2,Black
+Gloves,120,Epic,몬스터 처치 시 15% 확률로 95의 HP  회복,1,3,Black
+Gloves,120,Epic,몬스터 처치 시 15% 확률로 95의 MP  회복,1,3,Black
+Gloves,120,Unique,STR %,9,5,Black
+Gloves,120,Unique,DEX %,9,5,Black
+Gloves,120,Unique,INT %,9,5,Black
+Gloves,120,Unique,LUK %,9,5,Black
+Gloves,120,Unique,Max HP %,9,6,Black
+Gloves,120,Unique,Max MP %,9,6,Black
+Gloves,120,Unique,DEF %,9,4,Black
+Gloves,120,Unique,All Stats %,6,4,Black
+Gloves,120,Unique,STR per 10 character levels,1,1,Black
+Gloves,120,Unique,DEX per 10 character levels,1,1,Black
+Gloves,120,Unique,INT per 10 character levels,1,1,Black
+Gloves,120,Unique,LUK per 10 character levels,1,1,Black
+Gloves,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Gloves,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Gloves,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Gloves,120,Unique,Decent Sharp Eyes,1,4,Black
+Gloves,120,Legendary,STR %,12,4,Black
+Gloves,120,Legendary,DEX %,12,4,Black
+Gloves,120,Legendary,INT %,12,4,Black
+Gloves,120,Legendary,LUK %,12,4,Black
+Gloves,120,Legendary,Max HP %,12,4,Black
+Gloves,120,Legendary,Max MP %,12,4,Black
+Gloves,120,Legendary,DEF %,12,4,Black
+Gloves,120,Legendary,Critical Damage %,8,2,Black
+Gloves,120,Legendary,Critical Damage %,8,2,Black
+Gloves,120,Legendary,All Stats %,9,3,Black
+Gloves,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Gloves,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Gloves,120,Legendary,Decent Speed Infusion,1,3,Black
+Cape,120,Normal,STR,6,1,Black
+Cape,120,Normal,DEX,6,1,Black
+Cape,120,Normal,INT,6,1,Black
+Cape,120,Normal,LUK,6,1,Black
+Cape,120,Normal,Max HP,60,1,Black
+Cape,120,Normal,Max MP,60,1,Black
+Cape,120,Normal,DEF,60,1,Black
+Cape,120,Rare,STR,12,3,Black
+Cape,120,Rare,DEX,12,3,Black
+Cape,120,Rare,INT,12,3,Black
+Cape,120,Rare,LUK,12,3,Black
+Cape,120,Rare,Max HP,120,3,Black
+Cape,120,Rare,Max MP,120,3,Black
+Cape,120,Rare,DEF,120,2,Black
+Cape,120,Rare,STR %,3,3,Black
+Cape,120,Rare,DEX %,3,3,Black
+Cape,120,Rare,INT %,3,3,Black
+Cape,120,Rare,LUK %,3,3,Black
+Cape,120,Rare,Max HP %,3,2,Black
+Cape,120,Rare,Max MP %,3,2,Black
+Cape,120,Rare,DEF %,3,2,Black
+Cape,120,Rare,All Stats,5,2,Black
+Cape,120,Epic,STR %,6,5,Black
+Cape,120,Epic,DEX %,6,5,Black
+Cape,120,Epic,INT %,6,5,Black
+Cape,120,Epic,LUK %,6,5,Black
+Cape,120,Epic,Max HP %,6,5,Black
+Cape,120,Epic,Max MP %,6,5,Black
+Cape,120,Epic,DEF %,6,3,Black
+Cape,120,Epic,All Stats %,3,2,Black
+Cape,120,Unique,STR %,9,5,Black
+Cape,120,Unique,DEX %,9,5,Black
+Cape,120,Unique,INT %,9,5,Black
+Cape,120,Unique,LUK %,9,5,Black
+Cape,120,Unique,Max HP %,9,6,Black
+Cape,120,Unique,Max MP %,9,6,Black
+Cape,120,Unique,DEF %,9,4,Black
+Cape,120,Unique,All Stats %,6,4,Black
+Cape,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Cape,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Cape,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Cape,120,Legendary,STR %,12,4,Black
+Cape,120,Legendary,DEX %,12,4,Black
+Cape,120,Legendary,INT %,12,4,Black
+Cape,120,Legendary,LUK %,12,4,Black
+Cape,120,Legendary,Max HP %,12,4,Black
+Cape,120,Legendary,Max MP %,12,4,Black
+Cape,120,Legendary,DEF %,12,4,Black
+Cape,120,Legendary,All Stats %,9,3,Black
+Cape,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Cape,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Belt,120,Normal,STR,6,1,Black
+Belt,120,Normal,DEX,6,1,Black
+Belt,120,Normal,INT,6,1,Black
+Belt,120,Normal,LUK,6,1,Black
+Belt,120,Normal,Max HP,60,1,Black
+Belt,120,Normal,Max MP,60,1,Black
+Belt,120,Normal,DEF,60,1,Black
+Belt,120,Rare,STR,12,3,Black
+Belt,120,Rare,DEX,12,3,Black
+Belt,120,Rare,INT,12,3,Black
+Belt,120,Rare,LUK,12,3,Black
+Belt,120,Rare,Max HP,120,3,Black
+Belt,120,Rare,Max MP,120,3,Black
+Belt,120,Rare,DEF,120,2,Black
+Belt,120,Rare,STR %,3,3,Black
+Belt,120,Rare,DEX %,3,3,Black
+Belt,120,Rare,INT %,3,3,Black
+Belt,120,Rare,LUK %,3,3,Black
+Belt,120,Rare,Max HP %,3,2,Black
+Belt,120,Rare,Max MP %,3,2,Black
+Belt,120,Rare,DEF %,3,2,Black
+Belt,120,Rare,All Stats,5,2,Black
+Belt,120,Epic,STR %,6,5,Black
+Belt,120,Epic,DEX %,6,5,Black
+Belt,120,Epic,INT %,6,5,Black
+Belt,120,Epic,LUK %,6,5,Black
+Belt,120,Epic,Max HP %,6,5,Black
+Belt,120,Epic,Max MP %,6,5,Black
+Belt,120,Epic,DEF %,6,3,Black
+Belt,120,Epic,All Stats %,3,2,Black
+Belt,120,Unique,STR %,9,5,Black
+Belt,120,Unique,DEX %,9,5,Black
+Belt,120,Unique,INT %,9,5,Black
+Belt,120,Unique,LUK %,9,5,Black
+Belt,120,Unique,Max HP %,9,6,Black
+Belt,120,Unique,Max MP %,9,6,Black
+Belt,120,Unique,DEF %,9,4,Black
+Belt,120,Unique,All Stats %,6,4,Black
+Belt,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Belt,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Belt,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Belt,120,Legendary,STR %,12,4,Black
+Belt,120,Legendary,DEX %,12,4,Black
+Belt,120,Legendary,INT %,12,4,Black
+Belt,120,Legendary,LUK %,12,4,Black
+Belt,120,Legendary,Max HP %,12,4,Black
+Belt,120,Legendary,Max MP %,12,4,Black
+Belt,120,Legendary,DEF %,12,4,Black
+Belt,120,Legendary,All Stats %,9,3,Black
+Belt,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Belt,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Shoulder,120,Normal,STR,6,1,Black
+Shoulder,120,Normal,DEX,6,1,Black
+Shoulder,120,Normal,INT,6,1,Black
+Shoulder,120,Normal,LUK,6,1,Black
+Shoulder,120,Normal,Max HP,60,1,Black
+Shoulder,120,Normal,Max MP,60,1,Black
+Shoulder,120,Normal,DEF,60,1,Black
+Shoulder,120,Rare,STR,12,3,Black
+Shoulder,120,Rare,DEX,12,3,Black
+Shoulder,120,Rare,INT,12,3,Black
+Shoulder,120,Rare,LUK,12,3,Black
+Shoulder,120,Rare,Max HP,120,3,Black
+Shoulder,120,Rare,Max MP,120,3,Black
+Shoulder,120,Rare,DEF,120,2,Black
+Shoulder,120,Rare,STR %,3,3,Black
+Shoulder,120,Rare,DEX %,3,3,Black
+Shoulder,120,Rare,INT %,3,3,Black
+Shoulder,120,Rare,LUK %,3,3,Black
+Shoulder,120,Rare,Max HP %,3,2,Black
+Shoulder,120,Rare,Max MP %,3,2,Black
+Shoulder,120,Rare,DEF %,3,2,Black
+Shoulder,120,Rare,All Stats,5,2,Black
+Shoulder,120,Epic,STR %,6,5,Black
+Shoulder,120,Epic,DEX %,6,5,Black
+Shoulder,120,Epic,INT %,6,5,Black
+Shoulder,120,Epic,LUK %,6,5,Black
+Shoulder,120,Epic,Max HP %,6,5,Black
+Shoulder,120,Epic,Max MP %,6,5,Black
+Shoulder,120,Epic,DEF %,6,3,Black
+Shoulder,120,Epic,All Stats %,3,2,Black
+Shoulder,120,Unique,STR %,9,5,Black
+Shoulder,120,Unique,DEX %,9,5,Black
+Shoulder,120,Unique,INT %,9,5,Black
+Shoulder,120,Unique,LUK %,9,5,Black
+Shoulder,120,Unique,Max HP %,9,6,Black
+Shoulder,120,Unique,Max MP %,9,6,Black
+Shoulder,120,Unique,DEF %,9,4,Black
+Shoulder,120,Unique,All Stats %,6,4,Black
+Shoulder,120,Unique,5% chance to ignore 20% damage received,1,4,Black
+Shoulder,120,Unique,5% chance to ignore 40% damage received,1,4,Black
+Shoulder,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Shoulder,120,Legendary,STR %,12,4,Black
+Shoulder,120,Legendary,DEX %,12,4,Black
+Shoulder,120,Legendary,INT %,12,4,Black
+Shoulder,120,Legendary,LUK %,12,4,Black
+Shoulder,120,Legendary,Max HP %,12,4,Black
+Shoulder,120,Legendary,Max MP %,12,4,Black
+Shoulder,120,Legendary,DEF %,12,4,Black
+Shoulder,120,Legendary,All Stats %,9,3,Black
+Shoulder,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
+Shoulder,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
+Face Accessory,120,Normal,STR,6,1,Black
+Face Accessory,120,Normal,DEX,6,1,Black
+Face Accessory,120,Normal,INT,6,1,Black
+Face Accessory,120,Normal,LUK,6,1,Black
+Face Accessory,120,Normal,Max HP,60,1,Black
+Face Accessory,120,Normal,Max MP,60,1,Black
+Face Accessory,120,Normal,DEF,60,1,Black
+Face Accessory,120,Rare,STR,12,3,Black
+Face Accessory,120,Rare,DEX,12,3,Black
+Face Accessory,120,Rare,INT,12,3,Black
+Face Accessory,120,Rare,LUK,12,3,Black
+Face Accessory,120,Rare,Max HP,120,3,Black
+Face Accessory,120,Rare,Max MP,120,3,Black
+Face Accessory,120,Rare,DEF,120,2,Black
+Face Accessory,120,Rare,STR %,3,3,Black
+Face Accessory,120,Rare,DEX %,3,3,Black
+Face Accessory,120,Rare,INT %,3,3,Black
+Face Accessory,120,Rare,LUK %,3,3,Black
+Face Accessory,120,Rare,Max HP %,3,2,Black
+Face Accessory,120,Rare,Max MP %,3,2,Black
+Face Accessory,120,Rare,DEF %,3,2,Black
+Face Accessory,120,Rare,All Stats,5,2,Black
+Face Accessory,120,Epic,STR %,6,5,Black
+Face Accessory,120,Epic,DEX %,6,5,Black
+Face Accessory,120,Epic,INT %,6,5,Black
+Face Accessory,120,Epic,LUK %,6,5,Black
+Face Accessory,120,Epic,Max HP %,6,5,Black
+Face Accessory,120,Epic,Max MP %,6,5,Black
+Face Accessory,120,Epic,DEF %,6,3,Black
+Face Accessory,120,Epic,All Stats %,3,2,Black
+Face Accessory,120,Unique,STR %,9,5,Black
+Face Accessory,120,Unique,DEX %,9,5,Black
+Face Accessory,120,Unique,INT %,9,5,Black
+Face Accessory,120,Unique,LUK %,9,5,Black
+Face Accessory,120,Unique,Max HP %,9,6,Black
+Face Accessory,120,Unique,Max MP %,9,6,Black
+Face Accessory,120,Unique,DEF %,9,4,Black
+Face Accessory,120,Unique,All Stats %,6,4,Black
+Face Accessory,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Face Accessory,120,Legendary,STR %,12,4,Black
+Face Accessory,120,Legendary,DEX %,12,4,Black
+Face Accessory,120,Legendary,INT %,12,4,Black
+Face Accessory,120,Legendary,LUK %,12,4,Black
+Face Accessory,120,Legendary,Max HP %,12,4,Black
+Face Accessory,120,Legendary,Max MP %,12,4,Black
+Face Accessory,120,Legendary,DEF %,12,4,Black
+Face Accessory,120,Legendary,All Stats %,9,3,Black
+Face Accessory,120,Legendary,All Skill MP Cost %,15,3,Black
+Face Accessory,120,Legendary,All Skill MP Cost %,30,3,Black
+Face Accessory,120,Legendary,Meso Obtained %,20,3,Black
+Face Accessory,120,Legendary,Item Drop Rate %,20,3,Black
+Eye Accessory,120,Normal,STR,6,1,Black
+Eye Accessory,120,Normal,DEX,6,1,Black
+Eye Accessory,120,Normal,INT,6,1,Black
+Eye Accessory,120,Normal,LUK,6,1,Black
+Eye Accessory,120,Normal,Max HP,60,1,Black
+Eye Accessory,120,Normal,Max MP,60,1,Black
+Eye Accessory,120,Normal,DEF,60,1,Black
+Eye Accessory,120,Rare,STR,12,3,Black
+Eye Accessory,120,Rare,DEX,12,3,Black
+Eye Accessory,120,Rare,INT,12,3,Black
+Eye Accessory,120,Rare,LUK,12,3,Black
+Eye Accessory,120,Rare,Max HP,120,3,Black
+Eye Accessory,120,Rare,Max MP,120,3,Black
+Eye Accessory,120,Rare,DEF,120,2,Black
+Eye Accessory,120,Rare,STR %,3,3,Black
+Eye Accessory,120,Rare,DEX %,3,3,Black
+Eye Accessory,120,Rare,INT %,3,3,Black
+Eye Accessory,120,Rare,LUK %,3,3,Black
+Eye Accessory,120,Rare,Max HP %,3,2,Black
+Eye Accessory,120,Rare,Max MP %,3,2,Black
+Eye Accessory,120,Rare,DEF %,3,2,Black
+Eye Accessory,120,Rare,All Stats,5,2,Black
+Eye Accessory,120,Epic,STR %,6,5,Black
+Eye Accessory,120,Epic,DEX %,6,5,Black
+Eye Accessory,120,Epic,INT %,6,5,Black
+Eye Accessory,120,Epic,LUK %,6,5,Black
+Eye Accessory,120,Epic,Max HP %,6,5,Black
+Eye Accessory,120,Epic,Max MP %,6,5,Black
+Eye Accessory,120,Epic,DEF %,6,3,Black
+Eye Accessory,120,Epic,All Stats %,3,2,Black
+Eye Accessory,120,Unique,STR %,9,5,Black
+Eye Accessory,120,Unique,DEX %,9,5,Black
+Eye Accessory,120,Unique,INT %,9,5,Black
+Eye Accessory,120,Unique,LUK %,9,5,Black
+Eye Accessory,120,Unique,Max HP %,9,6,Black
+Eye Accessory,120,Unique,Max MP %,9,6,Black
+Eye Accessory,120,Unique,DEF %,9,4,Black
+Eye Accessory,120,Unique,All Stats %,6,4,Black
+Eye Accessory,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Eye Accessory,120,Legendary,STR %,12,4,Black
+Eye Accessory,120,Legendary,DEX %,12,4,Black
+Eye Accessory,120,Legendary,INT %,12,4,Black
+Eye Accessory,120,Legendary,LUK %,12,4,Black
+Eye Accessory,120,Legendary,Max HP %,12,4,Black
+Eye Accessory,120,Legendary,Max MP %,12,4,Black
+Eye Accessory,120,Legendary,DEF %,12,4,Black
+Eye Accessory,120,Legendary,All Stats %,9,3,Black
+Eye Accessory,120,Legendary,All Skill MP Cost %,15,3,Black
+Eye Accessory,120,Legendary,All Skill MP Cost %,30,3,Black
+Eye Accessory,120,Legendary,Meso Obtained %,20,3,Black
+Eye Accessory,120,Legendary,Item Drop Rate %,20,3,Black
+Earring,120,Normal,STR,6,1,Black
+Earring,120,Normal,DEX,6,1,Black
+Earring,120,Normal,INT,6,1,Black
+Earring,120,Normal,LUK,6,1,Black
+Earring,120,Normal,Max HP,60,1,Black
+Earring,120,Normal,Max MP,60,1,Black
+Earring,120,Normal,DEF,60,1,Black
+Earring,120,Rare,STR,12,3,Black
+Earring,120,Rare,DEX,12,3,Black
+Earring,120,Rare,INT,12,3,Black
+Earring,120,Rare,LUK,12,3,Black
+Earring,120,Rare,Max HP,120,3,Black
+Earring,120,Rare,Max MP,120,3,Black
+Earring,120,Rare,DEF,120,2,Black
+Earring,120,Rare,STR %,3,3,Black
+Earring,120,Rare,DEX %,3,3,Black
+Earring,120,Rare,INT %,3,3,Black
+Earring,120,Rare,LUK %,3,3,Black
+Earring,120,Rare,Max HP %,3,2,Black
+Earring,120,Rare,Max MP %,3,2,Black
+Earring,120,Rare,DEF %,3,2,Black
+Earring,120,Rare,All Stats,5,2,Black
+Earring,120,Epic,STR %,6,5,Black
+Earring,120,Epic,DEX %,6,5,Black
+Earring,120,Epic,INT %,6,5,Black
+Earring,120,Epic,LUK %,6,5,Black
+Earring,120,Epic,Max HP %,6,5,Black
+Earring,120,Epic,Max MP %,6,5,Black
+Earring,120,Epic,DEF %,6,3,Black
+Earring,120,Epic,All Stats %,3,2,Black
+Earring,120,Unique,STR %,9,5,Black
+Earring,120,Unique,DEX %,9,5,Black
+Earring,120,Unique,INT %,9,5,Black
+Earring,120,Unique,LUK %,9,5,Black
+Earring,120,Unique,Max HP %,9,6,Black
+Earring,120,Unique,Max MP %,9,6,Black
+Earring,120,Unique,DEF %,9,4,Black
+Earring,120,Unique,All Stats %,6,4,Black
+Earring,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Earring,120,Legendary,STR %,12,4,Black
+Earring,120,Legendary,DEX %,12,4,Black
+Earring,120,Legendary,INT %,12,4,Black
+Earring,120,Legendary,LUK %,12,4,Black
+Earring,120,Legendary,Max HP %,12,4,Black
+Earring,120,Legendary,Max MP %,12,4,Black
+Earring,120,Legendary,DEF %,12,4,Black
+Earring,120,Legendary,All Stats %,9,3,Black
+Earring,120,Legendary,All Skill MP Cost %,15,3,Black
+Earring,120,Legendary,All Skill MP Cost %,30,3,Black
+Earring,120,Legendary,Meso Obtained %,20,3,Black
+Earring,120,Legendary,Item Drop Rate %,20,3,Black
+Ring,120,Normal,STR,6,1,Black
+Ring,120,Normal,DEX,6,1,Black
+Ring,120,Normal,INT,6,1,Black
+Ring,120,Normal,LUK,6,1,Black
+Ring,120,Normal,Max HP,60,1,Black
+Ring,120,Normal,Max MP,60,1,Black
+Ring,120,Normal,DEF,60,1,Black
+Ring,120,Rare,STR,12,3,Black
+Ring,120,Rare,DEX,12,3,Black
+Ring,120,Rare,INT,12,3,Black
+Ring,120,Rare,LUK,12,3,Black
+Ring,120,Rare,Max HP,120,3,Black
+Ring,120,Rare,Max MP,120,3,Black
+Ring,120,Rare,DEF,120,2,Black
+Ring,120,Rare,STR %,3,3,Black
+Ring,120,Rare,DEX %,3,3,Black
+Ring,120,Rare,INT %,3,3,Black
+Ring,120,Rare,LUK %,3,3,Black
+Ring,120,Rare,Max HP %,3,2,Black
+Ring,120,Rare,Max MP %,3,2,Black
+Ring,120,Rare,DEF %,3,2,Black
+Ring,120,Rare,All Stats,5,2,Black
+Ring,120,Epic,STR %,6,5,Black
+Ring,120,Epic,DEX %,6,5,Black
+Ring,120,Epic,INT %,6,5,Black
+Ring,120,Epic,LUK %,6,5,Black
+Ring,120,Epic,Max HP %,6,5,Black
+Ring,120,Epic,Max MP %,6,5,Black
+Ring,120,Epic,DEF %,6,3,Black
+Ring,120,Epic,All Stats %,3,2,Black
+Ring,120,Unique,STR %,9,5,Black
+Ring,120,Unique,DEX %,9,5,Black
+Ring,120,Unique,INT %,9,5,Black
+Ring,120,Unique,LUK %,9,5,Black
+Ring,120,Unique,Max HP %,9,6,Black
+Ring,120,Unique,Max MP %,9,6,Black
+Ring,120,Unique,DEF %,9,4,Black
+Ring,120,Unique,All Stats %,6,4,Black
+Ring,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Ring,120,Legendary,STR %,12,4,Black
+Ring,120,Legendary,DEX %,12,4,Black
+Ring,120,Legendary,INT %,12,4,Black
+Ring,120,Legendary,LUK %,12,4,Black
+Ring,120,Legendary,Max HP %,12,4,Black
+Ring,120,Legendary,Max MP %,12,4,Black
+Ring,120,Legendary,DEF %,12,4,Black
+Ring,120,Legendary,All Stats %,9,3,Black
+Ring,120,Legendary,All Skill MP Cost %,15,3,Black
+Ring,120,Legendary,All Skill MP Cost %,30,3,Black
+Ring,120,Legendary,Meso Obtained %,20,3,Black
+Ring,120,Legendary,Item Drop Rate %,20,3,Black
+Pendant,120,Normal,STR,6,1,Black
+Pendant,120,Normal,DEX,6,1,Black
+Pendant,120,Normal,INT,6,1,Black
+Pendant,120,Normal,LUK,6,1,Black
+Pendant,120,Normal,Max HP,60,1,Black
+Pendant,120,Normal,Max MP,60,1,Black
+Pendant,120,Normal,DEF,60,1,Black
+Pendant,120,Rare,STR,12,3,Black
+Pendant,120,Rare,DEX,12,3,Black
+Pendant,120,Rare,INT,12,3,Black
+Pendant,120,Rare,LUK,12,3,Black
+Pendant,120,Rare,Max HP,120,3,Black
+Pendant,120,Rare,Max MP,120,3,Black
+Pendant,120,Rare,DEF,120,2,Black
+Pendant,120,Rare,STR %,3,3,Black
+Pendant,120,Rare,DEX %,3,3,Black
+Pendant,120,Rare,INT %,3,3,Black
+Pendant,120,Rare,LUK %,3,3,Black
+Pendant,120,Rare,Max HP %,3,2,Black
+Pendant,120,Rare,Max MP %,3,2,Black
+Pendant,120,Rare,DEF %,3,2,Black
+Pendant,120,Rare,All Stats,5,2,Black
+Pendant,120,Epic,STR %,6,5,Black
+Pendant,120,Epic,DEX %,6,5,Black
+Pendant,120,Epic,INT %,6,5,Black
+Pendant,120,Epic,LUK %,6,5,Black
+Pendant,120,Epic,Max HP %,6,5,Black
+Pendant,120,Epic,Max MP %,6,5,Black
+Pendant,120,Epic,DEF %,6,3,Black
+Pendant,120,Epic,All Stats %,3,2,Black
+Pendant,120,Unique,STR %,9,5,Black
+Pendant,120,Unique,DEX %,9,5,Black
+Pendant,120,Unique,INT %,9,5,Black
+Pendant,120,Unique,LUK %,9,5,Black
+Pendant,120,Unique,Max HP %,9,6,Black
+Pendant,120,Unique,Max MP %,9,6,Black
+Pendant,120,Unique,DEF %,9,4,Black
+Pendant,120,Unique,All Stats %,6,4,Black
+Pendant,120,Unique,HP Recovery % (on items and skills),30,4,Black
+Pendant,120,Legendary,STR %,12,4,Black
+Pendant,120,Legendary,DEX %,12,4,Black
+Pendant,120,Legendary,INT %,12,4,Black
+Pendant,120,Legendary,LUK %,12,4,Black
+Pendant,120,Legendary,Max HP %,12,4,Black
+Pendant,120,Legendary,Max MP %,12,4,Black
+Pendant,120,Legendary,DEF %,12,4,Black
+Pendant,120,Legendary,All Stats %,9,3,Black
+Pendant,120,Legendary,All Skill MP Cost %,15,3,Black
+Pendant,120,Legendary,All Skill MP Cost %,30,3,Black
+Pendant,120,Legendary,Meso Obtained %,20,3,Black
+Pendant,120,Legendary,Item Drop Rate %,20,3,Black
+Heart,100,Normal,STR,6,1,Black
+Heart,100,Normal,DEX,6,1,Black
+Heart,100,Normal,INT,6,1,Black
+Heart,100,Normal,LUK,6,1,Black
+Heart,100,Normal,Max HP,50,1,Black
+Heart,100,Normal,Max MP,50,1,Black
+Heart,100,Normal,DEF,50,1,Black
+Heart,100,Rare,STR,12,3,Black
+Heart,100,Rare,DEX,12,3,Black
+Heart,100,Rare,INT,12,3,Black
+Heart,100,Rare,LUK,12,3,Black
+Heart,100,Rare,Max HP,100,3,Black
+Heart,100,Rare,Max MP,100,3,Black
+Heart,100,Rare,DEF,100,2,Black
+Heart,100,Rare,STR %,3,3,Black
+Heart,100,Rare,DEX %,3,3,Black
+Heart,100,Rare,INT %,3,3,Black
+Heart,100,Rare,LUK %,3,3,Black
+Heart,100,Rare,Max HP %,3,2,Black
+Heart,100,Rare,Max MP %,3,2,Black
+Heart,100,Rare,DEF %,3,2,Black
+Heart,100,Rare,All Stats,5,2,Black
+Heart,100,Epic,STR %,6,5,Black
+Heart,100,Epic,DEX %,6,5,Black
+Heart,100,Epic,INT %,6,5,Black
+Heart,100,Epic,LUK %,6,5,Black
+Heart,100,Epic,Max HP %,6,5,Black
+Heart,100,Epic,Max MP %,6,5,Black
+Heart,100,Epic,DEF %,6,3,Black
+Heart,100,Epic,All Stats %,3,2,Black
+Heart,100,Unique,STR %,9,5,Black
+Heart,100,Unique,DEX %,9,5,Black
+Heart,100,Unique,INT %,9,5,Black
+Heart,100,Unique,LUK %,9,5,Black
+Heart,100,Unique,Max HP %,9,6,Black
+Heart,100,Unique,Max MP %,9,6,Black
+Heart,100,Unique,DEF %,9,4,Black
+Heart,100,Unique,All Stats %,6,4,Black
+Heart,100,Unique,HP Recovery % (on items and skills),30,4,Black
+Heart,100,Legendary,STR %,12,4,Black
+Heart,100,Legendary,DEX %,12,4,Black
+Heart,100,Legendary,INT %,12,4,Black
+Heart,100,Legendary,LUK %,12,4,Black
+Heart,100,Legendary,Max HP %,12,4,Black
+Heart,100,Legendary,Max MP %,12,4,Black
+Heart,100,Legendary,DEF %,12,4,Black
+Heart,100,Legendary,All Stats %,9,3,Black
+Weapon,120,Normal,STR,6,2,Additional
+Weapon,120,Normal,DEX,6,2,Additional
+Weapon,120,Normal,INT,6,2,Additional
+Weapon,120,Normal,LUK,6,2,Additional
+Weapon,120,Normal,Max HP,60,3,Additional
+Weapon,120,Normal,Max MP,60,3,Additional
+Weapon,120,Normal,Speed,4,3,Additional
+Weapon,120,Normal,Jump,4,3,Additional
+Weapon,120,Normal,DEF,60,3,Additional
+Weapon,120,Normal,Attack,6,2,Additional
+Weapon,120,Normal,Magic Attack,6,2,Additional
+Weapon,120,Rare,Max HP,100,3,Additional
+Weapon,120,Rare,Max MP,100,3,Additional
+Weapon,120,Rare,Speed,6,3,Additional
+Weapon,120,Rare,Jump,6,3,Additional
+Weapon,120,Rare,DEF,100,3,Additional
+Weapon,120,Rare,STR,12,3,Additional
+Weapon,120,Rare,DEX,12,3,Additional
+Weapon,120,Rare,INT,12,3,Additional
+Weapon,120,Rare,LUK,12,3,Additional
+Weapon,120,Rare,Attack,12,2,Additional
+Weapon,120,Rare,Magic Attack,12,2,Additional
+Weapon,120,Rare,Max HP %,2,2,Additional
+Weapon,120,Rare,Max MP %,2,2,Additional
+Weapon,120,Rare,STR %,3,2,Additional
+Weapon,120,Rare,DEX %,3,2,Additional
+Weapon,120,Rare,INT %,3,2,Additional
+Weapon,120,Rare,LUK %,3,2,Additional
+Weapon,120,Rare,ATT %,3,1,Additional
+Weapon,120,Rare,Magic ATT %,3,1,Additional
+Weapon,120,Rare,Critical Rate %,4,2,Additional
+Weapon,120,Rare,Damage %,3,1,Additional
+Weapon,120,Rare,All Stats,5,3,Additional
+Weapon,120,Epic,Max HP %,5,3,Additional
+Weapon,120,Epic,Max MP %,5,3,Additional
+Weapon,120,Epic,ATT %,6,2,Additional
+Weapon,120,Epic,Magic ATT %,6,2,Additional
+Weapon,120,Epic,Critical Rate %,6,1,Additional
+Weapon,120,Epic,STR %,6,3,Additional
+Weapon,120,Epic,DEX %,6,3,Additional
+Weapon,120,Epic,INT %,6,3,Additional
+Weapon,120,Epic,LUK %,6,3,Additional
+Weapon,120,Epic,Damage %,6,1,Additional
+Weapon,120,Epic,All Stats %,3,2,Additional
+Weapon,120,Epic,3% chance of recovering 53 HP on attack,1,3,Additional
+Weapon,120,Epic,3% chance of recovering 53 MP on attack,1,3,Additional
+Weapon,120,Epic,Ignore Enemy DEF %,3,2,Additional
+Weapon,120,Unique,Max HP %,7,3,Additional
+Weapon,120,Unique,Max MP %,7,3,Additional
+Weapon,120,Unique,ATT %,9,2,Additional
+Weapon,120,Unique,Magic ATT %,9,2,Additional
+Weapon,120,Unique,Critical Rate %,9,2,Additional
+Weapon,120,Unique,STR %,9,3,Additional
+Weapon,120,Unique,DEX %,9,3,Additional
+Weapon,120,Unique,INT %,9,3,Additional
+Weapon,120,Unique,LUK %,9,3,Additional
+Weapon,120,Unique,Damage %,9,1,Additional
+Weapon,120,Unique,All Stats %,6,2,Additional
+Weapon,120,Unique,STR per 10 character levels,1,2,Additional
+Weapon,120,Unique,DEX per 10 character levels,1,2,Additional
+Weapon,120,Unique,INT per 10 character levels,1,2,Additional
+Weapon,120,Unique,LUK per 10 character levels,1,2,Additional
+Weapon,120,Unique,15% chance of recovering 95 HP on attack,1,3,Additional
+Weapon,120,Unique,15% chance of recovering 95 MP on attack,1,3,Additional
+Weapon,120,Unique,Ignore Enemy DEF %,4,1,Additional
+Weapon,120,Unique,Boss Damage %,12,1,Additional
+Weapon,120,Legendary,Max HP %,10,3,Additional
+Weapon,120,Legendary,Max MP %,10,3,Additional
+Weapon,120,Legendary,ATT %,12,2,Additional
+Weapon,120,Legendary,Magic ATT %,12,2,Additional
+Weapon,120,Legendary,Critical Rate %,12,2,Additional
+Weapon,120,Legendary,STR %,12,3,Additional
+Weapon,120,Legendary,DEX %,12,3,Additional
+Weapon,120,Legendary,INT %,12,3,Additional
+Weapon,120,Legendary,LUK %,12,3,Additional
+Weapon,120,Legendary,Damage %,12,1,Additional
+Weapon,120,Legendary,All Stats %,9,2,Additional
+Weapon,120,Legendary,STR per 10 character levels,2,2,Additional
+Weapon,120,Legendary,DEX per 10 character levels,2,2,Additional
+Weapon,120,Legendary,INT per 10 character levels,2,2,Additional
+Weapon,120,Legendary,LUK per 10 character levels,2,2,Additional
+Weapon,120,Legendary,ATT per 10 character levels,1,1,Additional
+Weapon,120,Legendary,Magic ATT per 10 character levels,1,1,Additional
+Weapon,120,Legendary,Status Resistance,5,1,Additional
+Weapon,120,Legendary,Ignore Enemy DEF %,5,1,Additional
+Weapon,120,Legendary,Boss Damage %,18,1,Additional
+Emblem,100,Normal,STR,6,2,Additional
+Emblem,100,Normal,DEX,6,2,Additional
+Emblem,100,Normal,INT,6,2,Additional
+Emblem,100,Normal,LUK,6,2,Additional
+Emblem,100,Normal,Max HP,50,3,Additional
+Emblem,100,Normal,Max MP,50,3,Additional
+Emblem,100,Normal,Speed,3,3,Additional
+Emblem,100,Normal,Jump,3,3,Additional
+Emblem,100,Normal,DEF,50,3,Additional
+Emblem,100,Normal,Attack,6,2,Additional
+Emblem,100,Normal,Magic Attack,6,2,Additional
+Emblem,100,Rare,Max HP,100,3,Additional
+Emblem,100,Rare,Max MP,100,3,Additional
+Emblem,100,Rare,Speed,5,3,Additional
+Emblem,100,Rare,Jump,5,3,Additional
+Emblem,100,Rare,DEF,100,3,Additional
+Emblem,100,Rare,STR,12,3,Additional
+Emblem,100,Rare,DEX,12,3,Additional
+Emblem,100,Rare,INT,12,3,Additional
+Emblem,100,Rare,LUK,12,3,Additional
+Emblem,100,Rare,Attack,12,2,Additional
+Emblem,100,Rare,Magic Attack,12,2,Additional
+Emblem,100,Rare,Max HP %,2,2,Additional
+Emblem,100,Rare,Max MP %,2,2,Additional
+Emblem,100,Rare,STR %,3,2,Additional
+Emblem,100,Rare,DEX %,3,2,Additional
+Emblem,100,Rare,INT %,3,2,Additional
+Emblem,100,Rare,LUK %,3,2,Additional
+Emblem,100,Rare,ATT %,3,1,Additional
+Emblem,100,Rare,Magic ATT %,3,1,Additional
+Emblem,100,Rare,Critical Rate %,3,2,Additional
+Emblem,100,Rare,Damage %,3,1,Additional
+Emblem,100,Rare,All Stats,5,3,Additional
+Emblem,100,Epic,Max HP %,5,3,Additional
+Emblem,100,Epic,Max MP %,5,3,Additional
+Emblem,100,Epic,ATT %,6,2,Additional
+Emblem,100,Epic,Magic ATT %,6,2,Additional
+Emblem,100,Epic,Critical Rate %,6,1,Additional
+Emblem,100,Epic,STR %,6,3,Additional
+Emblem,100,Epic,DEX %,6,3,Additional
+Emblem,100,Epic,INT %,6,3,Additional
+Emblem,100,Epic,LUK %,6,3,Additional
+Emblem,100,Epic,Damage %,6,1,Additional
+Emblem,100,Epic,All Stats %,3,2,Additional
+Emblem,100,Epic,3% chance of recovering 47 HP on attack,1,3,Additional
+Emblem,100,Epic,3% chance of recovering 47 MP on attack,1,3,Additional
+Emblem,100,Epic,Ignore Enemy DEF %,3,2,Additional
+Emblem,100,Unique,Max HP %,7,3,Additional
+Emblem,100,Unique,Max MP %,7,3,Additional
+Emblem,100,Unique,ATT %,9,2,Additional
+Emblem,100,Unique,Magic ATT %,9,2,Additional
+Emblem,100,Unique,Critical Rate %,9,2,Additional
+Emblem,100,Unique,STR %,9,3,Additional
+Emblem,100,Unique,DEX %,9,3,Additional
+Emblem,100,Unique,INT %,9,3,Additional
+Emblem,100,Unique,LUK %,9,3,Additional
+Emblem,100,Unique,Damage %,9,1,Additional
+Emblem,100,Unique,All Stats %,6,2,Additional
+Emblem,100,Unique,STR per 10 character levels,1,2,Additional
+Emblem,100,Unique,DEX per 10 character levels,1,2,Additional
+Emblem,100,Unique,INT per 10 character levels,1,2,Additional
+Emblem,100,Unique,LUK per 10 character levels,1,2,Additional
+Emblem,100,Unique,15% chance of recovering 85 HP on attack,1,3,Additional
+Emblem,100,Unique,15% chance of recovering 85 MP on attack,1,3,Additional
+Emblem,100,Unique,Ignore Enemy DEF %,4,1,Additional
+Emblem,100,Legendary,Max HP %,10,3,Additional
+Emblem,100,Legendary,Max MP %,10,3,Additional
+Emblem,100,Legendary,ATT %,12,2,Additional
+Emblem,100,Legendary,Magic ATT %,12,2,Additional
+Emblem,100,Legendary,Critical Rate %,12,2,Additional
+Emblem,100,Legendary,STR %,12,3,Additional
+Emblem,100,Legendary,DEX %,12,3,Additional
+Emblem,100,Legendary,INT %,12,3,Additional
+Emblem,100,Legendary,LUK %,12,3,Additional
+Emblem,100,Legendary,Damage %,12,1,Additional
+Emblem,100,Legendary,All Stats %,9,2,Additional
+Emblem,100,Legendary,STR per 10 character levels,2,2,Additional
+Emblem,100,Legendary,DEX per 10 character levels,2,2,Additional
+Emblem,100,Legendary,INT per 10 character levels,2,2,Additional
+Emblem,100,Legendary,LUK per 10 character levels,2,2,Additional
+Emblem,100,Legendary,ATT per 10 character levels,1,1,Additional
+Emblem,100,Legendary,Magic ATT per 10 character levels,1,1,Additional
+Emblem,100,Legendary,Status Resistance,5,1,Additional
+Emblem,100,Legendary,Ignore Enemy DEF %,5,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,STR,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,DEX,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,INT,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,LUK,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max HP,50,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max MP,50,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Speed,3,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Jump,3,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,DEF,50,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Attack,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Magic Attack,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max HP,100,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max MP,100,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Speed,5,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Jump,5,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEF,100,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR,12,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX,12,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT,12,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK,12,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Attack,12,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic Attack,12,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max HP %,2,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max MP %,2,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR %,3,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX %,3,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT %,3,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK %,3,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,ATT %,3,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic ATT %,3,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Critical Rate %,3,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Damage %,3,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,All Stats,5,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max HP %,5,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max MP %,5,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,ATT %,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Magic ATT %,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Critical Rate %,6,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,STR %,6,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,DEX %,6,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,INT %,6,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,LUK %,6,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Damage %,6,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,All Stats %,3,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,3% chance of recovering 47 HP on attack,1,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,3% chance of recovering 47 MP on attack,1,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Ignore Enemy DEF %,3,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Max HP %,7,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Max MP %,7,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,ATT %,9,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Magic ATT %,9,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Critical Rate %,9,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,STR %,9,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,DEX %,9,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,INT %,9,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,LUK %,9,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Damage %,9,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,All Stats %,6,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,STR per 10 character levels,1,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,DEX per 10 character levels,1,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,INT per 10 character levels,1,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,LUK per 10 character levels,1,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,15% chance of recovering 85 HP on attack,1,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,15% chance of recovering 85 MP on attack,1,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Ignore Enemy DEF %,4,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,12,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Max HP %,10,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Max MP %,10,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,ATT %,12,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Magic ATT %,12,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Critical Rate %,12,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Critical Damage %,1,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Critical Damage %,1,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,STR %,12,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,DEX %,12,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,INT %,12,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,LUK %,12,3,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Damage %,12,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,All Stats %,9,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,STR per 10 character levels,2,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,DEX per 10 character levels,2,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,INT per 10 character levels,2,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,LUK per 10 character levels,2,2,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,ATT per 10 character levels,1,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Magic ATT per 10 character levels,1,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Status Resistance,5,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,5,1,Additional
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,18,1,Additional
+Force Shield/Soul Ring,100,Normal,STR,6,2,Additional
+Force Shield/Soul Ring,100,Normal,DEX,6,2,Additional
+Force Shield/Soul Ring,100,Normal,INT,6,2,Additional
+Force Shield/Soul Ring,100,Normal,LUK,6,2,Additional
+Force Shield/Soul Ring,100,Normal,Max HP,50,3,Additional
+Force Shield/Soul Ring,100,Normal,Max MP,50,3,Additional
+Force Shield/Soul Ring,100,Normal,Speed,3,3,Additional
+Force Shield/Soul Ring,100,Normal,Jump,3,3,Additional
+Force Shield/Soul Ring,100,Normal,DEF,50,3,Additional
+Force Shield/Soul Ring,100,Normal,Attack,6,2,Additional
+Force Shield/Soul Ring,100,Normal,Magic Attack,6,2,Additional
+Force Shield/Soul Ring,100,Rare,Max HP,100,3,Additional
+Force Shield/Soul Ring,100,Rare,Max MP,100,3,Additional
+Force Shield/Soul Ring,100,Rare,Speed,5,3,Additional
+Force Shield/Soul Ring,100,Rare,Jump,5,3,Additional
+Force Shield/Soul Ring,100,Rare,DEF,100,3,Additional
+Force Shield/Soul Ring,100,Rare,STR,12,3,Additional
+Force Shield/Soul Ring,100,Rare,DEX,12,3,Additional
+Force Shield/Soul Ring,100,Rare,INT,12,3,Additional
+Force Shield/Soul Ring,100,Rare,LUK,12,3,Additional
+Force Shield/Soul Ring,100,Rare,Attack,12,2,Additional
+Force Shield/Soul Ring,100,Rare,Magic Attack,12,2,Additional
+Force Shield/Soul Ring,100,Rare,Max HP %,2,2,Additional
+Force Shield/Soul Ring,100,Rare,Max MP %,2,2,Additional
+Force Shield/Soul Ring,100,Rare,STR %,3,2,Additional
+Force Shield/Soul Ring,100,Rare,DEX %,3,2,Additional
+Force Shield/Soul Ring,100,Rare,INT %,3,2,Additional
+Force Shield/Soul Ring,100,Rare,LUK %,3,2,Additional
+Force Shield/Soul Ring,100,Rare,ATT %,3,1,Additional
+Force Shield/Soul Ring,100,Rare,Magic ATT %,3,1,Additional
+Force Shield/Soul Ring,100,Rare,Critical Rate %,3,2,Additional
+Force Shield/Soul Ring,100,Rare,Damage %,3,1,Additional
+Force Shield/Soul Ring,100,Rare,All Stats,5,3,Additional
+Force Shield/Soul Ring,100,Epic,Max HP %,5,3,Additional
+Force Shield/Soul Ring,100,Epic,Max MP %,5,3,Additional
+Force Shield/Soul Ring,100,Epic,ATT %,6,2,Additional
+Force Shield/Soul Ring,100,Epic,Magic ATT %,6,2,Additional
+Force Shield/Soul Ring,100,Epic,Critical Rate %,6,1,Additional
+Force Shield/Soul Ring,100,Epic,STR %,6,3,Additional
+Force Shield/Soul Ring,100,Epic,DEX %,6,3,Additional
+Force Shield/Soul Ring,100,Epic,INT %,6,3,Additional
+Force Shield/Soul Ring,100,Epic,LUK %,6,3,Additional
+Force Shield/Soul Ring,100,Epic,Damage %,6,1,Additional
+Force Shield/Soul Ring,100,Epic,All Stats %,3,2,Additional
+Force Shield/Soul Ring,100,Epic,3% chance of recovering 47 HP on attack,1,3,Additional
+Force Shield/Soul Ring,100,Epic,3% chance of recovering 47 MP on attack,1,3,Additional
+Force Shield/Soul Ring,100,Epic,Ignore Enemy DEF %,3,2,Additional
+Force Shield/Soul Ring,100,Unique,Max HP %,7,3,Additional
+Force Shield/Soul Ring,100,Unique,Max MP %,7,3,Additional
+Force Shield/Soul Ring,100,Unique,ATT %,9,2,Additional
+Force Shield/Soul Ring,100,Unique,Magic ATT %,9,2,Additional
+Force Shield/Soul Ring,100,Unique,Critical Rate %,9,2,Additional
+Force Shield/Soul Ring,100,Unique,STR %,9,3,Additional
+Force Shield/Soul Ring,100,Unique,DEX %,9,3,Additional
+Force Shield/Soul Ring,100,Unique,INT %,9,3,Additional
+Force Shield/Soul Ring,100,Unique,LUK %,9,3,Additional
+Force Shield/Soul Ring,100,Unique,Damage %,9,1,Additional
+Force Shield/Soul Ring,100,Unique,All Stats %,6,2,Additional
+Force Shield/Soul Ring,100,Unique,STR per 10 character levels,1,2,Additional
+Force Shield/Soul Ring,100,Unique,DEX per 10 character levels,1,2,Additional
+Force Shield/Soul Ring,100,Unique,INT per 10 character levels,1,2,Additional
+Force Shield/Soul Ring,100,Unique,LUK per 10 character levels,1,2,Additional
+Force Shield/Soul Ring,100,Unique,15% chance of recovering 85 HP on attack,1,3,Additional
+Force Shield/Soul Ring,100,Unique,15% chance of recovering 85 MP on attack,1,3,Additional
+Force Shield/Soul Ring,100,Unique,Ignore Enemy DEF %,4,1,Additional
+Force Shield/Soul Ring,100,Unique,Boss Damage %,12,1,Additional
+Force Shield/Soul Ring,100,Legendary,Max HP %,10,3,Additional
+Force Shield/Soul Ring,100,Legendary,Max MP %,10,3,Additional
+Force Shield/Soul Ring,100,Legendary,ATT %,12,2,Additional
+Force Shield/Soul Ring,100,Legendary,Magic ATT %,12,2,Additional
+Force Shield/Soul Ring,100,Legendary,Critical Rate %,12,2,Additional
+Force Shield/Soul Ring,100,Legendary,Critical Damage %,1,1,Additional
+Force Shield/Soul Ring,100,Legendary,Critical Damage %,1,1,Additional
+Force Shield/Soul Ring,100,Legendary,STR %,12,3,Additional
+Force Shield/Soul Ring,100,Legendary,DEX %,12,3,Additional
+Force Shield/Soul Ring,100,Legendary,INT %,12,3,Additional
+Force Shield/Soul Ring,100,Legendary,LUK %,12,3,Additional
+Force Shield/Soul Ring,100,Legendary,Damage %,12,1,Additional
+Force Shield/Soul Ring,100,Legendary,All Stats %,9,2,Additional
+Force Shield/Soul Ring,100,Legendary,STR per 10 character levels,2,2,Additional
+Force Shield/Soul Ring,100,Legendary,DEX per 10 character levels,2,2,Additional
+Force Shield/Soul Ring,100,Legendary,INT per 10 character levels,2,2,Additional
+Force Shield/Soul Ring,100,Legendary,LUK per 10 character levels,2,2,Additional
+Force Shield/Soul Ring,100,Legendary,ATT per 10 character levels,1,1,Additional
+Force Shield/Soul Ring,100,Legendary,Magic ATT per 10 character levels,1,1,Additional
+Force Shield/Soul Ring,100,Legendary,Status Resistance,5,1,Additional
+Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,5,1,Additional
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,18,1,Additional
+Shield,120,Normal,STR,6,2,Additional
+Shield,120,Normal,DEX,6,2,Additional
+Shield,120,Normal,INT,6,2,Additional
+Shield,120,Normal,LUK,6,2,Additional
+Shield,120,Normal,Max HP,60,3,Additional
+Shield,120,Normal,Max MP,60,3,Additional
+Shield,120,Normal,Speed,4,3,Additional
+Shield,120,Normal,Jump,4,3,Additional
+Shield,120,Normal,DEF,60,3,Additional
+Shield,120,Normal,Attack,6,2,Additional
+Shield,120,Normal,Magic Attack,6,2,Additional
+Shield,120,Rare,Max HP,100,3,Additional
+Shield,120,Rare,Max MP,100,3,Additional
+Shield,120,Rare,Speed,6,3,Additional
+Shield,120,Rare,Jump,6,3,Additional
+Shield,120,Rare,DEF,100,3,Additional
+Shield,120,Rare,STR,12,3,Additional
+Shield,120,Rare,DEX,12,3,Additional
+Shield,120,Rare,INT,12,3,Additional
+Shield,120,Rare,LUK,12,3,Additional
+Shield,120,Rare,Attack,12,2,Additional
+Shield,120,Rare,Magic Attack,12,2,Additional
+Shield,120,Rare,Max HP %,2,2,Additional
+Shield,120,Rare,Max MP %,2,2,Additional
+Shield,120,Rare,STR %,3,2,Additional
+Shield,120,Rare,DEX %,3,2,Additional
+Shield,120,Rare,INT %,3,2,Additional
+Shield,120,Rare,LUK %,3,2,Additional
+Shield,120,Rare,ATT %,3,1,Additional
+Shield,120,Rare,Magic ATT %,3,1,Additional
+Shield,120,Rare,Critical Rate %,4,2,Additional
+Shield,120,Rare,Damage %,3,1,Additional
+Shield,120,Rare,All Stats,5,3,Additional
+Shield,120,Epic,Max HP %,5,3,Additional
+Shield,120,Epic,Max MP %,5,3,Additional
+Shield,120,Epic,ATT %,6,2,Additional
+Shield,120,Epic,Magic ATT %,6,2,Additional
+Shield,120,Epic,Critical Rate %,6,1,Additional
+Shield,120,Epic,STR %,6,3,Additional
+Shield,120,Epic,DEX %,6,3,Additional
+Shield,120,Epic,INT %,6,3,Additional
+Shield,120,Epic,LUK %,6,3,Additional
+Shield,120,Epic,Damage %,6,1,Additional
+Shield,120,Epic,All Stats %,3,2,Additional
+Shield,120,Epic,3% chance of recovering 53 HP on attack,1,3,Additional
+Shield,120,Epic,3% chance of recovering 53 MP on attack,1,3,Additional
+Shield,120,Epic,Ignore Enemy DEF %,3,2,Additional
+Shield,120,Unique,Max HP %,7,3,Additional
+Shield,120,Unique,Max MP %,7,3,Additional
+Shield,120,Unique,ATT %,9,2,Additional
+Shield,120,Unique,Magic ATT %,9,2,Additional
+Shield,120,Unique,Critical Rate %,9,2,Additional
+Shield,120,Unique,STR %,9,3,Additional
+Shield,120,Unique,DEX %,9,3,Additional
+Shield,120,Unique,INT %,9,3,Additional
+Shield,120,Unique,LUK %,9,3,Additional
+Shield,120,Unique,Damage %,9,1,Additional
+Shield,120,Unique,All Stats %,6,2,Additional
+Shield,120,Unique,STR per 10 character levels,1,2,Additional
+Shield,120,Unique,DEX per 10 character levels,1,2,Additional
+Shield,120,Unique,INT per 10 character levels,1,2,Additional
+Shield,120,Unique,LUK per 10 character levels,1,2,Additional
+Shield,120,Unique,15% chance of recovering 95 HP on attack,1,3,Additional
+Shield,120,Unique,15% chance of recovering 95 MP on attack,1,3,Additional
+Shield,120,Unique,Ignore Enemy DEF %,4,1,Additional
+Shield,120,Unique,Boss Damage %,12,1,Additional
+Shield,120,Legendary,Max HP %,10,3,Additional
+Shield,120,Legendary,Max MP %,10,3,Additional
+Shield,120,Legendary,ATT %,12,2,Additional
+Shield,120,Legendary,Magic ATT %,12,2,Additional
+Shield,120,Legendary,Critical Rate %,12,2,Additional
+Shield,120,Legendary,Critical Damage %,1,1,Additional
+Shield,120,Legendary,Critical Damage %,1,1,Additional
+Shield,120,Legendary,STR %,12,3,Additional
+Shield,120,Legendary,DEX %,12,3,Additional
+Shield,120,Legendary,INT %,12,3,Additional
+Shield,120,Legendary,LUK %,12,3,Additional
+Shield,120,Legendary,Damage %,12,1,Additional
+Shield,120,Legendary,All Stats %,9,2,Additional
+Shield,120,Legendary,STR per 10 character levels,2,2,Additional
+Shield,120,Legendary,DEX per 10 character levels,2,2,Additional
+Shield,120,Legendary,INT per 10 character levels,2,2,Additional
+Shield,120,Legendary,LUK per 10 character levels,2,2,Additional
+Shield,120,Legendary,ATT per 10 character levels,1,1,Additional
+Shield,120,Legendary,Magic ATT per 10 character levels,1,1,Additional
+Shield,120,Legendary,Status Resistance,5,1,Additional
+Shield,120,Legendary,Ignore Enemy DEF %,5,1,Additional
+Shield,120,Legendary,Boss Damage %,18,1,Additional
+Helmet,120,Normal,STR,6,2,Additional
+Helmet,120,Normal,DEX,6,2,Additional
+Helmet,120,Normal,INT,6,2,Additional
+Helmet,120,Normal,LUK,6,2,Additional
+Helmet,120,Normal,Max HP,60,3,Additional
+Helmet,120,Normal,Max MP,60,3,Additional
+Helmet,120,Normal,Speed,4,3,Additional
+Helmet,120,Normal,Jump,4,3,Additional
+Helmet,120,Normal,Attack,3,2,Additional
+Helmet,120,Normal,Magic Attack,3,2,Additional
+Helmet,120,Normal,DEF,60,3,Additional
+Helmet,120,Rare,STR,10,3,Additional
+Helmet,120,Rare,DEX,10,3,Additional
+Helmet,120,Rare,INT,10,3,Additional
+Helmet,120,Rare,LUK,10,3,Additional
+Helmet,120,Rare,Max HP,100,3,Additional
+Helmet,120,Rare,Max MP,100,3,Additional
+Helmet,120,Rare,Speed,6,3,Additional
+Helmet,120,Rare,Jump,6,3,Additional
+Helmet,120,Rare,Attack,10,2,Additional
+Helmet,120,Rare,Magic Attack,10,2,Additional
+Helmet,120,Rare,DEF,100,3,Additional
+Helmet,120,Rare,STR %,2,2,Additional
+Helmet,120,Rare,DEX %,2,2,Additional
+Helmet,120,Rare,INT %,2,2,Additional
+Helmet,120,Rare,LUK %,2,2,Additional
+Helmet,120,Rare,Max HP %,2,2,Additional
+Helmet,120,Rare,Max MP %,2,2,Additional
+Helmet,120,Rare,DEF %,2,2,Additional
+Helmet,120,Rare,All Stats,3,2,Additional
+Helmet,120,Epic,STR,14,3,Additional
+Helmet,120,Epic,DEX,14,3,Additional
+Helmet,120,Epic,INT,14,3,Additional
+Helmet,120,Epic,LUK,14,3,Additional
+Helmet,120,Epic,Max HP,180,3,Additional
+Helmet,120,Epic,Max MP,180,3,Additional
+Helmet,120,Epic,Speed,8,3,Additional
+Helmet,120,Epic,Jump,8,3,Additional
+Helmet,120,Epic,Attack,11,2,Additional
+Helmet,120,Epic,Magic Attack,11,2,Additional
+Helmet,120,Epic,DEF,120,3,Additional
+Helmet,120,Epic,STR %,4,2,Additional
+Helmet,120,Epic,DEX %,4,2,Additional
+Helmet,120,Epic,INT %,4,2,Additional
+Helmet,120,Epic,LUK %,4,2,Additional
+Helmet,120,Epic,Max HP %,5,3,Additional
+Helmet,120,Epic,Max MP %,5,3,Additional
+Helmet,120,Epic,DEF %,4,3,Additional
+Helmet,120,Epic,All Stats %,2,2,Additional
+Helmet,120,Unique,STR,16,3,Additional
+Helmet,120,Unique,DEX,16,3,Additional
+Helmet,120,Unique,INT,16,3,Additional
+Helmet,120,Unique,LUK,16,3,Additional
+Helmet,120,Unique,Max HP,240,3,Additional
+Helmet,120,Unique,Max MP,240,3,Additional
+Helmet,120,Unique,Attack,12,2,Additional
+Helmet,120,Unique,Magic Attack,12,2,Additional
+Helmet,120,Unique,DEF,150,3,Additional
+Helmet,120,Unique,STR %,5,2,Additional
+Helmet,120,Unique,DEX %,5,2,Additional
+Helmet,120,Unique,INT %,5,2,Additional
+Helmet,120,Unique,LUK %,5,2,Additional
+Helmet,120,Unique,Max HP %,7,3,Additional
+Helmet,120,Unique,Max MP %,7,3,Additional
+Helmet,120,Unique,DEF %,7,3,Additional
+Helmet,120,Unique,All Stats %,4,2,Additional
+Helmet,120,Unique,STR per 10 character levels,1,2,Additional
+Helmet,120,Unique,DEX per 10 character levels,1,2,Additional
+Helmet,120,Unique,INT per 10 character levels,1,2,Additional
+Helmet,120,Unique,LUK per 10 character levels,1,2,Additional
+Helmet,120,Unique,All Elemental Resistances %,4,1,Additional
+Helmet,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Helmet,120,Legendary,STR,18,3,Additional
+Helmet,120,Legendary,DEX,18,3,Additional
+Helmet,120,Legendary,INT,18,3,Additional
+Helmet,120,Legendary,LUK,18,3,Additional
+Helmet,120,Legendary,Max HP,300,3,Additional
+Helmet,120,Legendary,Max MP,300,3,Additional
+Helmet,120,Legendary,Attack,14,2,Additional
+Helmet,120,Legendary,Magic Attack,14,2,Additional
+Helmet,120,Legendary,DEF,200,3,Additional
+Helmet,120,Legendary,STR %,7,2,Additional
+Helmet,120,Legendary,DEX %,7,2,Additional
+Helmet,120,Legendary,INT %,7,2,Additional
+Helmet,120,Legendary,LUK %,7,2,Additional
+Helmet,120,Legendary,Max HP %,10,3,Additional
+Helmet,120,Legendary,Max MP %,10,3,Additional
+Helmet,120,Legendary,DEF %,10,3,Additional
+Helmet,120,Legendary,Critical Damage %,1,1,Additional
+Helmet,120,Legendary,Critical Damage %,1,1,Additional
+Helmet,120,Legendary,All Stats %,5,2,Additional
+Helmet,120,Legendary,STR per 10 character levels,2,2,Additional
+Helmet,120,Legendary,DEX per 10 character levels,2,2,Additional
+Helmet,120,Legendary,INT per 10 character levels,2,2,Additional
+Helmet,120,Legendary,LUK per 10 character levels,2,2,Additional
+Helmet,120,Legendary,All Skill Levels,2,1,Additional
+Helmet,120,Legendary,All Elemental Resistances %,5,1,Additional
+Helmet,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Helmet,120,Legendary,Skill Cooldown Reduction,1,3,Additional
+Helmet,120,Legendary,Meso Obtained %,5,3,Additional
+Helmet,120,Legendary,Item Drop Rate %,5,3,Additional
+Top,120,Normal,STR,6,2,Additional
+Top,120,Normal,DEX,6,2,Additional
+Top,120,Normal,INT,6,2,Additional
+Top,120,Normal,LUK,6,2,Additional
+Top,120,Normal,Max HP,60,3,Additional
+Top,120,Normal,Max MP,60,3,Additional
+Top,120,Normal,Speed,4,3,Additional
+Top,120,Normal,Jump,4,3,Additional
+Top,120,Normal,Attack,3,2,Additional
+Top,120,Normal,Magic Attack,3,2,Additional
+Top,120,Normal,DEF,60,3,Additional
+Top,120,Rare,STR,10,3,Additional
+Top,120,Rare,DEX,10,3,Additional
+Top,120,Rare,INT,10,3,Additional
+Top,120,Rare,LUK,10,3,Additional
+Top,120,Rare,Max HP,100,3,Additional
+Top,120,Rare,Max MP,100,3,Additional
+Top,120,Rare,Speed,6,3,Additional
+Top,120,Rare,Jump,6,3,Additional
+Top,120,Rare,Attack,10,2,Additional
+Top,120,Rare,Magic Attack,10,2,Additional
+Top,120,Rare,DEF,100,3,Additional
+Top,120,Rare,STR %,2,2,Additional
+Top,120,Rare,DEX %,2,2,Additional
+Top,120,Rare,INT %,2,2,Additional
+Top,120,Rare,LUK %,2,2,Additional
+Top,120,Rare,Max HP %,2,2,Additional
+Top,120,Rare,Max MP %,2,2,Additional
+Top,120,Rare,DEF %,2,2,Additional
+Top,120,Rare,All Stats,3,2,Additional
+Top,120,Epic,STR,14,3,Additional
+Top,120,Epic,DEX,14,3,Additional
+Top,120,Epic,INT,14,3,Additional
+Top,120,Epic,LUK,14,3,Additional
+Top,120,Epic,Max HP,180,3,Additional
+Top,120,Epic,Max MP,180,3,Additional
+Top,120,Epic,Speed,8,3,Additional
+Top,120,Epic,Jump,8,3,Additional
+Top,120,Epic,Attack,11,2,Additional
+Top,120,Epic,Magic Attack,11,2,Additional
+Top,120,Epic,DEF,120,3,Additional
+Top,120,Epic,STR %,4,2,Additional
+Top,120,Epic,DEX %,4,2,Additional
+Top,120,Epic,INT %,4,2,Additional
+Top,120,Epic,LUK %,4,2,Additional
+Top,120,Epic,Max HP %,5,3,Additional
+Top,120,Epic,Max MP %,5,3,Additional
+Top,120,Epic,DEF %,4,3,Additional
+Top,120,Epic,All Stats %,2,2,Additional
+Top,120,Unique,STR,16,3,Additional
+Top,120,Unique,DEX,16,3,Additional
+Top,120,Unique,INT,16,3,Additional
+Top,120,Unique,LUK,16,3,Additional
+Top,120,Unique,Max HP,240,3,Additional
+Top,120,Unique,Max MP,240,3,Additional
+Top,120,Unique,Attack,12,2,Additional
+Top,120,Unique,Magic Attack,12,2,Additional
+Top,120,Unique,DEF,150,3,Additional
+Top,120,Unique,STR %,5,2,Additional
+Top,120,Unique,DEX %,5,2,Additional
+Top,120,Unique,INT %,5,2,Additional
+Top,120,Unique,LUK %,5,2,Additional
+Top,120,Unique,Max HP %,7,3,Additional
+Top,120,Unique,Max MP %,7,3,Additional
+Top,120,Unique,DEF %,7,3,Additional
+Top,120,Unique,All Stats %,4,2,Additional
+Top,120,Unique,STR per 10 character levels,1,2,Additional
+Top,120,Unique,DEX per 10 character levels,1,2,Additional
+Top,120,Unique,INT per 10 character levels,1,2,Additional
+Top,120,Unique,LUK per 10 character levels,1,2,Additional
+Top,120,Unique,All Elemental Resistances %,4,1,Additional
+Top,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Top,120,Legendary,STR,18,3,Additional
+Top,120,Legendary,DEX,18,3,Additional
+Top,120,Legendary,INT,18,3,Additional
+Top,120,Legendary,LUK,18,3,Additional
+Top,120,Legendary,Max HP,300,3,Additional
+Top,120,Legendary,Max MP,300,3,Additional
+Top,120,Legendary,Attack,14,2,Additional
+Top,120,Legendary,Magic Attack,14,2,Additional
+Top,120,Legendary,DEF,200,3,Additional
+Top,120,Legendary,STR %,7,2,Additional
+Top,120,Legendary,DEX %,7,2,Additional
+Top,120,Legendary,INT %,7,2,Additional
+Top,120,Legendary,LUK %,7,2,Additional
+Top,120,Legendary,Max HP %,10,3,Additional
+Top,120,Legendary,Max MP %,10,3,Additional
+Top,120,Legendary,DEF %,10,3,Additional
+Top,120,Legendary,Critical Damage %,1,1,Additional
+Top,120,Legendary,Critical Damage %,1,1,Additional
+Top,120,Legendary,All Stats %,5,2,Additional
+Top,120,Legendary,STR per 10 character levels,2,2,Additional
+Top,120,Legendary,DEX per 10 character levels,2,2,Additional
+Top,120,Legendary,INT per 10 character levels,2,2,Additional
+Top,120,Legendary,LUK per 10 character levels,2,2,Additional
+Top,120,Legendary,All Elemental Resistances %,5,1,Additional
+Top,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Top,120,Legendary,Meso Obtained %,5,3,Additional
+Top,120,Legendary,Item Drop Rate %,5,3,Additional
+Overall,120,Normal,STR,6,2,Additional
+Overall,120,Normal,DEX,6,2,Additional
+Overall,120,Normal,INT,6,2,Additional
+Overall,120,Normal,LUK,6,2,Additional
+Overall,120,Normal,Max HP,60,3,Additional
+Overall,120,Normal,Max MP,60,3,Additional
+Overall,120,Normal,Speed,4,3,Additional
+Overall,120,Normal,Jump,4,3,Additional
+Overall,120,Normal,Attack,3,2,Additional
+Overall,120,Normal,Magic Attack,3,2,Additional
+Overall,120,Normal,DEF,60,3,Additional
+Overall,120,Rare,STR,10,3,Additional
+Overall,120,Rare,DEX,10,3,Additional
+Overall,120,Rare,INT,10,3,Additional
+Overall,120,Rare,LUK,10,3,Additional
+Overall,120,Rare,Max HP,100,3,Additional
+Overall,120,Rare,Max MP,100,3,Additional
+Overall,120,Rare,Speed,6,3,Additional
+Overall,120,Rare,Jump,6,3,Additional
+Overall,120,Rare,Attack,10,2,Additional
+Overall,120,Rare,Magic Attack,10,2,Additional
+Overall,120,Rare,DEF,100,3,Additional
+Overall,120,Rare,STR %,2,2,Additional
+Overall,120,Rare,DEX %,2,2,Additional
+Overall,120,Rare,INT %,2,2,Additional
+Overall,120,Rare,LUK %,2,2,Additional
+Overall,120,Rare,Max HP %,2,2,Additional
+Overall,120,Rare,Max MP %,2,2,Additional
+Overall,120,Rare,DEF %,2,2,Additional
+Overall,120,Rare,All Stats,3,2,Additional
+Overall,120,Epic,STR,14,3,Additional
+Overall,120,Epic,DEX,14,3,Additional
+Overall,120,Epic,INT,14,3,Additional
+Overall,120,Epic,LUK,14,3,Additional
+Overall,120,Epic,Max HP,180,3,Additional
+Overall,120,Epic,Max MP,180,3,Additional
+Overall,120,Epic,Speed,8,3,Additional
+Overall,120,Epic,Jump,8,3,Additional
+Overall,120,Epic,Attack,11,2,Additional
+Overall,120,Epic,Magic Attack,11,2,Additional
+Overall,120,Epic,DEF,120,3,Additional
+Overall,120,Epic,STR %,4,2,Additional
+Overall,120,Epic,DEX %,4,2,Additional
+Overall,120,Epic,INT %,4,2,Additional
+Overall,120,Epic,LUK %,4,2,Additional
+Overall,120,Epic,Max HP %,5,3,Additional
+Overall,120,Epic,Max MP %,5,3,Additional
+Overall,120,Epic,DEF %,4,3,Additional
+Overall,120,Epic,All Stats %,2,2,Additional
+Overall,120,Unique,STR,16,3,Additional
+Overall,120,Unique,DEX,16,3,Additional
+Overall,120,Unique,INT,16,3,Additional
+Overall,120,Unique,LUK,16,3,Additional
+Overall,120,Unique,Max HP,240,3,Additional
+Overall,120,Unique,Max MP,240,3,Additional
+Overall,120,Unique,Attack,12,2,Additional
+Overall,120,Unique,Magic Attack,12,2,Additional
+Overall,120,Unique,DEF,150,3,Additional
+Overall,120,Unique,STR %,5,2,Additional
+Overall,120,Unique,DEX %,5,2,Additional
+Overall,120,Unique,INT %,5,2,Additional
+Overall,120,Unique,LUK %,5,2,Additional
+Overall,120,Unique,Max HP %,7,3,Additional
+Overall,120,Unique,Max MP %,7,3,Additional
+Overall,120,Unique,DEF %,7,3,Additional
+Overall,120,Unique,All Stats %,4,2,Additional
+Overall,120,Unique,STR per 10 character levels,1,2,Additional
+Overall,120,Unique,DEX per 10 character levels,1,2,Additional
+Overall,120,Unique,INT per 10 character levels,1,2,Additional
+Overall,120,Unique,LUK per 10 character levels,1,2,Additional
+Overall,120,Unique,All Elemental Resistances %,4,1,Additional
+Overall,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Overall,120,Legendary,STR,18,3,Additional
+Overall,120,Legendary,DEX,18,3,Additional
+Overall,120,Legendary,INT,18,3,Additional
+Overall,120,Legendary,LUK,18,3,Additional
+Overall,120,Legendary,Max HP,300,3,Additional
+Overall,120,Legendary,Max MP,300,3,Additional
+Overall,120,Legendary,Attack,14,2,Additional
+Overall,120,Legendary,Magic Attack,14,2,Additional
+Overall,120,Legendary,DEF,200,3,Additional
+Overall,120,Legendary,STR %,7,2,Additional
+Overall,120,Legendary,DEX %,7,2,Additional
+Overall,120,Legendary,INT %,7,2,Additional
+Overall,120,Legendary,LUK %,7,2,Additional
+Overall,120,Legendary,Max HP %,10,3,Additional
+Overall,120,Legendary,Max MP %,10,3,Additional
+Overall,120,Legendary,DEF %,10,3,Additional
+Overall,120,Legendary,Critical Damage %,1,1,Additional
+Overall,120,Legendary,Critical Damage %,1,1,Additional
+Overall,120,Legendary,All Stats %,5,2,Additional
+Overall,120,Legendary,STR per 10 character levels,2,2,Additional
+Overall,120,Legendary,DEX per 10 character levels,2,2,Additional
+Overall,120,Legendary,INT per 10 character levels,2,2,Additional
+Overall,120,Legendary,LUK per 10 character levels,2,2,Additional
+Overall,120,Legendary,All Elemental Resistances %,5,1,Additional
+Overall,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Overall,120,Legendary,Meso Obtained %,5,3,Additional
+Overall,120,Legendary,Item Drop Rate %,5,3,Additional
+Bottom,120,Normal,STR,6,2,Additional
+Bottom,120,Normal,DEX,6,2,Additional
+Bottom,120,Normal,INT,6,2,Additional
+Bottom,120,Normal,LUK,6,2,Additional
+Bottom,120,Normal,Max HP,60,3,Additional
+Bottom,120,Normal,Max MP,60,3,Additional
+Bottom,120,Normal,Speed,4,3,Additional
+Bottom,120,Normal,Jump,4,3,Additional
+Bottom,120,Normal,Attack,3,2,Additional
+Bottom,120,Normal,Magic Attack,3,2,Additional
+Bottom,120,Normal,DEF,60,3,Additional
+Bottom,120,Rare,STR,10,3,Additional
+Bottom,120,Rare,DEX,10,3,Additional
+Bottom,120,Rare,INT,10,3,Additional
+Bottom,120,Rare,LUK,10,3,Additional
+Bottom,120,Rare,Max HP,100,3,Additional
+Bottom,120,Rare,Max MP,100,3,Additional
+Bottom,120,Rare,Speed,6,3,Additional
+Bottom,120,Rare,Jump,6,3,Additional
+Bottom,120,Rare,Attack,10,2,Additional
+Bottom,120,Rare,Magic Attack,10,2,Additional
+Bottom,120,Rare,DEF,100,3,Additional
+Bottom,120,Rare,STR %,2,2,Additional
+Bottom,120,Rare,DEX %,2,2,Additional
+Bottom,120,Rare,INT %,2,2,Additional
+Bottom,120,Rare,LUK %,2,2,Additional
+Bottom,120,Rare,Max HP %,2,2,Additional
+Bottom,120,Rare,Max MP %,2,2,Additional
+Bottom,120,Rare,DEF %,2,2,Additional
+Bottom,120,Rare,All Stats,3,2,Additional
+Bottom,120,Epic,STR,14,3,Additional
+Bottom,120,Epic,DEX,14,3,Additional
+Bottom,120,Epic,INT,14,3,Additional
+Bottom,120,Epic,LUK,14,3,Additional
+Bottom,120,Epic,Max HP,180,3,Additional
+Bottom,120,Epic,Max MP,180,3,Additional
+Bottom,120,Epic,Speed,8,3,Additional
+Bottom,120,Epic,Jump,8,3,Additional
+Bottom,120,Epic,Attack,11,2,Additional
+Bottom,120,Epic,Magic Attack,11,2,Additional
+Bottom,120,Epic,DEF,120,3,Additional
+Bottom,120,Epic,STR %,4,2,Additional
+Bottom,120,Epic,DEX %,4,2,Additional
+Bottom,120,Epic,INT %,4,2,Additional
+Bottom,120,Epic,LUK %,4,2,Additional
+Bottom,120,Epic,Max HP %,5,3,Additional
+Bottom,120,Epic,Max MP %,5,3,Additional
+Bottom,120,Epic,DEF %,4,3,Additional
+Bottom,120,Epic,All Stats %,2,2,Additional
+Bottom,120,Unique,STR,16,3,Additional
+Bottom,120,Unique,DEX,16,3,Additional
+Bottom,120,Unique,INT,16,3,Additional
+Bottom,120,Unique,LUK,16,3,Additional
+Bottom,120,Unique,Max HP,240,3,Additional
+Bottom,120,Unique,Max MP,240,3,Additional
+Bottom,120,Unique,Attack,12,2,Additional
+Bottom,120,Unique,Magic Attack,12,2,Additional
+Bottom,120,Unique,DEF,150,3,Additional
+Bottom,120,Unique,STR %,5,2,Additional
+Bottom,120,Unique,DEX %,5,2,Additional
+Bottom,120,Unique,INT %,5,2,Additional
+Bottom,120,Unique,LUK %,5,2,Additional
+Bottom,120,Unique,Max HP %,7,3,Additional
+Bottom,120,Unique,Max MP %,7,3,Additional
+Bottom,120,Unique,DEF %,7,3,Additional
+Bottom,120,Unique,All Stats %,4,2,Additional
+Bottom,120,Unique,STR per 10 character levels,1,2,Additional
+Bottom,120,Unique,DEX per 10 character levels,1,2,Additional
+Bottom,120,Unique,INT per 10 character levels,1,2,Additional
+Bottom,120,Unique,LUK per 10 character levels,1,2,Additional
+Bottom,120,Unique,All Elemental Resistances %,4,1,Additional
+Bottom,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Bottom,120,Legendary,STR,18,3,Additional
+Bottom,120,Legendary,DEX,18,3,Additional
+Bottom,120,Legendary,INT,18,3,Additional
+Bottom,120,Legendary,LUK,18,3,Additional
+Bottom,120,Legendary,Max HP,300,3,Additional
+Bottom,120,Legendary,Max MP,300,3,Additional
+Bottom,120,Legendary,Attack,14,2,Additional
+Bottom,120,Legendary,Magic Attack,14,2,Additional
+Bottom,120,Legendary,DEF,200,3,Additional
+Bottom,120,Legendary,STR %,7,2,Additional
+Bottom,120,Legendary,DEX %,7,2,Additional
+Bottom,120,Legendary,INT %,7,2,Additional
+Bottom,120,Legendary,LUK %,7,2,Additional
+Bottom,120,Legendary,Max HP %,10,3,Additional
+Bottom,120,Legendary,Max MP %,10,3,Additional
+Bottom,120,Legendary,DEF %,10,3,Additional
+Bottom,120,Legendary,Critical Damage %,1,1,Additional
+Bottom,120,Legendary,Critical Damage %,1,1,Additional
+Bottom,120,Legendary,All Stats %,5,2,Additional
+Bottom,120,Legendary,STR per 10 character levels,2,2,Additional
+Bottom,120,Legendary,DEX per 10 character levels,2,2,Additional
+Bottom,120,Legendary,INT per 10 character levels,2,2,Additional
+Bottom,120,Legendary,LUK per 10 character levels,2,2,Additional
+Bottom,120,Legendary,All Elemental Resistances %,5,1,Additional
+Bottom,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Bottom,120,Legendary,Meso Obtained %,5,3,Additional
+Bottom,120,Legendary,Item Drop Rate %,5,3,Additional
+Shoes,120,Normal,STR,6,2,Additional
+Shoes,120,Normal,DEX,6,2,Additional
+Shoes,120,Normal,INT,6,2,Additional
+Shoes,120,Normal,LUK,6,2,Additional
+Shoes,120,Normal,Max HP,60,3,Additional
+Shoes,120,Normal,Max MP,60,3,Additional
+Shoes,120,Normal,Speed,4,3,Additional
+Shoes,120,Normal,Jump,4,3,Additional
+Shoes,120,Normal,Attack,3,2,Additional
+Shoes,120,Normal,Magic Attack,3,2,Additional
+Shoes,120,Normal,DEF,60,3,Additional
+Shoes,120,Rare,STR,10,3,Additional
+Shoes,120,Rare,DEX,10,3,Additional
+Shoes,120,Rare,INT,10,3,Additional
+Shoes,120,Rare,LUK,10,3,Additional
+Shoes,120,Rare,Max HP,100,3,Additional
+Shoes,120,Rare,Max MP,100,3,Additional
+Shoes,120,Rare,Speed,6,3,Additional
+Shoes,120,Rare,Jump,6,3,Additional
+Shoes,120,Rare,Attack,10,2,Additional
+Shoes,120,Rare,Magic Attack,10,2,Additional
+Shoes,120,Rare,DEF,100,3,Additional
+Shoes,120,Rare,STR %,2,2,Additional
+Shoes,120,Rare,DEX %,2,2,Additional
+Shoes,120,Rare,INT %,2,2,Additional
+Shoes,120,Rare,LUK %,2,2,Additional
+Shoes,120,Rare,Max HP %,2,2,Additional
+Shoes,120,Rare,Max MP %,2,2,Additional
+Shoes,120,Rare,DEF %,2,2,Additional
+Shoes,120,Rare,All Stats,3,2,Additional
+Shoes,120,Epic,STR,14,3,Additional
+Shoes,120,Epic,DEX,14,3,Additional
+Shoes,120,Epic,INT,14,3,Additional
+Shoes,120,Epic,LUK,14,3,Additional
+Shoes,120,Epic,Max HP,180,3,Additional
+Shoes,120,Epic,Max MP,180,3,Additional
+Shoes,120,Epic,Speed,8,3,Additional
+Shoes,120,Epic,Jump,8,3,Additional
+Shoes,120,Epic,Attack,11,2,Additional
+Shoes,120,Epic,Magic Attack,11,2,Additional
+Shoes,120,Epic,DEF,120,3,Additional
+Shoes,120,Epic,STR %,4,2,Additional
+Shoes,120,Epic,DEX %,4,2,Additional
+Shoes,120,Epic,INT %,4,2,Additional
+Shoes,120,Epic,LUK %,4,2,Additional
+Shoes,120,Epic,Max HP %,5,3,Additional
+Shoes,120,Epic,Max MP %,5,3,Additional
+Shoes,120,Epic,DEF %,4,3,Additional
+Shoes,120,Epic,All Stats %,2,2,Additional
+Shoes,120,Unique,STR,16,3,Additional
+Shoes,120,Unique,DEX,16,3,Additional
+Shoes,120,Unique,INT,16,3,Additional
+Shoes,120,Unique,LUK,16,3,Additional
+Shoes,120,Unique,Max HP,240,3,Additional
+Shoes,120,Unique,Max MP,240,3,Additional
+Shoes,120,Unique,Attack,12,2,Additional
+Shoes,120,Unique,Magic Attack,12,2,Additional
+Shoes,120,Unique,DEF,150,3,Additional
+Shoes,120,Unique,STR %,5,2,Additional
+Shoes,120,Unique,DEX %,5,2,Additional
+Shoes,120,Unique,INT %,5,2,Additional
+Shoes,120,Unique,LUK %,5,2,Additional
+Shoes,120,Unique,Max HP %,7,3,Additional
+Shoes,120,Unique,Max MP %,7,3,Additional
+Shoes,120,Unique,DEF %,7,3,Additional
+Shoes,120,Unique,All Stats %,4,2,Additional
+Shoes,120,Unique,STR per 10 character levels,1,2,Additional
+Shoes,120,Unique,DEX per 10 character levels,1,2,Additional
+Shoes,120,Unique,INT per 10 character levels,1,2,Additional
+Shoes,120,Unique,LUK per 10 character levels,1,2,Additional
+Shoes,120,Unique,All Elemental Resistances %,4,1,Additional
+Shoes,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Shoes,120,Legendary,STR,18,3,Additional
+Shoes,120,Legendary,DEX,18,3,Additional
+Shoes,120,Legendary,INT,18,3,Additional
+Shoes,120,Legendary,LUK,18,3,Additional
+Shoes,120,Legendary,Max HP,300,3,Additional
+Shoes,120,Legendary,Max MP,300,3,Additional
+Shoes,120,Legendary,Attack,14,2,Additional
+Shoes,120,Legendary,Magic Attack,14,2,Additional
+Shoes,120,Legendary,DEF,200,3,Additional
+Shoes,120,Legendary,STR %,7,2,Additional
+Shoes,120,Legendary,DEX %,7,2,Additional
+Shoes,120,Legendary,INT %,7,2,Additional
+Shoes,120,Legendary,LUK %,7,2,Additional
+Shoes,120,Legendary,Max HP %,10,3,Additional
+Shoes,120,Legendary,Max MP %,10,3,Additional
+Shoes,120,Legendary,DEF %,10,3,Additional
+Shoes,120,Legendary,Critical Damage %,1,1,Additional
+Shoes,120,Legendary,Critical Damage %,1,1,Additional
+Shoes,120,Legendary,All Stats %,5,2,Additional
+Shoes,120,Legendary,STR per 10 character levels,2,2,Additional
+Shoes,120,Legendary,DEX per 10 character levels,2,2,Additional
+Shoes,120,Legendary,INT per 10 character levels,2,2,Additional
+Shoes,120,Legendary,LUK per 10 character levels,2,2,Additional
+Shoes,120,Legendary,All Elemental Resistances %,5,1,Additional
+Shoes,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Shoes,120,Legendary,Meso Obtained %,5,3,Additional
+Shoes,120,Legendary,Item Drop Rate %,5,3,Additional
+Gloves,120,Normal,STR,6,2,Additional
+Gloves,120,Normal,DEX,6,2,Additional
+Gloves,120,Normal,INT,6,2,Additional
+Gloves,120,Normal,LUK,6,2,Additional
+Gloves,120,Normal,Max HP,60,3,Additional
+Gloves,120,Normal,Max MP,60,3,Additional
+Gloves,120,Normal,Speed,4,3,Additional
+Gloves,120,Normal,Jump,4,3,Additional
+Gloves,120,Normal,Attack,3,2,Additional
+Gloves,120,Normal,Magic Attack,3,2,Additional
+Gloves,120,Normal,DEF,60,3,Additional
+Gloves,120,Rare,STR,10,3,Additional
+Gloves,120,Rare,DEX,10,3,Additional
+Gloves,120,Rare,INT,10,3,Additional
+Gloves,120,Rare,LUK,10,3,Additional
+Gloves,120,Rare,Max HP,100,3,Additional
+Gloves,120,Rare,Max MP,100,3,Additional
+Gloves,120,Rare,Speed,6,3,Additional
+Gloves,120,Rare,Jump,6,3,Additional
+Gloves,120,Rare,Attack,10,2,Additional
+Gloves,120,Rare,Magic Attack,10,2,Additional
+Gloves,120,Rare,DEF,100,3,Additional
+Gloves,120,Rare,STR %,2,2,Additional
+Gloves,120,Rare,DEX %,2,2,Additional
+Gloves,120,Rare,INT %,2,2,Additional
+Gloves,120,Rare,LUK %,2,2,Additional
+Gloves,120,Rare,Max HP %,2,2,Additional
+Gloves,120,Rare,Max MP %,2,2,Additional
+Gloves,120,Rare,DEF %,2,2,Additional
+Gloves,120,Rare,All Stats,3,2,Additional
+Gloves,120,Epic,STR,14,3,Additional
+Gloves,120,Epic,DEX,14,3,Additional
+Gloves,120,Epic,INT,14,3,Additional
+Gloves,120,Epic,LUK,14,3,Additional
+Gloves,120,Epic,Max HP,180,3,Additional
+Gloves,120,Epic,Max MP,180,3,Additional
+Gloves,120,Epic,Speed,8,3,Additional
+Gloves,120,Epic,Jump,8,3,Additional
+Gloves,120,Epic,Attack,11,2,Additional
+Gloves,120,Epic,Magic Attack,11,2,Additional
+Gloves,120,Epic,DEF,120,3,Additional
+Gloves,120,Epic,STR %,4,2,Additional
+Gloves,120,Epic,DEX %,4,2,Additional
+Gloves,120,Epic,INT %,4,2,Additional
+Gloves,120,Epic,LUK %,4,2,Additional
+Gloves,120,Epic,Max HP %,5,3,Additional
+Gloves,120,Epic,Max MP %,5,3,Additional
+Gloves,120,Epic,DEF %,4,3,Additional
+Gloves,120,Epic,All Stats %,2,2,Additional
+Gloves,120,Unique,STR,16,3,Additional
+Gloves,120,Unique,DEX,16,3,Additional
+Gloves,120,Unique,INT,16,3,Additional
+Gloves,120,Unique,LUK,16,3,Additional
+Gloves,120,Unique,Max HP,240,3,Additional
+Gloves,120,Unique,Max MP,240,3,Additional
+Gloves,120,Unique,Attack,12,2,Additional
+Gloves,120,Unique,Magic Attack,12,2,Additional
+Gloves,120,Unique,DEF,150,3,Additional
+Gloves,120,Unique,STR %,5,2,Additional
+Gloves,120,Unique,DEX %,5,2,Additional
+Gloves,120,Unique,INT %,5,2,Additional
+Gloves,120,Unique,LUK %,5,2,Additional
+Gloves,120,Unique,Max HP %,7,3,Additional
+Gloves,120,Unique,Max MP %,7,3,Additional
+Gloves,120,Unique,DEF %,7,3,Additional
+Gloves,120,Unique,All Stats %,4,2,Additional
+Gloves,120,Unique,STR per 10 character levels,1,2,Additional
+Gloves,120,Unique,DEX per 10 character levels,1,2,Additional
+Gloves,120,Unique,INT per 10 character levels,1,2,Additional
+Gloves,120,Unique,LUK per 10 character levels,1,2,Additional
+Gloves,120,Unique,All Elemental Resistances %,4,1,Additional
+Gloves,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Gloves,120,Legendary,STR,18,3,Additional
+Gloves,120,Legendary,DEX,18,3,Additional
+Gloves,120,Legendary,INT,18,3,Additional
+Gloves,120,Legendary,LUK,18,3,Additional
+Gloves,120,Legendary,Max HP,300,3,Additional
+Gloves,120,Legendary,Max MP,300,3,Additional
+Gloves,120,Legendary,Attack,14,2,Additional
+Gloves,120,Legendary,Magic Attack,14,2,Additional
+Gloves,120,Legendary,DEF,200,3,Additional
+Gloves,120,Legendary,STR %,7,2,Additional
+Gloves,120,Legendary,DEX %,7,2,Additional
+Gloves,120,Legendary,INT %,7,2,Additional
+Gloves,120,Legendary,LUK %,7,2,Additional
+Gloves,120,Legendary,Max HP %,10,3,Additional
+Gloves,120,Legendary,Max MP %,10,3,Additional
+Gloves,120,Legendary,DEF %,10,3,Additional
+Gloves,120,Legendary,Critical Damage %,3,1,Additional
+Gloves,120,Legendary,Critical Damage %,1,1,Additional
+Gloves,120,Legendary,Critical Damage %,3,1,Additional
+Gloves,120,Legendary,Critical Damage %,1,1,Additional
+Gloves,120,Legendary,All Stats %,5,2,Additional
+Gloves,120,Legendary,STR per 10 character levels,2,2,Additional
+Gloves,120,Legendary,DEX per 10 character levels,2,2,Additional
+Gloves,120,Legendary,INT per 10 character levels,2,2,Additional
+Gloves,120,Legendary,LUK per 10 character levels,2,2,Additional
+Gloves,120,Legendary,All Elemental Resistances %,5,1,Additional
+Gloves,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Gloves,120,Legendary,Meso Obtained %,5,3,Additional
+Gloves,120,Legendary,Item Drop Rate %,5,3,Additional
+Cape,120,Normal,STR,6,2,Additional
+Cape,120,Normal,DEX,6,2,Additional
+Cape,120,Normal,INT,6,2,Additional
+Cape,120,Normal,LUK,6,2,Additional
+Cape,120,Normal,Max HP,60,3,Additional
+Cape,120,Normal,Max MP,60,3,Additional
+Cape,120,Normal,Speed,4,3,Additional
+Cape,120,Normal,Jump,4,3,Additional
+Cape,120,Normal,Attack,3,2,Additional
+Cape,120,Normal,Magic Attack,3,2,Additional
+Cape,120,Normal,DEF,60,3,Additional
+Cape,120,Rare,STR,10,3,Additional
+Cape,120,Rare,DEX,10,3,Additional
+Cape,120,Rare,INT,10,3,Additional
+Cape,120,Rare,LUK,10,3,Additional
+Cape,120,Rare,Max HP,100,3,Additional
+Cape,120,Rare,Max MP,100,3,Additional
+Cape,120,Rare,Speed,6,3,Additional
+Cape,120,Rare,Jump,6,3,Additional
+Cape,120,Rare,Attack,10,2,Additional
+Cape,120,Rare,Magic Attack,10,2,Additional
+Cape,120,Rare,DEF,100,3,Additional
+Cape,120,Rare,STR %,2,2,Additional
+Cape,120,Rare,DEX %,2,2,Additional
+Cape,120,Rare,INT %,2,2,Additional
+Cape,120,Rare,LUK %,2,2,Additional
+Cape,120,Rare,Max HP %,2,2,Additional
+Cape,120,Rare,Max MP %,2,2,Additional
+Cape,120,Rare,DEF %,2,2,Additional
+Cape,120,Rare,All Stats,3,2,Additional
+Cape,120,Epic,STR,14,3,Additional
+Cape,120,Epic,DEX,14,3,Additional
+Cape,120,Epic,INT,14,3,Additional
+Cape,120,Epic,LUK,14,3,Additional
+Cape,120,Epic,Max HP,180,3,Additional
+Cape,120,Epic,Max MP,180,3,Additional
+Cape,120,Epic,Speed,8,3,Additional
+Cape,120,Epic,Jump,8,3,Additional
+Cape,120,Epic,Attack,11,2,Additional
+Cape,120,Epic,Magic Attack,11,2,Additional
+Cape,120,Epic,DEF,120,3,Additional
+Cape,120,Epic,STR %,4,2,Additional
+Cape,120,Epic,DEX %,4,2,Additional
+Cape,120,Epic,INT %,4,2,Additional
+Cape,120,Epic,LUK %,4,2,Additional
+Cape,120,Epic,Max HP %,5,3,Additional
+Cape,120,Epic,Max MP %,5,3,Additional
+Cape,120,Epic,DEF %,4,3,Additional
+Cape,120,Epic,All Stats %,2,2,Additional
+Cape,120,Unique,STR,16,3,Additional
+Cape,120,Unique,DEX,16,3,Additional
+Cape,120,Unique,INT,16,3,Additional
+Cape,120,Unique,LUK,16,3,Additional
+Cape,120,Unique,Max HP,240,3,Additional
+Cape,120,Unique,Max MP,240,3,Additional
+Cape,120,Unique,Attack,12,2,Additional
+Cape,120,Unique,Magic Attack,12,2,Additional
+Cape,120,Unique,DEF,150,3,Additional
+Cape,120,Unique,STR %,5,2,Additional
+Cape,120,Unique,DEX %,5,2,Additional
+Cape,120,Unique,INT %,5,2,Additional
+Cape,120,Unique,LUK %,5,2,Additional
+Cape,120,Unique,Max HP %,7,3,Additional
+Cape,120,Unique,Max MP %,7,3,Additional
+Cape,120,Unique,DEF %,7,3,Additional
+Cape,120,Unique,All Stats %,4,2,Additional
+Cape,120,Unique,STR per 10 character levels,1,2,Additional
+Cape,120,Unique,DEX per 10 character levels,1,2,Additional
+Cape,120,Unique,INT per 10 character levels,1,2,Additional
+Cape,120,Unique,LUK per 10 character levels,1,2,Additional
+Cape,120,Unique,All Elemental Resistances %,4,1,Additional
+Cape,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Cape,120,Legendary,STR,18,3,Additional
+Cape,120,Legendary,DEX,18,3,Additional
+Cape,120,Legendary,INT,18,3,Additional
+Cape,120,Legendary,LUK,18,3,Additional
+Cape,120,Legendary,Max HP,300,3,Additional
+Cape,120,Legendary,Max MP,300,3,Additional
+Cape,120,Legendary,Attack,14,2,Additional
+Cape,120,Legendary,Magic Attack,14,2,Additional
+Cape,120,Legendary,DEF,200,3,Additional
+Cape,120,Legendary,STR %,7,2,Additional
+Cape,120,Legendary,DEX %,7,2,Additional
+Cape,120,Legendary,INT %,7,2,Additional
+Cape,120,Legendary,LUK %,7,2,Additional
+Cape,120,Legendary,Max HP %,10,3,Additional
+Cape,120,Legendary,Max MP %,10,3,Additional
+Cape,120,Legendary,DEF %,10,3,Additional
+Cape,120,Legendary,Critical Damage %,1,1,Additional
+Cape,120,Legendary,Critical Damage %,1,1,Additional
+Cape,120,Legendary,All Stats %,5,2,Additional
+Cape,120,Legendary,STR per 10 character levels,2,2,Additional
+Cape,120,Legendary,DEX per 10 character levels,2,2,Additional
+Cape,120,Legendary,INT per 10 character levels,2,2,Additional
+Cape,120,Legendary,LUK per 10 character levels,2,2,Additional
+Cape,120,Legendary,All Elemental Resistances %,5,1,Additional
+Cape,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Cape,120,Legendary,Meso Obtained %,5,3,Additional
+Cape,120,Legendary,Item Drop Rate %,5,3,Additional
+Belt,120,Normal,STR,6,2,Additional
+Belt,120,Normal,DEX,6,2,Additional
+Belt,120,Normal,INT,6,2,Additional
+Belt,120,Normal,LUK,6,2,Additional
+Belt,120,Normal,Max HP,60,3,Additional
+Belt,120,Normal,Max MP,60,3,Additional
+Belt,120,Normal,Speed,4,3,Additional
+Belt,120,Normal,Jump,4,3,Additional
+Belt,120,Normal,Attack,3,2,Additional
+Belt,120,Normal,Magic Attack,3,2,Additional
+Belt,120,Normal,DEF,60,3,Additional
+Belt,120,Rare,STR,10,3,Additional
+Belt,120,Rare,DEX,10,3,Additional
+Belt,120,Rare,INT,10,3,Additional
+Belt,120,Rare,LUK,10,3,Additional
+Belt,120,Rare,Max HP,100,3,Additional
+Belt,120,Rare,Max MP,100,3,Additional
+Belt,120,Rare,Speed,6,3,Additional
+Belt,120,Rare,Jump,6,3,Additional
+Belt,120,Rare,Attack,10,2,Additional
+Belt,120,Rare,Magic Attack,10,2,Additional
+Belt,120,Rare,DEF,100,3,Additional
+Belt,120,Rare,STR %,2,2,Additional
+Belt,120,Rare,DEX %,2,2,Additional
+Belt,120,Rare,INT %,2,2,Additional
+Belt,120,Rare,LUK %,2,2,Additional
+Belt,120,Rare,Max HP %,2,2,Additional
+Belt,120,Rare,Max MP %,2,2,Additional
+Belt,120,Rare,DEF %,2,2,Additional
+Belt,120,Rare,All Stats,3,2,Additional
+Belt,120,Epic,STR,14,3,Additional
+Belt,120,Epic,DEX,14,3,Additional
+Belt,120,Epic,INT,14,3,Additional
+Belt,120,Epic,LUK,14,3,Additional
+Belt,120,Epic,Max HP,180,3,Additional
+Belt,120,Epic,Max MP,180,3,Additional
+Belt,120,Epic,Speed,8,3,Additional
+Belt,120,Epic,Jump,8,3,Additional
+Belt,120,Epic,Attack,11,2,Additional
+Belt,120,Epic,Magic Attack,11,2,Additional
+Belt,120,Epic,DEF,120,3,Additional
+Belt,120,Epic,STR %,4,2,Additional
+Belt,120,Epic,DEX %,4,2,Additional
+Belt,120,Epic,INT %,4,2,Additional
+Belt,120,Epic,LUK %,4,2,Additional
+Belt,120,Epic,Max HP %,5,3,Additional
+Belt,120,Epic,Max MP %,5,3,Additional
+Belt,120,Epic,DEF %,4,3,Additional
+Belt,120,Epic,All Stats %,2,2,Additional
+Belt,120,Unique,STR,16,3,Additional
+Belt,120,Unique,DEX,16,3,Additional
+Belt,120,Unique,INT,16,3,Additional
+Belt,120,Unique,LUK,16,3,Additional
+Belt,120,Unique,Max HP,240,3,Additional
+Belt,120,Unique,Max MP,240,3,Additional
+Belt,120,Unique,Attack,12,2,Additional
+Belt,120,Unique,Magic Attack,12,2,Additional
+Belt,120,Unique,DEF,150,3,Additional
+Belt,120,Unique,STR %,5,2,Additional
+Belt,120,Unique,DEX %,5,2,Additional
+Belt,120,Unique,INT %,5,2,Additional
+Belt,120,Unique,LUK %,5,2,Additional
+Belt,120,Unique,Max HP %,7,3,Additional
+Belt,120,Unique,Max MP %,7,3,Additional
+Belt,120,Unique,DEF %,7,3,Additional
+Belt,120,Unique,All Stats %,4,2,Additional
+Belt,120,Unique,STR per 10 character levels,1,2,Additional
+Belt,120,Unique,DEX per 10 character levels,1,2,Additional
+Belt,120,Unique,INT per 10 character levels,1,2,Additional
+Belt,120,Unique,LUK per 10 character levels,1,2,Additional
+Belt,120,Unique,All Elemental Resistances %,4,1,Additional
+Belt,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Belt,120,Legendary,STR,18,3,Additional
+Belt,120,Legendary,DEX,18,3,Additional
+Belt,120,Legendary,INT,18,3,Additional
+Belt,120,Legendary,LUK,18,3,Additional
+Belt,120,Legendary,Max HP,300,3,Additional
+Belt,120,Legendary,Max MP,300,3,Additional
+Belt,120,Legendary,Attack,14,2,Additional
+Belt,120,Legendary,Magic Attack,14,2,Additional
+Belt,120,Legendary,DEF,200,3,Additional
+Belt,120,Legendary,STR %,7,2,Additional
+Belt,120,Legendary,DEX %,7,2,Additional
+Belt,120,Legendary,INT %,7,2,Additional
+Belt,120,Legendary,LUK %,7,2,Additional
+Belt,120,Legendary,Max HP %,10,3,Additional
+Belt,120,Legendary,Max MP %,10,3,Additional
+Belt,120,Legendary,DEF %,10,3,Additional
+Belt,120,Legendary,Critical Damage %,1,1,Additional
+Belt,120,Legendary,Critical Damage %,1,1,Additional
+Belt,120,Legendary,All Stats %,5,2,Additional
+Belt,120,Legendary,STR per 10 character levels,2,2,Additional
+Belt,120,Legendary,DEX per 10 character levels,2,2,Additional
+Belt,120,Legendary,INT per 10 character levels,2,2,Additional
+Belt,120,Legendary,LUK per 10 character levels,2,2,Additional
+Belt,120,Legendary,All Elemental Resistances %,5,1,Additional
+Belt,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Belt,120,Legendary,Meso Obtained %,5,3,Additional
+Belt,120,Legendary,Item Drop Rate %,5,3,Additional
+Shoulder,120,Normal,STR,6,2,Additional
+Shoulder,120,Normal,DEX,6,2,Additional
+Shoulder,120,Normal,INT,6,2,Additional
+Shoulder,120,Normal,LUK,6,2,Additional
+Shoulder,120,Normal,Max HP,60,3,Additional
+Shoulder,120,Normal,Max MP,60,3,Additional
+Shoulder,120,Normal,Speed,4,3,Additional
+Shoulder,120,Normal,Jump,4,3,Additional
+Shoulder,120,Normal,Attack,3,2,Additional
+Shoulder,120,Normal,Magic Attack,3,2,Additional
+Shoulder,120,Normal,DEF,60,3,Additional
+Shoulder,120,Rare,STR,10,3,Additional
+Shoulder,120,Rare,DEX,10,3,Additional
+Shoulder,120,Rare,INT,10,3,Additional
+Shoulder,120,Rare,LUK,10,3,Additional
+Shoulder,120,Rare,Max HP,100,3,Additional
+Shoulder,120,Rare,Max MP,100,3,Additional
+Shoulder,120,Rare,Speed,6,3,Additional
+Shoulder,120,Rare,Jump,6,3,Additional
+Shoulder,120,Rare,Attack,10,2,Additional
+Shoulder,120,Rare,Magic Attack,10,2,Additional
+Shoulder,120,Rare,DEF,100,3,Additional
+Shoulder,120,Rare,STR %,2,2,Additional
+Shoulder,120,Rare,DEX %,2,2,Additional
+Shoulder,120,Rare,INT %,2,2,Additional
+Shoulder,120,Rare,LUK %,2,2,Additional
+Shoulder,120,Rare,Max HP %,2,2,Additional
+Shoulder,120,Rare,Max MP %,2,2,Additional
+Shoulder,120,Rare,DEF %,2,2,Additional
+Shoulder,120,Rare,All Stats,3,2,Additional
+Shoulder,120,Epic,STR,14,3,Additional
+Shoulder,120,Epic,DEX,14,3,Additional
+Shoulder,120,Epic,INT,14,3,Additional
+Shoulder,120,Epic,LUK,14,3,Additional
+Shoulder,120,Epic,Max HP,180,3,Additional
+Shoulder,120,Epic,Max MP,180,3,Additional
+Shoulder,120,Epic,Speed,8,3,Additional
+Shoulder,120,Epic,Jump,8,3,Additional
+Shoulder,120,Epic,Attack,11,2,Additional
+Shoulder,120,Epic,Magic Attack,11,2,Additional
+Shoulder,120,Epic,DEF,120,3,Additional
+Shoulder,120,Epic,STR %,4,2,Additional
+Shoulder,120,Epic,DEX %,4,2,Additional
+Shoulder,120,Epic,INT %,4,2,Additional
+Shoulder,120,Epic,LUK %,4,2,Additional
+Shoulder,120,Epic,Max HP %,5,3,Additional
+Shoulder,120,Epic,Max MP %,5,3,Additional
+Shoulder,120,Epic,DEF %,4,3,Additional
+Shoulder,120,Epic,All Stats %,2,2,Additional
+Shoulder,120,Unique,STR,16,3,Additional
+Shoulder,120,Unique,DEX,16,3,Additional
+Shoulder,120,Unique,INT,16,3,Additional
+Shoulder,120,Unique,LUK,16,3,Additional
+Shoulder,120,Unique,Max HP,240,3,Additional
+Shoulder,120,Unique,Max MP,240,3,Additional
+Shoulder,120,Unique,Attack,12,2,Additional
+Shoulder,120,Unique,Magic Attack,12,2,Additional
+Shoulder,120,Unique,DEF,150,3,Additional
+Shoulder,120,Unique,STR %,5,2,Additional
+Shoulder,120,Unique,DEX %,5,2,Additional
+Shoulder,120,Unique,INT %,5,2,Additional
+Shoulder,120,Unique,LUK %,5,2,Additional
+Shoulder,120,Unique,Max HP %,7,3,Additional
+Shoulder,120,Unique,Max MP %,7,3,Additional
+Shoulder,120,Unique,DEF %,7,3,Additional
+Shoulder,120,Unique,All Stats %,4,2,Additional
+Shoulder,120,Unique,STR per 10 character levels,1,2,Additional
+Shoulder,120,Unique,DEX per 10 character levels,1,2,Additional
+Shoulder,120,Unique,INT per 10 character levels,1,2,Additional
+Shoulder,120,Unique,LUK per 10 character levels,1,2,Additional
+Shoulder,120,Unique,All Elemental Resistances %,4,1,Additional
+Shoulder,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Shoulder,120,Legendary,STR,18,3,Additional
+Shoulder,120,Legendary,DEX,18,3,Additional
+Shoulder,120,Legendary,INT,18,3,Additional
+Shoulder,120,Legendary,LUK,18,3,Additional
+Shoulder,120,Legendary,Max HP,300,3,Additional
+Shoulder,120,Legendary,Max MP,300,3,Additional
+Shoulder,120,Legendary,Attack,14,2,Additional
+Shoulder,120,Legendary,Magic Attack,14,2,Additional
+Shoulder,120,Legendary,DEF,200,3,Additional
+Shoulder,120,Legendary,STR %,7,2,Additional
+Shoulder,120,Legendary,DEX %,7,2,Additional
+Shoulder,120,Legendary,INT %,7,2,Additional
+Shoulder,120,Legendary,LUK %,7,2,Additional
+Shoulder,120,Legendary,Max HP %,10,3,Additional
+Shoulder,120,Legendary,Max MP %,10,3,Additional
+Shoulder,120,Legendary,DEF %,10,3,Additional
+Shoulder,120,Legendary,Critical Damage %,1,1,Additional
+Shoulder,120,Legendary,Critical Damage %,1,1,Additional
+Shoulder,120,Legendary,All Stats %,5,2,Additional
+Shoulder,120,Legendary,STR per 10 character levels,2,2,Additional
+Shoulder,120,Legendary,DEX per 10 character levels,2,2,Additional
+Shoulder,120,Legendary,INT per 10 character levels,2,2,Additional
+Shoulder,120,Legendary,LUK per 10 character levels,2,2,Additional
+Shoulder,120,Legendary,All Elemental Resistances %,5,1,Additional
+Shoulder,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Shoulder,120,Legendary,Meso Obtained %,5,3,Additional
+Shoulder,120,Legendary,Item Drop Rate %,5,3,Additional
+Face Accessory,120,Normal,STR,6,2,Additional
+Face Accessory,120,Normal,DEX,6,2,Additional
+Face Accessory,120,Normal,INT,6,2,Additional
+Face Accessory,120,Normal,LUK,6,2,Additional
+Face Accessory,120,Normal,Max HP,60,3,Additional
+Face Accessory,120,Normal,Max MP,60,3,Additional
+Face Accessory,120,Normal,Speed,4,3,Additional
+Face Accessory,120,Normal,Jump,4,3,Additional
+Face Accessory,120,Normal,Attack,3,2,Additional
+Face Accessory,120,Normal,Magic Attack,3,2,Additional
+Face Accessory,120,Normal,DEF,60,3,Additional
+Face Accessory,120,Rare,STR,10,3,Additional
+Face Accessory,120,Rare,DEX,10,3,Additional
+Face Accessory,120,Rare,INT,10,3,Additional
+Face Accessory,120,Rare,LUK,10,3,Additional
+Face Accessory,120,Rare,Max HP,100,3,Additional
+Face Accessory,120,Rare,Max MP,100,3,Additional
+Face Accessory,120,Rare,Speed,6,3,Additional
+Face Accessory,120,Rare,Jump,6,3,Additional
+Face Accessory,120,Rare,Attack,10,2,Additional
+Face Accessory,120,Rare,Magic Attack,10,2,Additional
+Face Accessory,120,Rare,DEF,100,3,Additional
+Face Accessory,120,Rare,STR %,2,2,Additional
+Face Accessory,120,Rare,DEX %,2,2,Additional
+Face Accessory,120,Rare,INT %,2,2,Additional
+Face Accessory,120,Rare,LUK %,2,2,Additional
+Face Accessory,120,Rare,Max HP %,2,2,Additional
+Face Accessory,120,Rare,Max MP %,2,2,Additional
+Face Accessory,120,Rare,DEF %,2,2,Additional
+Face Accessory,120,Rare,All Stats,3,2,Additional
+Face Accessory,120,Epic,STR,14,3,Additional
+Face Accessory,120,Epic,DEX,14,3,Additional
+Face Accessory,120,Epic,INT,14,3,Additional
+Face Accessory,120,Epic,LUK,14,3,Additional
+Face Accessory,120,Epic,Max HP,180,3,Additional
+Face Accessory,120,Epic,Max MP,180,3,Additional
+Face Accessory,120,Epic,Speed,8,3,Additional
+Face Accessory,120,Epic,Jump,8,3,Additional
+Face Accessory,120,Epic,Attack,11,2,Additional
+Face Accessory,120,Epic,Magic Attack,11,2,Additional
+Face Accessory,120,Epic,DEF,120,3,Additional
+Face Accessory,120,Epic,STR %,4,2,Additional
+Face Accessory,120,Epic,DEX %,4,2,Additional
+Face Accessory,120,Epic,INT %,4,2,Additional
+Face Accessory,120,Epic,LUK %,4,2,Additional
+Face Accessory,120,Epic,Max HP %,5,3,Additional
+Face Accessory,120,Epic,Max MP %,5,3,Additional
+Face Accessory,120,Epic,DEF %,4,3,Additional
+Face Accessory,120,Epic,All Stats %,2,2,Additional
+Face Accessory,120,Unique,STR,16,3,Additional
+Face Accessory,120,Unique,DEX,16,3,Additional
+Face Accessory,120,Unique,INT,16,3,Additional
+Face Accessory,120,Unique,LUK,16,3,Additional
+Face Accessory,120,Unique,Max HP,240,3,Additional
+Face Accessory,120,Unique,Max MP,240,3,Additional
+Face Accessory,120,Unique,Attack,12,2,Additional
+Face Accessory,120,Unique,Magic Attack,12,2,Additional
+Face Accessory,120,Unique,DEF,150,3,Additional
+Face Accessory,120,Unique,STR %,5,2,Additional
+Face Accessory,120,Unique,DEX %,5,2,Additional
+Face Accessory,120,Unique,INT %,5,2,Additional
+Face Accessory,120,Unique,LUK %,5,2,Additional
+Face Accessory,120,Unique,Max HP %,7,3,Additional
+Face Accessory,120,Unique,Max MP %,7,3,Additional
+Face Accessory,120,Unique,DEF %,7,3,Additional
+Face Accessory,120,Unique,All Stats %,4,2,Additional
+Face Accessory,120,Unique,STR per 10 character levels,1,2,Additional
+Face Accessory,120,Unique,DEX per 10 character levels,1,2,Additional
+Face Accessory,120,Unique,INT per 10 character levels,1,2,Additional
+Face Accessory,120,Unique,LUK per 10 character levels,1,2,Additional
+Face Accessory,120,Unique,All Elemental Resistances %,4,1,Additional
+Face Accessory,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Face Accessory,120,Legendary,STR,18,3,Additional
+Face Accessory,120,Legendary,DEX,18,3,Additional
+Face Accessory,120,Legendary,INT,18,3,Additional
+Face Accessory,120,Legendary,LUK,18,3,Additional
+Face Accessory,120,Legendary,Max HP,300,3,Additional
+Face Accessory,120,Legendary,Max MP,300,3,Additional
+Face Accessory,120,Legendary,Attack,14,2,Additional
+Face Accessory,120,Legendary,Magic Attack,14,2,Additional
+Face Accessory,120,Legendary,DEF,200,3,Additional
+Face Accessory,120,Legendary,STR %,7,2,Additional
+Face Accessory,120,Legendary,DEX %,7,2,Additional
+Face Accessory,120,Legendary,INT %,7,2,Additional
+Face Accessory,120,Legendary,LUK %,7,2,Additional
+Face Accessory,120,Legendary,Max HP %,10,3,Additional
+Face Accessory,120,Legendary,Max MP %,10,3,Additional
+Face Accessory,120,Legendary,DEF %,10,3,Additional
+Face Accessory,120,Legendary,All Stats %,5,2,Additional
+Face Accessory,120,Legendary,STR per 10 character levels,2,2,Additional
+Face Accessory,120,Legendary,DEX per 10 character levels,2,2,Additional
+Face Accessory,120,Legendary,INT per 10 character levels,2,2,Additional
+Face Accessory,120,Legendary,LUK per 10 character levels,2,2,Additional
+Face Accessory,120,Legendary,All Elemental Resistances %,5,1,Additional
+Face Accessory,120,Legendary,All Skill MP Cost %,10,3,Additional
+Face Accessory,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Face Accessory,120,Legendary,Meso Obtained %,5,3,Additional
+Face Accessory,120,Legendary,Item Drop Rate %,5,3,Additional
+Eye Accessory,120,Normal,STR,6,2,Additional
+Eye Accessory,120,Normal,DEX,6,2,Additional
+Eye Accessory,120,Normal,INT,6,2,Additional
+Eye Accessory,120,Normal,LUK,6,2,Additional
+Eye Accessory,120,Normal,Max HP,60,3,Additional
+Eye Accessory,120,Normal,Max MP,60,3,Additional
+Eye Accessory,120,Normal,Speed,4,3,Additional
+Eye Accessory,120,Normal,Jump,4,3,Additional
+Eye Accessory,120,Normal,Attack,3,2,Additional
+Eye Accessory,120,Normal,Magic Attack,3,2,Additional
+Eye Accessory,120,Normal,DEF,60,3,Additional
+Eye Accessory,120,Rare,STR,10,3,Additional
+Eye Accessory,120,Rare,DEX,10,3,Additional
+Eye Accessory,120,Rare,INT,10,3,Additional
+Eye Accessory,120,Rare,LUK,10,3,Additional
+Eye Accessory,120,Rare,Max HP,100,3,Additional
+Eye Accessory,120,Rare,Max MP,100,3,Additional
+Eye Accessory,120,Rare,Speed,6,3,Additional
+Eye Accessory,120,Rare,Jump,6,3,Additional
+Eye Accessory,120,Rare,Attack,10,2,Additional
+Eye Accessory,120,Rare,Magic Attack,10,2,Additional
+Eye Accessory,120,Rare,DEF,100,3,Additional
+Eye Accessory,120,Rare,STR %,2,2,Additional
+Eye Accessory,120,Rare,DEX %,2,2,Additional
+Eye Accessory,120,Rare,INT %,2,2,Additional
+Eye Accessory,120,Rare,LUK %,2,2,Additional
+Eye Accessory,120,Rare,Max HP %,2,2,Additional
+Eye Accessory,120,Rare,Max MP %,2,2,Additional
+Eye Accessory,120,Rare,DEF %,2,2,Additional
+Eye Accessory,120,Rare,All Stats,3,2,Additional
+Eye Accessory,120,Epic,STR,14,3,Additional
+Eye Accessory,120,Epic,DEX,14,3,Additional
+Eye Accessory,120,Epic,INT,14,3,Additional
+Eye Accessory,120,Epic,LUK,14,3,Additional
+Eye Accessory,120,Epic,Max HP,180,3,Additional
+Eye Accessory,120,Epic,Max MP,180,3,Additional
+Eye Accessory,120,Epic,Speed,8,3,Additional
+Eye Accessory,120,Epic,Jump,8,3,Additional
+Eye Accessory,120,Epic,Attack,11,2,Additional
+Eye Accessory,120,Epic,Magic Attack,11,2,Additional
+Eye Accessory,120,Epic,DEF,120,3,Additional
+Eye Accessory,120,Epic,STR %,4,2,Additional
+Eye Accessory,120,Epic,DEX %,4,2,Additional
+Eye Accessory,120,Epic,INT %,4,2,Additional
+Eye Accessory,120,Epic,LUK %,4,2,Additional
+Eye Accessory,120,Epic,Max HP %,5,3,Additional
+Eye Accessory,120,Epic,Max MP %,5,3,Additional
+Eye Accessory,120,Epic,DEF %,4,3,Additional
+Eye Accessory,120,Epic,All Stats %,2,2,Additional
+Eye Accessory,120,Unique,STR,16,3,Additional
+Eye Accessory,120,Unique,DEX,16,3,Additional
+Eye Accessory,120,Unique,INT,16,3,Additional
+Eye Accessory,120,Unique,LUK,16,3,Additional
+Eye Accessory,120,Unique,Max HP,240,3,Additional
+Eye Accessory,120,Unique,Max MP,240,3,Additional
+Eye Accessory,120,Unique,Attack,12,2,Additional
+Eye Accessory,120,Unique,Magic Attack,12,2,Additional
+Eye Accessory,120,Unique,DEF,150,3,Additional
+Eye Accessory,120,Unique,STR %,5,2,Additional
+Eye Accessory,120,Unique,DEX %,5,2,Additional
+Eye Accessory,120,Unique,INT %,5,2,Additional
+Eye Accessory,120,Unique,LUK %,5,2,Additional
+Eye Accessory,120,Unique,Max HP %,7,3,Additional
+Eye Accessory,120,Unique,Max MP %,7,3,Additional
+Eye Accessory,120,Unique,DEF %,7,3,Additional
+Eye Accessory,120,Unique,All Stats %,4,2,Additional
+Eye Accessory,120,Unique,STR per 10 character levels,1,2,Additional
+Eye Accessory,120,Unique,DEX per 10 character levels,1,2,Additional
+Eye Accessory,120,Unique,INT per 10 character levels,1,2,Additional
+Eye Accessory,120,Unique,LUK per 10 character levels,1,2,Additional
+Eye Accessory,120,Unique,All Elemental Resistances %,4,1,Additional
+Eye Accessory,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Eye Accessory,120,Legendary,STR,18,3,Additional
+Eye Accessory,120,Legendary,DEX,18,3,Additional
+Eye Accessory,120,Legendary,INT,18,3,Additional
+Eye Accessory,120,Legendary,LUK,18,3,Additional
+Eye Accessory,120,Legendary,Max HP,300,3,Additional
+Eye Accessory,120,Legendary,Max MP,300,3,Additional
+Eye Accessory,120,Legendary,Attack,14,2,Additional
+Eye Accessory,120,Legendary,Magic Attack,14,2,Additional
+Eye Accessory,120,Legendary,DEF,200,3,Additional
+Eye Accessory,120,Legendary,STR %,7,2,Additional
+Eye Accessory,120,Legendary,DEX %,7,2,Additional
+Eye Accessory,120,Legendary,INT %,7,2,Additional
+Eye Accessory,120,Legendary,LUK %,7,2,Additional
+Eye Accessory,120,Legendary,Max HP %,10,3,Additional
+Eye Accessory,120,Legendary,Max MP %,10,3,Additional
+Eye Accessory,120,Legendary,DEF %,10,3,Additional
+Eye Accessory,120,Legendary,All Stats %,5,2,Additional
+Eye Accessory,120,Legendary,STR per 10 character levels,2,2,Additional
+Eye Accessory,120,Legendary,DEX per 10 character levels,2,2,Additional
+Eye Accessory,120,Legendary,INT per 10 character levels,2,2,Additional
+Eye Accessory,120,Legendary,LUK per 10 character levels,2,2,Additional
+Eye Accessory,120,Legendary,All Elemental Resistances %,5,1,Additional
+Eye Accessory,120,Legendary,All Skill MP Cost %,10,3,Additional
+Eye Accessory,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Eye Accessory,120,Legendary,Meso Obtained %,5,3,Additional
+Eye Accessory,120,Legendary,Item Drop Rate %,5,3,Additional
+Earring,120,Normal,STR,6,2,Additional
+Earring,120,Normal,DEX,6,2,Additional
+Earring,120,Normal,INT,6,2,Additional
+Earring,120,Normal,LUK,6,2,Additional
+Earring,120,Normal,Max HP,60,3,Additional
+Earring,120,Normal,Max MP,60,3,Additional
+Earring,120,Normal,Speed,4,3,Additional
+Earring,120,Normal,Jump,4,3,Additional
+Earring,120,Normal,Attack,3,2,Additional
+Earring,120,Normal,Magic Attack,3,2,Additional
+Earring,120,Normal,DEF,60,3,Additional
+Earring,120,Rare,STR,10,3,Additional
+Earring,120,Rare,DEX,10,3,Additional
+Earring,120,Rare,INT,10,3,Additional
+Earring,120,Rare,LUK,10,3,Additional
+Earring,120,Rare,Max HP,100,3,Additional
+Earring,120,Rare,Max MP,100,3,Additional
+Earring,120,Rare,Speed,6,3,Additional
+Earring,120,Rare,Jump,6,3,Additional
+Earring,120,Rare,Attack,10,2,Additional
+Earring,120,Rare,Magic Attack,10,2,Additional
+Earring,120,Rare,DEF,100,3,Additional
+Earring,120,Rare,STR %,2,2,Additional
+Earring,120,Rare,DEX %,2,2,Additional
+Earring,120,Rare,INT %,2,2,Additional
+Earring,120,Rare,LUK %,2,2,Additional
+Earring,120,Rare,Max HP %,2,2,Additional
+Earring,120,Rare,Max MP %,2,2,Additional
+Earring,120,Rare,DEF %,2,2,Additional
+Earring,120,Rare,All Stats,3,2,Additional
+Earring,120,Epic,STR,14,3,Additional
+Earring,120,Epic,DEX,14,3,Additional
+Earring,120,Epic,INT,14,3,Additional
+Earring,120,Epic,LUK,14,3,Additional
+Earring,120,Epic,Max HP,180,3,Additional
+Earring,120,Epic,Max MP,180,3,Additional
+Earring,120,Epic,Speed,8,3,Additional
+Earring,120,Epic,Jump,8,3,Additional
+Earring,120,Epic,Attack,11,2,Additional
+Earring,120,Epic,Magic Attack,11,2,Additional
+Earring,120,Epic,DEF,120,3,Additional
+Earring,120,Epic,STR %,4,2,Additional
+Earring,120,Epic,DEX %,4,2,Additional
+Earring,120,Epic,INT %,4,2,Additional
+Earring,120,Epic,LUK %,4,2,Additional
+Earring,120,Epic,Max HP %,5,3,Additional
+Earring,120,Epic,Max MP %,5,3,Additional
+Earring,120,Epic,DEF %,4,3,Additional
+Earring,120,Epic,All Stats %,2,2,Additional
+Earring,120,Unique,STR,16,3,Additional
+Earring,120,Unique,DEX,16,3,Additional
+Earring,120,Unique,INT,16,3,Additional
+Earring,120,Unique,LUK,16,3,Additional
+Earring,120,Unique,Max HP,240,3,Additional
+Earring,120,Unique,Max MP,240,3,Additional
+Earring,120,Unique,Attack,12,2,Additional
+Earring,120,Unique,Magic Attack,12,2,Additional
+Earring,120,Unique,DEF,150,3,Additional
+Earring,120,Unique,STR %,5,2,Additional
+Earring,120,Unique,DEX %,5,2,Additional
+Earring,120,Unique,INT %,5,2,Additional
+Earring,120,Unique,LUK %,5,2,Additional
+Earring,120,Unique,Max HP %,7,3,Additional
+Earring,120,Unique,Max MP %,7,3,Additional
+Earring,120,Unique,DEF %,7,3,Additional
+Earring,120,Unique,All Stats %,4,2,Additional
+Earring,120,Unique,STR per 10 character levels,1,2,Additional
+Earring,120,Unique,DEX per 10 character levels,1,2,Additional
+Earring,120,Unique,INT per 10 character levels,1,2,Additional
+Earring,120,Unique,LUK per 10 character levels,1,2,Additional
+Earring,120,Unique,All Elemental Resistances %,4,1,Additional
+Earring,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Earring,120,Legendary,STR,18,3,Additional
+Earring,120,Legendary,DEX,18,3,Additional
+Earring,120,Legendary,INT,18,3,Additional
+Earring,120,Legendary,LUK,18,3,Additional
+Earring,120,Legendary,Max HP,300,3,Additional
+Earring,120,Legendary,Max MP,300,3,Additional
+Earring,120,Legendary,Attack,14,2,Additional
+Earring,120,Legendary,Magic Attack,14,2,Additional
+Earring,120,Legendary,DEF,200,3,Additional
+Earring,120,Legendary,STR %,7,2,Additional
+Earring,120,Legendary,DEX %,7,2,Additional
+Earring,120,Legendary,INT %,7,2,Additional
+Earring,120,Legendary,LUK %,7,2,Additional
+Earring,120,Legendary,Max HP %,10,3,Additional
+Earring,120,Legendary,Max MP %,10,3,Additional
+Earring,120,Legendary,DEF %,10,3,Additional
+Earring,120,Legendary,All Stats %,5,2,Additional
+Earring,120,Legendary,STR per 10 character levels,2,2,Additional
+Earring,120,Legendary,DEX per 10 character levels,2,2,Additional
+Earring,120,Legendary,INT per 10 character levels,2,2,Additional
+Earring,120,Legendary,LUK per 10 character levels,2,2,Additional
+Earring,120,Legendary,All Elemental Resistances %,5,1,Additional
+Earring,120,Legendary,All Skill MP Cost %,10,3,Additional
+Earring,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Earring,120,Legendary,Meso Obtained %,5,3,Additional
+Earring,120,Legendary,Item Drop Rate %,5,3,Additional
+Ring,120,Normal,STR,6,2,Additional
+Ring,120,Normal,DEX,6,2,Additional
+Ring,120,Normal,INT,6,2,Additional
+Ring,120,Normal,LUK,6,2,Additional
+Ring,120,Normal,Max HP,60,3,Additional
+Ring,120,Normal,Max MP,60,3,Additional
+Ring,120,Normal,Speed,4,3,Additional
+Ring,120,Normal,Jump,4,3,Additional
+Ring,120,Normal,Attack,3,2,Additional
+Ring,120,Normal,Magic Attack,3,2,Additional
+Ring,120,Normal,DEF,60,3,Additional
+Ring,120,Rare,STR,10,3,Additional
+Ring,120,Rare,DEX,10,3,Additional
+Ring,120,Rare,INT,10,3,Additional
+Ring,120,Rare,LUK,10,3,Additional
+Ring,120,Rare,Max HP,100,3,Additional
+Ring,120,Rare,Max MP,100,3,Additional
+Ring,120,Rare,Speed,6,3,Additional
+Ring,120,Rare,Jump,6,3,Additional
+Ring,120,Rare,Attack,10,2,Additional
+Ring,120,Rare,Magic Attack,10,2,Additional
+Ring,120,Rare,DEF,100,3,Additional
+Ring,120,Rare,STR %,2,2,Additional
+Ring,120,Rare,DEX %,2,2,Additional
+Ring,120,Rare,INT %,2,2,Additional
+Ring,120,Rare,LUK %,2,2,Additional
+Ring,120,Rare,Max HP %,2,2,Additional
+Ring,120,Rare,Max MP %,2,2,Additional
+Ring,120,Rare,DEF %,2,2,Additional
+Ring,120,Rare,All Stats,3,2,Additional
+Ring,120,Epic,STR,14,3,Additional
+Ring,120,Epic,DEX,14,3,Additional
+Ring,120,Epic,INT,14,3,Additional
+Ring,120,Epic,LUK,14,3,Additional
+Ring,120,Epic,Max HP,180,3,Additional
+Ring,120,Epic,Max MP,180,3,Additional
+Ring,120,Epic,Speed,8,3,Additional
+Ring,120,Epic,Jump,8,3,Additional
+Ring,120,Epic,Attack,11,2,Additional
+Ring,120,Epic,Magic Attack,11,2,Additional
+Ring,120,Epic,DEF,120,3,Additional
+Ring,120,Epic,STR %,4,2,Additional
+Ring,120,Epic,DEX %,4,2,Additional
+Ring,120,Epic,INT %,4,2,Additional
+Ring,120,Epic,LUK %,4,2,Additional
+Ring,120,Epic,Max HP %,5,3,Additional
+Ring,120,Epic,Max MP %,5,3,Additional
+Ring,120,Epic,DEF %,4,3,Additional
+Ring,120,Epic,All Stats %,2,2,Additional
+Ring,120,Unique,STR,16,3,Additional
+Ring,120,Unique,DEX,16,3,Additional
+Ring,120,Unique,INT,16,3,Additional
+Ring,120,Unique,LUK,16,3,Additional
+Ring,120,Unique,Max HP,240,3,Additional
+Ring,120,Unique,Max MP,240,3,Additional
+Ring,120,Unique,Attack,12,2,Additional
+Ring,120,Unique,Magic Attack,12,2,Additional
+Ring,120,Unique,DEF,150,3,Additional
+Ring,120,Unique,STR %,5,2,Additional
+Ring,120,Unique,DEX %,5,2,Additional
+Ring,120,Unique,INT %,5,2,Additional
+Ring,120,Unique,LUK %,5,2,Additional
+Ring,120,Unique,Max HP %,7,3,Additional
+Ring,120,Unique,Max MP %,7,3,Additional
+Ring,120,Unique,DEF %,7,3,Additional
+Ring,120,Unique,All Stats %,4,2,Additional
+Ring,120,Unique,STR per 10 character levels,1,2,Additional
+Ring,120,Unique,DEX per 10 character levels,1,2,Additional
+Ring,120,Unique,INT per 10 character levels,1,2,Additional
+Ring,120,Unique,LUK per 10 character levels,1,2,Additional
+Ring,120,Unique,All Elemental Resistances %,4,1,Additional
+Ring,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Ring,120,Legendary,STR,18,3,Additional
+Ring,120,Legendary,DEX,18,3,Additional
+Ring,120,Legendary,INT,18,3,Additional
+Ring,120,Legendary,LUK,18,3,Additional
+Ring,120,Legendary,Max HP,300,3,Additional
+Ring,120,Legendary,Max MP,300,3,Additional
+Ring,120,Legendary,Attack,14,2,Additional
+Ring,120,Legendary,Magic Attack,14,2,Additional
+Ring,120,Legendary,DEF,200,3,Additional
+Ring,120,Legendary,STR %,7,2,Additional
+Ring,120,Legendary,DEX %,7,2,Additional
+Ring,120,Legendary,INT %,7,2,Additional
+Ring,120,Legendary,LUK %,7,2,Additional
+Ring,120,Legendary,Max HP %,10,3,Additional
+Ring,120,Legendary,Max MP %,10,3,Additional
+Ring,120,Legendary,DEF %,10,3,Additional
+Ring,120,Legendary,All Stats %,5,2,Additional
+Ring,120,Legendary,STR per 10 character levels,2,2,Additional
+Ring,120,Legendary,DEX per 10 character levels,2,2,Additional
+Ring,120,Legendary,INT per 10 character levels,2,2,Additional
+Ring,120,Legendary,LUK per 10 character levels,2,2,Additional
+Ring,120,Legendary,All Elemental Resistances %,5,1,Additional
+Ring,120,Legendary,All Skill MP Cost %,10,3,Additional
+Ring,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Ring,120,Legendary,Meso Obtained %,5,3,Additional
+Ring,120,Legendary,Item Drop Rate %,5,3,Additional
+Pendant,120,Normal,STR,6,2,Additional
+Pendant,120,Normal,DEX,6,2,Additional
+Pendant,120,Normal,INT,6,2,Additional
+Pendant,120,Normal,LUK,6,2,Additional
+Pendant,120,Normal,Max HP,60,3,Additional
+Pendant,120,Normal,Max MP,60,3,Additional
+Pendant,120,Normal,Speed,4,3,Additional
+Pendant,120,Normal,Jump,4,3,Additional
+Pendant,120,Normal,Attack,3,2,Additional
+Pendant,120,Normal,Magic Attack,3,2,Additional
+Pendant,120,Normal,DEF,60,3,Additional
+Pendant,120,Rare,STR,10,3,Additional
+Pendant,120,Rare,DEX,10,3,Additional
+Pendant,120,Rare,INT,10,3,Additional
+Pendant,120,Rare,LUK,10,3,Additional
+Pendant,120,Rare,Max HP,100,3,Additional
+Pendant,120,Rare,Max MP,100,3,Additional
+Pendant,120,Rare,Speed,6,3,Additional
+Pendant,120,Rare,Jump,6,3,Additional
+Pendant,120,Rare,Attack,10,2,Additional
+Pendant,120,Rare,Magic Attack,10,2,Additional
+Pendant,120,Rare,DEF,100,3,Additional
+Pendant,120,Rare,STR %,2,2,Additional
+Pendant,120,Rare,DEX %,2,2,Additional
+Pendant,120,Rare,INT %,2,2,Additional
+Pendant,120,Rare,LUK %,2,2,Additional
+Pendant,120,Rare,Max HP %,2,2,Additional
+Pendant,120,Rare,Max MP %,2,2,Additional
+Pendant,120,Rare,DEF %,2,2,Additional
+Pendant,120,Rare,All Stats,3,2,Additional
+Pendant,120,Epic,STR,14,3,Additional
+Pendant,120,Epic,DEX,14,3,Additional
+Pendant,120,Epic,INT,14,3,Additional
+Pendant,120,Epic,LUK,14,3,Additional
+Pendant,120,Epic,Max HP,180,3,Additional
+Pendant,120,Epic,Max MP,180,3,Additional
+Pendant,120,Epic,Speed,8,3,Additional
+Pendant,120,Epic,Jump,8,3,Additional
+Pendant,120,Epic,Attack,11,2,Additional
+Pendant,120,Epic,Magic Attack,11,2,Additional
+Pendant,120,Epic,DEF,120,3,Additional
+Pendant,120,Epic,STR %,4,2,Additional
+Pendant,120,Epic,DEX %,4,2,Additional
+Pendant,120,Epic,INT %,4,2,Additional
+Pendant,120,Epic,LUK %,4,2,Additional
+Pendant,120,Epic,Max HP %,5,3,Additional
+Pendant,120,Epic,Max MP %,5,3,Additional
+Pendant,120,Epic,DEF %,4,3,Additional
+Pendant,120,Epic,All Stats %,2,2,Additional
+Pendant,120,Unique,STR,16,3,Additional
+Pendant,120,Unique,DEX,16,3,Additional
+Pendant,120,Unique,INT,16,3,Additional
+Pendant,120,Unique,LUK,16,3,Additional
+Pendant,120,Unique,Max HP,240,3,Additional
+Pendant,120,Unique,Max MP,240,3,Additional
+Pendant,120,Unique,Attack,12,2,Additional
+Pendant,120,Unique,Magic Attack,12,2,Additional
+Pendant,120,Unique,DEF,150,3,Additional
+Pendant,120,Unique,STR %,5,2,Additional
+Pendant,120,Unique,DEX %,5,2,Additional
+Pendant,120,Unique,INT %,5,2,Additional
+Pendant,120,Unique,LUK %,5,2,Additional
+Pendant,120,Unique,Max HP %,7,3,Additional
+Pendant,120,Unique,Max MP %,7,3,Additional
+Pendant,120,Unique,DEF %,7,3,Additional
+Pendant,120,Unique,All Stats %,4,2,Additional
+Pendant,120,Unique,STR per 10 character levels,1,2,Additional
+Pendant,120,Unique,DEX per 10 character levels,1,2,Additional
+Pendant,120,Unique,INT per 10 character levels,1,2,Additional
+Pendant,120,Unique,LUK per 10 character levels,1,2,Additional
+Pendant,120,Unique,All Elemental Resistances %,4,1,Additional
+Pendant,120,Unique,HP Recovery % (on items and skills),20,3,Additional
+Pendant,120,Legendary,STR,18,3,Additional
+Pendant,120,Legendary,DEX,18,3,Additional
+Pendant,120,Legendary,INT,18,3,Additional
+Pendant,120,Legendary,LUK,18,3,Additional
+Pendant,120,Legendary,Max HP,300,3,Additional
+Pendant,120,Legendary,Max MP,300,3,Additional
+Pendant,120,Legendary,Attack,14,2,Additional
+Pendant,120,Legendary,Magic Attack,14,2,Additional
+Pendant,120,Legendary,DEF,200,3,Additional
+Pendant,120,Legendary,STR %,7,2,Additional
+Pendant,120,Legendary,DEX %,7,2,Additional
+Pendant,120,Legendary,INT %,7,2,Additional
+Pendant,120,Legendary,LUK %,7,2,Additional
+Pendant,120,Legendary,Max HP %,10,3,Additional
+Pendant,120,Legendary,Max MP %,10,3,Additional
+Pendant,120,Legendary,DEF %,10,3,Additional
+Pendant,120,Legendary,All Stats %,5,2,Additional
+Pendant,120,Legendary,STR per 10 character levels,2,2,Additional
+Pendant,120,Legendary,DEX per 10 character levels,2,2,Additional
+Pendant,120,Legendary,INT per 10 character levels,2,2,Additional
+Pendant,120,Legendary,LUK per 10 character levels,2,2,Additional
+Pendant,120,Legendary,All Elemental Resistances %,5,1,Additional
+Pendant,120,Legendary,All Skill MP Cost %,10,3,Additional
+Pendant,120,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Pendant,120,Legendary,Meso Obtained %,5,3,Additional
+Pendant,120,Legendary,Item Drop Rate %,5,3,Additional
+Heart,100,Normal,STR,6,2,Additional
+Heart,100,Normal,DEX,6,2,Additional
+Heart,100,Normal,INT,6,2,Additional
+Heart,100,Normal,LUK,6,2,Additional
+Heart,100,Normal,Max HP,50,3,Additional
+Heart,100,Normal,Max MP,50,3,Additional
+Heart,100,Normal,Speed,3,3,Additional
+Heart,100,Normal,Jump,3,3,Additional
+Heart,100,Normal,Attack,2,2,Additional
+Heart,100,Normal,Magic Attack,2,2,Additional
+Heart,100,Normal,DEF,50,3,Additional
+Heart,100,Rare,STR,10,3,Additional
+Heart,100,Rare,DEX,10,3,Additional
+Heart,100,Rare,INT,10,3,Additional
+Heart,100,Rare,LUK,10,3,Additional
+Heart,100,Rare,Max HP,100,3,Additional
+Heart,100,Rare,Max MP,100,3,Additional
+Heart,100,Rare,Speed,5,3,Additional
+Heart,100,Rare,Jump,5,3,Additional
+Heart,100,Rare,Attack,10,2,Additional
+Heart,100,Rare,Magic Attack,10,2,Additional
+Heart,100,Rare,DEF,100,3,Additional
+Heart,100,Rare,STR %,2,2,Additional
+Heart,100,Rare,DEX %,2,2,Additional
+Heart,100,Rare,INT %,2,2,Additional
+Heart,100,Rare,LUK %,2,2,Additional
+Heart,100,Rare,Max HP %,2,2,Additional
+Heart,100,Rare,Max MP %,2,2,Additional
+Heart,100,Rare,DEF %,2,2,Additional
+Heart,100,Rare,All Stats,3,2,Additional
+Heart,100,Epic,STR,14,3,Additional
+Heart,100,Epic,DEX,14,3,Additional
+Heart,100,Epic,INT,14,3,Additional
+Heart,100,Epic,LUK,14,3,Additional
+Heart,100,Epic,Max HP,150,3,Additional
+Heart,100,Epic,Max MP,150,3,Additional
+Heart,100,Epic,Speed,6,3,Additional
+Heart,100,Epic,Jump,6,3,Additional
+Heart,100,Epic,Attack,11,2,Additional
+Heart,100,Epic,Magic Attack,11,2,Additional
+Heart,100,Epic,DEF,120,3,Additional
+Heart,100,Epic,STR %,4,2,Additional
+Heart,100,Epic,DEX %,4,2,Additional
+Heart,100,Epic,INT %,4,2,Additional
+Heart,100,Epic,LUK %,4,2,Additional
+Heart,100,Epic,Max HP %,5,3,Additional
+Heart,100,Epic,Max MP %,5,3,Additional
+Heart,100,Epic,DEF %,4,3,Additional
+Heart,100,Epic,All Stats %,2,2,Additional
+Heart,100,Unique,STR,16,3,Additional
+Heart,100,Unique,DEX,16,3,Additional
+Heart,100,Unique,INT,16,3,Additional
+Heart,100,Unique,LUK,16,3,Additional
+Heart,100,Unique,Max HP,200,3,Additional
+Heart,100,Unique,Max MP,200,3,Additional
+Heart,100,Unique,Attack,12,2,Additional
+Heart,100,Unique,Magic Attack,12,2,Additional
+Heart,100,Unique,DEF,150,3,Additional
+Heart,100,Unique,STR %,5,2,Additional
+Heart,100,Unique,DEX %,5,2,Additional
+Heart,100,Unique,INT %,5,2,Additional
+Heart,100,Unique,LUK %,5,2,Additional
+Heart,100,Unique,Max HP %,7,3,Additional
+Heart,100,Unique,Max MP %,7,3,Additional
+Heart,100,Unique,DEF %,7,3,Additional
+Heart,100,Unique,All Stats %,4,2,Additional
+Heart,100,Unique,STR per 10 character levels,1,2,Additional
+Heart,100,Unique,DEX per 10 character levels,1,2,Additional
+Heart,100,Unique,INT per 10 character levels,1,2,Additional
+Heart,100,Unique,LUK per 10 character levels,1,2,Additional
+Heart,100,Unique,All Elemental Resistances %,4,1,Additional
+Heart,100,Unique,HP Recovery % (on items and skills),20,3,Additional
+Heart,100,Legendary,STR,18,3,Additional
+Heart,100,Legendary,DEX,18,3,Additional
+Heart,100,Legendary,INT,18,3,Additional
+Heart,100,Legendary,LUK,18,3,Additional
+Heart,100,Legendary,Max HP,250,3,Additional
+Heart,100,Legendary,Max MP,250,3,Additional
+Heart,100,Legendary,Attack,14,2,Additional
+Heart,100,Legendary,Magic Attack,14,2,Additional
+Heart,100,Legendary,DEF,200,3,Additional
+Heart,100,Legendary,STR %,7,2,Additional
+Heart,100,Legendary,DEX %,7,2,Additional
+Heart,100,Legendary,INT %,7,2,Additional
+Heart,100,Legendary,LUK %,7,2,Additional
+Heart,100,Legendary,Max HP %,10,3,Additional
+Heart,100,Legendary,Max MP %,10,3,Additional
+Heart,100,Legendary,DEF %,10,3,Additional
+Heart,100,Legendary,All Stats %,5,2,Additional
+Heart,100,Legendary,STR per 10 character levels,2,2,Additional
+Heart,100,Legendary,DEX per 10 character levels,2,2,Additional
+Heart,100,Legendary,INT per 10 character levels,2,2,Additional
+Heart,100,Legendary,LUK per 10 character levels,2,2,Additional
+Heart,100,Legendary,All Elemental Resistances %,5,1,Additional
+Heart,100,Legendary,HP Recovery % (on items and skills),30,3,Additional
+Heart,100,Legendary,Meso Obtained %,5,3,Additional
+Heart,100,Legendary,Item Drop Rate %,5,3,Additional
