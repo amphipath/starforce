@@ -147,6 +147,7 @@ ui <- navbarPage("Maplestory Statistics",
                              
                           ),
                           mainPanel(
+                             HTML('This assumes the uniform distribution across types of flames that is currently live in GMS, MSEA and KMS. I will not be attempting to model the previous flawed distribution because it is still not entirely clear how it works.'),
                              echarts4rOutput('flamePlot'),
                              htmlOutput('titlefirst100'),
                              DT::DTOutput('first100')

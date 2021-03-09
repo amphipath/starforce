@@ -36,7 +36,7 @@ For convenience, from now on we use the notation that $E_a$ is the expected meso
 
 We use $s_a$ for the success rate at the $a^{\text{th}}$ star, which may or may not use the Star Catcher depending on the strategy. If anti-destruction protection is used, $f_a = 1 - s_a$ is the failure-without-destruction chance, and otherwise we have $f_a = (1-b_a)(1-s_a)$, and $d_a = b_a(1-s_a)$ is the destruction chance, while $b_a$ is the chance of destruction \emph{given} a failure, which we assume to be constant. 
 
-The Star Catcher is modelled as a simple 1.04x multiplier, so $s_a$ is multiplied by 1.04 if the minigame is used at that particular star force level and $f_a$ and $d_a$ will proportionally become smaller.
+The Star Catcher is modelled as a simple 1.05x multiplier, so $s_a$ is multiplied by 1.05 if the minigame is used at that particular star force level and $f_a$ and $d_a$ will proportionally become smaller. This 1.05x multiplicative property has been officially verified by Nexon Korea on the MapleStory website.
 
 We also define $c_a$ as the meso cost to attempt a star force enhancement at the $a^{\text{th}}$ star.
 
