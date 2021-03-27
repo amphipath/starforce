@@ -8,6 +8,7 @@
 #
 
 library(shiny)
+library(shinyjs)
 library(DT)
 library(ggplot2)
 library(scales)
@@ -16,10 +17,17 @@ library(tidyr)
 library(RColorBrewer)
 source('flamegen.R')
 source('spelltrace.R')
+source('cubetable.R')
 require(echarts4r)
+library(curl)
+
+
+fuckinguselessstats <- c('on attack$','on defeating an enemy','invincibility after being attacked','incoming damage', 'damage received','^Speed$','^Jump$','Resistance','^Max HP$','MP','^STR$','^DEX$','^INT$','^LUK$','All Stats$','^DEF','Mystic Door','Haste')
 
 # Define UI for application that draws a histogram
-ui <- navbarPage("Maplestory Statistics",
+ui <- tagList(
+   useShinyjs(),
+   navbarPage("Maplestory Statistics",
                  tabPanel("Starforce",
                           titlePanel("Expected Starforce Costs"),
                           sidebarPanel(
@@ -87,7 +95,7 @@ ui <- navbarPage("Maplestory Statistics",
                  tabPanel("Scrolling",
                           titlePanel("Scrolling strategies/costs"),
                           sidebarPanel(
-                            HTML("<h2>Prices <a title='Enter prices on auction house'>(?)</a></h2>"),
+                            HTML("<h3>Prices <a title='Enter prices on auction house'>(?)</a></h3>"),
                             numericInput(inputId = "pTrace", label = "Spell Traces (each)", value = 2000, min = 1, max = 29999999999, step=1),
                             numericInput(inputId = "pInno", label = "Innocence Scroll 50%", value = 0, min = 0, max = 29999999999, step=1),
                             numericInput(inputId = "pCSS", label = "Clean Slate Scroll 10%", value = 0, min = 0, max = 29999999999, step=1),
@@ -152,12 +160,115 @@ ui <- navbarPage("Maplestory Statistics",
                              htmlOutput('titlefirst100'),
                              DT::DTOutput('first100')
                           )
-                     )
+                     ),
+                 tabPanel('Cube Statistics',
+                          titlePanel('Cube Statistics'),
+                          sidebarPanel(
+                             HTML("Select Cube/Tier/Grade before selecting desired stats"),
+                             selectInput(inputId = 'cube', label = 'Cube', choices = c('Red','Black','Additional')),
+                             selectInput(inputId = 'cubetier', label = 'Current Potential/Additional Potential Tier', choices = c('Rare','Epic','Unique','Legendary'), selected = 'Legendary'),
+                             selectInput(inputId = 'cubeslot', label = 'Equipment Type', choices = unique(cubetable$Equip),selected = 'Weapon'),
+                             tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+                                    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
+                             HTML('Stat equivalences - for Additional Potential'),
+                             numericInput(inputId = 'cubeper10lv',label = '+1 Stat per 10 Levels = ? % Stat', value = 3),
+                             numericInput(inputId = 'cubeatt', label = '1 ATT = ? % Stat',value = 0.4),
+                             tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+                                    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
+                             HTML('Select desired lines (for IED, for convenience treat multiple lines as additive)'),
+                             selectInput(inputId = 'desiredstat1',label = 'Desired Stat', choices = unique(cubetable[Equip=='Weapon' & Grade == 'Legendary' & Cube == 'Red',Stat]), selected = 'ATT %'),
+                             numericInput(inputId = 'desiredvalue1',label = 'Desired Stat Value',min = 1, max = 100, value = 30, step = 1),
+                             actionButton('cubeadddesired',label = 'Add another desired stat'),
+                             hidden(actionButton('cubehidedesired',label='Remove second desired Stat')),
+                             hidden(selectInput(inputId = 'desiredstat2', choices = NULL, label = 'Second Desired Stat')),
+                             hidden(numericInput(inputId = 'desiredvalue2',value=0, label = 'Second Desired Stat Value')),
+                             tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+                                    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
+                             actionButton('cubeGo',label = 'Calculate')
+                             
+                          ),
+                          mainPanel(
+                             
+                             htmlOutput('pottablehead'),
+                             DTOutput('pottable'),
+                             htmlOutput('cubetext')
+                          )
+                           )
                  )
+   )
 
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
+   #######################################################
+   ## START OF CUBE SECTION
+   #######################################################
+   cubelines <- reactive({
+      if(!any(is.null(input$cube),is.null(input$cubeslot),is.null(input$cubetier))) {
+         return(get_lines(input$cube,input$cubeslot,input$cubetier))
+         print('cube lines updated')
+      }
+   })
+   equivalences <- reactive({
+         return(equivalent_stats(input$cubeper10lv,input$cubeatt))
+   })
+   observeEvent(cubelines(), {
+      alllines <- cubelines()
+      alllines <- rbind(alllines$prime,alllines$nonprime)
+      statlist <- unique(alllines$Stat)
+      statlist <- statlist[!sapply(statlist,check_any_regex,patternvector = fuckinguselessstats)]
+      updateSelectInput(session,'desiredstat1',label = 'Desired Stat',choices = statlist)
+      updateSelectInput(session,'desiredstat2',label = 'Second Desired Stat', choices = NULL, selected =NULL)
+      hide('desiredstat2')
+      hide('desiredvalue2')
+   }) 
+   observeEvent(input$cubeadddesired, {
+      alllines <- cubelines()
+      alllines <- rbind(alllines$prime,alllines$nonprime)
+      statlist <- unique(alllines$Stat)
+      statlist <- statlist[!sapply(statlist,check_any_regex,patternvector = fuckinguselessstats)]
+      statlist <- statlist[statlist != input$desiredstat1]
+      updateSelectInput(session,'desiredstat2',label = 'Second Desired Stat',choices = statlist)
+      updateNumericInput(session,'desiredvalue2',min=1,max=100,value=1)
+      show('desiredstat2')
+      show('desiredvalue2')
+      hide('cubeadddesired')
+      show('cubehidedesired')
+   })
+   observeEvent(input$cubehidedesired, {
+      updateSelectInput(session,'desiredstat2',selected = character(0))
+      updateNumericInput(session,'desiredvalue2',value = 0)
+      hide('desiredvalue2')
+      hide('desiredstat2')
+      show('cubeadddesired')
+      hide('cubehidedesired')
+   })
+   observeEvent(input$cubeGo, {
+      desired <- data.frame(stat = input$desiredstat1,value = input$desiredvalue1)
+      if(input$desiredvalue2) {
+         desired <- rbind(desired,list(stat = input$desiredstat2,value = input$desiredvalue2))
+      }
+      print(desired)
+      equiv <- equivalences()
+      pottable <- suppressWarnings(list_satisfy(input$cube,input$cubeslot,input$cubetier,desired,equiv))
+      p <- sum(pottable$p)
+      output$cubetext <- renderUI({
+         HTML(sprintf("<ul>
+         <li> Chance of getting desired stat per cube: <b> %.3f%% </b>
+         <li> Mean cubes required: %.1f
+         <li> Cubes required to have at least <b>50%%</b> chance of getting desired stat: %.0f
+         <li> Cubes required to have at least <b>90%%</b> chance of getting desired stat: %.0f
+         <li> Cubes required to have at least <b>95%%</b> chance of getting desired stat: %.0f
+         <li> Cubes required to have at least <b>99%%</b> chance of getting desired stat: %.0f
+                    </ul>",p*100,1/p,qgeom(0.5,p),qgeom(0.9,p),qgeom(0.95,p),qgeom(0.99,p))
+         )
+      })
+      output$pottablehead <- renderUI({HTML('<h2>List of desired outcomes and probabilities </h2>')})
+      setnames(pottable,c('stat1','value1','stat2','value2','stat3','value3','p'),c('Line 1','Value 1','Line 2','Value 2','Line 3','Value 3','Probability'))
+      output$pottable <- DT::renderDT({
+         DT::datatable(pottable)
+      })
+   })
   #######################################################
   ## START OF FLAME SECTION
   #######################################################
@@ -165,7 +276,7 @@ server <- function(input, output, session) {
       level <- input$flameLevel
       tierweights <- tier.weights[[input$flameSource]]
       boss <- input$flameBoss
-      n <- 20000
+      n <- 50000
       df <- data.frame(simulateflame(level,n,boss,tierweights=tierweights))
       colnames(df) <- c('STR','DEX','INT','LUK', '%AS', 'ATT','MA','DEF','HP','MP','SPD','JUMP','Lv Reduction')
       df$Score <- scoreoutput(df,as.numeric(input$flameMainstat),input$flameAsweight,input$flameAttweight)
