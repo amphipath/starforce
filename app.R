@@ -248,7 +248,6 @@ server <- function(input, output, session) {
       if(input$desiredvalue2) {
          desired <- rbind(desired,list(stat = input$desiredstat2,value = input$desiredvalue2))
       }
-      print(desired)
       equiv <- equivalences()
       pottable <- suppressWarnings(list_satisfy(input$cube,input$cubeslot,input$cubetier,desired,equiv))
       p <- sum(pottable$p)

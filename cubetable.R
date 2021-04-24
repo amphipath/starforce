@@ -46,7 +46,7 @@ check_satisfy <- function(desired,potential,equivalences = equivalent_stats(NULL
     if(desired.stat %in% names(equivalences)) {
       for(i in names(equivalences[[desired.stat]])) {
         if(i %in% desired[,1]) {
-          req.score <- req.score + desired[match(j,desired[,1]),2] * equivalences[[desired.stat]][[i]]
+          req.score <- req.score + desired[match(i,desired[,1]),2] * equivalences[[desired.stat]][[i]]
         }
       }
     }
