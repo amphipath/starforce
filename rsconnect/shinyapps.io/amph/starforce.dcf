@@ -5,8 +5,8 @@ account: amph
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 399092
-bundleId: 4400266
+bundleId: 4512270
 url: https://amph.shinyapps.io/starforce/
-when: 1616814242.74082
+when: 1619229740.50459
 asMultiple: FALSE
 asStatic: FALSE

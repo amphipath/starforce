@@ -70,6 +70,25 @@ simulateflame <- function(level,n,boss=T,tierweights=NULL,typeweights=NULL){
   return(output)
 }
 
+simulateflame2 <- function(level,n,boss=T,tierweights=NULL,typeweights=NULL){
+  table = armourflametable(level)
+  output = matrix(0,n,13)
+  for(i in 1:n) {
+    flamechoices = sample(1:19,4,prob = typeweights)
+    flametiers = sample(1:5,4*n,replace=T,prob=tierweights)
+    if(boss) {
+      flametiers <- flametiers + 2
+    }
+    flames = matrix(0,4,13)
+    for(j in 1:4) {
+      flames[j,] = table[,flamechoices[j]] * flametiers[(j-1)*n+i]
+    }
+    flame = apply(flames,2,sum)
+    output[i,] <- flame
+  }
+  return(output)
+}
+
 # stat: 1 for str, 2 for dex, 3 for int, 4 for luk, 9 for hp, -1 for xenon
 scoreflame = function(flame,stat,asweight,attweight){
   weights <- c(0,0,0,0,asweight,0,0,0,0,0,0,0,0)
