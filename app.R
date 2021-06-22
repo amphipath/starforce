@@ -439,7 +439,8 @@ server <- function(input, output, session) {
                                   FailRate = 100 * failRate,
                                   DestroyRate = 100* destroyRate,
                        nextCost = round(nt[,1] / 1000000,2),
-                       nextBoom = round(nt[,2],2))
+                       nextBoom = round(nt[,2],2),
+                       pboom = round(nt[,3],3))
      
      
      dimnames(mat) <- list(10:24,c("Base Attempt Cost",
@@ -447,7 +448,8 @@ server <- function(input, output, session) {
                                    "Fail %",
                                    "Destroy %",
                                    "Expected Meso to Next Star (mil)",
-                                   "Expected Booms to Next Star"))
+                                   "Expected Booms to Next Star",
+                                   "P(Reach Next Star before Boom)"))
      
      if(input$type == 'MSEA 20* (old)') {
        mat <- mat[1:10,]
@@ -492,6 +494,8 @@ server <- function(input, output, session) {
        str3 <- 'Total booms'
        totcost <- round(((input$r * v[2]) + v[1])/1000000000,3)
        str4 <- 'Overall cost (billions)'
+       str5 <- paste0('Probability of hitting ',input$to,'* before booming:')
+       pboom <- round(prod(nt[k:l,3]),3)
        HTML(sprintf("<table style='border:none'>
                     <tr>
                     <td>%s</td>
@@ -509,7 +513,11 @@ server <- function(input, output, session) {
                     <td>%s</td>
                     <td>%s</td>
                     </tr>
-                    </table>",str1,str2,meso,str3,round(v[2],3),str4,totcost))
+                    <tr>
+                    <td>%s</td>
+                    <td>%s</td>
+                    </tr>
+                    </table>",str1,str2,meso,str3,round(v[2],3),str4,totcost,str5,pboom))
      }
      else {
        HTML("<b style='color:#FF0000'>Error: invalid choices for from/to</b>")

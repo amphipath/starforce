@@ -122,6 +122,25 @@ sfTable <- function(baserCost,off30,MVP,baseCost,protCost,outcomes,catch,protect
   for(i in 13:15) {
     costTable[i,] <- yolo(i)
   }
+  
+  pboom <- numeric(15)
+  pboom[1:2] <- 1
+  pboom[3] <- outcomes$pass[3] / (1 - (outcomes$fail[3] + protect[3] * outcomes$boom[3]) * (outcomes$pass[2] + (outcomes$fail[2])*pboom[2]))
+  for(i in 4:5) {
+    pboom[i] <- outcomes$pass[i] / (1 - (outcomes$fail[i] + protect[i] * outcomes$boom[i]) * (outcomes$pass[i-1] + (outcomes$fail[i-1] + protect2[i-3] * outcomes$boom[i-1]) * pboom[i-1]))
+  }
+  pboom[6] <- outcomes$pass[6] / (1 - (outcomes$fail[6] + protect[6] * outcomes$boom[6]))
+  pboom[7] <- outcomes$pass[7] / (1 - (outcomes$fail[7] + protect[7] * outcomes$boom[7]) * pboom[6])
+  pboom[8] <- outcomes$pass[8] / (1 - (outcomes$fail[8]) * (outcomes$pass[7] + (outcomes$fail[7] + protect2[3] * outcomes$boom[7]) * pboom[7]))
+  for(i in 9:10) {
+    pboom[i] <- outcomes$pass[i] / (1 - (outcomes$fail[i]) * (outcomes$pass[i-1] + (outcomes$fail[i-1]) * pboom[i-1]))
+  }
+  pboom[11] <- outcomes$pass[11] / (1 - outcomes$fail[11])
+  pboom[12] <- outcomes$pass[12] / (1 - outcomes$fail[12] * pboom[11])
+  for(i in 13:15) {
+    pboom[i] <- outcomes$pass[i] / (1 - (outcomes$fail[i]) * (outcomes$pass[i-1] + (outcomes$fail[i-1]) * pboom[i-1]))
+  }
+  costTable <- cbind(costTable,pboom)
   return(costTable)
 }
 
