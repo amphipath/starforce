@@ -165,9 +165,9 @@ ui <- tagList(
                           titlePanel('Cube Statistics'),
                           sidebarPanel(
                              HTML("Select Cube/Tier/Grade before selecting desired stats"),
-                             selectInput(inputId = 'cube', label = 'Cube', choices = c('Red','Black','Additional')),
-                             selectInput(inputId = 'cubetier', label = 'Current Potential/Additional Potential Tier', choices = c('Rare','Epic','Unique','Legendary'), selected = 'Legendary'),
                              selectInput(inputId = 'cubeslot', label = 'Equipment Type', choices = unique(cubetable$Equip),selected = 'Weapon'),
+                             selectInput(inputId = 'cube', label = 'Cube', choices = cube_list, selected = 'Red'),
+                             selectInput(inputId = 'cubetier', label = 'Current Potential/Additional Potential Tier', choices = c('Rare','Epic','Unique','Legendary'), selected = 'Legendary'),
                              tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
                                     background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
                              HTML('Stat equivalences - for Additional Potential'),
@@ -203,12 +203,26 @@ server <- function(input, output, session) {
    #######################################################
    ## START OF CUBE SECTION
    #######################################################
+   cubegrades <- reactive({
+      unique(cubetable[Cube == input$cube & Grade != "Normal",Grade])
+   })
+   
    cubelines <- reactive({
       if(!any(is.null(input$cube),is.null(input$cubeslot),is.null(input$cubetier))) {
-         return(get_lines(input$cube,input$cubeslot,input$cubetier))
-         print('cube lines updated')
+         print(input$cube)
+         print(input$cubeslot)
+         grades <- cubegrades()
+         if(input$cubetier %in% grades) {
+            return(get_lines(input$cube,input$cubeslot,input$cubetier))
+         }
+         else {
+            updateSelectInput(session, 'cubetier', label = 'Current Potential/Additional Potential Tier', choices = grades, selected = grades[length(grades)])
+         }
+         
       }
    })
+
+
    equivalences <- reactive({
          return(equivalent_stats(input$cubeper10lv,input$cubeatt))
    })
@@ -249,6 +263,11 @@ server <- function(input, output, session) {
          desired <- rbind(desired,list(stat = input$desiredstat2,value = input$desiredvalue2))
       }
       equiv <- equivalences()
+      print(input$cube)
+      print(input$cubeslot)
+      print(input$cubetier)
+      print(desired)
+      print(equiv)
       pottable <- suppressWarnings(list_satisfy(input$cube,input$cubeslot,input$cubetier,desired,equiv))
       p <- sum(pottable$p)
       output$cubetext <- renderUI({

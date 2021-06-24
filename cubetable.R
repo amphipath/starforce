@@ -2,9 +2,12 @@ require(data.table)
 
 cubetable <- fread('https://raw.githubusercontent.com/amphipath/starforce/master/weights_en.csv')
 
+cube_list <- unique(cubetable$Cube)
+
 get_lines <- function(cube,slot,grade) {
   result <- list()
   lines <- cubetable[Cube == cube & Equip == slot]
+  print(lines)
   grades <- unique(lines$Grade)
   nonprime <- grades[which(grades == grade)-1]
   result$prime <- lines[Grade == grade]
@@ -83,7 +86,16 @@ prime_chances <- list(Black = list(Rare = c(0.2,0.05),
                       Additional = list(Rare = c(1/51,1/51),
                                         Epic = c(1/21,1/21),
                                         Unique = c(1/51,1/51),
-                                        Legendary = c(1/201,1/201)))
+                                        Legendary = c(1/201,1/201)),
+                      Suspicious = list(Rare = c(1/1001,1/1001),
+                                        Epic = c(1/101,1/101)),
+                      `Master Craftsman` = list(Rare = c(1/6,1/6),
+                                                Epic = c(1/21,1/21),
+                                                Unique = c(3/253,3/253)),
+                      Meister = list(Rare = c(1/6,1/6),
+                                     Epic = c(533/6663,533/6663),
+                                     Unique = c(1/59,1/59),
+                                     Legendary = c(1/501,1/501)))
 
 simplify_linepool <- function(pool,desiredstats) {
   desired <- pool$Stat %in% desiredstats
