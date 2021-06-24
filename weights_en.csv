@@ -4289,3 +4289,2960 @@ Heart,100,Legendary,All Elemental Resistances %,5,1,Additional
 Heart,100,Legendary,HP Recovery % (on items and skills),30,3,Additional
 Heart,100,Legendary,Meso Obtained %,5,3,Additional
 Heart,100,Legendary,Item Drop Rate %,5,3,Additional
+Weapon,120,Normal,STR,6,2,Suspicious
+Weapon,120,Normal,DEX,6,2,Suspicious
+Weapon,120,Normal,INT,6,2,Suspicious
+Weapon,120,Normal,LUK,6,2,Suspicious
+Weapon,120,Normal,Max HP,60,3,Suspicious
+Weapon,120,Normal,Max MP,60,3,Suspicious
+Weapon,120,Normal,Attack,6,1,Suspicious
+Weapon,120,Normal,Magic Attack,6,1,Suspicious
+Weapon,120,Rare,STR,12,2,Suspicious
+Weapon,120,Rare,DEX,12,2,Suspicious
+Weapon,120,Rare,INT,12,2,Suspicious
+Weapon,120,Rare,LUK,12,2,Suspicious
+Weapon,120,Rare,Max HP,120,3,Suspicious
+Weapon,120,Rare,Max MP,120,3,Suspicious
+Weapon,120,Rare,Attack,12,2,Suspicious
+Weapon,120,Rare,Magic Attack,12,2,Suspicious
+Weapon,120,Rare,STR %,3,2,Suspicious
+Weapon,120,Rare,DEX %,3,2,Suspicious
+Weapon,120,Rare,INT %,3,2,Suspicious
+Weapon,120,Rare,LUK %,3,2,Suspicious
+Weapon,120,Rare,ATT %,3,1,Suspicious
+Weapon,120,Rare,Magic ATT %,3,1,Suspicious
+Weapon,120,Rare,Critical Rate %,4,1,Suspicious
+Weapon,120,Rare,Damage %,3,1,Suspicious
+Weapon,120,Rare,All Stats,5,2,Suspicious
+Weapon,120,Rare,3% chance to recover 32 HP on attack,1,3,Suspicious
+Weapon,120,Rare,3% chance to recover 32 MP on attack,1,3,Suspicious
+Weapon,120,Rare,10% chance to apply Lv 6 Poison on attack,1,3,Suspicious
+Weapon,120,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Suspicious
+Weapon,120,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Suspicious
+Weapon,120,Rare,10% chance to apply Lv 3 Darkness on attack,1,3,Suspicious
+Weapon,120,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Suspicious
+Weapon,120,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Suspicious
+Weapon,120,Rare,Ignore Enemy DEF %,15,1,Suspicious
+Weapon,120,Epic,STR %,6,2,Suspicious
+Weapon,120,Epic,DEX %,6,2,Suspicious
+Weapon,120,Epic,INT %,6,2,Suspicious
+Weapon,120,Epic,LUK %,6,2,Suspicious
+Weapon,120,Epic,Max HP %,6,3,Suspicious
+Weapon,120,Epic,Max MP %,6,3,Suspicious
+Weapon,120,Epic,ATT %,6,1,Suspicious
+Weapon,120,Epic,Magic ATT %,6,1,Suspicious
+Weapon,120,Epic,Critical Rate %,8,1,Suspicious
+Weapon,120,Epic,Damage %,6,1,Suspicious
+Weapon,120,Epic,All Stats %,3,1,Suspicious
+Weapon,120,Epic,3% chance of recovering 53 HP on attack,1,3,Suspicious
+Weapon,120,Epic,3% chance of recovering 53 MP on attack,1,3,Suspicious
+Weapon,120,Epic,Ignore Enemy DEF %,15,1,Suspicious
+Emblem,100,Normal,STR,6,2,Suspicious
+Emblem,100,Normal,DEX,6,2,Suspicious
+Emblem,100,Normal,INT,6,2,Suspicious
+Emblem,100,Normal,LUK,6,2,Suspicious
+Emblem,100,Normal,Max HP,50,3,Suspicious
+Emblem,100,Normal,Max MP,50,3,Suspicious
+Emblem,100,Normal,Attack,6,1,Suspicious
+Emblem,100,Normal,Magic Attack,6,1,Suspicious
+Emblem,100,Rare,STR,12,2,Suspicious
+Emblem,100,Rare,DEX,12,2,Suspicious
+Emblem,100,Rare,INT,12,2,Suspicious
+Emblem,100,Rare,LUK,12,2,Suspicious
+Emblem,100,Rare,Max HP,100,3,Suspicious
+Emblem,100,Rare,Max MP,100,3,Suspicious
+Emblem,100,Rare,Attack,12,2,Suspicious
+Emblem,100,Rare,Magic Attack,12,2,Suspicious
+Emblem,100,Rare,STR %,3,2,Suspicious
+Emblem,100,Rare,DEX %,3,2,Suspicious
+Emblem,100,Rare,INT %,3,2,Suspicious
+Emblem,100,Rare,LUK %,3,2,Suspicious
+Emblem,100,Rare,ATT %,3,1,Suspicious
+Emblem,100,Rare,Magic ATT %,3,1,Suspicious
+Emblem,100,Rare,Critical Rate %,4,1,Suspicious
+Emblem,100,Rare,Damage %,3,1,Suspicious
+Emblem,100,Rare,All Stats,5,2,Suspicious
+Emblem,100,Rare,3% chance to recover 28 HP on attack,1,3,Suspicious
+Emblem,100,Rare,3% chance to recover 28 MP on attack,1,3,Suspicious
+Emblem,100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Suspicious
+Emblem,100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Suspicious
+Emblem,100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Suspicious
+Emblem,100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Suspicious
+Emblem,100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Suspicious
+Emblem,100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Suspicious
+Emblem,100,Rare,Ignore Enemy DEF %,15,1,Suspicious
+Emblem,100,Epic,STR %,6,2,Suspicious
+Emblem,100,Epic,DEX %,6,2,Suspicious
+Emblem,100,Epic,INT %,6,2,Suspicious
+Emblem,100,Epic,LUK %,6,2,Suspicious
+Emblem,100,Epic,Max HP %,6,3,Suspicious
+Emblem,100,Epic,Max MP %,6,3,Suspicious
+Emblem,100,Epic,ATT %,6,1,Suspicious
+Emblem,100,Epic,Magic ATT %,6,1,Suspicious
+Emblem,100,Epic,Critical Rate %,8,1,Suspicious
+Emblem,100,Epic,Damage %,6,1,Suspicious
+Emblem,100,Epic,All Stats %,3,1,Suspicious
+Emblem,100,Epic,3% chance of recovering 47 HP on attack,1,3,Suspicious
+Emblem,100,Epic,3% chance of recovering 47 MP on attack,1,3,Suspicious
+Emblem,100,Epic,Ignore Enemy DEF %,15,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,STR,6,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,DEX,6,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,INT,6,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,LUK,6,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max HP,50,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max MP,50,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Attack,6,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Magic Attack,6,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR,12,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX,12,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT,12,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK,12,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max HP,100,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max MP,100,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Attack,12,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic Attack,12,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR %,3,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX %,3,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT %,3,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK %,3,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,ATT %,3,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic ATT %,3,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Critical Rate %,4,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Damage %,3,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,All Stats,5,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,3% chance to recover 28 HP on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,3% chance to recover 28 MP on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Ignore Enemy DEF %,15,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,STR %,6,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,DEX %,6,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,INT %,6,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,LUK %,6,2,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max HP %,6,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max MP %,6,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,ATT %,6,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Magic ATT %,6,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Critical Rate %,8,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Damage %,6,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,All Stats %,3,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,3% chance of recovering 47 HP on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,3% chance of recovering 47 MP on attack,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Ignore Enemy DEF %,15,1,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to ignore 21 damage when attacked,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to ignore 32 damage when attacked,1,3,Suspicious
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,30% chance to ignore 43 damage when attacked,1,3,Suspicious
+Force Shield/Soul Ring,100,Normal,STR,6,2,Suspicious
+Force Shield/Soul Ring,100,Normal,DEX,6,2,Suspicious
+Force Shield/Soul Ring,100,Normal,INT,6,2,Suspicious
+Force Shield/Soul Ring,100,Normal,LUK,6,2,Suspicious
+Force Shield/Soul Ring,100,Normal,Max HP,50,3,Suspicious
+Force Shield/Soul Ring,100,Normal,Attack,6,1,Suspicious
+Force Shield/Soul Ring,100,Normal,Magic Attack,6,1,Suspicious
+Force Shield/Soul Ring,100,Rare,STR,12,2,Suspicious
+Force Shield/Soul Ring,100,Rare,DEX,12,2,Suspicious
+Force Shield/Soul Ring,100,Rare,INT,12,2,Suspicious
+Force Shield/Soul Ring,100,Rare,LUK,12,2,Suspicious
+Force Shield/Soul Ring,100,Rare,Max HP,100,3,Suspicious
+Force Shield/Soul Ring,100,Rare,Attack,12,2,Suspicious
+Force Shield/Soul Ring,100,Rare,Magic Attack,12,2,Suspicious
+Force Shield/Soul Ring,100,Rare,STR %,3,2,Suspicious
+Force Shield/Soul Ring,100,Rare,DEX %,3,2,Suspicious
+Force Shield/Soul Ring,100,Rare,INT %,3,2,Suspicious
+Force Shield/Soul Ring,100,Rare,LUK %,3,2,Suspicious
+Force Shield/Soul Ring,100,Rare,ATT %,3,1,Suspicious
+Force Shield/Soul Ring,100,Rare,Magic ATT %,3,1,Suspicious
+Force Shield/Soul Ring,100,Rare,Critical Rate %,4,1,Suspicious
+Force Shield/Soul Ring,100,Rare,Damage %,3,1,Suspicious
+Force Shield/Soul Ring,100,Rare,All Stats,5,2,Suspicious
+Force Shield/Soul Ring,100,Rare,3% chance to recover 28 HP on attack,1,3,Suspicious
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Suspicious
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Suspicious
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Suspicious
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Suspicious
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Suspicious
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Suspicious
+Force Shield/Soul Ring,100,Rare,Ignore Enemy DEF %,15,1,Suspicious
+Force Shield/Soul Ring,100,Epic,STR %,6,2,Suspicious
+Force Shield/Soul Ring,100,Epic,DEX %,6,2,Suspicious
+Force Shield/Soul Ring,100,Epic,INT %,6,2,Suspicious
+Force Shield/Soul Ring,100,Epic,LUK %,6,2,Suspicious
+Force Shield/Soul Ring,100,Epic,Max HP %,6,3,Suspicious
+Force Shield/Soul Ring,100,Epic,ATT %,6,1,Suspicious
+Force Shield/Soul Ring,100,Epic,Magic ATT %,6,1,Suspicious
+Force Shield/Soul Ring,100,Epic,Critical Rate %,8,1,Suspicious
+Force Shield/Soul Ring,100,Epic,Damage %,6,1,Suspicious
+Force Shield/Soul Ring,100,Epic,All Stats %,3,1,Suspicious
+Force Shield/Soul Ring,100,Epic,3% chance of recovering 47 HP on attack,1,3,Suspicious
+Force Shield/Soul Ring,100,Epic,Ignore Enemy DEF %,15,1,Suspicious
+Force Shield/Soul Ring,100,Epic,20% chance to ignore 21 damage when attacked,1,3,Suspicious
+Force Shield/Soul Ring,100,Epic,20% chance to ignore 32 damage when attacked,1,3,Suspicious
+Force Shield/Soul Ring,100,Epic,30% chance to ignore 43 damage when attacked,1,3,Suspicious
+Shield,120,Normal,STR,6,2,Suspicious
+Shield,120,Normal,DEX,6,2,Suspicious
+Shield,120,Normal,INT,6,2,Suspicious
+Shield,120,Normal,LUK,6,2,Suspicious
+Shield,120,Normal,Max HP,60,3,Suspicious
+Shield,120,Normal,Max MP,60,3,Suspicious
+Shield,120,Normal,Attack,6,1,Suspicious
+Shield,120,Normal,Magic Attack,6,1,Suspicious
+Shield,120,Rare,STR,12,2,Suspicious
+Shield,120,Rare,DEX,12,2,Suspicious
+Shield,120,Rare,INT,12,2,Suspicious
+Shield,120,Rare,LUK,12,2,Suspicious
+Shield,120,Rare,Max HP,120,3,Suspicious
+Shield,120,Rare,Max MP,120,3,Suspicious
+Shield,120,Rare,Attack,12,2,Suspicious
+Shield,120,Rare,Magic Attack,12,2,Suspicious
+Shield,120,Rare,STR %,3,2,Suspicious
+Shield,120,Rare,DEX %,3,2,Suspicious
+Shield,120,Rare,INT %,3,2,Suspicious
+Shield,120,Rare,LUK %,3,2,Suspicious
+Shield,120,Rare,ATT %,3,1,Suspicious
+Shield,120,Rare,Magic ATT %,3,1,Suspicious
+Shield,120,Rare,Critical Rate %,4,1,Suspicious
+Shield,120,Rare,Damage %,3,1,Suspicious
+Shield,120,Rare,All Stats,5,2,Suspicious
+Shield,120,Rare,3% chance to recover 32 HP on attack,1,3,Suspicious
+Shield,120,Rare,3% chance to recover 32 MP on attack,1,3,Suspicious
+Shield,120,Rare,10% chance to apply Lv 6 Poison on attack,1,3,Suspicious
+Shield,120,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Suspicious
+Shield,120,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Suspicious
+Shield,120,Rare,10% chance to apply Lv 3 Darkness on attack,1,3,Suspicious
+Shield,120,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Suspicious
+Shield,120,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Suspicious
+Shield,120,Rare,Ignore Enemy DEF %,15,1,Suspicious
+Shield,120,Epic,STR %,6,2,Suspicious
+Shield,120,Epic,DEX %,6,2,Suspicious
+Shield,120,Epic,INT %,6,2,Suspicious
+Shield,120,Epic,LUK %,6,2,Suspicious
+Shield,120,Epic,Max HP %,6,3,Suspicious
+Shield,120,Epic,Max MP %,6,3,Suspicious
+Shield,120,Epic,ATT %,6,1,Suspicious
+Shield,120,Epic,Magic ATT %,6,1,Suspicious
+Shield,120,Epic,Critical Rate %,8,1,Suspicious
+Shield,120,Epic,Damage %,6,1,Suspicious
+Shield,120,Epic,All Stats %,3,1,Suspicious
+Shield,120,Epic,3% chance of recovering 53 HP on attack,1,3,Suspicious
+Shield,120,Epic,3% chance of recovering 53 MP on attack,1,3,Suspicious
+Shield,120,Epic,Ignore Enemy DEF %,15,1,Suspicious
+Shield,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Shield,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Shield,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Helmet,120,Normal,STR,6,2,Suspicious
+Helmet,120,Normal,DEX,6,2,Suspicious
+Helmet,120,Normal,INT,6,2,Suspicious
+Helmet,120,Normal,LUK,6,2,Suspicious
+Helmet,120,Normal,Max HP,60,3,Suspicious
+Helmet,120,Normal,Max MP,60,3,Suspicious
+Helmet,120,Normal,DEF,60,3,Suspicious
+Helmet,120,Normal,10% chance to become Angry for 10 sec when attacked,1,3,Suspicious
+Helmet,120,Normal,10% chance to become Happy for 10 sec when attacked,1,3,Suspicious
+Helmet,120,Normal,10% chance to become In Love for 10 sec when attacked,1,3,Suspicious
+Helmet,120,Normal,10% chance to become Enraged for 10 sec when attacked,1,3,Suspicious
+Helmet,120,Normal,10% chance to become Touched for 10 sec when attacked,1,3,Suspicious
+Helmet,120,Rare,STR,12,2,Suspicious
+Helmet,120,Rare,DEX,12,2,Suspicious
+Helmet,120,Rare,INT,12,2,Suspicious
+Helmet,120,Rare,LUK,12,2,Suspicious
+Helmet,120,Rare,Max HP,120,3,Suspicious
+Helmet,120,Rare,Max MP,120,3,Suspicious
+Helmet,120,Rare,DEF,120,3,Suspicious
+Helmet,120,Rare,STR %,3,2,Suspicious
+Helmet,120,Rare,DEX %,3,2,Suspicious
+Helmet,120,Rare,INT %,3,2,Suspicious
+Helmet,120,Rare,LUK %,3,2,Suspicious
+Helmet,120,Rare,Max HP %,3,3,Suspicious
+Helmet,120,Rare,Max MP %,3,3,Suspicious
+Helmet,120,Rare,DEF %,3,3,Suspicious
+Helmet,120,Rare,All Stats,5,2,Suspicious
+Helmet,120,Epic,STR %,6,2,Suspicious
+Helmet,120,Epic,DEX %,6,2,Suspicious
+Helmet,120,Epic,INT %,6,2,Suspicious
+Helmet,120,Epic,LUK %,6,2,Suspicious
+Helmet,120,Epic,Max HP %,6,3,Suspicious
+Helmet,120,Epic,Max MP %,6,3,Suspicious
+Helmet,120,Epic,DEF %,6,3,Suspicious
+Helmet,120,Epic,All Stats %,3,1,Suspicious
+Helmet,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Helmet,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Helmet,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Top,120,Normal,STR,6,2,Suspicious
+Top,120,Normal,DEX,6,2,Suspicious
+Top,120,Normal,INT,6,2,Suspicious
+Top,120,Normal,LUK,6,2,Suspicious
+Top,120,Normal,Max HP,60,3,Suspicious
+Top,120,Normal,Max MP,60,3,Suspicious
+Top,120,Normal,DEF,60,3,Suspicious
+Top,120,Rare,STR,12,2,Suspicious
+Top,120,Rare,DEX,12,2,Suspicious
+Top,120,Rare,INT,12,2,Suspicious
+Top,120,Rare,LUK,12,2,Suspicious
+Top,120,Rare,Max HP,120,3,Suspicious
+Top,120,Rare,Max MP,120,3,Suspicious
+Top,120,Rare,DEF,120,3,Suspicious
+Top,120,Rare,STR %,3,2,Suspicious
+Top,120,Rare,DEX %,3,2,Suspicious
+Top,120,Rare,INT %,3,2,Suspicious
+Top,120,Rare,LUK %,3,2,Suspicious
+Top,120,Rare,Max HP %,3,3,Suspicious
+Top,120,Rare,Max MP %,3,3,Suspicious
+Top,120,Rare,DEF %,3,3,Suspicious
+Top,120,Rare,All Stats,5,2,Suspicious
+Top,120,Epic,STR %,6,2,Suspicious
+Top,120,Epic,DEX %,6,2,Suspicious
+Top,120,Epic,INT %,6,2,Suspicious
+Top,120,Epic,LUK %,6,2,Suspicious
+Top,120,Epic,Max HP %,6,3,Suspicious
+Top,120,Epic,Max MP %,6,3,Suspicious
+Top,120,Epic,DEF %,6,3,Suspicious
+Top,120,Epic,All Stats %,3,1,Suspicious
+Top,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Top,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Top,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Top,120,Epic,Invincibility duration after getting attacked,1,3,Suspicious
+Overall,120,Normal,STR,6,2,Suspicious
+Overall,120,Normal,DEX,6,2,Suspicious
+Overall,120,Normal,INT,6,2,Suspicious
+Overall,120,Normal,LUK,6,2,Suspicious
+Overall,120,Normal,Max HP,60,3,Suspicious
+Overall,120,Normal,Max MP,60,3,Suspicious
+Overall,120,Normal,DEF,60,3,Suspicious
+Overall,120,Rare,STR,12,2,Suspicious
+Overall,120,Rare,DEX,12,2,Suspicious
+Overall,120,Rare,INT,12,2,Suspicious
+Overall,120,Rare,LUK,12,2,Suspicious
+Overall,120,Rare,Max HP,120,3,Suspicious
+Overall,120,Rare,Max MP,120,3,Suspicious
+Overall,120,Rare,DEF,120,3,Suspicious
+Overall,120,Rare,STR %,3,2,Suspicious
+Overall,120,Rare,DEX %,3,2,Suspicious
+Overall,120,Rare,INT %,3,2,Suspicious
+Overall,120,Rare,LUK %,3,2,Suspicious
+Overall,120,Rare,Max HP %,3,3,Suspicious
+Overall,120,Rare,Max MP %,3,3,Suspicious
+Overall,120,Rare,DEF %,3,3,Suspicious
+Overall,120,Rare,All Stats,5,2,Suspicious
+Overall,120,Epic,STR %,6,2,Suspicious
+Overall,120,Epic,DEX %,6,2,Suspicious
+Overall,120,Epic,INT %,6,2,Suspicious
+Overall,120,Epic,LUK %,6,2,Suspicious
+Overall,120,Epic,Max HP %,6,3,Suspicious
+Overall,120,Epic,Max MP %,6,3,Suspicious
+Overall,120,Epic,DEF %,6,3,Suspicious
+Overall,120,Epic,All Stats %,3,1,Suspicious
+Overall,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Overall,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Overall,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Overall,120,Epic,Invincibility duration after getting attacked,1,3,Suspicious
+Bottom,120,Normal,STR,6,2,Suspicious
+Bottom,120,Normal,DEX,6,2,Suspicious
+Bottom,120,Normal,INT,6,2,Suspicious
+Bottom,120,Normal,LUK,6,2,Suspicious
+Bottom,120,Normal,Max HP,60,3,Suspicious
+Bottom,120,Normal,Max MP,60,3,Suspicious
+Bottom,120,Normal,DEF,60,3,Suspicious
+Bottom,120,Rare,STR,12,2,Suspicious
+Bottom,120,Rare,DEX,12,2,Suspicious
+Bottom,120,Rare,INT,12,2,Suspicious
+Bottom,120,Rare,LUK,12,2,Suspicious
+Bottom,120,Rare,Max HP,120,3,Suspicious
+Bottom,120,Rare,Max MP,120,3,Suspicious
+Bottom,120,Rare,DEF,120,3,Suspicious
+Bottom,120,Rare,STR %,3,2,Suspicious
+Bottom,120,Rare,DEX %,3,2,Suspicious
+Bottom,120,Rare,INT %,3,2,Suspicious
+Bottom,120,Rare,LUK %,3,2,Suspicious
+Bottom,120,Rare,Max HP %,3,3,Suspicious
+Bottom,120,Rare,Max MP %,3,3,Suspicious
+Bottom,120,Rare,DEF %,3,3,Suspicious
+Bottom,120,Rare,All Stats,5,2,Suspicious
+Bottom,120,Epic,STR %,6,2,Suspicious
+Bottom,120,Epic,DEX %,6,2,Suspicious
+Bottom,120,Epic,INT %,6,2,Suspicious
+Bottom,120,Epic,LUK %,6,2,Suspicious
+Bottom,120,Epic,Max HP %,6,3,Suspicious
+Bottom,120,Epic,Max MP %,6,3,Suspicious
+Bottom,120,Epic,DEF %,6,3,Suspicious
+Bottom,120,Epic,All Stats %,3,1,Suspicious
+Bottom,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Bottom,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Bottom,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Shoes,120,Normal,STR,6,2,Suspicious
+Shoes,120,Normal,DEX,6,2,Suspicious
+Shoes,120,Normal,INT,6,2,Suspicious
+Shoes,120,Normal,LUK,6,2,Suspicious
+Shoes,120,Normal,Max HP,60,3,Suspicious
+Shoes,120,Normal,Max MP,60,3,Suspicious
+Shoes,120,Normal,Speed,4,3,Suspicious
+Shoes,120,Normal,Jump,4,3,Suspicious
+Shoes,120,Normal,DEF,60,3,Suspicious
+Shoes,120,Rare,STR,12,2,Suspicious
+Shoes,120,Rare,DEX,12,2,Suspicious
+Shoes,120,Rare,INT,12,2,Suspicious
+Shoes,120,Rare,LUK,12,2,Suspicious
+Shoes,120,Rare,Max HP,120,3,Suspicious
+Shoes,120,Rare,Max MP,120,3,Suspicious
+Shoes,120,Rare,Speed,8,3,Suspicious
+Shoes,120,Rare,Jump,8,3,Suspicious
+Shoes,120,Rare,DEF,120,3,Suspicious
+Shoes,120,Rare,STR %,3,2,Suspicious
+Shoes,120,Rare,DEX %,3,2,Suspicious
+Shoes,120,Rare,INT %,3,2,Suspicious
+Shoes,120,Rare,LUK %,3,2,Suspicious
+Shoes,120,Rare,Max HP %,3,3,Suspicious
+Shoes,120,Rare,Max MP %,3,3,Suspicious
+Shoes,120,Rare,DEF %,3,3,Suspicious
+Shoes,120,Rare,All Stats,5,2,Suspicious
+Shoes,120,Epic,STR %,6,2,Suspicious
+Shoes,120,Epic,DEX %,6,2,Suspicious
+Shoes,120,Epic,INT %,6,2,Suspicious
+Shoes,120,Epic,LUK %,6,2,Suspicious
+Shoes,120,Epic,Max HP %,6,3,Suspicious
+Shoes,120,Epic,Max MP %,6,3,Suspicious
+Shoes,120,Epic,DEF %,6,3,Suspicious
+Shoes,120,Epic,All Stats %,3,1,Suspicious
+Shoes,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Shoes,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Shoes,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Gloves,120,Normal,STR,6,2,Suspicious
+Gloves,120,Normal,DEX,6,2,Suspicious
+Gloves,120,Normal,INT,6,2,Suspicious
+Gloves,120,Normal,LUK,6,2,Suspicious
+Gloves,120,Normal,Max HP,60,3,Suspicious
+Gloves,120,Normal,Max MP,60,3,Suspicious
+Gloves,120,Normal,DEF,60,3,Suspicious
+Gloves,120,Rare,STR,12,2,Suspicious
+Gloves,120,Rare,DEX,12,2,Suspicious
+Gloves,120,Rare,INT,12,2,Suspicious
+Gloves,120,Rare,LUK,12,2,Suspicious
+Gloves,120,Rare,Max HP,120,3,Suspicious
+Gloves,120,Rare,Max MP,120,3,Suspicious
+Gloves,120,Rare,DEF,120,3,Suspicious
+Gloves,120,Rare,STR %,3,2,Suspicious
+Gloves,120,Rare,DEX %,3,2,Suspicious
+Gloves,120,Rare,INT %,3,2,Suspicious
+Gloves,120,Rare,LUK %,3,2,Suspicious
+Gloves,120,Rare,Max HP %,3,3,Suspicious
+Gloves,120,Rare,Max MP %,3,3,Suspicious
+Gloves,120,Rare,DEF %,3,3,Suspicious
+Gloves,120,Rare,All Stats,5,2,Suspicious
+Gloves,120,Epic,STR %,6,2,Suspicious
+Gloves,120,Epic,DEX %,6,2,Suspicious
+Gloves,120,Epic,INT %,6,2,Suspicious
+Gloves,120,Epic,LUK %,6,2,Suspicious
+Gloves,120,Epic,Max HP %,6,3,Suspicious
+Gloves,120,Epic,Max MP %,6,3,Suspicious
+Gloves,120,Epic,DEF %,6,3,Suspicious
+Gloves,120,Epic,All Stats %,3,1,Suspicious
+Gloves,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Gloves,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Gloves,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Gloves,120,Epic,15% chance of recovering 95 HP on defeating an enemy,1,3,Suspicious
+Gloves,120,Epic,15% chance of recovering 95 MP on defeating an enemy,1,3,Suspicious
+Cape,120,Normal,STR,6,2,Suspicious
+Cape,120,Normal,DEX,6,2,Suspicious
+Cape,120,Normal,INT,6,2,Suspicious
+Cape,120,Normal,LUK,6,2,Suspicious
+Cape,120,Normal,Max HP,60,3,Suspicious
+Cape,120,Normal,Max MP,60,3,Suspicious
+Cape,120,Normal,DEF,60,3,Suspicious
+Cape,120,Rare,STR,12,2,Suspicious
+Cape,120,Rare,DEX,12,2,Suspicious
+Cape,120,Rare,INT,12,2,Suspicious
+Cape,120,Rare,LUK,12,2,Suspicious
+Cape,120,Rare,Max HP,120,3,Suspicious
+Cape,120,Rare,Max MP,120,3,Suspicious
+Cape,120,Rare,DEF,120,3,Suspicious
+Cape,120,Rare,STR %,3,2,Suspicious
+Cape,120,Rare,DEX %,3,2,Suspicious
+Cape,120,Rare,INT %,3,2,Suspicious
+Cape,120,Rare,LUK %,3,2,Suspicious
+Cape,120,Rare,Max HP %,3,3,Suspicious
+Cape,120,Rare,Max MP %,3,3,Suspicious
+Cape,120,Rare,DEF %,3,3,Suspicious
+Cape,120,Rare,All Stats,5,2,Suspicious
+Cape,120,Epic,STR %,6,2,Suspicious
+Cape,120,Epic,DEX %,6,2,Suspicious
+Cape,120,Epic,INT %,6,2,Suspicious
+Cape,120,Epic,LUK %,6,2,Suspicious
+Cape,120,Epic,Max HP %,6,3,Suspicious
+Cape,120,Epic,Max MP %,6,3,Suspicious
+Cape,120,Epic,DEF %,6,3,Suspicious
+Cape,120,Epic,All Stats %,3,1,Suspicious
+Cape,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Cape,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Cape,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Belt,120,Normal,STR,6,2,Suspicious
+Belt,120,Normal,DEX,6,2,Suspicious
+Belt,120,Normal,INT,6,2,Suspicious
+Belt,120,Normal,LUK,6,2,Suspicious
+Belt,120,Normal,Max HP,60,3,Suspicious
+Belt,120,Normal,Max MP,60,3,Suspicious
+Belt,120,Normal,DEF,60,3,Suspicious
+Belt,120,Rare,STR,12,2,Suspicious
+Belt,120,Rare,DEX,12,2,Suspicious
+Belt,120,Rare,INT,12,2,Suspicious
+Belt,120,Rare,LUK,12,2,Suspicious
+Belt,120,Rare,Max HP,120,3,Suspicious
+Belt,120,Rare,Max MP,120,3,Suspicious
+Belt,120,Rare,DEF,120,3,Suspicious
+Belt,120,Rare,STR %,3,2,Suspicious
+Belt,120,Rare,DEX %,3,2,Suspicious
+Belt,120,Rare,INT %,3,2,Suspicious
+Belt,120,Rare,LUK %,3,2,Suspicious
+Belt,120,Rare,Max HP %,3,3,Suspicious
+Belt,120,Rare,Max MP %,3,3,Suspicious
+Belt,120,Rare,DEF %,3,3,Suspicious
+Belt,120,Rare,All Stats,5,2,Suspicious
+Belt,120,Epic,STR %,6,2,Suspicious
+Belt,120,Epic,DEX %,6,2,Suspicious
+Belt,120,Epic,INT %,6,2,Suspicious
+Belt,120,Epic,LUK %,6,2,Suspicious
+Belt,120,Epic,Max HP %,6,3,Suspicious
+Belt,120,Epic,Max MP %,6,3,Suspicious
+Belt,120,Epic,DEF %,6,3,Suspicious
+Belt,120,Epic,All Stats %,3,1,Suspicious
+Belt,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Belt,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Belt,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Shoulder,120,Normal,STR,6,2,Suspicious
+Shoulder,120,Normal,DEX,6,2,Suspicious
+Shoulder,120,Normal,INT,6,2,Suspicious
+Shoulder,120,Normal,LUK,6,2,Suspicious
+Shoulder,120,Normal,Max HP,60,3,Suspicious
+Shoulder,120,Normal,Max MP,60,3,Suspicious
+Shoulder,120,Normal,DEF,60,3,Suspicious
+Shoulder,120,Rare,STR,12,2,Suspicious
+Shoulder,120,Rare,DEX,12,2,Suspicious
+Shoulder,120,Rare,INT,12,2,Suspicious
+Shoulder,120,Rare,LUK,12,2,Suspicious
+Shoulder,120,Rare,Max HP,120,3,Suspicious
+Shoulder,120,Rare,Max MP,120,3,Suspicious
+Shoulder,120,Rare,DEF,120,3,Suspicious
+Shoulder,120,Rare,STR %,3,2,Suspicious
+Shoulder,120,Rare,DEX %,3,2,Suspicious
+Shoulder,120,Rare,INT %,3,2,Suspicious
+Shoulder,120,Rare,LUK %,3,2,Suspicious
+Shoulder,120,Rare,Max HP %,3,3,Suspicious
+Shoulder,120,Rare,Max MP %,3,3,Suspicious
+Shoulder,120,Rare,DEF %,3,3,Suspicious
+Shoulder,120,Rare,All Stats,5,2,Suspicious
+Shoulder,120,Epic,STR %,6,2,Suspicious
+Shoulder,120,Epic,DEX %,6,2,Suspicious
+Shoulder,120,Epic,INT %,6,2,Suspicious
+Shoulder,120,Epic,LUK %,6,2,Suspicious
+Shoulder,120,Epic,Max HP %,6,3,Suspicious
+Shoulder,120,Epic,Max MP %,6,3,Suspicious
+Shoulder,120,Epic,DEF %,6,3,Suspicious
+Shoulder,120,Epic,All Stats %,3,1,Suspicious
+Shoulder,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Suspicious
+Shoulder,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Suspicious
+Shoulder,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Suspicious
+Face Accessory,120,Normal,STR,6,2,Suspicious
+Face Accessory,120,Normal,DEX,6,2,Suspicious
+Face Accessory,120,Normal,INT,6,2,Suspicious
+Face Accessory,120,Normal,LUK,6,2,Suspicious
+Face Accessory,120,Normal,Max HP,60,3,Suspicious
+Face Accessory,120,Normal,Max MP,60,3,Suspicious
+Face Accessory,120,Normal,DEF,60,3,Suspicious
+Face Accessory,120,Rare,STR,12,2,Suspicious
+Face Accessory,120,Rare,DEX,12,2,Suspicious
+Face Accessory,120,Rare,INT,12,2,Suspicious
+Face Accessory,120,Rare,LUK,12,2,Suspicious
+Face Accessory,120,Rare,Max HP,120,3,Suspicious
+Face Accessory,120,Rare,Max MP,120,3,Suspicious
+Face Accessory,120,Rare,DEF,120,3,Suspicious
+Face Accessory,120,Rare,STR %,3,2,Suspicious
+Face Accessory,120,Rare,DEX %,3,2,Suspicious
+Face Accessory,120,Rare,INT %,3,2,Suspicious
+Face Accessory,120,Rare,LUK %,3,2,Suspicious
+Face Accessory,120,Rare,Max HP %,3,3,Suspicious
+Face Accessory,120,Rare,Max MP %,3,3,Suspicious
+Face Accessory,120,Rare,DEF %,3,3,Suspicious
+Face Accessory,120,Rare,All Stats,5,2,Suspicious
+Face Accessory,120,Rare,Recover 24 HP every 4 seconds,1,3,Suspicious
+Face Accessory,120,Rare,Recover 24 MP every 4 seconds,1,3,Suspicious
+Face Accessory,120,Epic,STR %,6,2,Suspicious
+Face Accessory,120,Epic,DEX %,6,2,Suspicious
+Face Accessory,120,Epic,INT %,6,2,Suspicious
+Face Accessory,120,Epic,LUK %,6,2,Suspicious
+Face Accessory,120,Epic,Max HP %,6,3,Suspicious
+Face Accessory,120,Epic,Max MP %,6,3,Suspicious
+Face Accessory,120,Epic,DEF %,6,3,Suspicious
+Face Accessory,120,Epic,All Stats %,3,1,Suspicious
+Eye Accessory,120,Normal,STR,6,2,Suspicious
+Eye Accessory,120,Normal,DEX,6,2,Suspicious
+Eye Accessory,120,Normal,INT,6,2,Suspicious
+Eye Accessory,120,Normal,LUK,6,2,Suspicious
+Eye Accessory,120,Normal,Max HP,60,3,Suspicious
+Eye Accessory,120,Normal,Max MP,60,3,Suspicious
+Eye Accessory,120,Normal,DEF,60,3,Suspicious
+Eye Accessory,120,Rare,STR,12,2,Suspicious
+Eye Accessory,120,Rare,DEX,12,2,Suspicious
+Eye Accessory,120,Rare,INT,12,2,Suspicious
+Eye Accessory,120,Rare,LUK,12,2,Suspicious
+Eye Accessory,120,Rare,Max HP,120,3,Suspicious
+Eye Accessory,120,Rare,Max MP,120,3,Suspicious
+Eye Accessory,120,Rare,DEF,120,3,Suspicious
+Eye Accessory,120,Rare,STR %,3,2,Suspicious
+Eye Accessory,120,Rare,DEX %,3,2,Suspicious
+Eye Accessory,120,Rare,INT %,3,2,Suspicious
+Eye Accessory,120,Rare,LUK %,3,2,Suspicious
+Eye Accessory,120,Rare,Max HP %,3,3,Suspicious
+Eye Accessory,120,Rare,Max MP %,3,3,Suspicious
+Eye Accessory,120,Rare,DEF %,3,3,Suspicious
+Eye Accessory,120,Rare,All Stats,5,2,Suspicious
+Eye Accessory,120,Rare,Recover 24 HP every 4 seconds,1,3,Suspicious
+Eye Accessory,120,Rare,Recover 24 MP every 4 seconds,1,3,Suspicious
+Eye Accessory,120,Epic,STR %,6,2,Suspicious
+Eye Accessory,120,Epic,DEX %,6,2,Suspicious
+Eye Accessory,120,Epic,INT %,6,2,Suspicious
+Eye Accessory,120,Epic,LUK %,6,2,Suspicious
+Eye Accessory,120,Epic,Max HP %,6,3,Suspicious
+Eye Accessory,120,Epic,Max MP %,6,3,Suspicious
+Eye Accessory,120,Epic,DEF %,6,3,Suspicious
+Eye Accessory,120,Epic,All Stats %,3,1,Suspicious
+Earring,120,Normal,STR,6,2,Suspicious
+Earring,120,Normal,DEX,6,2,Suspicious
+Earring,120,Normal,INT,6,2,Suspicious
+Earring,120,Normal,LUK,6,2,Suspicious
+Earring,120,Normal,Max HP,60,3,Suspicious
+Earring,120,Normal,Max MP,60,3,Suspicious
+Earring,120,Normal,DEF,60,3,Suspicious
+Earring,120,Rare,STR,12,2,Suspicious
+Earring,120,Rare,DEX,12,2,Suspicious
+Earring,120,Rare,INT,12,2,Suspicious
+Earring,120,Rare,LUK,12,2,Suspicious
+Earring,120,Rare,Max HP,120,3,Suspicious
+Earring,120,Rare,Max MP,120,3,Suspicious
+Earring,120,Rare,DEF,120,3,Suspicious
+Earring,120,Rare,STR %,3,2,Suspicious
+Earring,120,Rare,DEX %,3,2,Suspicious
+Earring,120,Rare,INT %,3,2,Suspicious
+Earring,120,Rare,LUK %,3,2,Suspicious
+Earring,120,Rare,Max HP %,3,3,Suspicious
+Earring,120,Rare,Max MP %,3,3,Suspicious
+Earring,120,Rare,DEF %,3,3,Suspicious
+Earring,120,Rare,All Stats,5,2,Suspicious
+Earring,120,Rare,Recover 24 HP every 4 seconds,1,3,Suspicious
+Earring,120,Rare,Recover 24 MP every 4 seconds,1,3,Suspicious
+Earring,120,Epic,STR %,6,2,Suspicious
+Earring,120,Epic,DEX %,6,2,Suspicious
+Earring,120,Epic,INT %,6,2,Suspicious
+Earring,120,Epic,LUK %,6,2,Suspicious
+Earring,120,Epic,Max HP %,6,3,Suspicious
+Earring,120,Epic,Max MP %,6,3,Suspicious
+Earring,120,Epic,DEF %,6,3,Suspicious
+Earring,120,Epic,All Stats %,3,1,Suspicious
+Ring,120,Normal,STR,6,2,Suspicious
+Ring,120,Normal,DEX,6,2,Suspicious
+Ring,120,Normal,INT,6,2,Suspicious
+Ring,120,Normal,LUK,6,2,Suspicious
+Ring,120,Normal,Max HP,60,3,Suspicious
+Ring,120,Normal,Max MP,60,3,Suspicious
+Ring,120,Normal,DEF,60,3,Suspicious
+Ring,120,Rare,STR,12,2,Suspicious
+Ring,120,Rare,DEX,12,2,Suspicious
+Ring,120,Rare,INT,12,2,Suspicious
+Ring,120,Rare,LUK,12,2,Suspicious
+Ring,120,Rare,Max HP,120,3,Suspicious
+Ring,120,Rare,Max MP,120,3,Suspicious
+Ring,120,Rare,DEF,120,3,Suspicious
+Ring,120,Rare,STR %,3,2,Suspicious
+Ring,120,Rare,DEX %,3,2,Suspicious
+Ring,120,Rare,INT %,3,2,Suspicious
+Ring,120,Rare,LUK %,3,2,Suspicious
+Ring,120,Rare,Max HP %,3,3,Suspicious
+Ring,120,Rare,Max MP %,3,3,Suspicious
+Ring,120,Rare,DEF %,3,3,Suspicious
+Ring,120,Rare,All Stats,5,2,Suspicious
+Ring,120,Rare,Recover 24 HP every 4 seconds,1,3,Suspicious
+Ring,120,Rare,Recover 24 MP every 4 seconds,1,3,Suspicious
+Ring,120,Epic,STR %,6,2,Suspicious
+Ring,120,Epic,DEX %,6,2,Suspicious
+Ring,120,Epic,INT %,6,2,Suspicious
+Ring,120,Epic,LUK %,6,2,Suspicious
+Ring,120,Epic,Max HP %,6,3,Suspicious
+Ring,120,Epic,Max MP %,6,3,Suspicious
+Ring,120,Epic,DEF %,6,3,Suspicious
+Ring,120,Epic,All Stats %,3,1,Suspicious
+Pendant,120,Normal,STR,6,2,Suspicious
+Pendant,120,Normal,DEX,6,2,Suspicious
+Pendant,120,Normal,INT,6,2,Suspicious
+Pendant,120,Normal,LUK,6,2,Suspicious
+Pendant,120,Normal,Max HP,60,3,Suspicious
+Pendant,120,Normal,Max MP,60,3,Suspicious
+Pendant,120,Normal,DEF,60,3,Suspicious
+Pendant,120,Rare,STR,12,2,Suspicious
+Pendant,120,Rare,DEX,12,2,Suspicious
+Pendant,120,Rare,INT,12,2,Suspicious
+Pendant,120,Rare,LUK,12,2,Suspicious
+Pendant,120,Rare,Max HP,120,3,Suspicious
+Pendant,120,Rare,Max MP,120,3,Suspicious
+Pendant,120,Rare,DEF,120,3,Suspicious
+Pendant,120,Rare,STR %,3,2,Suspicious
+Pendant,120,Rare,DEX %,3,2,Suspicious
+Pendant,120,Rare,INT %,3,2,Suspicious
+Pendant,120,Rare,LUK %,3,2,Suspicious
+Pendant,120,Rare,Max HP %,3,3,Suspicious
+Pendant,120,Rare,Max MP %,3,3,Suspicious
+Pendant,120,Rare,DEF %,3,3,Suspicious
+Pendant,120,Rare,All Stats,5,2,Suspicious
+Pendant,120,Rare,Recover 24 HP every 4 seconds,1,3,Suspicious
+Pendant,120,Rare,Recover 24 MP every 4 seconds,1,3,Suspicious
+Pendant,120,Epic,STR %,6,2,Suspicious
+Pendant,120,Epic,DEX %,6,2,Suspicious
+Pendant,120,Epic,INT %,6,2,Suspicious
+Pendant,120,Epic,LUK %,6,2,Suspicious
+Pendant,120,Epic,Max HP %,6,3,Suspicious
+Pendant,120,Epic,Max MP %,6,3,Suspicious
+Pendant,120,Epic,DEF %,6,3,Suspicious
+Pendant,120,Epic,All Stats %,3,1,Suspicious
+Heart,100,Normal,STR,6,2,Suspicious
+Heart,100,Normal,DEX,6,2,Suspicious
+Heart,100,Normal,INT,6,2,Suspicious
+Heart,100,Normal,LUK,6,2,Suspicious
+Heart,100,Normal,Max HP,50,3,Suspicious
+Heart,100,Normal,Max MP,50,3,Suspicious
+Heart,100,Normal,DEF,50,3,Suspicious
+Heart,100,Rare,STR,12,2,Suspicious
+Heart,100,Rare,DEX,12,2,Suspicious
+Heart,100,Rare,INT,12,2,Suspicious
+Heart,100,Rare,LUK,12,2,Suspicious
+Heart,100,Rare,Max HP,100,3,Suspicious
+Heart,100,Rare,Max MP,100,3,Suspicious
+Heart,100,Rare,DEF,100,3,Suspicious
+Heart,100,Rare,STR %,3,2,Suspicious
+Heart,100,Rare,DEX %,3,2,Suspicious
+Heart,100,Rare,INT %,3,2,Suspicious
+Heart,100,Rare,LUK %,3,2,Suspicious
+Heart,100,Rare,Max HP %,3,3,Suspicious
+Heart,100,Rare,Max MP %,3,3,Suspicious
+Heart,100,Rare,DEF %,3,3,Suspicious
+Heart,100,Rare,All Stats,5,2,Suspicious
+Heart,100,Epic,STR %,6,2,Suspicious
+Heart,100,Epic,DEX %,6,2,Suspicious
+Heart,100,Epic,INT %,6,2,Suspicious
+Heart,100,Epic,LUK %,6,2,Suspicious
+Heart,100,Epic,Max HP %,6,3,Suspicious
+Heart,100,Epic,Max MP %,6,3,Suspicious
+Heart,100,Epic,DEF %,6,3,Suspicious
+Heart,100,Epic,All Stats %,3,1,Suspicious
+Weapon,120,Normal,STR,6,2,Master Craftsman
+Weapon,120,Normal,DEX,6,2,Master Craftsman
+Weapon,120,Normal,INT,6,2,Master Craftsman
+Weapon,120,Normal,LUK,6,2,Master Craftsman
+Weapon,120,Normal,Max HP,60,3,Master Craftsman
+Weapon,120,Normal,Max MP,60,3,Master Craftsman
+Weapon,120,Normal,Attack,6,1,Master Craftsman
+Weapon,120,Normal,Magic Attack,6,1,Master Craftsman
+Weapon,120,Rare,STR,12,2,Master Craftsman
+Weapon,120,Rare,DEX,12,2,Master Craftsman
+Weapon,120,Rare,INT,12,2,Master Craftsman
+Weapon,120,Rare,LUK,12,2,Master Craftsman
+Weapon,120,Rare,Max HP,120,3,Master Craftsman
+Weapon,120,Rare,Max MP,120,3,Master Craftsman
+Weapon,120,Rare,Attack,12,2,Master Craftsman
+Weapon,120,Rare,Magic Attack,12,2,Master Craftsman
+Weapon,120,Rare,STR %,3,2,Master Craftsman
+Weapon,120,Rare,DEX %,3,2,Master Craftsman
+Weapon,120,Rare,INT %,3,2,Master Craftsman
+Weapon,120,Rare,LUK %,3,2,Master Craftsman
+Weapon,120,Rare,ATT %,3,1,Master Craftsman
+Weapon,120,Rare,Magic ATT %,3,1,Master Craftsman
+Weapon,120,Rare,Critical Rate %,4,1,Master Craftsman
+Weapon,120,Rare,Damage %,3,1,Master Craftsman
+Weapon,120,Rare,All Stats,5,2,Master Craftsman
+Weapon,120,Rare,3% chance to recover 32 HP on attack,1,3,Master Craftsman
+Weapon,120,Rare,3% chance to recover 32 MP on attack,1,3,Master Craftsman
+Weapon,120,Rare,10% chance to apply Lv 6 Poison on attack,1,3,Master Craftsman
+Weapon,120,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Master Craftsman
+Weapon,120,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Master Craftsman
+Weapon,120,Rare,10% chance to apply Lv 3 Darkness on attack,1,3,Master Craftsman
+Weapon,120,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Master Craftsman
+Weapon,120,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Master Craftsman
+Weapon,120,Rare,Ignore Enemy DEF %,15,1,Master Craftsman
+Weapon,120,Epic,STR %,6,2,Master Craftsman
+Weapon,120,Epic,DEX %,6,2,Master Craftsman
+Weapon,120,Epic,INT %,6,2,Master Craftsman
+Weapon,120,Epic,LUK %,6,2,Master Craftsman
+Weapon,120,Epic,Max HP %,6,3,Master Craftsman
+Weapon,120,Epic,Max MP %,6,3,Master Craftsman
+Weapon,120,Epic,ATT %,6,1,Master Craftsman
+Weapon,120,Epic,Magic ATT %,6,1,Master Craftsman
+Weapon,120,Epic,Critical Rate %,8,1,Master Craftsman
+Weapon,120,Epic,Damage %,6,1,Master Craftsman
+Weapon,120,Epic,All Stats %,3,1,Master Craftsman
+Weapon,120,Epic,3% chance of recovering 53 HP on attack,1,3,Master Craftsman
+Weapon,120,Epic,3% chance of recovering 53 MP on attack,1,3,Master Craftsman
+Weapon,120,Epic,Ignore Enemy DEF %,15,1,Master Craftsman
+Weapon,120,Unique,STR %,9,4,Master Craftsman
+Weapon,120,Unique,DEX %,9,4,Master Craftsman
+Weapon,120,Unique,INT %,9,4,Master Craftsman
+Weapon,120,Unique,LUK %,9,4,Master Craftsman
+Weapon,120,Unique,ATT %,9,2,Master Craftsman
+Weapon,120,Unique,Magic ATT %,9,2,Master Craftsman
+Weapon,120,Unique,Critical Rate %,9,2,Master Craftsman
+Weapon,120,Unique,Damage %,9,2,Master Craftsman
+Weapon,120,Unique,All Stats %,6,2,Master Craftsman
+Weapon,120,Unique,Ignore Enemy DEF %,30,2,Master Craftsman
+Weapon,120,Unique,Boss Damage %,20,2,Master Craftsman
+Weapon,120,Unique,Boss Damage %,30,1,Master Craftsman
+Emblem,100,Normal,STR,6,2,Master Craftsman
+Emblem,100,Normal,DEX,6,2,Master Craftsman
+Emblem,100,Normal,INT,6,2,Master Craftsman
+Emblem,100,Normal,LUK,6,2,Master Craftsman
+Emblem,100,Normal,Max HP,50,3,Master Craftsman
+Emblem,100,Normal,Max MP,50,3,Master Craftsman
+Emblem,100,Normal,Attack,6,1,Master Craftsman
+Emblem,100,Normal,Magic Attack,6,1,Master Craftsman
+Emblem,100,Rare,STR,12,2,Master Craftsman
+Emblem,100,Rare,DEX,12,2,Master Craftsman
+Emblem,100,Rare,INT,12,2,Master Craftsman
+Emblem,100,Rare,LUK,12,2,Master Craftsman
+Emblem,100,Rare,Max HP,100,3,Master Craftsman
+Emblem,100,Rare,Max MP,100,3,Master Craftsman
+Emblem,100,Rare,Attack,12,2,Master Craftsman
+Emblem,100,Rare,Magic Attack,12,2,Master Craftsman
+Emblem,100,Rare,STR %,3,2,Master Craftsman
+Emblem,100,Rare,DEX %,3,2,Master Craftsman
+Emblem,100,Rare,INT %,3,2,Master Craftsman
+Emblem,100,Rare,LUK %,3,2,Master Craftsman
+Emblem,100,Rare,ATT %,3,1,Master Craftsman
+Emblem,100,Rare,Magic ATT %,3,1,Master Craftsman
+Emblem,100,Rare,Critical Rate %,4,1,Master Craftsman
+Emblem,100,Rare,Damage %,3,1,Master Craftsman
+Emblem,100,Rare,All Stats,5,2,Master Craftsman
+Emblem,100,Rare,3% chance to recover 28 HP on attack,1,3,Master Craftsman
+Emblem,100,Rare,3% chance to recover 28 MP on attack,1,3,Master Craftsman
+Emblem,100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Master Craftsman
+Emblem,100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Master Craftsman
+Emblem,100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Master Craftsman
+Emblem,100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Master Craftsman
+Emblem,100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Master Craftsman
+Emblem,100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Master Craftsman
+Emblem,100,Rare,Ignore Enemy DEF %,15,1,Master Craftsman
+Emblem,100,Epic,STR %,6,2,Master Craftsman
+Emblem,100,Epic,DEX %,6,2,Master Craftsman
+Emblem,100,Epic,INT %,6,2,Master Craftsman
+Emblem,100,Epic,LUK %,6,2,Master Craftsman
+Emblem,100,Epic,Max HP %,6,3,Master Craftsman
+Emblem,100,Epic,Max MP %,6,3,Master Craftsman
+Emblem,100,Epic,ATT %,6,1,Master Craftsman
+Emblem,100,Epic,Magic ATT %,6,1,Master Craftsman
+Emblem,100,Epic,Critical Rate %,8,1,Master Craftsman
+Emblem,100,Epic,Damage %,6,1,Master Craftsman
+Emblem,100,Epic,All Stats %,3,1,Master Craftsman
+Emblem,100,Epic,3% chance of recovering 47 HP on attack,1,3,Master Craftsman
+Emblem,100,Epic,3% chance of recovering 47 MP on attack,1,3,Master Craftsman
+Emblem,100,Epic,Ignore Enemy DEF %,15,1,Master Craftsman
+Emblem,100,Unique,STR %,9,2,Master Craftsman
+Emblem,100,Unique,DEX %,9,2,Master Craftsman
+Emblem,100,Unique,INT %,9,2,Master Craftsman
+Emblem,100,Unique,LUK %,9,2,Master Craftsman
+Emblem,100,Unique,ATT %,9,1,Master Craftsman
+Emblem,100,Unique,Magic ATT %,9,1,Master Craftsman
+Emblem,100,Unique,Critical Rate %,9,1,Master Craftsman
+Emblem,100,Unique,Damage %,9,1,Master Craftsman
+Emblem,100,Unique,All Stats %,6,1,Master Craftsman
+Emblem,100,Unique,Ignore Enemy DEF %,30,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,STR,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,DEX,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,INT,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,LUK,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max HP,50,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max MP,50,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Attack,6,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Magic Attack,6,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR,12,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX,12,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT,12,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK,12,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max HP,100,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max MP,100,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Attack,12,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic Attack,12,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR %,3,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX %,3,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT %,3,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK %,3,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,ATT %,3,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic ATT %,3,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Critical Rate %,4,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Damage %,3,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,All Stats,5,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,3% chance to recover 28 HP on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,3% chance to recover 28 MP on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Ignore Enemy DEF %,15,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,STR %,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,DEX %,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,INT %,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,LUK %,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max HP %,6,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max MP %,6,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,ATT %,6,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Magic ATT %,6,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Critical Rate %,8,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Damage %,6,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,All Stats %,3,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,3% chance of recovering 47 HP on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,3% chance of recovering 47 MP on attack,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Ignore Enemy DEF %,15,1,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to ignore 21 damage when attacked,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to ignore 32 damage when attacked,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,30% chance to ignore 43 damage when attacked,1,3,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,STR %,9,4,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,DEX %,9,4,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,INT %,9,4,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,LUK %,9,4,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,ATT %,9,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Magic ATT %,9,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Critical Rate %,9,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Damage %,9,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,All Stats %,6,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Ignore Enemy DEF %,30,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,5% chance to ignore 20% damage received,1,6,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,5% chance to ignore 40% damage received,1,6,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,20,2,Master Craftsman
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,30,1,Master Craftsman
+Force Shield/Soul Ring,100,Normal,STR,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Normal,DEX,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Normal,INT,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Normal,LUK,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Normal,Max HP,50,3,Master Craftsman
+Force Shield/Soul Ring,100,Normal,Attack,6,1,Master Craftsman
+Force Shield/Soul Ring,100,Normal,Magic Attack,6,1,Master Craftsman
+Force Shield/Soul Ring,100,Rare,STR,12,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,DEX,12,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,INT,12,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,LUK,12,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,Max HP,100,3,Master Craftsman
+Force Shield/Soul Ring,100,Rare,Attack,12,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,Magic Attack,12,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,STR %,3,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,DEX %,3,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,INT %,3,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,LUK %,3,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,ATT %,3,1,Master Craftsman
+Force Shield/Soul Ring,100,Rare,Magic ATT %,3,1,Master Craftsman
+Force Shield/Soul Ring,100,Rare,Critical Rate %,4,1,Master Craftsman
+Force Shield/Soul Ring,100,Rare,Damage %,3,1,Master Craftsman
+Force Shield/Soul Ring,100,Rare,All Stats,5,2,Master Craftsman
+Force Shield/Soul Ring,100,Rare,3% chance to recover 28 HP on attack,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Rare,Ignore Enemy DEF %,15,1,Master Craftsman
+Force Shield/Soul Ring,100,Epic,STR %,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Epic,DEX %,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Epic,INT %,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Epic,LUK %,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Epic,Max HP %,6,3,Master Craftsman
+Force Shield/Soul Ring,100,Epic,ATT %,6,1,Master Craftsman
+Force Shield/Soul Ring,100,Epic,Magic ATT %,6,1,Master Craftsman
+Force Shield/Soul Ring,100,Epic,Critical Rate %,8,1,Master Craftsman
+Force Shield/Soul Ring,100,Epic,Damage %,6,1,Master Craftsman
+Force Shield/Soul Ring,100,Epic,All Stats %,3,1,Master Craftsman
+Force Shield/Soul Ring,100,Epic,3% chance of recovering 47 HP on attack,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Epic,Ignore Enemy DEF %,15,1,Master Craftsman
+Force Shield/Soul Ring,100,Epic,20% chance to ignore 21 damage when attacked,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Epic,20% chance to ignore 32 damage when attacked,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Epic,30% chance to ignore 43 damage when attacked,1,3,Master Craftsman
+Force Shield/Soul Ring,100,Unique,STR %,9,4,Master Craftsman
+Force Shield/Soul Ring,100,Unique,DEX %,9,4,Master Craftsman
+Force Shield/Soul Ring,100,Unique,INT %,9,4,Master Craftsman
+Force Shield/Soul Ring,100,Unique,LUK %,9,4,Master Craftsman
+Force Shield/Soul Ring,100,Unique,ATT %,9,2,Master Craftsman
+Force Shield/Soul Ring,100,Unique,Magic ATT %,9,2,Master Craftsman
+Force Shield/Soul Ring,100,Unique,Critical Rate %,9,2,Master Craftsman
+Force Shield/Soul Ring,100,Unique,Damage %,9,2,Master Craftsman
+Force Shield/Soul Ring,100,Unique,All Stats %,6,2,Master Craftsman
+Force Shield/Soul Ring,100,Unique,Ignore Enemy DEF %,30,2,Master Craftsman
+Force Shield/Soul Ring,100,Unique,5% chance to ignore 20% damage received,1,6,Master Craftsman
+Force Shield/Soul Ring,100,Unique,5% chance to ignore 40% damage received,1,6,Master Craftsman
+Force Shield/Soul Ring,100,Unique,Boss Damage %,20,2,Master Craftsman
+Force Shield/Soul Ring,100,Unique,Boss Damage %,30,1,Master Craftsman
+Shield,120,Normal,STR,6,2,Master Craftsman
+Shield,120,Normal,DEX,6,2,Master Craftsman
+Shield,120,Normal,INT,6,2,Master Craftsman
+Shield,120,Normal,LUK,6,2,Master Craftsman
+Shield,120,Normal,Max HP,60,3,Master Craftsman
+Shield,120,Normal,Max MP,60,3,Master Craftsman
+Shield,120,Normal,Attack,6,1,Master Craftsman
+Shield,120,Normal,Magic Attack,6,1,Master Craftsman
+Shield,120,Rare,STR,12,2,Master Craftsman
+Shield,120,Rare,DEX,12,2,Master Craftsman
+Shield,120,Rare,INT,12,2,Master Craftsman
+Shield,120,Rare,LUK,12,2,Master Craftsman
+Shield,120,Rare,Max HP,120,3,Master Craftsman
+Shield,120,Rare,Max MP,120,3,Master Craftsman
+Shield,120,Rare,Attack,12,2,Master Craftsman
+Shield,120,Rare,Magic Attack,12,2,Master Craftsman
+Shield,120,Rare,STR %,3,2,Master Craftsman
+Shield,120,Rare,DEX %,3,2,Master Craftsman
+Shield,120,Rare,INT %,3,2,Master Craftsman
+Shield,120,Rare,LUK %,3,2,Master Craftsman
+Shield,120,Rare,ATT %,3,1,Master Craftsman
+Shield,120,Rare,Magic ATT %,3,1,Master Craftsman
+Shield,120,Rare,Critical Rate %,4,1,Master Craftsman
+Shield,120,Rare,Damage %,3,1,Master Craftsman
+Shield,120,Rare,All Stats,5,2,Master Craftsman
+Shield,120,Rare,3% chance to recover 32 HP on attack,1,3,Master Craftsman
+Shield,120,Rare,3% chance to recover 32 MP on attack,1,3,Master Craftsman
+Shield,120,Rare,10% chance to apply Lv 6 Poison on attack,1,3,Master Craftsman
+Shield,120,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Master Craftsman
+Shield,120,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Master Craftsman
+Shield,120,Rare,10% chance to apply Lv 3 Darkness on attack,1,3,Master Craftsman
+Shield,120,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Master Craftsman
+Shield,120,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Master Craftsman
+Shield,120,Rare,Ignore Enemy DEF %,15,1,Master Craftsman
+Shield,120,Epic,STR %,6,2,Master Craftsman
+Shield,120,Epic,DEX %,6,2,Master Craftsman
+Shield,120,Epic,INT %,6,2,Master Craftsman
+Shield,120,Epic,LUK %,6,2,Master Craftsman
+Shield,120,Epic,Max HP %,6,3,Master Craftsman
+Shield,120,Epic,Max MP %,6,3,Master Craftsman
+Shield,120,Epic,ATT %,6,1,Master Craftsman
+Shield,120,Epic,Magic ATT %,6,1,Master Craftsman
+Shield,120,Epic,Critical Rate %,8,1,Master Craftsman
+Shield,120,Epic,Damage %,6,1,Master Craftsman
+Shield,120,Epic,All Stats %,3,1,Master Craftsman
+Shield,120,Epic,3% chance of recovering 53 HP on attack,1,3,Master Craftsman
+Shield,120,Epic,3% chance of recovering 53 MP on attack,1,3,Master Craftsman
+Shield,120,Epic,Ignore Enemy DEF %,15,1,Master Craftsman
+Shield,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Shield,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Shield,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Shield,120,Unique,STR %,9,4,Master Craftsman
+Shield,120,Unique,DEX %,9,4,Master Craftsman
+Shield,120,Unique,INT %,9,4,Master Craftsman
+Shield,120,Unique,LUK %,9,4,Master Craftsman
+Shield,120,Unique,ATT %,9,2,Master Craftsman
+Shield,120,Unique,Magic ATT %,9,2,Master Craftsman
+Shield,120,Unique,Critical Rate %,9,2,Master Craftsman
+Shield,120,Unique,Damage %,9,2,Master Craftsman
+Shield,120,Unique,All Stats %,6,2,Master Craftsman
+Shield,120,Unique,Ignore Enemy DEF %,30,2,Master Craftsman
+Shield,120,Unique,5% chance to ignore 20% damage received,1,6,Master Craftsman
+Shield,120,Unique,5% chance to ignore 40% damage received,1,6,Master Craftsman
+Shield,120,Unique,Boss Damage %,20,2,Master Craftsman
+Shield,120,Unique,Boss Damage %,30,1,Master Craftsman
+Helmet,120,Normal,STR,6,2,Master Craftsman
+Helmet,120,Normal,DEX,6,2,Master Craftsman
+Helmet,120,Normal,INT,6,2,Master Craftsman
+Helmet,120,Normal,LUK,6,2,Master Craftsman
+Helmet,120,Normal,Max HP,60,3,Master Craftsman
+Helmet,120,Normal,Max MP,60,3,Master Craftsman
+Helmet,120,Normal,DEF,60,3,Master Craftsman
+Helmet,120,Normal,10% chance to become Angry for 10 sec when attacked,1,3,Master Craftsman
+Helmet,120,Normal,10% chance to become Happy for 10 sec when attacked,1,3,Master Craftsman
+Helmet,120,Normal,10% chance to become In Love for 10 sec when attacked,1,3,Master Craftsman
+Helmet,120,Normal,10% chance to become Enraged for 10 sec when attacked,1,3,Master Craftsman
+Helmet,120,Normal,10% chance to become Touched for 10 sec when attacked,1,3,Master Craftsman
+Helmet,120,Rare,STR,12,2,Master Craftsman
+Helmet,120,Rare,DEX,12,2,Master Craftsman
+Helmet,120,Rare,INT,12,2,Master Craftsman
+Helmet,120,Rare,LUK,12,2,Master Craftsman
+Helmet,120,Rare,Max HP,120,3,Master Craftsman
+Helmet,120,Rare,Max MP,120,3,Master Craftsman
+Helmet,120,Rare,DEF,120,3,Master Craftsman
+Helmet,120,Rare,STR %,3,2,Master Craftsman
+Helmet,120,Rare,DEX %,3,2,Master Craftsman
+Helmet,120,Rare,INT %,3,2,Master Craftsman
+Helmet,120,Rare,LUK %,3,2,Master Craftsman
+Helmet,120,Rare,Max HP %,3,3,Master Craftsman
+Helmet,120,Rare,Max MP %,3,3,Master Craftsman
+Helmet,120,Rare,DEF %,3,3,Master Craftsman
+Helmet,120,Rare,All Stats,5,2,Master Craftsman
+Helmet,120,Epic,STR %,6,2,Master Craftsman
+Helmet,120,Epic,DEX %,6,2,Master Craftsman
+Helmet,120,Epic,INT %,6,2,Master Craftsman
+Helmet,120,Epic,LUK %,6,2,Master Craftsman
+Helmet,120,Epic,Max HP %,6,3,Master Craftsman
+Helmet,120,Epic,Max MP %,6,3,Master Craftsman
+Helmet,120,Epic,DEF %,6,3,Master Craftsman
+Helmet,120,Epic,All Stats %,3,1,Master Craftsman
+Helmet,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Helmet,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Helmet,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Helmet,120,Unique,STR %,9,2,Master Craftsman
+Helmet,120,Unique,DEX %,9,2,Master Craftsman
+Helmet,120,Unique,INT %,9,2,Master Craftsman
+Helmet,120,Unique,LUK %,9,2,Master Craftsman
+Helmet,120,Unique,Max HP %,9,3,Master Craftsman
+Helmet,120,Unique,Max MP %,9,3,Master Craftsman
+Helmet,120,Unique,DEF %,9,3,Master Craftsman
+Helmet,120,Unique,All Stats %,6,1,Master Craftsman
+Helmet,120,Unique,All Skill Levels,1,2,Master Craftsman
+Helmet,120,Unique,All Skill Levels,2,1,Master Craftsman
+Helmet,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Helmet,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Helmet,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Helmet,120,Unique,Decent Mystic Door,1,2,Master Craftsman
+Top,120,Normal,STR,6,2,Master Craftsman
+Top,120,Normal,DEX,6,2,Master Craftsman
+Top,120,Normal,INT,6,2,Master Craftsman
+Top,120,Normal,LUK,6,2,Master Craftsman
+Top,120,Normal,Max HP,60,3,Master Craftsman
+Top,120,Normal,Max MP,60,3,Master Craftsman
+Top,120,Normal,DEF,60,3,Master Craftsman
+Top,120,Rare,STR,12,2,Master Craftsman
+Top,120,Rare,DEX,12,2,Master Craftsman
+Top,120,Rare,INT,12,2,Master Craftsman
+Top,120,Rare,LUK,12,2,Master Craftsman
+Top,120,Rare,Max HP,120,3,Master Craftsman
+Top,120,Rare,Max MP,120,3,Master Craftsman
+Top,120,Rare,DEF,120,3,Master Craftsman
+Top,120,Rare,STR %,3,2,Master Craftsman
+Top,120,Rare,DEX %,3,2,Master Craftsman
+Top,120,Rare,INT %,3,2,Master Craftsman
+Top,120,Rare,LUK %,3,2,Master Craftsman
+Top,120,Rare,Max HP %,3,3,Master Craftsman
+Top,120,Rare,Max MP %,3,3,Master Craftsman
+Top,120,Rare,DEF %,3,3,Master Craftsman
+Top,120,Rare,All Stats,5,2,Master Craftsman
+Top,120,Epic,STR %,6,2,Master Craftsman
+Top,120,Epic,DEX %,6,2,Master Craftsman
+Top,120,Epic,INT %,6,2,Master Craftsman
+Top,120,Epic,LUK %,6,2,Master Craftsman
+Top,120,Epic,Max HP %,6,3,Master Craftsman
+Top,120,Epic,Max MP %,6,3,Master Craftsman
+Top,120,Epic,DEF %,6,3,Master Craftsman
+Top,120,Epic,All Stats %,3,1,Master Craftsman
+Top,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Top,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Top,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Top,120,Epic,Invincibility duration after getting attacked,1,3,Master Craftsman
+Top,120,Unique,STR %,9,2,Master Craftsman
+Top,120,Unique,DEX %,9,2,Master Craftsman
+Top,120,Unique,INT %,9,2,Master Craftsman
+Top,120,Unique,LUK %,9,2,Master Craftsman
+Top,120,Unique,Max HP %,9,3,Master Craftsman
+Top,120,Unique,Max MP %,9,3,Master Craftsman
+Top,120,Unique,DEF %,9,3,Master Craftsman
+Top,120,Unique,All Stats %,6,1,Master Craftsman
+Top,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Top,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Top,120,Unique,Invincibility duration after getting attacked,2,3,Master Craftsman
+Top,120,Unique,2% chance of 7 second invincibility after being attacked,1,3,Master Craftsman
+Top,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Overall,120,Normal,STR,6,2,Master Craftsman
+Overall,120,Normal,DEX,6,2,Master Craftsman
+Overall,120,Normal,INT,6,2,Master Craftsman
+Overall,120,Normal,LUK,6,2,Master Craftsman
+Overall,120,Normal,Max HP,60,3,Master Craftsman
+Overall,120,Normal,Max MP,60,3,Master Craftsman
+Overall,120,Normal,DEF,60,3,Master Craftsman
+Overall,120,Rare,STR,12,2,Master Craftsman
+Overall,120,Rare,DEX,12,2,Master Craftsman
+Overall,120,Rare,INT,12,2,Master Craftsman
+Overall,120,Rare,LUK,12,2,Master Craftsman
+Overall,120,Rare,Max HP,120,3,Master Craftsman
+Overall,120,Rare,Max MP,120,3,Master Craftsman
+Overall,120,Rare,DEF,120,3,Master Craftsman
+Overall,120,Rare,STR %,3,2,Master Craftsman
+Overall,120,Rare,DEX %,3,2,Master Craftsman
+Overall,120,Rare,INT %,3,2,Master Craftsman
+Overall,120,Rare,LUK %,3,2,Master Craftsman
+Overall,120,Rare,Max HP %,3,3,Master Craftsman
+Overall,120,Rare,Max MP %,3,3,Master Craftsman
+Overall,120,Rare,DEF %,3,3,Master Craftsman
+Overall,120,Rare,All Stats,5,2,Master Craftsman
+Overall,120,Epic,STR %,6,2,Master Craftsman
+Overall,120,Epic,DEX %,6,2,Master Craftsman
+Overall,120,Epic,INT %,6,2,Master Craftsman
+Overall,120,Epic,LUK %,6,2,Master Craftsman
+Overall,120,Epic,Max HP %,6,3,Master Craftsman
+Overall,120,Epic,Max MP %,6,3,Master Craftsman
+Overall,120,Epic,DEF %,6,3,Master Craftsman
+Overall,120,Epic,All Stats %,3,1,Master Craftsman
+Overall,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Overall,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Overall,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Overall,120,Epic,Invincibility duration after getting attacked,1,3,Master Craftsman
+Overall,120,Unique,STR %,9,2,Master Craftsman
+Overall,120,Unique,DEX %,9,2,Master Craftsman
+Overall,120,Unique,INT %,9,2,Master Craftsman
+Overall,120,Unique,LUK %,9,2,Master Craftsman
+Overall,120,Unique,Max HP %,9,3,Master Craftsman
+Overall,120,Unique,Max MP %,9,3,Master Craftsman
+Overall,120,Unique,DEF %,9,3,Master Craftsman
+Overall,120,Unique,All Stats %,6,1,Master Craftsman
+Overall,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Overall,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Overall,120,Unique,Invincibility duration after getting attacked,2,3,Master Craftsman
+Overall,120,Unique,2% chance of 7 second invincibility after being attacked,1,3,Master Craftsman
+Overall,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Bottom,120,Normal,STR,6,2,Master Craftsman
+Bottom,120,Normal,DEX,6,2,Master Craftsman
+Bottom,120,Normal,INT,6,2,Master Craftsman
+Bottom,120,Normal,LUK,6,2,Master Craftsman
+Bottom,120,Normal,Max HP,60,3,Master Craftsman
+Bottom,120,Normal,Max MP,60,3,Master Craftsman
+Bottom,120,Normal,DEF,60,3,Master Craftsman
+Bottom,120,Rare,STR,12,2,Master Craftsman
+Bottom,120,Rare,DEX,12,2,Master Craftsman
+Bottom,120,Rare,INT,12,2,Master Craftsman
+Bottom,120,Rare,LUK,12,2,Master Craftsman
+Bottom,120,Rare,Max HP,120,3,Master Craftsman
+Bottom,120,Rare,Max MP,120,3,Master Craftsman
+Bottom,120,Rare,DEF,120,3,Master Craftsman
+Bottom,120,Rare,STR %,3,2,Master Craftsman
+Bottom,120,Rare,DEX %,3,2,Master Craftsman
+Bottom,120,Rare,INT %,3,2,Master Craftsman
+Bottom,120,Rare,LUK %,3,2,Master Craftsman
+Bottom,120,Rare,Max HP %,3,3,Master Craftsman
+Bottom,120,Rare,Max MP %,3,3,Master Craftsman
+Bottom,120,Rare,DEF %,3,3,Master Craftsman
+Bottom,120,Rare,All Stats,5,2,Master Craftsman
+Bottom,120,Epic,STR %,6,2,Master Craftsman
+Bottom,120,Epic,DEX %,6,2,Master Craftsman
+Bottom,120,Epic,INT %,6,2,Master Craftsman
+Bottom,120,Epic,LUK %,6,2,Master Craftsman
+Bottom,120,Epic,Max HP %,6,3,Master Craftsman
+Bottom,120,Epic,Max MP %,6,3,Master Craftsman
+Bottom,120,Epic,DEF %,6,3,Master Craftsman
+Bottom,120,Epic,All Stats %,3,1,Master Craftsman
+Bottom,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Bottom,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Bottom,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Bottom,120,Unique,STR %,9,2,Master Craftsman
+Bottom,120,Unique,DEX %,9,2,Master Craftsman
+Bottom,120,Unique,INT %,9,2,Master Craftsman
+Bottom,120,Unique,LUK %,9,2,Master Craftsman
+Bottom,120,Unique,Max HP %,9,3,Master Craftsman
+Bottom,120,Unique,Max MP %,9,3,Master Craftsman
+Bottom,120,Unique,DEF %,9,3,Master Craftsman
+Bottom,120,Unique,All Stats %,6,1,Master Craftsman
+Bottom,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Bottom,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Bottom,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Bottom,120,Unique,Decent Hyper Body,1,2,Master Craftsman
+Shoes,120,Normal,STR,6,2,Master Craftsman
+Shoes,120,Normal,DEX,6,2,Master Craftsman
+Shoes,120,Normal,INT,6,2,Master Craftsman
+Shoes,120,Normal,LUK,6,2,Master Craftsman
+Shoes,120,Normal,Max HP,60,3,Master Craftsman
+Shoes,120,Normal,Max MP,60,3,Master Craftsman
+Shoes,120,Normal,Speed,4,3,Master Craftsman
+Shoes,120,Normal,Jump,4,3,Master Craftsman
+Shoes,120,Normal,DEF,60,3,Master Craftsman
+Shoes,120,Rare,STR,12,2,Master Craftsman
+Shoes,120,Rare,DEX,12,2,Master Craftsman
+Shoes,120,Rare,INT,12,2,Master Craftsman
+Shoes,120,Rare,LUK,12,2,Master Craftsman
+Shoes,120,Rare,Max HP,120,3,Master Craftsman
+Shoes,120,Rare,Max MP,120,3,Master Craftsman
+Shoes,120,Rare,Speed,8,3,Master Craftsman
+Shoes,120,Rare,Jump,8,3,Master Craftsman
+Shoes,120,Rare,DEF,120,3,Master Craftsman
+Shoes,120,Rare,STR %,3,2,Master Craftsman
+Shoes,120,Rare,DEX %,3,2,Master Craftsman
+Shoes,120,Rare,INT %,3,2,Master Craftsman
+Shoes,120,Rare,LUK %,3,2,Master Craftsman
+Shoes,120,Rare,Max HP %,3,3,Master Craftsman
+Shoes,120,Rare,Max MP %,3,3,Master Craftsman
+Shoes,120,Rare,DEF %,3,3,Master Craftsman
+Shoes,120,Rare,All Stats,5,2,Master Craftsman
+Shoes,120,Epic,STR %,6,2,Master Craftsman
+Shoes,120,Epic,DEX %,6,2,Master Craftsman
+Shoes,120,Epic,INT %,6,2,Master Craftsman
+Shoes,120,Epic,LUK %,6,2,Master Craftsman
+Shoes,120,Epic,Max HP %,6,3,Master Craftsman
+Shoes,120,Epic,Max MP %,6,3,Master Craftsman
+Shoes,120,Epic,DEF %,6,3,Master Craftsman
+Shoes,120,Epic,All Stats %,3,1,Master Craftsman
+Shoes,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Shoes,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Shoes,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Shoes,120,Unique,STR %,9,2,Master Craftsman
+Shoes,120,Unique,DEX %,9,2,Master Craftsman
+Shoes,120,Unique,INT %,9,2,Master Craftsman
+Shoes,120,Unique,LUK %,9,2,Master Craftsman
+Shoes,120,Unique,Max HP %,9,3,Master Craftsman
+Shoes,120,Unique,Max MP %,9,3,Master Craftsman
+Shoes,120,Unique,DEF %,9,3,Master Craftsman
+Shoes,120,Unique,All Stats %,6,1,Master Craftsman
+Shoes,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Shoes,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Shoes,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Shoes,120,Unique,Decent Haste,1,2,Master Craftsman
+Gloves,120,Normal,STR,6,2,Master Craftsman
+Gloves,120,Normal,DEX,6,2,Master Craftsman
+Gloves,120,Normal,INT,6,2,Master Craftsman
+Gloves,120,Normal,LUK,6,2,Master Craftsman
+Gloves,120,Normal,Max HP,60,3,Master Craftsman
+Gloves,120,Normal,Max MP,60,3,Master Craftsman
+Gloves,120,Normal,DEF,60,3,Master Craftsman
+Gloves,120,Rare,STR,12,2,Master Craftsman
+Gloves,120,Rare,DEX,12,2,Master Craftsman
+Gloves,120,Rare,INT,12,2,Master Craftsman
+Gloves,120,Rare,LUK,12,2,Master Craftsman
+Gloves,120,Rare,Max HP,120,3,Master Craftsman
+Gloves,120,Rare,Max MP,120,3,Master Craftsman
+Gloves,120,Rare,DEF,120,3,Master Craftsman
+Gloves,120,Rare,STR %,3,2,Master Craftsman
+Gloves,120,Rare,DEX %,3,2,Master Craftsman
+Gloves,120,Rare,INT %,3,2,Master Craftsman
+Gloves,120,Rare,LUK %,3,2,Master Craftsman
+Gloves,120,Rare,Max HP %,3,3,Master Craftsman
+Gloves,120,Rare,Max MP %,3,3,Master Craftsman
+Gloves,120,Rare,DEF %,3,3,Master Craftsman
+Gloves,120,Rare,All Stats,5,2,Master Craftsman
+Gloves,120,Epic,STR %,6,2,Master Craftsman
+Gloves,120,Epic,DEX %,6,2,Master Craftsman
+Gloves,120,Epic,INT %,6,2,Master Craftsman
+Gloves,120,Epic,LUK %,6,2,Master Craftsman
+Gloves,120,Epic,Max HP %,6,3,Master Craftsman
+Gloves,120,Epic,Max MP %,6,3,Master Craftsman
+Gloves,120,Epic,DEF %,6,3,Master Craftsman
+Gloves,120,Epic,All Stats %,3,1,Master Craftsman
+Gloves,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Gloves,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Gloves,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Gloves,120,Epic,15% chance of recovering 95 HP on defeating an enemy,1,3,Master Craftsman
+Gloves,120,Epic,15% chance of recovering 95 MP on defeating an enemy,1,3,Master Craftsman
+Gloves,120,Unique,STR %,9,2,Master Craftsman
+Gloves,120,Unique,DEX %,9,2,Master Craftsman
+Gloves,120,Unique,INT %,9,2,Master Craftsman
+Gloves,120,Unique,LUK %,9,2,Master Craftsman
+Gloves,120,Unique,Max HP %,9,3,Master Craftsman
+Gloves,120,Unique,Max MP %,9,3,Master Craftsman
+Gloves,120,Unique,DEF %,9,3,Master Craftsman
+Gloves,120,Unique,All Stats %,6,1,Master Craftsman
+Gloves,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Gloves,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Gloves,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Gloves,120,Unique,1% Auto Steal,1,3,Master Craftsman
+Gloves,120,Unique,2% Auto Steal,1,3,Master Craftsman
+Gloves,120,Unique,Decent Sharp Eyes,1,2,Master Craftsman
+Cape,120,Normal,STR,6,2,Master Craftsman
+Cape,120,Normal,DEX,6,2,Master Craftsman
+Cape,120,Normal,INT,6,2,Master Craftsman
+Cape,120,Normal,LUK,6,2,Master Craftsman
+Cape,120,Normal,Max HP,60,3,Master Craftsman
+Cape,120,Normal,Max MP,60,3,Master Craftsman
+Cape,120,Normal,DEF,60,3,Master Craftsman
+Cape,120,Rare,STR,12,2,Master Craftsman
+Cape,120,Rare,DEX,12,2,Master Craftsman
+Cape,120,Rare,INT,12,2,Master Craftsman
+Cape,120,Rare,LUK,12,2,Master Craftsman
+Cape,120,Rare,Max HP,120,3,Master Craftsman
+Cape,120,Rare,Max MP,120,3,Master Craftsman
+Cape,120,Rare,DEF,120,3,Master Craftsman
+Cape,120,Rare,STR %,3,2,Master Craftsman
+Cape,120,Rare,DEX %,3,2,Master Craftsman
+Cape,120,Rare,INT %,3,2,Master Craftsman
+Cape,120,Rare,LUK %,3,2,Master Craftsman
+Cape,120,Rare,Max HP %,3,3,Master Craftsman
+Cape,120,Rare,Max MP %,3,3,Master Craftsman
+Cape,120,Rare,DEF %,3,3,Master Craftsman
+Cape,120,Rare,All Stats,5,2,Master Craftsman
+Cape,120,Epic,STR %,6,2,Master Craftsman
+Cape,120,Epic,DEX %,6,2,Master Craftsman
+Cape,120,Epic,INT %,6,2,Master Craftsman
+Cape,120,Epic,LUK %,6,2,Master Craftsman
+Cape,120,Epic,Max HP %,6,3,Master Craftsman
+Cape,120,Epic,Max MP %,6,3,Master Craftsman
+Cape,120,Epic,DEF %,6,3,Master Craftsman
+Cape,120,Epic,All Stats %,3,1,Master Craftsman
+Cape,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Cape,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Cape,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Cape,120,Unique,STR %,9,2,Master Craftsman
+Cape,120,Unique,DEX %,9,2,Master Craftsman
+Cape,120,Unique,INT %,9,2,Master Craftsman
+Cape,120,Unique,LUK %,9,2,Master Craftsman
+Cape,120,Unique,Max HP %,9,3,Master Craftsman
+Cape,120,Unique,Max MP %,9,3,Master Craftsman
+Cape,120,Unique,DEF %,9,3,Master Craftsman
+Cape,120,Unique,All Stats %,6,1,Master Craftsman
+Cape,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Cape,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Cape,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Belt,120,Normal,STR,6,2,Master Craftsman
+Belt,120,Normal,DEX,6,2,Master Craftsman
+Belt,120,Normal,INT,6,2,Master Craftsman
+Belt,120,Normal,LUK,6,2,Master Craftsman
+Belt,120,Normal,Max HP,60,3,Master Craftsman
+Belt,120,Normal,Max MP,60,3,Master Craftsman
+Belt,120,Normal,DEF,60,3,Master Craftsman
+Belt,120,Rare,STR,12,2,Master Craftsman
+Belt,120,Rare,DEX,12,2,Master Craftsman
+Belt,120,Rare,INT,12,2,Master Craftsman
+Belt,120,Rare,LUK,12,2,Master Craftsman
+Belt,120,Rare,Max HP,120,3,Master Craftsman
+Belt,120,Rare,Max MP,120,3,Master Craftsman
+Belt,120,Rare,DEF,120,3,Master Craftsman
+Belt,120,Rare,STR %,3,2,Master Craftsman
+Belt,120,Rare,DEX %,3,2,Master Craftsman
+Belt,120,Rare,INT %,3,2,Master Craftsman
+Belt,120,Rare,LUK %,3,2,Master Craftsman
+Belt,120,Rare,Max HP %,3,3,Master Craftsman
+Belt,120,Rare,Max MP %,3,3,Master Craftsman
+Belt,120,Rare,DEF %,3,3,Master Craftsman
+Belt,120,Rare,All Stats,5,2,Master Craftsman
+Belt,120,Epic,STR %,6,2,Master Craftsman
+Belt,120,Epic,DEX %,6,2,Master Craftsman
+Belt,120,Epic,INT %,6,2,Master Craftsman
+Belt,120,Epic,LUK %,6,2,Master Craftsman
+Belt,120,Epic,Max HP %,6,3,Master Craftsman
+Belt,120,Epic,Max MP %,6,3,Master Craftsman
+Belt,120,Epic,DEF %,6,3,Master Craftsman
+Belt,120,Epic,All Stats %,3,1,Master Craftsman
+Belt,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Belt,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Belt,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Belt,120,Unique,STR %,9,2,Master Craftsman
+Belt,120,Unique,DEX %,9,2,Master Craftsman
+Belt,120,Unique,INT %,9,2,Master Craftsman
+Belt,120,Unique,LUK %,9,2,Master Craftsman
+Belt,120,Unique,Max HP %,9,3,Master Craftsman
+Belt,120,Unique,Max MP %,9,3,Master Craftsman
+Belt,120,Unique,DEF %,9,3,Master Craftsman
+Belt,120,Unique,All Stats %,6,1,Master Craftsman
+Belt,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Belt,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Belt,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Shoulder,120,Normal,STR,6,2,Master Craftsman
+Shoulder,120,Normal,DEX,6,2,Master Craftsman
+Shoulder,120,Normal,INT,6,2,Master Craftsman
+Shoulder,120,Normal,LUK,6,2,Master Craftsman
+Shoulder,120,Normal,Max HP,60,3,Master Craftsman
+Shoulder,120,Normal,Max MP,60,3,Master Craftsman
+Shoulder,120,Normal,DEF,60,3,Master Craftsman
+Shoulder,120,Rare,STR,12,2,Master Craftsman
+Shoulder,120,Rare,DEX,12,2,Master Craftsman
+Shoulder,120,Rare,INT,12,2,Master Craftsman
+Shoulder,120,Rare,LUK,12,2,Master Craftsman
+Shoulder,120,Rare,Max HP,120,3,Master Craftsman
+Shoulder,120,Rare,Max MP,120,3,Master Craftsman
+Shoulder,120,Rare,DEF,120,3,Master Craftsman
+Shoulder,120,Rare,STR %,3,2,Master Craftsman
+Shoulder,120,Rare,DEX %,3,2,Master Craftsman
+Shoulder,120,Rare,INT %,3,2,Master Craftsman
+Shoulder,120,Rare,LUK %,3,2,Master Craftsman
+Shoulder,120,Rare,Max HP %,3,3,Master Craftsman
+Shoulder,120,Rare,Max MP %,3,3,Master Craftsman
+Shoulder,120,Rare,DEF %,3,3,Master Craftsman
+Shoulder,120,Rare,All Stats,5,2,Master Craftsman
+Shoulder,120,Epic,STR %,6,2,Master Craftsman
+Shoulder,120,Epic,DEX %,6,2,Master Craftsman
+Shoulder,120,Epic,INT %,6,2,Master Craftsman
+Shoulder,120,Epic,LUK %,6,2,Master Craftsman
+Shoulder,120,Epic,Max HP %,6,3,Master Craftsman
+Shoulder,120,Epic,Max MP %,6,3,Master Craftsman
+Shoulder,120,Epic,DEF %,6,3,Master Craftsman
+Shoulder,120,Epic,All Stats %,3,1,Master Craftsman
+Shoulder,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Master Craftsman
+Shoulder,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Master Craftsman
+Shoulder,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Master Craftsman
+Shoulder,120,Unique,STR %,9,2,Master Craftsman
+Shoulder,120,Unique,DEX %,9,2,Master Craftsman
+Shoulder,120,Unique,INT %,9,2,Master Craftsman
+Shoulder,120,Unique,LUK %,9,2,Master Craftsman
+Shoulder,120,Unique,Max HP %,9,3,Master Craftsman
+Shoulder,120,Unique,Max MP %,9,3,Master Craftsman
+Shoulder,120,Unique,DEF %,9,3,Master Craftsman
+Shoulder,120,Unique,All Stats %,6,1,Master Craftsman
+Shoulder,120,Unique,5% chance to ignore 20% damage received,1,3,Master Craftsman
+Shoulder,120,Unique,5% chance to ignore 40% damage received,1,3,Master Craftsman
+Shoulder,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Face Accessory,120,Normal,STR,6,2,Master Craftsman
+Face Accessory,120,Normal,DEX,6,2,Master Craftsman
+Face Accessory,120,Normal,INT,6,2,Master Craftsman
+Face Accessory,120,Normal,LUK,6,2,Master Craftsman
+Face Accessory,120,Normal,Max HP,60,3,Master Craftsman
+Face Accessory,120,Normal,Max MP,60,3,Master Craftsman
+Face Accessory,120,Normal,DEF,60,3,Master Craftsman
+Face Accessory,120,Rare,STR,12,2,Master Craftsman
+Face Accessory,120,Rare,DEX,12,2,Master Craftsman
+Face Accessory,120,Rare,INT,12,2,Master Craftsman
+Face Accessory,120,Rare,LUK,12,2,Master Craftsman
+Face Accessory,120,Rare,Max HP,120,3,Master Craftsman
+Face Accessory,120,Rare,Max MP,120,3,Master Craftsman
+Face Accessory,120,Rare,DEF,120,3,Master Craftsman
+Face Accessory,120,Rare,STR %,3,2,Master Craftsman
+Face Accessory,120,Rare,DEX %,3,2,Master Craftsman
+Face Accessory,120,Rare,INT %,3,2,Master Craftsman
+Face Accessory,120,Rare,LUK %,3,2,Master Craftsman
+Face Accessory,120,Rare,Max HP %,3,3,Master Craftsman
+Face Accessory,120,Rare,Max MP %,3,3,Master Craftsman
+Face Accessory,120,Rare,DEF %,3,3,Master Craftsman
+Face Accessory,120,Rare,All Stats,5,2,Master Craftsman
+Face Accessory,120,Rare,Recover 24 HP every 4 seconds,1,3,Master Craftsman
+Face Accessory,120,Rare,Recover 24 MP every 4 seconds,1,3,Master Craftsman
+Face Accessory,120,Epic,STR %,6,2,Master Craftsman
+Face Accessory,120,Epic,DEX %,6,2,Master Craftsman
+Face Accessory,120,Epic,INT %,6,2,Master Craftsman
+Face Accessory,120,Epic,LUK %,6,2,Master Craftsman
+Face Accessory,120,Epic,Max HP %,6,3,Master Craftsman
+Face Accessory,120,Epic,Max MP %,6,3,Master Craftsman
+Face Accessory,120,Epic,DEF %,6,3,Master Craftsman
+Face Accessory,120,Epic,All Stats %,3,1,Master Craftsman
+Face Accessory,120,Unique,STR %,9,2,Master Craftsman
+Face Accessory,120,Unique,DEX %,9,2,Master Craftsman
+Face Accessory,120,Unique,INT %,9,2,Master Craftsman
+Face Accessory,120,Unique,LUK %,9,2,Master Craftsman
+Face Accessory,120,Unique,Max HP %,9,3,Master Craftsman
+Face Accessory,120,Unique,Max MP %,9,3,Master Craftsman
+Face Accessory,120,Unique,DEF %,9,3,Master Craftsman
+Face Accessory,120,Unique,All Stats %,6,1,Master Craftsman
+Face Accessory,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Eye Accessory,120,Normal,STR,6,2,Master Craftsman
+Eye Accessory,120,Normal,DEX,6,2,Master Craftsman
+Eye Accessory,120,Normal,INT,6,2,Master Craftsman
+Eye Accessory,120,Normal,LUK,6,2,Master Craftsman
+Eye Accessory,120,Normal,Max HP,60,3,Master Craftsman
+Eye Accessory,120,Normal,Max MP,60,3,Master Craftsman
+Eye Accessory,120,Normal,DEF,60,3,Master Craftsman
+Eye Accessory,120,Rare,STR,12,2,Master Craftsman
+Eye Accessory,120,Rare,DEX,12,2,Master Craftsman
+Eye Accessory,120,Rare,INT,12,2,Master Craftsman
+Eye Accessory,120,Rare,LUK,12,2,Master Craftsman
+Eye Accessory,120,Rare,Max HP,120,3,Master Craftsman
+Eye Accessory,120,Rare,Max MP,120,3,Master Craftsman
+Eye Accessory,120,Rare,DEF,120,3,Master Craftsman
+Eye Accessory,120,Rare,STR %,3,2,Master Craftsman
+Eye Accessory,120,Rare,DEX %,3,2,Master Craftsman
+Eye Accessory,120,Rare,INT %,3,2,Master Craftsman
+Eye Accessory,120,Rare,LUK %,3,2,Master Craftsman
+Eye Accessory,120,Rare,Max HP %,3,3,Master Craftsman
+Eye Accessory,120,Rare,Max MP %,3,3,Master Craftsman
+Eye Accessory,120,Rare,DEF %,3,3,Master Craftsman
+Eye Accessory,120,Rare,All Stats,5,2,Master Craftsman
+Eye Accessory,120,Rare,Recover 24 HP every 4 seconds,1,3,Master Craftsman
+Eye Accessory,120,Rare,Recover 24 MP every 4 seconds,1,3,Master Craftsman
+Eye Accessory,120,Epic,STR %,6,2,Master Craftsman
+Eye Accessory,120,Epic,DEX %,6,2,Master Craftsman
+Eye Accessory,120,Epic,INT %,6,2,Master Craftsman
+Eye Accessory,120,Epic,LUK %,6,2,Master Craftsman
+Eye Accessory,120,Epic,Max HP %,6,3,Master Craftsman
+Eye Accessory,120,Epic,Max MP %,6,3,Master Craftsman
+Eye Accessory,120,Epic,DEF %,6,3,Master Craftsman
+Eye Accessory,120,Epic,All Stats %,3,1,Master Craftsman
+Eye Accessory,120,Unique,STR %,9,2,Master Craftsman
+Eye Accessory,120,Unique,DEX %,9,2,Master Craftsman
+Eye Accessory,120,Unique,INT %,9,2,Master Craftsman
+Eye Accessory,120,Unique,LUK %,9,2,Master Craftsman
+Eye Accessory,120,Unique,Max HP %,9,3,Master Craftsman
+Eye Accessory,120,Unique,Max MP %,9,3,Master Craftsman
+Eye Accessory,120,Unique,DEF %,9,3,Master Craftsman
+Eye Accessory,120,Unique,All Stats %,6,1,Master Craftsman
+Eye Accessory,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Earring,120,Normal,STR,6,2,Master Craftsman
+Earring,120,Normal,DEX,6,2,Master Craftsman
+Earring,120,Normal,INT,6,2,Master Craftsman
+Earring,120,Normal,LUK,6,2,Master Craftsman
+Earring,120,Normal,Max HP,60,3,Master Craftsman
+Earring,120,Normal,Max MP,60,3,Master Craftsman
+Earring,120,Normal,DEF,60,3,Master Craftsman
+Earring,120,Rare,STR,12,2,Master Craftsman
+Earring,120,Rare,DEX,12,2,Master Craftsman
+Earring,120,Rare,INT,12,2,Master Craftsman
+Earring,120,Rare,LUK,12,2,Master Craftsman
+Earring,120,Rare,Max HP,120,3,Master Craftsman
+Earring,120,Rare,Max MP,120,3,Master Craftsman
+Earring,120,Rare,DEF,120,3,Master Craftsman
+Earring,120,Rare,STR %,3,2,Master Craftsman
+Earring,120,Rare,DEX %,3,2,Master Craftsman
+Earring,120,Rare,INT %,3,2,Master Craftsman
+Earring,120,Rare,LUK %,3,2,Master Craftsman
+Earring,120,Rare,Max HP %,3,3,Master Craftsman
+Earring,120,Rare,Max MP %,3,3,Master Craftsman
+Earring,120,Rare,DEF %,3,3,Master Craftsman
+Earring,120,Rare,All Stats,5,2,Master Craftsman
+Earring,120,Rare,Recover 24 HP every 4 seconds,1,3,Master Craftsman
+Earring,120,Rare,Recover 24 MP every 4 seconds,1,3,Master Craftsman
+Earring,120,Epic,STR %,6,2,Master Craftsman
+Earring,120,Epic,DEX %,6,2,Master Craftsman
+Earring,120,Epic,INT %,6,2,Master Craftsman
+Earring,120,Epic,LUK %,6,2,Master Craftsman
+Earring,120,Epic,Max HP %,6,3,Master Craftsman
+Earring,120,Epic,Max MP %,6,3,Master Craftsman
+Earring,120,Epic,DEF %,6,3,Master Craftsman
+Earring,120,Epic,All Stats %,3,1,Master Craftsman
+Earring,120,Unique,STR %,9,2,Master Craftsman
+Earring,120,Unique,DEX %,9,2,Master Craftsman
+Earring,120,Unique,INT %,9,2,Master Craftsman
+Earring,120,Unique,LUK %,9,2,Master Craftsman
+Earring,120,Unique,Max HP %,9,3,Master Craftsman
+Earring,120,Unique,Max MP %,9,3,Master Craftsman
+Earring,120,Unique,DEF %,9,3,Master Craftsman
+Earring,120,Unique,All Stats %,6,1,Master Craftsman
+Earring,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Ring,120,Normal,STR,6,2,Master Craftsman
+Ring,120,Normal,DEX,6,2,Master Craftsman
+Ring,120,Normal,INT,6,2,Master Craftsman
+Ring,120,Normal,LUK,6,2,Master Craftsman
+Ring,120,Normal,Max HP,60,3,Master Craftsman
+Ring,120,Normal,Max MP,60,3,Master Craftsman
+Ring,120,Normal,DEF,60,3,Master Craftsman
+Ring,120,Rare,STR,12,2,Master Craftsman
+Ring,120,Rare,DEX,12,2,Master Craftsman
+Ring,120,Rare,INT,12,2,Master Craftsman
+Ring,120,Rare,LUK,12,2,Master Craftsman
+Ring,120,Rare,Max HP,120,3,Master Craftsman
+Ring,120,Rare,Max MP,120,3,Master Craftsman
+Ring,120,Rare,DEF,120,3,Master Craftsman
+Ring,120,Rare,STR %,3,2,Master Craftsman
+Ring,120,Rare,DEX %,3,2,Master Craftsman
+Ring,120,Rare,INT %,3,2,Master Craftsman
+Ring,120,Rare,LUK %,3,2,Master Craftsman
+Ring,120,Rare,Max HP %,3,3,Master Craftsman
+Ring,120,Rare,Max MP %,3,3,Master Craftsman
+Ring,120,Rare,DEF %,3,3,Master Craftsman
+Ring,120,Rare,All Stats,5,2,Master Craftsman
+Ring,120,Rare,Recover 24 HP every 4 seconds,1,3,Master Craftsman
+Ring,120,Rare,Recover 24 MP every 4 seconds,1,3,Master Craftsman
+Ring,120,Epic,STR %,6,2,Master Craftsman
+Ring,120,Epic,DEX %,6,2,Master Craftsman
+Ring,120,Epic,INT %,6,2,Master Craftsman
+Ring,120,Epic,LUK %,6,2,Master Craftsman
+Ring,120,Epic,Max HP %,6,3,Master Craftsman
+Ring,120,Epic,Max MP %,6,3,Master Craftsman
+Ring,120,Epic,DEF %,6,3,Master Craftsman
+Ring,120,Epic,All Stats %,3,1,Master Craftsman
+Ring,120,Unique,STR %,9,2,Master Craftsman
+Ring,120,Unique,DEX %,9,2,Master Craftsman
+Ring,120,Unique,INT %,9,2,Master Craftsman
+Ring,120,Unique,LUK %,9,2,Master Craftsman
+Ring,120,Unique,Max HP %,9,3,Master Craftsman
+Ring,120,Unique,Max MP %,9,3,Master Craftsman
+Ring,120,Unique,DEF %,9,3,Master Craftsman
+Ring,120,Unique,All Stats %,6,1,Master Craftsman
+Ring,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Pendant,120,Normal,STR,6,2,Master Craftsman
+Pendant,120,Normal,DEX,6,2,Master Craftsman
+Pendant,120,Normal,INT,6,2,Master Craftsman
+Pendant,120,Normal,LUK,6,2,Master Craftsman
+Pendant,120,Normal,Max HP,60,3,Master Craftsman
+Pendant,120,Normal,Max MP,60,3,Master Craftsman
+Pendant,120,Normal,DEF,60,3,Master Craftsman
+Pendant,120,Rare,STR,12,2,Master Craftsman
+Pendant,120,Rare,DEX,12,2,Master Craftsman
+Pendant,120,Rare,INT,12,2,Master Craftsman
+Pendant,120,Rare,LUK,12,2,Master Craftsman
+Pendant,120,Rare,Max HP,120,3,Master Craftsman
+Pendant,120,Rare,Max MP,120,3,Master Craftsman
+Pendant,120,Rare,DEF,120,3,Master Craftsman
+Pendant,120,Rare,STR %,3,2,Master Craftsman
+Pendant,120,Rare,DEX %,3,2,Master Craftsman
+Pendant,120,Rare,INT %,3,2,Master Craftsman
+Pendant,120,Rare,LUK %,3,2,Master Craftsman
+Pendant,120,Rare,Max HP %,3,3,Master Craftsman
+Pendant,120,Rare,Max MP %,3,3,Master Craftsman
+Pendant,120,Rare,DEF %,3,3,Master Craftsman
+Pendant,120,Rare,All Stats,5,2,Master Craftsman
+Pendant,120,Rare,Recover 24 HP every 4 seconds,1,3,Master Craftsman
+Pendant,120,Rare,Recover 24 MP every 4 seconds,1,3,Master Craftsman
+Pendant,120,Epic,STR %,6,2,Master Craftsman
+Pendant,120,Epic,DEX %,6,2,Master Craftsman
+Pendant,120,Epic,INT %,6,2,Master Craftsman
+Pendant,120,Epic,LUK %,6,2,Master Craftsman
+Pendant,120,Epic,Max HP %,6,3,Master Craftsman
+Pendant,120,Epic,Max MP %,6,3,Master Craftsman
+Pendant,120,Epic,DEF %,6,3,Master Craftsman
+Pendant,120,Epic,All Stats %,3,1,Master Craftsman
+Pendant,120,Unique,STR %,9,2,Master Craftsman
+Pendant,120,Unique,DEX %,9,2,Master Craftsman
+Pendant,120,Unique,INT %,9,2,Master Craftsman
+Pendant,120,Unique,LUK %,9,2,Master Craftsman
+Pendant,120,Unique,Max HP %,9,3,Master Craftsman
+Pendant,120,Unique,Max MP %,9,3,Master Craftsman
+Pendant,120,Unique,DEF %,9,3,Master Craftsman
+Pendant,120,Unique,All Stats %,6,1,Master Craftsman
+Pendant,120,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Heart,100,Normal,STR,6,2,Master Craftsman
+Heart,100,Normal,DEX,6,2,Master Craftsman
+Heart,100,Normal,INT,6,2,Master Craftsman
+Heart,100,Normal,LUK,6,2,Master Craftsman
+Heart,100,Normal,Max HP,50,3,Master Craftsman
+Heart,100,Normal,Max MP,50,3,Master Craftsman
+Heart,100,Normal,DEF,50,3,Master Craftsman
+Heart,100,Rare,STR,12,2,Master Craftsman
+Heart,100,Rare,DEX,12,2,Master Craftsman
+Heart,100,Rare,INT,12,2,Master Craftsman
+Heart,100,Rare,LUK,12,2,Master Craftsman
+Heart,100,Rare,Max HP,100,3,Master Craftsman
+Heart,100,Rare,Max MP,100,3,Master Craftsman
+Heart,100,Rare,DEF,100,3,Master Craftsman
+Heart,100,Rare,STR %,3,2,Master Craftsman
+Heart,100,Rare,DEX %,3,2,Master Craftsman
+Heart,100,Rare,INT %,3,2,Master Craftsman
+Heart,100,Rare,LUK %,3,2,Master Craftsman
+Heart,100,Rare,Max HP %,3,3,Master Craftsman
+Heart,100,Rare,Max MP %,3,3,Master Craftsman
+Heart,100,Rare,DEF %,3,3,Master Craftsman
+Heart,100,Rare,All Stats,5,2,Master Craftsman
+Heart,100,Epic,STR %,6,2,Master Craftsman
+Heart,100,Epic,DEX %,6,2,Master Craftsman
+Heart,100,Epic,INT %,6,2,Master Craftsman
+Heart,100,Epic,LUK %,6,2,Master Craftsman
+Heart,100,Epic,Max HP %,6,3,Master Craftsman
+Heart,100,Epic,Max MP %,6,3,Master Craftsman
+Heart,100,Epic,DEF %,6,3,Master Craftsman
+Heart,100,Epic,All Stats %,3,1,Master Craftsman
+Heart,100,Unique,STR %,9,2,Master Craftsman
+Heart,100,Unique,DEX %,9,2,Master Craftsman
+Heart,100,Unique,INT %,9,2,Master Craftsman
+Heart,100,Unique,LUK %,9,2,Master Craftsman
+Heart,100,Unique,Max HP %,9,3,Master Craftsman
+Heart,100,Unique,Max MP %,9,3,Master Craftsman
+Heart,100,Unique,DEF %,9,3,Master Craftsman
+Heart,100,Unique,All Stats %,6,1,Master Craftsman
+Heart,100,Unique,HP Recovery % (on items and skills),30,3,Master Craftsman
+Weapon,120,Normal,STR,6,2,Meister
+Weapon,120,Normal,DEX,6,2,Meister
+Weapon,120,Normal,INT,6,2,Meister
+Weapon,120,Normal,LUK,6,2,Meister
+Weapon,120,Normal,Max HP,60,3,Meister
+Weapon,120,Normal,Max MP,60,3,Meister
+Weapon,120,Normal,Attack,6,1,Meister
+Weapon,120,Normal,Magic Attack,6,1,Meister
+Weapon,120,Rare,STR,12,2,Meister
+Weapon,120,Rare,DEX,12,2,Meister
+Weapon,120,Rare,INT,12,2,Meister
+Weapon,120,Rare,LUK,12,2,Meister
+Weapon,120,Rare,Max HP,120,3,Meister
+Weapon,120,Rare,Max MP,120,3,Meister
+Weapon,120,Rare,Attack,12,2,Meister
+Weapon,120,Rare,Magic Attack,12,2,Meister
+Weapon,120,Rare,STR %,3,2,Meister
+Weapon,120,Rare,DEX %,3,2,Meister
+Weapon,120,Rare,INT %,3,2,Meister
+Weapon,120,Rare,LUK %,3,2,Meister
+Weapon,120,Rare,ATT %,3,1,Meister
+Weapon,120,Rare,Magic ATT %,3,1,Meister
+Weapon,120,Rare,Critical Rate %,4,1,Meister
+Weapon,120,Rare,Damage %,3,1,Meister
+Weapon,120,Rare,All Stats,5,2,Meister
+Weapon,120,Rare,3% chance to recover 32 HP on attack,1,3,Meister
+Weapon,120,Rare,3% chance to recover 32 MP on attack,1,3,Meister
+Weapon,120,Rare,10% chance to apply Lv 6 Poison on attack,1,3,Meister
+Weapon,120,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Meister
+Weapon,120,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Meister
+Weapon,120,Rare,10% chance to apply Lv 3 Darkness on attack,1,3,Meister
+Weapon,120,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Meister
+Weapon,120,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Meister
+Weapon,120,Rare,Ignore Enemy DEF %,15,1,Meister
+Weapon,120,Epic,STR %,6,2,Meister
+Weapon,120,Epic,DEX %,6,2,Meister
+Weapon,120,Epic,INT %,6,2,Meister
+Weapon,120,Epic,LUK %,6,2,Meister
+Weapon,120,Epic,Max HP %,6,3,Meister
+Weapon,120,Epic,Max MP %,6,3,Meister
+Weapon,120,Epic,ATT %,6,1,Meister
+Weapon,120,Epic,Magic ATT %,6,1,Meister
+Weapon,120,Epic,Critical Rate %,8,1,Meister
+Weapon,120,Epic,Damage %,6,1,Meister
+Weapon,120,Epic,All Stats %,3,1,Meister
+Weapon,120,Epic,3% chance of recovering 53 HP on attack,1,3,Meister
+Weapon,120,Epic,3% chance of recovering 53 MP on attack,1,3,Meister
+Weapon,120,Epic,Ignore Enemy DEF %,15,1,Meister
+Weapon,120,Unique,STR %,9,4,Meister
+Weapon,120,Unique,DEX %,9,4,Meister
+Weapon,120,Unique,INT %,9,4,Meister
+Weapon,120,Unique,LUK %,9,4,Meister
+Weapon,120,Unique,ATT %,9,2,Meister
+Weapon,120,Unique,Magic ATT %,9,2,Meister
+Weapon,120,Unique,Critical Rate %,9,2,Meister
+Weapon,120,Unique,Damage %,9,2,Meister
+Weapon,120,Unique,All Stats %,6,2,Meister
+Weapon,120,Unique,Ignore Enemy DEF %,30,2,Meister
+Weapon,120,Unique,Boss Damage %,20,2,Meister
+Weapon,120,Unique,Boss Damage %,30,1,Meister
+Weapon,120,Legendary,STR %,12,4,Meister
+Weapon,120,Legendary,DEX %,12,4,Meister
+Weapon,120,Legendary,INT %,12,4,Meister
+Weapon,120,Legendary,LUK %,12,4,Meister
+Weapon,120,Legendary,ATT %,12,2,Meister
+Weapon,120,Legendary,Magic ATT %,12,2,Meister
+Weapon,120,Legendary,Critical Rate %,12,2,Meister
+Weapon,120,Legendary,Damage %,12,2,Meister
+Weapon,120,Legendary,All Stats %,9,4,Meister
+Weapon,120,Legendary,Ignore Enemy DEF %,35,2,Meister
+Weapon,120,Legendary,Ignore Enemy DEF %,40,1,Meister
+Weapon,120,Legendary,Boss Damage %,30,2,Meister
+Weapon,120,Legendary,Boss Damage %,35,2,Meister
+Weapon,120,Legendary,Boss Damage %,40,1,Meister
+Emblem,100,Normal,STR,6,2,Meister
+Emblem,100,Normal,DEX,6,2,Meister
+Emblem,100,Normal,INT,6,2,Meister
+Emblem,100,Normal,LUK,6,2,Meister
+Emblem,100,Normal,Max HP,50,3,Meister
+Emblem,100,Normal,Max MP,50,3,Meister
+Emblem,100,Normal,Attack,6,1,Meister
+Emblem,100,Normal,Magic Attack,6,1,Meister
+Emblem,100,Rare,STR,12,2,Meister
+Emblem,100,Rare,DEX,12,2,Meister
+Emblem,100,Rare,INT,12,2,Meister
+Emblem,100,Rare,LUK,12,2,Meister
+Emblem,100,Rare,Max HP,100,3,Meister
+Emblem,100,Rare,Max MP,100,3,Meister
+Emblem,100,Rare,Attack,12,2,Meister
+Emblem,100,Rare,Magic Attack,12,2,Meister
+Emblem,100,Rare,STR %,3,2,Meister
+Emblem,100,Rare,DEX %,3,2,Meister
+Emblem,100,Rare,INT %,3,2,Meister
+Emblem,100,Rare,LUK %,3,2,Meister
+Emblem,100,Rare,ATT %,3,1,Meister
+Emblem,100,Rare,Magic ATT %,3,1,Meister
+Emblem,100,Rare,Critical Rate %,4,1,Meister
+Emblem,100,Rare,Damage %,3,1,Meister
+Emblem,100,Rare,All Stats,5,2,Meister
+Emblem,100,Rare,3% chance to recover 28 HP on attack,1,3,Meister
+Emblem,100,Rare,3% chance to recover 28 MP on attack,1,3,Meister
+Emblem,100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Meister
+Emblem,100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Meister
+Emblem,100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Meister
+Emblem,100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Meister
+Emblem,100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Meister
+Emblem,100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Meister
+Emblem,100,Rare,Ignore Enemy DEF %,15,1,Meister
+Emblem,100,Epic,STR %,6,2,Meister
+Emblem,100,Epic,DEX %,6,2,Meister
+Emblem,100,Epic,INT %,6,2,Meister
+Emblem,100,Epic,LUK %,6,2,Meister
+Emblem,100,Epic,Max HP %,6,3,Meister
+Emblem,100,Epic,Max MP %,6,3,Meister
+Emblem,100,Epic,ATT %,6,1,Meister
+Emblem,100,Epic,Magic ATT %,6,1,Meister
+Emblem,100,Epic,Critical Rate %,8,1,Meister
+Emblem,100,Epic,Damage %,6,1,Meister
+Emblem,100,Epic,All Stats %,3,1,Meister
+Emblem,100,Epic,3% chance of recovering 47 HP on attack,1,3,Meister
+Emblem,100,Epic,3% chance of recovering 47 MP on attack,1,3,Meister
+Emblem,100,Epic,Ignore Enemy DEF %,15,1,Meister
+Emblem,100,Unique,STR %,9,2,Meister
+Emblem,100,Unique,DEX %,9,2,Meister
+Emblem,100,Unique,INT %,9,2,Meister
+Emblem,100,Unique,LUK %,9,2,Meister
+Emblem,100,Unique,ATT %,9,1,Meister
+Emblem,100,Unique,Magic ATT %,9,1,Meister
+Emblem,100,Unique,Critical Rate %,9,1,Meister
+Emblem,100,Unique,Damage %,9,1,Meister
+Emblem,100,Unique,All Stats %,6,1,Meister
+Emblem,100,Unique,Ignore Enemy DEF %,30,1,Meister
+Emblem,100,Legendary,STR %,12,4,Meister
+Emblem,100,Legendary,DEX %,12,4,Meister
+Emblem,100,Legendary,INT %,12,4,Meister
+Emblem,100,Legendary,LUK %,12,4,Meister
+Emblem,100,Legendary,ATT %,12,2,Meister
+Emblem,100,Legendary,Magic ATT %,12,2,Meister
+Emblem,100,Legendary,Critical Rate %,12,2,Meister
+Emblem,100,Legendary,Damage %,12,2,Meister
+Emblem,100,Legendary,All Stats %,9,4,Meister
+Emblem,100,Legendary,Ignore Enemy DEF %,35,2,Meister
+Emblem,100,Legendary,Ignore Enemy DEF %,40,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,STR,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,DEX,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,INT,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,LUK,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max HP,50,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Max MP,50,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Attack,6,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Normal,Magic Attack,6,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max HP,100,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Max MP,100,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Attack,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic Attack,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,STR %,3,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,DEX %,3,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,INT %,3,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,LUK %,3,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,ATT %,3,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Magic ATT %,3,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Critical Rate %,4,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Damage %,3,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,All Stats,5,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,3% chance to recover 28 HP on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,3% chance to recover 28 MP on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Rare,Ignore Enemy DEF %,15,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,STR %,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,DEX %,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,INT %,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,LUK %,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max HP %,6,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Max MP %,6,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,ATT %,6,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Magic ATT %,6,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Critical Rate %,8,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Damage %,6,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,All Stats %,3,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,3% chance of recovering 47 HP on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,3% chance of recovering 47 MP on attack,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,Ignore Enemy DEF %,15,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to ignore 21 damage when attacked,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,20% chance to ignore 32 damage when attacked,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Epic,30% chance to ignore 43 damage when attacked,1,3,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,STR %,9,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,DEX %,9,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,INT %,9,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,LUK %,9,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,ATT %,9,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Magic ATT %,9,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Critical Rate %,9,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Damage %,9,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,All Stats %,6,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Ignore Enemy DEF %,30,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,5% chance to ignore 20% damage received,1,6,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,5% chance to ignore 40% damage received,1,6,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,20,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Unique,Boss Damage %,30,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,STR %,12,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,DEX %,12,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,INT %,12,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,LUK %,12,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,ATT %,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Magic ATT %,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Critical Rate %,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Damage %,12,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,All Stats %,9,4,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,35,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,40,1,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 20% damage received,1,6,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 40% damage received,1,6,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,30,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,35,2,Meister
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,40,1,Meister
+Force Shield/Soul Ring,100,Normal,STR,6,2,Meister
+Force Shield/Soul Ring,100,Normal,DEX,6,2,Meister
+Force Shield/Soul Ring,100,Normal,INT,6,2,Meister
+Force Shield/Soul Ring,100,Normal,LUK,6,2,Meister
+Force Shield/Soul Ring,100,Normal,Max HP,50,3,Meister
+Force Shield/Soul Ring,100,Normal,Attack,6,1,Meister
+Force Shield/Soul Ring,100,Normal,Magic Attack,6,1,Meister
+Force Shield/Soul Ring,100,Rare,STR,12,2,Meister
+Force Shield/Soul Ring,100,Rare,DEX,12,2,Meister
+Force Shield/Soul Ring,100,Rare,INT,12,2,Meister
+Force Shield/Soul Ring,100,Rare,LUK,12,2,Meister
+Force Shield/Soul Ring,100,Rare,Max HP,100,3,Meister
+Force Shield/Soul Ring,100,Rare,Attack,12,2,Meister
+Force Shield/Soul Ring,100,Rare,Magic Attack,12,2,Meister
+Force Shield/Soul Ring,100,Rare,STR %,3,2,Meister
+Force Shield/Soul Ring,100,Rare,DEX %,3,2,Meister
+Force Shield/Soul Ring,100,Rare,INT %,3,2,Meister
+Force Shield/Soul Ring,100,Rare,LUK %,3,2,Meister
+Force Shield/Soul Ring,100,Rare,ATT %,3,1,Meister
+Force Shield/Soul Ring,100,Rare,Magic ATT %,3,1,Meister
+Force Shield/Soul Ring,100,Rare,Critical Rate %,4,1,Meister
+Force Shield/Soul Ring,100,Rare,Damage %,3,1,Meister
+Force Shield/Soul Ring,100,Rare,All Stats,5,2,Meister
+Force Shield/Soul Ring,100,Rare,3% chance to recover 28 HP on attack,1,3,Meister
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 5 Poison on attack,1,3,Meister
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Meister
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Meister
+Force Shield/Soul Ring,100,Rare,10% chance to apply Lv 2 Darkness on attack,1,3,Meister
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Meister
+Force Shield/Soul Ring,100,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Meister
+Force Shield/Soul Ring,100,Rare,Ignore Enemy DEF %,15,1,Meister
+Force Shield/Soul Ring,100,Epic,STR %,6,2,Meister
+Force Shield/Soul Ring,100,Epic,DEX %,6,2,Meister
+Force Shield/Soul Ring,100,Epic,INT %,6,2,Meister
+Force Shield/Soul Ring,100,Epic,LUK %,6,2,Meister
+Force Shield/Soul Ring,100,Epic,Max HP %,6,3,Meister
+Force Shield/Soul Ring,100,Epic,ATT %,6,1,Meister
+Force Shield/Soul Ring,100,Epic,Magic ATT %,6,1,Meister
+Force Shield/Soul Ring,100,Epic,Critical Rate %,8,1,Meister
+Force Shield/Soul Ring,100,Epic,Damage %,6,1,Meister
+Force Shield/Soul Ring,100,Epic,All Stats %,3,1,Meister
+Force Shield/Soul Ring,100,Epic,3% chance of recovering 47 HP on attack,1,3,Meister
+Force Shield/Soul Ring,100,Epic,Ignore Enemy DEF %,15,1,Meister
+Force Shield/Soul Ring,100,Epic,20% chance to ignore 21 damage when attacked,1,3,Meister
+Force Shield/Soul Ring,100,Epic,20% chance to ignore 32 damage when attacked,1,3,Meister
+Force Shield/Soul Ring,100,Epic,30% chance to ignore 43 damage when attacked,1,3,Meister
+Force Shield/Soul Ring,100,Unique,STR %,9,4,Meister
+Force Shield/Soul Ring,100,Unique,DEX %,9,4,Meister
+Force Shield/Soul Ring,100,Unique,INT %,9,4,Meister
+Force Shield/Soul Ring,100,Unique,LUK %,9,4,Meister
+Force Shield/Soul Ring,100,Unique,ATT %,9,2,Meister
+Force Shield/Soul Ring,100,Unique,Magic ATT %,9,2,Meister
+Force Shield/Soul Ring,100,Unique,Critical Rate %,9,2,Meister
+Force Shield/Soul Ring,100,Unique,Damage %,9,2,Meister
+Force Shield/Soul Ring,100,Unique,All Stats %,6,2,Meister
+Force Shield/Soul Ring,100,Unique,Ignore Enemy DEF %,30,2,Meister
+Force Shield/Soul Ring,100,Unique,5% chance to ignore 20% damage received,1,6,Meister
+Force Shield/Soul Ring,100,Unique,5% chance to ignore 40% damage received,1,6,Meister
+Force Shield/Soul Ring,100,Unique,Boss Damage %,20,2,Meister
+Force Shield/Soul Ring,100,Unique,Boss Damage %,30,1,Meister
+Force Shield/Soul Ring,100,Legendary,STR %,12,4,Meister
+Force Shield/Soul Ring,100,Legendary,DEX %,12,4,Meister
+Force Shield/Soul Ring,100,Legendary,INT %,12,4,Meister
+Force Shield/Soul Ring,100,Legendary,LUK %,12,4,Meister
+Force Shield/Soul Ring,100,Legendary,ATT %,12,2,Meister
+Force Shield/Soul Ring,100,Legendary,Magic ATT %,12,2,Meister
+Force Shield/Soul Ring,100,Legendary,Critical Rate %,12,2,Meister
+Force Shield/Soul Ring,100,Legendary,Damage %,12,2,Meister
+Force Shield/Soul Ring,100,Legendary,All Stats %,9,4,Meister
+Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,35,2,Meister
+Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,40,1,Meister
+Force Shield/Soul Ring,100,Legendary,10% chance to ignore 20% damage received,1,6,Meister
+Force Shield/Soul Ring,100,Legendary,10% chance to ignore 40% damage received,1,6,Meister
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,30,2,Meister
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,35,2,Meister
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,40,1,Meister
+Shield,120,Normal,STR,6,2,Meister
+Shield,120,Normal,DEX,6,2,Meister
+Shield,120,Normal,INT,6,2,Meister
+Shield,120,Normal,LUK,6,2,Meister
+Shield,120,Normal,Max HP,60,3,Meister
+Shield,120,Normal,Max MP,60,3,Meister
+Shield,120,Normal,Attack,6,1,Meister
+Shield,120,Normal,Magic Attack,6,1,Meister
+Shield,120,Rare,STR,12,2,Meister
+Shield,120,Rare,DEX,12,2,Meister
+Shield,120,Rare,INT,12,2,Meister
+Shield,120,Rare,LUK,12,2,Meister
+Shield,120,Rare,Max HP,120,3,Meister
+Shield,120,Rare,Max MP,120,3,Meister
+Shield,120,Rare,Attack,12,2,Meister
+Shield,120,Rare,Magic Attack,12,2,Meister
+Shield,120,Rare,STR %,3,2,Meister
+Shield,120,Rare,DEX %,3,2,Meister
+Shield,120,Rare,INT %,3,2,Meister
+Shield,120,Rare,LUK %,3,2,Meister
+Shield,120,Rare,ATT %,3,1,Meister
+Shield,120,Rare,Magic ATT %,3,1,Meister
+Shield,120,Rare,Critical Rate %,4,1,Meister
+Shield,120,Rare,Damage %,3,1,Meister
+Shield,120,Rare,All Stats,5,2,Meister
+Shield,120,Rare,3% chance to recover 32 HP on attack,1,3,Meister
+Shield,120,Rare,3% chance to recover 32 MP on attack,1,3,Meister
+Shield,120,Rare,10% chance to apply Lv 6 Poison on attack,1,3,Meister
+Shield,120,Rare,5% chance to apply Lv 2 Stun on attack,1,3,Meister
+Shield,120,Rare,10% chance to apply Lv 2 Slow on attack,1,3,Meister
+Shield,120,Rare,10% chance to apply Lv 3 Darkness on attack,1,3,Meister
+Shield,120,Rare,5% chance to apply Lv 2 Freeze on attack,1,3,Meister
+Shield,120,Rare,5% chance to apply Lv 2 Seal on attack,1,3,Meister
+Shield,120,Rare,Ignore Enemy DEF %,15,1,Meister
+Shield,120,Epic,STR %,6,2,Meister
+Shield,120,Epic,DEX %,6,2,Meister
+Shield,120,Epic,INT %,6,2,Meister
+Shield,120,Epic,LUK %,6,2,Meister
+Shield,120,Epic,Max HP %,6,3,Meister
+Shield,120,Epic,Max MP %,6,3,Meister
+Shield,120,Epic,ATT %,6,1,Meister
+Shield,120,Epic,Magic ATT %,6,1,Meister
+Shield,120,Epic,Critical Rate %,8,1,Meister
+Shield,120,Epic,Damage %,6,1,Meister
+Shield,120,Epic,All Stats %,3,1,Meister
+Shield,120,Epic,3% chance of recovering 53 HP on attack,1,3,Meister
+Shield,120,Epic,3% chance of recovering 53 MP on attack,1,3,Meister
+Shield,120,Epic,Ignore Enemy DEF %,15,1,Meister
+Shield,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Shield,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Shield,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Shield,120,Unique,STR %,9,4,Meister
+Shield,120,Unique,DEX %,9,4,Meister
+Shield,120,Unique,INT %,9,4,Meister
+Shield,120,Unique,LUK %,9,4,Meister
+Shield,120,Unique,ATT %,9,2,Meister
+Shield,120,Unique,Magic ATT %,9,2,Meister
+Shield,120,Unique,Critical Rate %,9,2,Meister
+Shield,120,Unique,Damage %,9,2,Meister
+Shield,120,Unique,All Stats %,6,2,Meister
+Shield,120,Unique,Ignore Enemy DEF %,30,2,Meister
+Shield,120,Unique,5% chance to ignore 20% damage received,1,6,Meister
+Shield,120,Unique,5% chance to ignore 40% damage received,1,6,Meister
+Shield,120,Unique,Boss Damage %,20,2,Meister
+Shield,120,Unique,Boss Damage %,30,1,Meister
+Shield,120,Legendary,STR %,12,4,Meister
+Shield,120,Legendary,DEX %,12,4,Meister
+Shield,120,Legendary,INT %,12,4,Meister
+Shield,120,Legendary,LUK %,12,4,Meister
+Shield,120,Legendary,ATT %,12,2,Meister
+Shield,120,Legendary,Magic ATT %,12,2,Meister
+Shield,120,Legendary,Critical Rate %,12,2,Meister
+Shield,120,Legendary,Damage %,12,2,Meister
+Shield,120,Legendary,All Stats %,9,4,Meister
+Shield,120,Legendary,Ignore Enemy DEF %,35,2,Meister
+Shield,120,Legendary,Ignore Enemy DEF %,40,1,Meister
+Shield,120,Legendary,10% chance to ignore 20% damage received,1,6,Meister
+Shield,120,Legendary,10% chance to ignore 40% damage received,1,6,Meister
+Shield,120,Legendary,Boss Damage %,30,2,Meister
+Shield,120,Legendary,Boss Damage %,35,2,Meister
+Shield,120,Legendary,Boss Damage %,40,1,Meister
+Helmet,120,Normal,STR,6,2,Meister
+Helmet,120,Normal,DEX,6,2,Meister
+Helmet,120,Normal,INT,6,2,Meister
+Helmet,120,Normal,LUK,6,2,Meister
+Helmet,120,Normal,Max HP,60,3,Meister
+Helmet,120,Normal,Max MP,60,3,Meister
+Helmet,120,Normal,DEF,60,3,Meister
+Helmet,120,Normal,10% chance to become Angry for 10 sec when attacked,1,3,Meister
+Helmet,120,Normal,10% chance to become Happy for 10 sec when attacked,1,3,Meister
+Helmet,120,Normal,10% chance to become In Love for 10 sec when attacked,1,3,Meister
+Helmet,120,Normal,10% chance to become Enraged for 10 sec when attacked,1,3,Meister
+Helmet,120,Normal,10% chance to become Touched for 10 sec when attacked,1,3,Meister
+Helmet,120,Rare,STR,12,2,Meister
+Helmet,120,Rare,DEX,12,2,Meister
+Helmet,120,Rare,INT,12,2,Meister
+Helmet,120,Rare,LUK,12,2,Meister
+Helmet,120,Rare,Max HP,120,3,Meister
+Helmet,120,Rare,Max MP,120,3,Meister
+Helmet,120,Rare,DEF,120,3,Meister
+Helmet,120,Rare,STR %,3,2,Meister
+Helmet,120,Rare,DEX %,3,2,Meister
+Helmet,120,Rare,INT %,3,2,Meister
+Helmet,120,Rare,LUK %,3,2,Meister
+Helmet,120,Rare,Max HP %,3,3,Meister
+Helmet,120,Rare,Max MP %,3,3,Meister
+Helmet,120,Rare,DEF %,3,3,Meister
+Helmet,120,Rare,All Stats,5,2,Meister
+Helmet,120,Epic,STR %,6,2,Meister
+Helmet,120,Epic,DEX %,6,2,Meister
+Helmet,120,Epic,INT %,6,2,Meister
+Helmet,120,Epic,LUK %,6,2,Meister
+Helmet,120,Epic,Max HP %,6,3,Meister
+Helmet,120,Epic,Max MP %,6,3,Meister
+Helmet,120,Epic,DEF %,6,3,Meister
+Helmet,120,Epic,All Stats %,3,1,Meister
+Helmet,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Helmet,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Helmet,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Helmet,120,Unique,STR %,9,2,Meister
+Helmet,120,Unique,DEX %,9,2,Meister
+Helmet,120,Unique,INT %,9,2,Meister
+Helmet,120,Unique,LUK %,9,2,Meister
+Helmet,120,Unique,Max HP %,9,3,Meister
+Helmet,120,Unique,Max MP %,9,3,Meister
+Helmet,120,Unique,DEF %,9,3,Meister
+Helmet,120,Unique,All Stats %,6,1,Meister
+Helmet,120,Unique,All Skill Levels,1,2,Meister
+Helmet,120,Unique,All Skill Levels,2,1,Meister
+Helmet,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Helmet,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Helmet,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Helmet,120,Unique,Decent Mystic Door,1,2,Meister
+Helmet,120,Legendary,STR %,12,2,Meister
+Helmet,120,Legendary,DEX %,12,2,Meister
+Helmet,120,Legendary,INT %,12,2,Meister
+Helmet,120,Legendary,LUK %,12,2,Meister
+Helmet,120,Legendary,Max HP %,12,3,Meister
+Helmet,120,Legendary,Max MP %,12,3,Meister
+Helmet,120,Legendary,DEF %,12,3,Meister
+Helmet,120,Legendary,All Stats %,9,2,Meister
+Helmet,120,Legendary,All Skill Levels,2,2,Meister
+Helmet,120,Legendary,All Skill Levels,3,1,Meister
+Helmet,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Helmet,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Helmet,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Helmet,120,Legendary,Skill Cooldown Reduction,1,3,Meister
+Helmet,120,Legendary,Skill Cooldown Reduction,2,2,Meister
+Helmet,120,Legendary,Decent Advanced Blessing,1,3,Meister
+Top,120,Normal,STR,6,2,Meister
+Top,120,Normal,DEX,6,2,Meister
+Top,120,Normal,INT,6,2,Meister
+Top,120,Normal,LUK,6,2,Meister
+Top,120,Normal,Max HP,60,3,Meister
+Top,120,Normal,Max MP,60,3,Meister
+Top,120,Normal,DEF,60,3,Meister
+Top,120,Rare,STR,12,2,Meister
+Top,120,Rare,DEX,12,2,Meister
+Top,120,Rare,INT,12,2,Meister
+Top,120,Rare,LUK,12,2,Meister
+Top,120,Rare,Max HP,120,3,Meister
+Top,120,Rare,Max MP,120,3,Meister
+Top,120,Rare,DEF,120,3,Meister
+Top,120,Rare,STR %,3,2,Meister
+Top,120,Rare,DEX %,3,2,Meister
+Top,120,Rare,INT %,3,2,Meister
+Top,120,Rare,LUK %,3,2,Meister
+Top,120,Rare,Max HP %,3,3,Meister
+Top,120,Rare,Max MP %,3,3,Meister
+Top,120,Rare,DEF %,3,3,Meister
+Top,120,Rare,All Stats,5,2,Meister
+Top,120,Epic,STR %,6,2,Meister
+Top,120,Epic,DEX %,6,2,Meister
+Top,120,Epic,INT %,6,2,Meister
+Top,120,Epic,LUK %,6,2,Meister
+Top,120,Epic,Max HP %,6,3,Meister
+Top,120,Epic,Max MP %,6,3,Meister
+Top,120,Epic,DEF %,6,3,Meister
+Top,120,Epic,All Stats %,3,1,Meister
+Top,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Top,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Top,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Top,120,Epic,Invincibility duration after getting attacked,1,3,Meister
+Top,120,Unique,STR %,9,2,Meister
+Top,120,Unique,DEX %,9,2,Meister
+Top,120,Unique,INT %,9,2,Meister
+Top,120,Unique,LUK %,9,2,Meister
+Top,120,Unique,Max HP %,9,3,Meister
+Top,120,Unique,Max MP %,9,3,Meister
+Top,120,Unique,DEF %,9,3,Meister
+Top,120,Unique,All Stats %,6,1,Meister
+Top,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Top,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Top,120,Unique,Invincibility duration after getting attacked,2,3,Meister
+Top,120,Unique,2% chance of 7 second invincibility after being attacked,1,3,Meister
+Top,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Top,120,Legendary,STR %,12,2,Meister
+Top,120,Legendary,DEX %,12,2,Meister
+Top,120,Legendary,INT %,12,2,Meister
+Top,120,Legendary,LUK %,12,2,Meister
+Top,120,Legendary,Max HP %,12,3,Meister
+Top,120,Legendary,Max MP %,12,3,Meister
+Top,120,Legendary,DEF %,12,3,Meister
+Top,120,Legendary,All Stats %,9,2,Meister
+Top,120,Legendary,All Elemental Resistances %,10,1,Meister
+Top,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Top,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Top,120,Legendary,Invincibility duration after getting attacked,3,3,Meister
+Top,120,Legendary,4% chance of 7 second invincibility after being attacked,1,3,Meister
+Top,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Overall,120,Normal,STR,6,2,Meister
+Overall,120,Normal,DEX,6,2,Meister
+Overall,120,Normal,INT,6,2,Meister
+Overall,120,Normal,LUK,6,2,Meister
+Overall,120,Normal,Max HP,60,3,Meister
+Overall,120,Normal,Max MP,60,3,Meister
+Overall,120,Normal,DEF,60,3,Meister
+Overall,120,Rare,STR,12,2,Meister
+Overall,120,Rare,DEX,12,2,Meister
+Overall,120,Rare,INT,12,2,Meister
+Overall,120,Rare,LUK,12,2,Meister
+Overall,120,Rare,Max HP,120,3,Meister
+Overall,120,Rare,Max MP,120,3,Meister
+Overall,120,Rare,DEF,120,3,Meister
+Overall,120,Rare,STR %,3,2,Meister
+Overall,120,Rare,DEX %,3,2,Meister
+Overall,120,Rare,INT %,3,2,Meister
+Overall,120,Rare,LUK %,3,2,Meister
+Overall,120,Rare,Max HP %,3,3,Meister
+Overall,120,Rare,Max MP %,3,3,Meister
+Overall,120,Rare,DEF %,3,3,Meister
+Overall,120,Rare,All Stats,5,2,Meister
+Overall,120,Epic,STR %,6,2,Meister
+Overall,120,Epic,DEX %,6,2,Meister
+Overall,120,Epic,INT %,6,2,Meister
+Overall,120,Epic,LUK %,6,2,Meister
+Overall,120,Epic,Max HP %,6,3,Meister
+Overall,120,Epic,Max MP %,6,3,Meister
+Overall,120,Epic,DEF %,6,3,Meister
+Overall,120,Epic,All Stats %,3,1,Meister
+Overall,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Overall,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Overall,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Overall,120,Epic,Invincibility duration after getting attacked,1,3,Meister
+Overall,120,Unique,STR %,9,2,Meister
+Overall,120,Unique,DEX %,9,2,Meister
+Overall,120,Unique,INT %,9,2,Meister
+Overall,120,Unique,LUK %,9,2,Meister
+Overall,120,Unique,Max HP %,9,3,Meister
+Overall,120,Unique,Max MP %,9,3,Meister
+Overall,120,Unique,DEF %,9,3,Meister
+Overall,120,Unique,All Stats %,6,1,Meister
+Overall,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Overall,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Overall,120,Unique,Invincibility duration after getting attacked,2,3,Meister
+Overall,120,Unique,2% chance of 7 second invincibility after being attacked,1,3,Meister
+Overall,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Overall,120,Legendary,STR %,12,2,Meister
+Overall,120,Legendary,DEX %,12,2,Meister
+Overall,120,Legendary,INT %,12,2,Meister
+Overall,120,Legendary,LUK %,12,2,Meister
+Overall,120,Legendary,Max HP %,12,3,Meister
+Overall,120,Legendary,Max MP %,12,3,Meister
+Overall,120,Legendary,DEF %,12,3,Meister
+Overall,120,Legendary,All Stats %,9,2,Meister
+Overall,120,Legendary,All Elemental Resistances %,10,1,Meister
+Overall,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Overall,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Overall,120,Legendary,Invincibility duration after getting attacked,3,3,Meister
+Overall,120,Legendary,4% chance of 7 second invincibility after being attacked,1,3,Meister
+Overall,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Bottom,120,Normal,STR,6,2,Meister
+Bottom,120,Normal,DEX,6,2,Meister
+Bottom,120,Normal,INT,6,2,Meister
+Bottom,120,Normal,LUK,6,2,Meister
+Bottom,120,Normal,Max HP,60,3,Meister
+Bottom,120,Normal,Max MP,60,3,Meister
+Bottom,120,Normal,DEF,60,3,Meister
+Bottom,120,Rare,STR,12,2,Meister
+Bottom,120,Rare,DEX,12,2,Meister
+Bottom,120,Rare,INT,12,2,Meister
+Bottom,120,Rare,LUK,12,2,Meister
+Bottom,120,Rare,Max HP,120,3,Meister
+Bottom,120,Rare,Max MP,120,3,Meister
+Bottom,120,Rare,DEF,120,3,Meister
+Bottom,120,Rare,STR %,3,2,Meister
+Bottom,120,Rare,DEX %,3,2,Meister
+Bottom,120,Rare,INT %,3,2,Meister
+Bottom,120,Rare,LUK %,3,2,Meister
+Bottom,120,Rare,Max HP %,3,3,Meister
+Bottom,120,Rare,Max MP %,3,3,Meister
+Bottom,120,Rare,DEF %,3,3,Meister
+Bottom,120,Rare,All Stats,5,2,Meister
+Bottom,120,Epic,STR %,6,2,Meister
+Bottom,120,Epic,DEX %,6,2,Meister
+Bottom,120,Epic,INT %,6,2,Meister
+Bottom,120,Epic,LUK %,6,2,Meister
+Bottom,120,Epic,Max HP %,6,3,Meister
+Bottom,120,Epic,Max MP %,6,3,Meister
+Bottom,120,Epic,DEF %,6,3,Meister
+Bottom,120,Epic,All Stats %,3,1,Meister
+Bottom,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Bottom,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Bottom,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Bottom,120,Unique,STR %,9,2,Meister
+Bottom,120,Unique,DEX %,9,2,Meister
+Bottom,120,Unique,INT %,9,2,Meister
+Bottom,120,Unique,LUK %,9,2,Meister
+Bottom,120,Unique,Max HP %,9,3,Meister
+Bottom,120,Unique,Max MP %,9,3,Meister
+Bottom,120,Unique,DEF %,9,3,Meister
+Bottom,120,Unique,All Stats %,6,1,Meister
+Bottom,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Bottom,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Bottom,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Bottom,120,Unique,Decent Hyper Body,1,2,Meister
+Bottom,120,Legendary,STR %,12,2,Meister
+Bottom,120,Legendary,DEX %,12,2,Meister
+Bottom,120,Legendary,INT %,12,2,Meister
+Bottom,120,Legendary,LUK %,12,2,Meister
+Bottom,120,Legendary,Max HP %,12,3,Meister
+Bottom,120,Legendary,Max MP %,12,3,Meister
+Bottom,120,Legendary,DEF %,12,3,Meister
+Bottom,120,Legendary,All Stats %,9,2,Meister
+Bottom,120,Legendary,Status Resistance,10,1,Meister
+Bottom,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Bottom,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Bottom,120,Legendary,30% chance to reflect 50% of incoming damage,1,3,Meister
+Bottom,120,Legendary,30% chance to reflect 70% of incoming damage,1,3,Meister
+Bottom,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Shoes,120,Normal,STR,6,2,Meister
+Shoes,120,Normal,DEX,6,2,Meister
+Shoes,120,Normal,INT,6,2,Meister
+Shoes,120,Normal,LUK,6,2,Meister
+Shoes,120,Normal,Max HP,60,3,Meister
+Shoes,120,Normal,Max MP,60,3,Meister
+Shoes,120,Normal,Speed,4,3,Meister
+Shoes,120,Normal,Jump,4,3,Meister
+Shoes,120,Normal,DEF,60,3,Meister
+Shoes,120,Rare,STR,12,2,Meister
+Shoes,120,Rare,DEX,12,2,Meister
+Shoes,120,Rare,INT,12,2,Meister
+Shoes,120,Rare,LUK,12,2,Meister
+Shoes,120,Rare,Max HP,120,3,Meister
+Shoes,120,Rare,Max MP,120,3,Meister
+Shoes,120,Rare,Speed,8,3,Meister
+Shoes,120,Rare,Jump,8,3,Meister
+Shoes,120,Rare,DEF,120,3,Meister
+Shoes,120,Rare,STR %,3,2,Meister
+Shoes,120,Rare,DEX %,3,2,Meister
+Shoes,120,Rare,INT %,3,2,Meister
+Shoes,120,Rare,LUK %,3,2,Meister
+Shoes,120,Rare,Max HP %,3,3,Meister
+Shoes,120,Rare,Max MP %,3,3,Meister
+Shoes,120,Rare,DEF %,3,3,Meister
+Shoes,120,Rare,All Stats,5,2,Meister
+Shoes,120,Epic,STR %,6,2,Meister
+Shoes,120,Epic,DEX %,6,2,Meister
+Shoes,120,Epic,INT %,6,2,Meister
+Shoes,120,Epic,LUK %,6,2,Meister
+Shoes,120,Epic,Max HP %,6,3,Meister
+Shoes,120,Epic,Max MP %,6,3,Meister
+Shoes,120,Epic,DEF %,6,3,Meister
+Shoes,120,Epic,All Stats %,3,1,Meister
+Shoes,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Shoes,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Shoes,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Shoes,120,Unique,STR %,9,2,Meister
+Shoes,120,Unique,DEX %,9,2,Meister
+Shoes,120,Unique,INT %,9,2,Meister
+Shoes,120,Unique,LUK %,9,2,Meister
+Shoes,120,Unique,Max HP %,9,3,Meister
+Shoes,120,Unique,Max MP %,9,3,Meister
+Shoes,120,Unique,DEF %,9,3,Meister
+Shoes,120,Unique,All Stats %,6,1,Meister
+Shoes,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Shoes,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Shoes,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Shoes,120,Unique,Decent Haste,1,2,Meister
+Shoes,120,Legendary,STR %,12,2,Meister
+Shoes,120,Legendary,DEX %,12,2,Meister
+Shoes,120,Legendary,INT %,12,2,Meister
+Shoes,120,Legendary,LUK %,12,2,Meister
+Shoes,120,Legendary,Max HP %,12,3,Meister
+Shoes,120,Legendary,Max MP %,12,3,Meister
+Shoes,120,Legendary,DEF %,12,3,Meister
+Shoes,120,Legendary,All Stats %,9,2,Meister
+Shoes,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Shoes,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Shoes,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Shoes,120,Legendary,Decent Combat Orders,1,3,Meister
+Gloves,120,Normal,STR,6,2,Meister
+Gloves,120,Normal,DEX,6,2,Meister
+Gloves,120,Normal,INT,6,2,Meister
+Gloves,120,Normal,LUK,6,2,Meister
+Gloves,120,Normal,Max HP,60,3,Meister
+Gloves,120,Normal,Max MP,60,3,Meister
+Gloves,120,Normal,DEF,60,3,Meister
+Gloves,120,Rare,STR,12,2,Meister
+Gloves,120,Rare,DEX,12,2,Meister
+Gloves,120,Rare,INT,12,2,Meister
+Gloves,120,Rare,LUK,12,2,Meister
+Gloves,120,Rare,Max HP,120,3,Meister
+Gloves,120,Rare,Max MP,120,3,Meister
+Gloves,120,Rare,DEF,120,3,Meister
+Gloves,120,Rare,STR %,3,2,Meister
+Gloves,120,Rare,DEX %,3,2,Meister
+Gloves,120,Rare,INT %,3,2,Meister
+Gloves,120,Rare,LUK %,3,2,Meister
+Gloves,120,Rare,Max HP %,3,3,Meister
+Gloves,120,Rare,Max MP %,3,3,Meister
+Gloves,120,Rare,DEF %,3,3,Meister
+Gloves,120,Rare,All Stats,5,2,Meister
+Gloves,120,Epic,STR %,6,2,Meister
+Gloves,120,Epic,DEX %,6,2,Meister
+Gloves,120,Epic,INT %,6,2,Meister
+Gloves,120,Epic,LUK %,6,2,Meister
+Gloves,120,Epic,Max HP %,6,3,Meister
+Gloves,120,Epic,Max MP %,6,3,Meister
+Gloves,120,Epic,DEF %,6,3,Meister
+Gloves,120,Epic,All Stats %,3,1,Meister
+Gloves,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Gloves,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Gloves,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Gloves,120,Epic,15% chance of recovering 95 HP on defeating an enemy,1,3,Meister
+Gloves,120,Epic,15% chance of recovering 95 MP on defeating an enemy,1,3,Meister
+Gloves,120,Unique,STR %,9,2,Meister
+Gloves,120,Unique,DEX %,9,2,Meister
+Gloves,120,Unique,INT %,9,2,Meister
+Gloves,120,Unique,LUK %,9,2,Meister
+Gloves,120,Unique,Max HP %,9,3,Meister
+Gloves,120,Unique,Max MP %,9,3,Meister
+Gloves,120,Unique,DEF %,9,3,Meister
+Gloves,120,Unique,All Stats %,6,1,Meister
+Gloves,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Gloves,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Gloves,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Gloves,120,Unique,1% Auto Steal,1,3,Meister
+Gloves,120,Unique,2% Auto Steal,1,3,Meister
+Gloves,120,Unique,Decent Sharp Eyes,1,2,Meister
+Gloves,120,Legendary,STR %,12,2,Meister
+Gloves,120,Legendary,DEX %,12,2,Meister
+Gloves,120,Legendary,INT %,12,2,Meister
+Gloves,120,Legendary,LUK %,12,2,Meister
+Gloves,120,Legendary,Max HP %,12,3,Meister
+Gloves,120,Legendary,Max MP %,12,3,Meister
+Gloves,120,Legendary,DEF %,12,3,Meister
+Gloves,120,Legendary,Critical Damage %,8,2,Meister
+Gloves,120,Legendary,Critical Damage %,8,2,Meister
+Gloves,120,Legendary,All Stats %,9,2,Meister
+Gloves,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Gloves,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Gloves,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Gloves,120,Legendary,3% Auto Steal,1,3,Meister
+Gloves,120,Legendary,5% Auto Steal,1,3,Meister
+Gloves,120,Legendary,7% Auto Steal,1,3,Meister
+Gloves,120,Legendary,Decent Speed Infusion,1,3,Meister
+Cape,120,Normal,STR,6,2,Meister
+Cape,120,Normal,DEX,6,2,Meister
+Cape,120,Normal,INT,6,2,Meister
+Cape,120,Normal,LUK,6,2,Meister
+Cape,120,Normal,Max HP,60,3,Meister
+Cape,120,Normal,Max MP,60,3,Meister
+Cape,120,Normal,DEF,60,3,Meister
+Cape,120,Rare,STR,12,2,Meister
+Cape,120,Rare,DEX,12,2,Meister
+Cape,120,Rare,INT,12,2,Meister
+Cape,120,Rare,LUK,12,2,Meister
+Cape,120,Rare,Max HP,120,3,Meister
+Cape,120,Rare,Max MP,120,3,Meister
+Cape,120,Rare,DEF,120,3,Meister
+Cape,120,Rare,STR %,3,2,Meister
+Cape,120,Rare,DEX %,3,2,Meister
+Cape,120,Rare,INT %,3,2,Meister
+Cape,120,Rare,LUK %,3,2,Meister
+Cape,120,Rare,Max HP %,3,3,Meister
+Cape,120,Rare,Max MP %,3,3,Meister
+Cape,120,Rare,DEF %,3,3,Meister
+Cape,120,Rare,All Stats,5,2,Meister
+Cape,120,Epic,STR %,6,2,Meister
+Cape,120,Epic,DEX %,6,2,Meister
+Cape,120,Epic,INT %,6,2,Meister
+Cape,120,Epic,LUK %,6,2,Meister
+Cape,120,Epic,Max HP %,6,3,Meister
+Cape,120,Epic,Max MP %,6,3,Meister
+Cape,120,Epic,DEF %,6,3,Meister
+Cape,120,Epic,All Stats %,3,1,Meister
+Cape,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Cape,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Cape,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Cape,120,Unique,STR %,9,2,Meister
+Cape,120,Unique,DEX %,9,2,Meister
+Cape,120,Unique,INT %,9,2,Meister
+Cape,120,Unique,LUK %,9,2,Meister
+Cape,120,Unique,Max HP %,9,3,Meister
+Cape,120,Unique,Max MP %,9,3,Meister
+Cape,120,Unique,DEF %,9,3,Meister
+Cape,120,Unique,All Stats %,6,1,Meister
+Cape,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Cape,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Cape,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Cape,120,Legendary,STR %,12,2,Meister
+Cape,120,Legendary,DEX %,12,2,Meister
+Cape,120,Legendary,INT %,12,2,Meister
+Cape,120,Legendary,LUK %,12,2,Meister
+Cape,120,Legendary,Max HP %,12,3,Meister
+Cape,120,Legendary,Max MP %,12,3,Meister
+Cape,120,Legendary,DEF %,12,3,Meister
+Cape,120,Legendary,All Stats %,9,2,Meister
+Cape,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Cape,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Cape,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Belt,120,Normal,STR,6,2,Meister
+Belt,120,Normal,DEX,6,2,Meister
+Belt,120,Normal,INT,6,2,Meister
+Belt,120,Normal,LUK,6,2,Meister
+Belt,120,Normal,Max HP,60,3,Meister
+Belt,120,Normal,Max MP,60,3,Meister
+Belt,120,Normal,DEF,60,3,Meister
+Belt,120,Rare,STR,12,2,Meister
+Belt,120,Rare,DEX,12,2,Meister
+Belt,120,Rare,INT,12,2,Meister
+Belt,120,Rare,LUK,12,2,Meister
+Belt,120,Rare,Max HP,120,3,Meister
+Belt,120,Rare,Max MP,120,3,Meister
+Belt,120,Rare,DEF,120,3,Meister
+Belt,120,Rare,STR %,3,2,Meister
+Belt,120,Rare,DEX %,3,2,Meister
+Belt,120,Rare,INT %,3,2,Meister
+Belt,120,Rare,LUK %,3,2,Meister
+Belt,120,Rare,Max HP %,3,3,Meister
+Belt,120,Rare,Max MP %,3,3,Meister
+Belt,120,Rare,DEF %,3,3,Meister
+Belt,120,Rare,All Stats,5,2,Meister
+Belt,120,Epic,STR %,6,2,Meister
+Belt,120,Epic,DEX %,6,2,Meister
+Belt,120,Epic,INT %,6,2,Meister
+Belt,120,Epic,LUK %,6,2,Meister
+Belt,120,Epic,Max HP %,6,3,Meister
+Belt,120,Epic,Max MP %,6,3,Meister
+Belt,120,Epic,DEF %,6,3,Meister
+Belt,120,Epic,All Stats %,3,1,Meister
+Belt,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Belt,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Belt,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Belt,120,Unique,STR %,9,2,Meister
+Belt,120,Unique,DEX %,9,2,Meister
+Belt,120,Unique,INT %,9,2,Meister
+Belt,120,Unique,LUK %,9,2,Meister
+Belt,120,Unique,Max HP %,9,3,Meister
+Belt,120,Unique,Max MP %,9,3,Meister
+Belt,120,Unique,DEF %,9,3,Meister
+Belt,120,Unique,All Stats %,6,1,Meister
+Belt,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Belt,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Belt,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Belt,120,Legendary,STR %,12,2,Meister
+Belt,120,Legendary,DEX %,12,2,Meister
+Belt,120,Legendary,INT %,12,2,Meister
+Belt,120,Legendary,LUK %,12,2,Meister
+Belt,120,Legendary,Max HP %,12,3,Meister
+Belt,120,Legendary,Max MP %,12,3,Meister
+Belt,120,Legendary,DEF %,12,3,Meister
+Belt,120,Legendary,All Stats %,9,2,Meister
+Belt,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Belt,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Belt,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Shoulder,120,Normal,STR,6,2,Meister
+Shoulder,120,Normal,DEX,6,2,Meister
+Shoulder,120,Normal,INT,6,2,Meister
+Shoulder,120,Normal,LUK,6,2,Meister
+Shoulder,120,Normal,Max HP,60,3,Meister
+Shoulder,120,Normal,Max MP,60,3,Meister
+Shoulder,120,Normal,DEF,60,3,Meister
+Shoulder,120,Rare,STR,12,2,Meister
+Shoulder,120,Rare,DEX,12,2,Meister
+Shoulder,120,Rare,INT,12,2,Meister
+Shoulder,120,Rare,LUK,12,2,Meister
+Shoulder,120,Rare,Max HP,120,3,Meister
+Shoulder,120,Rare,Max MP,120,3,Meister
+Shoulder,120,Rare,DEF,120,3,Meister
+Shoulder,120,Rare,STR %,3,2,Meister
+Shoulder,120,Rare,DEX %,3,2,Meister
+Shoulder,120,Rare,INT %,3,2,Meister
+Shoulder,120,Rare,LUK %,3,2,Meister
+Shoulder,120,Rare,Max HP %,3,3,Meister
+Shoulder,120,Rare,Max MP %,3,3,Meister
+Shoulder,120,Rare,DEF %,3,3,Meister
+Shoulder,120,Rare,All Stats,5,2,Meister
+Shoulder,120,Epic,STR %,6,2,Meister
+Shoulder,120,Epic,DEX %,6,2,Meister
+Shoulder,120,Epic,INT %,6,2,Meister
+Shoulder,120,Epic,LUK %,6,2,Meister
+Shoulder,120,Epic,Max HP %,6,3,Meister
+Shoulder,120,Epic,Max MP %,6,3,Meister
+Shoulder,120,Epic,DEF %,6,3,Meister
+Shoulder,120,Epic,All Stats %,3,1,Meister
+Shoulder,120,Epic,20% chance to ignore 25 damage when attacked,1,3,Meister
+Shoulder,120,Epic,20% chance to ignore 38 damage when attacked,1,3,Meister
+Shoulder,120,Epic,30% chance to ignore 51 damage when attacked,1,3,Meister
+Shoulder,120,Unique,STR %,9,2,Meister
+Shoulder,120,Unique,DEX %,9,2,Meister
+Shoulder,120,Unique,INT %,9,2,Meister
+Shoulder,120,Unique,LUK %,9,2,Meister
+Shoulder,120,Unique,Max HP %,9,3,Meister
+Shoulder,120,Unique,Max MP %,9,3,Meister
+Shoulder,120,Unique,DEF %,9,3,Meister
+Shoulder,120,Unique,All Stats %,6,1,Meister
+Shoulder,120,Unique,5% chance to ignore 20% damage received,1,3,Meister
+Shoulder,120,Unique,5% chance to ignore 40% damage received,1,3,Meister
+Shoulder,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Shoulder,120,Legendary,STR %,12,2,Meister
+Shoulder,120,Legendary,DEX %,12,2,Meister
+Shoulder,120,Legendary,INT %,12,2,Meister
+Shoulder,120,Legendary,LUK %,12,2,Meister
+Shoulder,120,Legendary,Max HP %,12,3,Meister
+Shoulder,120,Legendary,Max MP %,12,3,Meister
+Shoulder,120,Legendary,DEF %,12,3,Meister
+Shoulder,120,Legendary,All Stats %,9,2,Meister
+Shoulder,120,Legendary,10% chance to ignore 20% damage received,1,3,Meister
+Shoulder,120,Legendary,10% chance to ignore 40% damage received,1,3,Meister
+Shoulder,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Face Accessory,120,Normal,STR,6,2,Meister
+Face Accessory,120,Normal,DEX,6,2,Meister
+Face Accessory,120,Normal,INT,6,2,Meister
+Face Accessory,120,Normal,LUK,6,2,Meister
+Face Accessory,120,Normal,Max HP,60,3,Meister
+Face Accessory,120,Normal,Max MP,60,3,Meister
+Face Accessory,120,Normal,DEF,60,3,Meister
+Face Accessory,120,Rare,STR,12,2,Meister
+Face Accessory,120,Rare,DEX,12,2,Meister
+Face Accessory,120,Rare,INT,12,2,Meister
+Face Accessory,120,Rare,LUK,12,2,Meister
+Face Accessory,120,Rare,Max HP,120,3,Meister
+Face Accessory,120,Rare,Max MP,120,3,Meister
+Face Accessory,120,Rare,DEF,120,3,Meister
+Face Accessory,120,Rare,STR %,3,2,Meister
+Face Accessory,120,Rare,DEX %,3,2,Meister
+Face Accessory,120,Rare,INT %,3,2,Meister
+Face Accessory,120,Rare,LUK %,3,2,Meister
+Face Accessory,120,Rare,Max HP %,3,3,Meister
+Face Accessory,120,Rare,Max MP %,3,3,Meister
+Face Accessory,120,Rare,DEF %,3,3,Meister
+Face Accessory,120,Rare,All Stats,5,2,Meister
+Face Accessory,120,Rare,Recover 24 HP every 4 seconds,1,3,Meister
+Face Accessory,120,Rare,Recover 24 MP every 4 seconds,1,3,Meister
+Face Accessory,120,Epic,STR %,6,2,Meister
+Face Accessory,120,Epic,DEX %,6,2,Meister
+Face Accessory,120,Epic,INT %,6,2,Meister
+Face Accessory,120,Epic,LUK %,6,2,Meister
+Face Accessory,120,Epic,Max HP %,6,3,Meister
+Face Accessory,120,Epic,Max MP %,6,3,Meister
+Face Accessory,120,Epic,DEF %,6,3,Meister
+Face Accessory,120,Epic,All Stats %,3,1,Meister
+Face Accessory,120,Unique,STR %,9,2,Meister
+Face Accessory,120,Unique,DEX %,9,2,Meister
+Face Accessory,120,Unique,INT %,9,2,Meister
+Face Accessory,120,Unique,LUK %,9,2,Meister
+Face Accessory,120,Unique,Max HP %,9,3,Meister
+Face Accessory,120,Unique,Max MP %,9,3,Meister
+Face Accessory,120,Unique,DEF %,9,3,Meister
+Face Accessory,120,Unique,All Stats %,6,1,Meister
+Face Accessory,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Face Accessory,120,Legendary,STR %,12,2,Meister
+Face Accessory,120,Legendary,DEX %,12,2,Meister
+Face Accessory,120,Legendary,INT %,12,2,Meister
+Face Accessory,120,Legendary,LUK %,12,2,Meister
+Face Accessory,120,Legendary,Max HP %,12,3,Meister
+Face Accessory,120,Legendary,Max MP %,12,3,Meister
+Face Accessory,120,Legendary,DEF %,12,3,Meister
+Face Accessory,120,Legendary,All Stats %,9,2,Meister
+Face Accessory,120,Legendary,All Skill MP Cost %,15,3,Meister
+Face Accessory,120,Legendary,All Skill MP Cost %,30,3,Meister
+Face Accessory,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Face Accessory,120,Legendary,Meso Obtained %,20,3,Meister
+Face Accessory,120,Legendary,Item Drop Rate %,20,3,Meister
+Eye Accessory,120,Normal,STR,6,2,Meister
+Eye Accessory,120,Normal,DEX,6,2,Meister
+Eye Accessory,120,Normal,INT,6,2,Meister
+Eye Accessory,120,Normal,LUK,6,2,Meister
+Eye Accessory,120,Normal,Max HP,60,3,Meister
+Eye Accessory,120,Normal,Max MP,60,3,Meister
+Eye Accessory,120,Normal,DEF,60,3,Meister
+Eye Accessory,120,Rare,STR,12,2,Meister
+Eye Accessory,120,Rare,DEX,12,2,Meister
+Eye Accessory,120,Rare,INT,12,2,Meister
+Eye Accessory,120,Rare,LUK,12,2,Meister
+Eye Accessory,120,Rare,Max HP,120,3,Meister
+Eye Accessory,120,Rare,Max MP,120,3,Meister
+Eye Accessory,120,Rare,DEF,120,3,Meister
+Eye Accessory,120,Rare,STR %,3,2,Meister
+Eye Accessory,120,Rare,DEX %,3,2,Meister
+Eye Accessory,120,Rare,INT %,3,2,Meister
+Eye Accessory,120,Rare,LUK %,3,2,Meister
+Eye Accessory,120,Rare,Max HP %,3,3,Meister
+Eye Accessory,120,Rare,Max MP %,3,3,Meister
+Eye Accessory,120,Rare,DEF %,3,3,Meister
+Eye Accessory,120,Rare,All Stats,5,2,Meister
+Eye Accessory,120,Rare,Recover 24 HP every 4 seconds,1,3,Meister
+Eye Accessory,120,Rare,Recover 24 MP every 4 seconds,1,3,Meister
+Eye Accessory,120,Epic,STR %,6,2,Meister
+Eye Accessory,120,Epic,DEX %,6,2,Meister
+Eye Accessory,120,Epic,INT %,6,2,Meister
+Eye Accessory,120,Epic,LUK %,6,2,Meister
+Eye Accessory,120,Epic,Max HP %,6,3,Meister
+Eye Accessory,120,Epic,Max MP %,6,3,Meister
+Eye Accessory,120,Epic,DEF %,6,3,Meister
+Eye Accessory,120,Epic,All Stats %,3,1,Meister
+Eye Accessory,120,Unique,STR %,9,2,Meister
+Eye Accessory,120,Unique,DEX %,9,2,Meister
+Eye Accessory,120,Unique,INT %,9,2,Meister
+Eye Accessory,120,Unique,LUK %,9,2,Meister
+Eye Accessory,120,Unique,Max HP %,9,3,Meister
+Eye Accessory,120,Unique,Max MP %,9,3,Meister
+Eye Accessory,120,Unique,DEF %,9,3,Meister
+Eye Accessory,120,Unique,All Stats %,6,1,Meister
+Eye Accessory,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Eye Accessory,120,Legendary,STR %,12,2,Meister
+Eye Accessory,120,Legendary,DEX %,12,2,Meister
+Eye Accessory,120,Legendary,INT %,12,2,Meister
+Eye Accessory,120,Legendary,LUK %,12,2,Meister
+Eye Accessory,120,Legendary,Max HP %,12,3,Meister
+Eye Accessory,120,Legendary,Max MP %,12,3,Meister
+Eye Accessory,120,Legendary,DEF %,12,3,Meister
+Eye Accessory,120,Legendary,All Stats %,9,2,Meister
+Eye Accessory,120,Legendary,All Skill MP Cost %,15,3,Meister
+Eye Accessory,120,Legendary,All Skill MP Cost %,30,3,Meister
+Eye Accessory,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Eye Accessory,120,Legendary,Meso Obtained %,20,3,Meister
+Eye Accessory,120,Legendary,Item Drop Rate %,20,3,Meister
+Earring,120,Normal,STR,6,2,Meister
+Earring,120,Normal,DEX,6,2,Meister
+Earring,120,Normal,INT,6,2,Meister
+Earring,120,Normal,LUK,6,2,Meister
+Earring,120,Normal,Max HP,60,3,Meister
+Earring,120,Normal,Max MP,60,3,Meister
+Earring,120,Normal,DEF,60,3,Meister
+Earring,120,Rare,STR,12,2,Meister
+Earring,120,Rare,DEX,12,2,Meister
+Earring,120,Rare,INT,12,2,Meister
+Earring,120,Rare,LUK,12,2,Meister
+Earring,120,Rare,Max HP,120,3,Meister
+Earring,120,Rare,Max MP,120,3,Meister
+Earring,120,Rare,DEF,120,3,Meister
+Earring,120,Rare,STR %,3,2,Meister
+Earring,120,Rare,DEX %,3,2,Meister
+Earring,120,Rare,INT %,3,2,Meister
+Earring,120,Rare,LUK %,3,2,Meister
+Earring,120,Rare,Max HP %,3,3,Meister
+Earring,120,Rare,Max MP %,3,3,Meister
+Earring,120,Rare,DEF %,3,3,Meister
+Earring,120,Rare,All Stats,5,2,Meister
+Earring,120,Rare,Recover 24 HP every 4 seconds,1,3,Meister
+Earring,120,Rare,Recover 24 MP every 4 seconds,1,3,Meister
+Earring,120,Epic,STR %,6,2,Meister
+Earring,120,Epic,DEX %,6,2,Meister
+Earring,120,Epic,INT %,6,2,Meister
+Earring,120,Epic,LUK %,6,2,Meister
+Earring,120,Epic,Max HP %,6,3,Meister
+Earring,120,Epic,Max MP %,6,3,Meister
+Earring,120,Epic,DEF %,6,3,Meister
+Earring,120,Epic,All Stats %,3,1,Meister
+Earring,120,Unique,STR %,9,2,Meister
+Earring,120,Unique,DEX %,9,2,Meister
+Earring,120,Unique,INT %,9,2,Meister
+Earring,120,Unique,LUK %,9,2,Meister
+Earring,120,Unique,Max HP %,9,3,Meister
+Earring,120,Unique,Max MP %,9,3,Meister
+Earring,120,Unique,DEF %,9,3,Meister
+Earring,120,Unique,All Stats %,6,1,Meister
+Earring,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Earring,120,Legendary,STR %,12,2,Meister
+Earring,120,Legendary,DEX %,12,2,Meister
+Earring,120,Legendary,INT %,12,2,Meister
+Earring,120,Legendary,LUK %,12,2,Meister
+Earring,120,Legendary,Max HP %,12,3,Meister
+Earring,120,Legendary,Max MP %,12,3,Meister
+Earring,120,Legendary,DEF %,12,3,Meister
+Earring,120,Legendary,All Stats %,9,2,Meister
+Earring,120,Legendary,All Skill MP Cost %,15,3,Meister
+Earring,120,Legendary,All Skill MP Cost %,30,3,Meister
+Earring,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Earring,120,Legendary,Meso Obtained %,20,3,Meister
+Earring,120,Legendary,Item Drop Rate %,20,3,Meister
+Ring,120,Normal,STR,6,2,Meister
+Ring,120,Normal,DEX,6,2,Meister
+Ring,120,Normal,INT,6,2,Meister
+Ring,120,Normal,LUK,6,2,Meister
+Ring,120,Normal,Max HP,60,3,Meister
+Ring,120,Normal,Max MP,60,3,Meister
+Ring,120,Normal,DEF,60,3,Meister
+Ring,120,Rare,STR,12,2,Meister
+Ring,120,Rare,DEX,12,2,Meister
+Ring,120,Rare,INT,12,2,Meister
+Ring,120,Rare,LUK,12,2,Meister
+Ring,120,Rare,Max HP,120,3,Meister
+Ring,120,Rare,Max MP,120,3,Meister
+Ring,120,Rare,DEF,120,3,Meister
+Ring,120,Rare,STR %,3,2,Meister
+Ring,120,Rare,DEX %,3,2,Meister
+Ring,120,Rare,INT %,3,2,Meister
+Ring,120,Rare,LUK %,3,2,Meister
+Ring,120,Rare,Max HP %,3,3,Meister
+Ring,120,Rare,Max MP %,3,3,Meister
+Ring,120,Rare,DEF %,3,3,Meister
+Ring,120,Rare,All Stats,5,2,Meister
+Ring,120,Rare,Recover 24 HP every 4 seconds,1,3,Meister
+Ring,120,Rare,Recover 24 MP every 4 seconds,1,3,Meister
+Ring,120,Epic,STR %,6,2,Meister
+Ring,120,Epic,DEX %,6,2,Meister
+Ring,120,Epic,INT %,6,2,Meister
+Ring,120,Epic,LUK %,6,2,Meister
+Ring,120,Epic,Max HP %,6,3,Meister
+Ring,120,Epic,Max MP %,6,3,Meister
+Ring,120,Epic,DEF %,6,3,Meister
+Ring,120,Epic,All Stats %,3,1,Meister
+Ring,120,Unique,STR %,9,2,Meister
+Ring,120,Unique,DEX %,9,2,Meister
+Ring,120,Unique,INT %,9,2,Meister
+Ring,120,Unique,LUK %,9,2,Meister
+Ring,120,Unique,Max HP %,9,3,Meister
+Ring,120,Unique,Max MP %,9,3,Meister
+Ring,120,Unique,DEF %,9,3,Meister
+Ring,120,Unique,All Stats %,6,1,Meister
+Ring,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Ring,120,Legendary,STR %,12,2,Meister
+Ring,120,Legendary,DEX %,12,2,Meister
+Ring,120,Legendary,INT %,12,2,Meister
+Ring,120,Legendary,LUK %,12,2,Meister
+Ring,120,Legendary,Max HP %,12,3,Meister
+Ring,120,Legendary,Max MP %,12,3,Meister
+Ring,120,Legendary,DEF %,12,3,Meister
+Ring,120,Legendary,All Stats %,9,2,Meister
+Ring,120,Legendary,All Skill MP Cost %,15,3,Meister
+Ring,120,Legendary,All Skill MP Cost %,30,3,Meister
+Ring,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Ring,120,Legendary,Meso Obtained %,20,3,Meister
+Ring,120,Legendary,Item Drop Rate %,20,3,Meister
+Pendant,120,Normal,STR,6,2,Meister
+Pendant,120,Normal,DEX,6,2,Meister
+Pendant,120,Normal,INT,6,2,Meister
+Pendant,120,Normal,LUK,6,2,Meister
+Pendant,120,Normal,Max HP,60,3,Meister
+Pendant,120,Normal,Max MP,60,3,Meister
+Pendant,120,Normal,DEF,60,3,Meister
+Pendant,120,Rare,STR,12,2,Meister
+Pendant,120,Rare,DEX,12,2,Meister
+Pendant,120,Rare,INT,12,2,Meister
+Pendant,120,Rare,LUK,12,2,Meister
+Pendant,120,Rare,Max HP,120,3,Meister
+Pendant,120,Rare,Max MP,120,3,Meister
+Pendant,120,Rare,DEF,120,3,Meister
+Pendant,120,Rare,STR %,3,2,Meister
+Pendant,120,Rare,DEX %,3,2,Meister
+Pendant,120,Rare,INT %,3,2,Meister
+Pendant,120,Rare,LUK %,3,2,Meister
+Pendant,120,Rare,Max HP %,3,3,Meister
+Pendant,120,Rare,Max MP %,3,3,Meister
+Pendant,120,Rare,DEF %,3,3,Meister
+Pendant,120,Rare,All Stats,5,2,Meister
+Pendant,120,Rare,Recover 24 HP every 4 seconds,1,3,Meister
+Pendant,120,Rare,Recover 24 MP every 4 seconds,1,3,Meister
+Pendant,120,Epic,STR %,6,2,Meister
+Pendant,120,Epic,DEX %,6,2,Meister
+Pendant,120,Epic,INT %,6,2,Meister
+Pendant,120,Epic,LUK %,6,2,Meister
+Pendant,120,Epic,Max HP %,6,3,Meister
+Pendant,120,Epic,Max MP %,6,3,Meister
+Pendant,120,Epic,DEF %,6,3,Meister
+Pendant,120,Epic,All Stats %,3,1,Meister
+Pendant,120,Unique,STR %,9,2,Meister
+Pendant,120,Unique,DEX %,9,2,Meister
+Pendant,120,Unique,INT %,9,2,Meister
+Pendant,120,Unique,LUK %,9,2,Meister
+Pendant,120,Unique,Max HP %,9,3,Meister
+Pendant,120,Unique,Max MP %,9,3,Meister
+Pendant,120,Unique,DEF %,9,3,Meister
+Pendant,120,Unique,All Stats %,6,1,Meister
+Pendant,120,Unique,HP Recovery % (on items and skills),30,3,Meister
+Pendant,120,Legendary,STR %,12,2,Meister
+Pendant,120,Legendary,DEX %,12,2,Meister
+Pendant,120,Legendary,INT %,12,2,Meister
+Pendant,120,Legendary,LUK %,12,2,Meister
+Pendant,120,Legendary,Max HP %,12,3,Meister
+Pendant,120,Legendary,Max MP %,12,3,Meister
+Pendant,120,Legendary,DEF %,12,3,Meister
+Pendant,120,Legendary,All Stats %,9,2,Meister
+Pendant,120,Legendary,All Skill MP Cost %,15,3,Meister
+Pendant,120,Legendary,All Skill MP Cost %,30,3,Meister
+Pendant,120,Legendary,HP Recovery % (on items and skills),40,3,Meister
+Pendant,120,Legendary,Meso Obtained %,20,3,Meister
+Pendant,120,Legendary,Item Drop Rate %,20,3,Meister
+Heart,100,Normal,STR,6,2,Meister
+Heart,100,Normal,DEX,6,2,Meister
+Heart,100,Normal,INT,6,2,Meister
+Heart,100,Normal,LUK,6,2,Meister
+Heart,100,Normal,Max HP,50,3,Meister
+Heart,100,Normal,Max MP,50,3,Meister
+Heart,100,Normal,DEF,50,3,Meister
+Heart,100,Rare,STR,12,2,Meister
+Heart,100,Rare,DEX,12,2,Meister
+Heart,100,Rare,INT,12,2,Meister
+Heart,100,Rare,LUK,12,2,Meister
+Heart,100,Rare,Max HP,100,3,Meister
+Heart,100,Rare,Max MP,100,3,Meister
+Heart,100,Rare,DEF,100,3,Meister
+Heart,100,Rare,STR %,3,2,Meister
+Heart,100,Rare,DEX %,3,2,Meister
+Heart,100,Rare,INT %,3,2,Meister
+Heart,100,Rare,LUK %,3,2,Meister
+Heart,100,Rare,Max HP %,3,3,Meister
+Heart,100,Rare,Max MP %,3,3,Meister
+Heart,100,Rare,DEF %,3,3,Meister
+Heart,100,Rare,All Stats,5,2,Meister
+Heart,100,Epic,STR %,6,2,Meister
+Heart,100,Epic,DEX %,6,2,Meister
+Heart,100,Epic,INT %,6,2,Meister
+Heart,100,Epic,LUK %,6,2,Meister
+Heart,100,Epic,Max HP %,6,3,Meister
+Heart,100,Epic,Max MP %,6,3,Meister
+Heart,100,Epic,DEF %,6,3,Meister
+Heart,100,Epic,All Stats %,3,1,Meister
+Heart,100,Unique,STR %,9,2,Meister
+Heart,100,Unique,DEX %,9,2,Meister
+Heart,100,Unique,INT %,9,2,Meister
+Heart,100,Unique,LUK %,9,2,Meister
+Heart,100,Unique,Max HP %,9,3,Meister
+Heart,100,Unique,Max MP %,9,3,Meister
+Heart,100,Unique,DEF %,9,3,Meister
+Heart,100,Unique,All Stats %,6,1,Meister
+Heart,100,Unique,HP Recovery % (on items and skills),30,3,Meister
+Heart,100,Legendary,STR %,12,2,Meister
+Heart,100,Legendary,DEX %,12,2,Meister
+Heart,100,Legendary,INT %,12,2,Meister
+Heart,100,Legendary,LUK %,12,2,Meister
+Heart,100,Legendary,Max HP %,12,3,Meister
+Heart,100,Legendary,Max MP %,12,3,Meister
+Heart,100,Legendary,DEF %,12,3,Meister
+Heart,100,Legendary,All Stats %,9,2,Meister
+Heart,100,Legendary,HP Recovery % (on items and skills),40,3,Meister
