@@ -7,7 +7,6 @@ cube_list <- unique(cubetable$Cube)
 get_lines <- function(cube,slot,grade) {
   result <- list()
   lines <- cubetable[Cube == cube & Equip == slot]
-  print(lines)
   grades <- unique(lines$Grade)
   nonprime <- grades[which(grades == grade)-1]
   result$prime <- lines[Grade == grade]

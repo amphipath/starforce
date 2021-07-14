@@ -18,6 +18,7 @@ library(RColorBrewer)
 source('flamegen.R')
 source('spelltrace.R')
 source('cubetable.R')
+source('starforce.R')
 require(echarts4r)
 library(curl)
 
@@ -37,8 +38,8 @@ ui <- tagList(
                             numericInput(inputId = "lv", label = strong("Equipment Level"), value = 150, min = 0, max = 250, step=1,width = 100),
                             htmlOutput('lvwarning'),
                             numericInput(inputId = "r", label = HTML("Replacement Cost: <a title='Full cost in mesos, not millions or billions'>(?)</a>"), value = 0, min = 0, max = 999999999999, step=1),
-                            checkboxGroupInput("event", inline = TRUE, label= strong("Events:"),choiceNames = c("30% off","5/10/12 100%","5/10/15 100%","10-15 no boom"),
-                                               choiceValues = c("30off", "12g","15g","1015nb")),
+                            checkboxGroupInput("event", inline = TRUE, label= strong("Events:"),choiceNames = c("30% off","5/10/12 100%","5/10/15 100%","10-15 no boom",'1+1 up to 10'),
+                                               choiceValues = c("30off", "12g","15g","1015nb",'1plus1')),
                             radioButtons(inputId = "mvp",label = strong("MVP"),
                                          choiceNames = c("None", "Silver", "Gold","Diamond"),
                                          choiceValues = c('0','0.03','0.05','0.1')),
@@ -78,8 +79,11 @@ ui <- tagList(
                           
                           mainPanel(
                             DT::DTOutput('table'),
+                            tags$br(),
+                            htmlOutput('oneplusone'),
                             tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
                                     background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
+                            
                             htmlOutput('cost1'),
                             tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
                                     background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);'),
@@ -209,8 +213,6 @@ server <- function(input, output, session) {
    
    cubelines <- reactive({
       if(!any(is.null(input$cube),is.null(input$cubeslot),is.null(input$cubetier))) {
-         print(input$cube)
-         print(input$cubeslot)
          grades <- cubegrades()
          if(input$cubetier %in% grades) {
             return(get_lines(input$cube,input$cubeslot,input$cubetier))
@@ -356,6 +358,17 @@ server <- function(input, output, session) {
                              choices = c(13,14,17), selected = c(13,14,17))
   })
   
+  observeEvent('1plus1' %in% input$event, {
+     if('1plus1' %in% input$event) {
+        updateNumericInput(session,inputId = "from", label = "Calculate overall cost to get from", value = 12, min = 12, max = 24, step = 1)
+        updateNumericInput(session,inputId = "to", label = "to", value = 17, min = 13, max = 25, step = 1)
+     }
+     else {
+        updateNumericInput(session,inputId = "from", label = "Calculate overall cost to get from", value = 10, min = 10, max = 24, step = 1)
+        updateNumericInput(session,inputId = "to", label = "to", value = 17, min = 11, max = 25, step = 1)
+     }
+  })
+  
    costs <- reactive({
      lv <- floor(input$lv / 10) * 10
      if(input$type %in% c("KMS 25* (old)","KMS/MSEA Adventure 25*")){
@@ -443,7 +456,7 @@ server <- function(input, output, session) {
      catch <- catchChoiceUpdate()
      protect <- protectChoiceUpdate()
      protect2 <- protect2ChoiceUpdate()
-     sfTable(baserCost,off30,MVP,baseCost,protCost,outcomes,catch,protect,protect2)
+     sfTable(baserCost,off30,MVP,baseCost,protCost,outcomes,catch,protect,protect2,'1plus1' %in% input$event)
    })
    
 
@@ -474,6 +487,10 @@ server <- function(input, output, session) {
        mat <- mat[1:10,]
      }
      
+     if('1plus1' %in% input$event) {
+        mat <- mat[3:nrow(mat),]
+     }
+     
      DT::datatable(mat, escape = FALSE, selection = 'none',  options = list(
        dom = 't',
                                       server = FALSE,
@@ -491,6 +508,13 @@ server <- function(input, output, session) {
      else if(input$lv < 130 & input$lv > 119) { HTML("<font color=#FF0000>Warning: Level 120-129 equipment can be enhanced only to a max of 15*</color>")} 
      else if(input$lv < 120) { HTML("<font color=#FF0000>Warning: Equipment of level less than 120 cannot be enhanced past 10*. This tool is inapplicable.</color>")} 
      else {NULL}
+   })
+   
+   output$oneplusone <- renderUI({
+      if('1plus1' %in% input$event){
+         HTML("<b>Note:</b> Because 1+1 event was chosen, table was truncated to start at 12 stars to preserve Markov assumption.")
+      }
+      else {NULL}
    })
    
    output$cost1 <- renderUI({
