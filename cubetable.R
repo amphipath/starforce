@@ -72,7 +72,7 @@ check_satisfy <- function(desired,potential,equivalences = equivalent_stats(NULL
   return(TRUE)
 }
 
-one_line_allowed <- c('All Skill Levels','Invincibility duration after getting attacked')
+one_line_allowed <- c('All Skill Levels','Invincibility duration after getting attacked', 'Decent')
 two_lines_allowed <- c('Ignore Enemy DEF', "Boss Damage", "Item Drop Rate", "chance to ignore",'invincibility after getting attacked')
 prime_chances <- list(Black = list(Rare = c(0.2,0.05),
                                    Epic = c(0.2,0.05),
