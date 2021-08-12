@@ -5,8 +5,9 @@ account: amph
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 399092
-bundleId: 4818277
+bundleId: 4914421
 url: https://amph.shinyapps.io/starforce/
-when: 1626258811.53396
+when: 1628741064.54723
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: oldweights/weights_en_20210812.csv|oldweights/weights_kr_20210812.csv
