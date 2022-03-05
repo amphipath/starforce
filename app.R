@@ -8,6 +8,7 @@
 #
 
 library(shiny)
+library(markdown)
 library(shinyjs)
 library(DT)
 library(ggplot2)
@@ -19,14 +20,19 @@ source('flamegen.R')
 source('spelltrace.R')
 source('cubetable.R')
 source('starforce.R')
+source('statequivs.R')
 require(echarts4r)
 library(curl)
+library(rclipboard)
+
 
 
 fuckinguselessstats <- c('on attack$','on defeating an enemy','invincibility after being attacked','incoming damage', 'damage received','^Speed$','^Jump$','Resistance','^Max HP$','MP','^STR$','^DEX$','^INT$','^LUK$','All Stats$','^DEF','Mystic Door','Haste')
-
+horizontalborder <- tags$hr(style = 'border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+                                    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image: -o-linear-gradient(left, #ccc, #333, #ccc);')
 # Define UI for application that draws a histogram
 ui <- tagList(
+  rclipboardSetup(),
    useShinyjs(),
    navbarPage("Maplestory Statistics",
                  tabPanel("Starforce",
@@ -159,7 +165,6 @@ ui <- tagList(
                              
                           ),
                           mainPanel(
-                             HTML('This assumes the uniform distribution across types of flames that is currently live in GMS, MSEA and KMS. I will not be attempting to model the previous flawed distribution because it is still not entirely clear how it works.'),
                              echarts4rOutput('flamePlot'),
                              htmlOutput('titlefirst100'),
                              DT::DTOutput('first100')
@@ -197,7 +202,57 @@ ui <- tagList(
                              DTOutput('pottable'),
                              htmlOutput('cubetext')
                           )
-                           )
+                           ),
+              tabPanel('Equivalence Calculator',
+                       titlePanel('Stat Equivalences'),
+                       HTML(stateq.intro),
+                       horizontalborder,
+                       h2('1. Preparation'),
+                       HTML(renderMarkdown('statequivreq.md')),
+                       horizontalborder,
+                       h2('2. Parameters'),
+                       selectInput('stateq.job','Your class',choices = list(`Warrior (Except Demon Avenger) or STR Pirate`=1,Magician=2,`Bowman or DEX Pirate`=3,`Thief (except Xenon, Dual Blade, Cadena, Shadower)`=4,`Dual Blade/Cadena/Shadower`=5,Xenon=6,`Demon Avenger`=7),width='50%'),
+                       h4('Link Skill Levels'),
+                       HTML(stateq.linkExp),
+                       tags$br(),
+                       stateq.inputLink('stateq.xenonLv',stateq.xenonLabel,2,max=3),
+                       stateq.inputLink('stateq.pirateLv',stateq.pirateLabel,2,max=6),
+                       stateq.inputLink('stateq.cygnusLv', stateq.cygnusLabel,2,max=10),
+                       div(style="display:inline-block",id='kaiserlink',shiny::div(id="kaiserlinkinner",selectInput('stateq.kaiserLv',stateq.kaiserLabel,1:3,selected=2,width='150px'))),
+                       h4('Current stats'),
+                       HTML(stateq.currentStatExp),
+                       tags$br(),
+                       stateq.inputDmg('stateq.currRange','Max Range'),
+                       stateq.inputDmg('stateq.dmg','% Damage'),
+                       stateq.inputDmg('stateq.cdmg','% Critical Damage'),
+                       stateq.inputDmg('stateq.bdmg', '% Boss Damage'),
+                       tags$br(),
+                       div(id='stateq-statinput'),
+                       horizontalborder,
+                       h2('3. Stat increase measurements'),
+                       HTML(stateq.xenonExp),
+                       tags$br(),
+                       div(id='stateq-xenonstatinput'),
+                       tags$br(),
+                       HTML(stateq.pirateExp),
+                       tags$br(),
+                       div(id='stateq-piratestatinput'),
+                       tags$br(),
+                       HTML(stateq.cygnusExp),
+                       numericInput('stateq.cygRange','Upper Range (with Cygnus Link)',value=0),
+                       tags$br(),
+                       div(id='stateq-kaiserstatinput'),
+                       tags$br(),
+                       HTML(stateq.echoExp),
+                       numericInput('stateq.echoRange','Upper Range (with Echo of Hero)',value=0),
+                       horizontalborder,
+                       h2('Equivalences'),
+                       tableOutput('stateq.table'),
+                       h4('Copy to Clipboard'),
+                       HTML('Press the below button and copy to cell A1 of any spreadsheet program to store a local copy of these equivalences.'),
+                       uiOutput('stateq.copy')
+                       
+                       )
                  )
    )
 
@@ -265,11 +320,6 @@ server <- function(input, output, session) {
          desired <- rbind(desired,list(stat = input$desiredstat2,value = input$desiredvalue2))
       }
       equiv <- equivalences()
-      print(input$cube)
-      print(input$cubeslot)
-      print(input$cubetier)
-      print(desired)
-      print(equiv)
       pottable <- suppressWarnings(list_satisfy(input$cube,input$cubeslot,input$cubetier,desired,equiv))
       p <- sum(pottable$p)
       output$cubetext <- renderUI({
@@ -301,7 +351,6 @@ server <- function(input, output, session) {
       colnames(df) <- c('STR','DEX','INT','LUK', '%AS', 'ATT','MA','DEF','HP','MP','SPD','JUMP','Lv Reduction')
       df$Score <- scoreoutput(df,as.numeric(input$flameMainstat),input$flameAsweight,input$flameAttweight)
       ordered <- df$Score[order(df$Score)]
-      print(ordered)
       index <- (1:nrow(df)) / nrow(df)
       q99 <- ordered[n*0.99 + 1]
       q995 <- ordered[n*0.995 + 1]
@@ -847,6 +896,133 @@ server <- function(input, output, session) {
        HTML(sprintf('<br><br>The optimal strategy determined is to stop and Innocence the equip after <b>%i slots fail</b>. This is the same as going for <b>%i passes</b> including the +1 slot given by the hammer before clean-slating.<br><br>
                     Note that because scrolling depends heavily on the geometric distribution, the distribution will be top-heavy; most people, about two-thirds will turn out to use less than the expected cost, but the people who get unlucky get REALLY unlucky, taking as much as 1.5x or even more.',mincost,finaln + 2 - mincost))
      })
+   })
+   
+   ###########
+   ########### START OF STAT EQUIV SECTION
+   
+   stateq.stats <- reactive({
+     stateq.jobstats[[as.integer(input$stateq.job)]]
+   })
+   
+   observeEvent(input$stateq.job,{
+     stateq.selectedStats <- stateq.stats()
+     stateq.refreshCurrent(stateq.selectedStats)
+     stateq.refreshXenon(stateq.selectedStats)
+     stateq.refreshPirate(stateq.selectedStats)
+     if(input$stateq.job=='7'){
+       insertUI(selector='#kaiserlink',
+                ui=shiny::div(id="kaiserlinkinner",selectInput('stateq.kaiserLv',stateq.kaiserLabel,1:3,selected=2,width='150px')))
+       insertUI(selector='#stateq-kaiserstatinput',
+                ui = div(id='stateq-kaiserstatinputinner',list(HTML(stateq.kaiserExp),
+                          numericInput('stateq.kaiserHP',label='HP (With Kaiser Link)',value=0))))
+     }
+     else {
+       removeUI(selector='#kaiserlinkinner')
+       removeUI(selector='#stateq-kaiserstatinputinner')
+     }
+     
+   })
+   
+   stateq.getdmgStats <- reactive({
+     stateq.selectedStats <- stateq.stats()
+     c('FDr','CDr','DMGr','ATT','ATTr','ASr',names(stateq.selectedStats),paste0(names(stateq.selectedStats),'r'),paste0(names(stateq.selectedStats),'f'))
+   })
+   
+   #calculate fd rate per each stat
+   stateq.fdRates <- reactive({
+     
+     stateq.jobdmgStats <- stateq.getdmgStats()
+     # create the vector that will store the fd rates per stat
+     fdr <- numeric(length(stateq.jobdmgStats))
+     names(fdr) <- stateq.jobdmgStats
+     jobstats <- stateq.stats()
+     base <- numeric(length(jobstats))
+     names(base) <- names(jobstats)
+     coeffs <- numeric(length(jobstats))
+     names(coeffs) <- names(jobstats)
+     for(stat in names(jobstats)) {
+       base[stat] <- if (sum(input[[paste0('stateq.curr',stat)]]) > 0) input[[paste0('stateq.curr',stat)]]  else NA
+       coeffs[stat] <- jobstats[[stat]]
+     }
+     
+     # gather parameters
+     stateq.xenonlink <- stateq.zeronull(input$stateq.xenonLv) * 5
+     stateq.pirlink <- 10 + stateq.zeronull(input$stateq.pirateLv) * 10
+     stateq.pirlinkhp <- 175 * (stateq.zeronull(input$stateq.piratelv) + 1)
+     stateq.cyglink <- 5 + stateq.zeronull(input$stateq.cygnusLv) * 2
+     stateq.kaiserlink <- 5 + stateq.zeronull(input$stateq.kaiserLv) * 5
+     stateq.baseStats <- sum(base*coeffs)
+     for(stat in names(coeffs)) {
+       if(stat != 'HP') {
+         fdr[[stat]] <- if (sum(input[[paste0('stateq.pirate',stat)]]) > 0) (input[[paste0('stateq.pirate',stat)]] - base[stat]) / stateq.pirlink * coeffs[stat] / stateq.baseStats else NA
+
+         fdr[[paste0(stat,'r')]] <- if (sum(input[[paste0('stateq.xenon',stat)]]) > 0) (input[[paste0('stateq.xenon',stat)]] - base[stat]) / stateq.xenonlink * coeffs[stat] / stateq.baseStats else NA
+
+         fdr[[paste0(stat,'f')]] <- coeffs[[stat]] / stateq.baseStats
+       }
+       else if (stat == 'HP') {
+         fdr[[stat]] <- if (sum(input[[paste0('stateq.pirate',stat)]]) > 0) (input[[paste0('stateq.pirate',stat)]] - base[stat]) / stateq.pirlinkhp * coeffs[stat] / stateq.baseStats else NA
+         fdr[[paste0(stat,'r')]] <- if (sum(input$stateq.kaiserHP) > 0) (input$stateq.kaiserHP - base['HP']) / stateq.kaiserlink * coeffs[stat] / stateq.baseStats else NA
+         fdr[[paste0(stat,'f')]] <- coeffs[[stat]] / stateq.baseStats
+       }
+     }
+     fdr['ASr'] <- sum(sapply(c('STRr','DEXr','INTr','LUKr'), function(i) {if (i %in% stateq.jobdmgStats) fdr[i] else 0}))
+     fdr['ATT'] <- if ((sum(input$stateq.cygRange) > 0) & (sum(input$stateq.currRange) > 0)) (input$stateq.cygRange - input$stateq.currRange) / input$stateq.currRange / stateq.cyglink else NA
+     fdr['ATTr'] <- if ((sum(input$stateq.echoRange) > 0) & (sum(input$stateq.currRange) > 0)) (input$stateq.echoRange - input$stateq.currRange) / input$stateq.currRange / 4 else NA
+     fdr['DMGr'] <- 1 / (100 + input$stateq.dmg + input$stateq.bdmg)
+     fdr['CDr'] <- 1 / (135 + input$stateq.cdmg)
+     fdr['FDr'] <- 0.01
+     fdr <- fdr * 100
+     fdr
+   })
+   
+   stateq.getInputs = function(ids) {
+     unlist(lapply(ids, function(i) {
+       value = input[[paste0("stateq.equiv", i)]]
+       if (is.null(value)) 1 else value
+     }))
+   }
+   
+   
+   
+   stateq.updateEquivalences <- reactive({
+     fdr <- stateq.fdRates()
+     ids <- names(fdr)
+     inputs <- stateq.equivInput(ids, values = stateq.getInputs(ids))
+     inputvalues <- stateq.getInputs(ids)
+     matrix <- (inputvalues * fdr) %*% t(1/fdr)
+     matrix <- round(matrix,3)
+     colnames <- c('Equivalences',stateq.desc(ids))
+     rownames <- stateq.desc(ids)
+     df <- data.frame(inputs,matrix,row.names = rownames)
+     colnames(df) <- colnames
+     df
+   })
+   
+   # output$stateq.table <- DT::renderDataTable(
+   #   isolate(stateq.updateEquivalences()),
+   #   escape = F, selection = 'none',
+   #   options = list(
+   #     dom = 't', paging = FALSE, ordering = FALSE,
+   #     preDrawCallback = JS('function() { Shiny.unbindAll(this.api().table().node()); }'),
+   #     drawCallback = JS('function() { Shiny.bindAll(this.api().table().node()); } ')
+   #   ))
+   
+   output$stateq.table <- renderTable({
+     stateq.cliptext <<- stateq.generateExcel(stateq.fdRates())
+     print(stateq.cliptext)
+     stateq.updateEquivalences()
+     }, sanitize.text.function = function(x) x, rownames = T)
+   
+   # stateq.proxy = dataTableProxy('stateq.table')
+   
+   # observe({
+   #   replaceData(stateq.proxy,stateq.updateEquivalences(), resetPaging=F)
+   # })
+   
+   output$stateq.copy <- renderUI({
+     rclipButton("stateq.copybutton",label=icon("clipboard"),stateq.generateExcel(stateq.fdRates()))
    })
    
 
