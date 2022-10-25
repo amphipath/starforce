@@ -39,7 +39,7 @@ ui <- tagList(
                           titlePanel("Expected Starforce Costs"),
                           sidebarPanel(
                             selectInput(inputId = "type",label = strong("Starforce System"),
-                                        choices = c("KMS 25* (old)", "GMS/MSEA 25* (old)", "MSEA 20* (old)","KMS/MSEA Adventure 25*","GMS Adventure 25*"),
+                                        choices = c("KMS 25* (old)", "GMS/MSEA 25* (old)", "MSEA 20* (old)","KMS/MSEA Adventure 25*","GMS Adventure 25*","GMS Destiny 25*"),
                                         selected = "KMS/MSEA Adventure 25*"),
                             numericInput(inputId = "lv", label = strong("Equipment Level"), value = 150, min = 0, max = 250, step=1,width = 100),
                             htmlOutput('lvwarning'),
@@ -437,6 +437,19 @@ server <- function(input, output, session) {
          basecost <- rep(1000000,15)
        }
      }
+     if(input$type ==  "GMS Destiny 25*"){
+       c1 <- (11:15) ^2.7 / 400
+       c2 <- (16:18) ^2.7 / 120
+       c3 <- (19:20) ^2.7 / 110
+       c4 <- (21:25) ^2.7 / 100
+       basecost <- c(c1,c2,c3,c4) 
+       basecost <- lv^3 * basecost + 1000
+       basecost[6:15] <- basecost[6:15] * 0.78
+       basecost <- round(basecost,-2)
+       if("test" %in% input$event){
+         basecost <- rep(1000000,15)
+       }
+     }
      if(input$type == "MSEA 20* (old)"){
        c1 <- round(lv^3 * 11:20 / 25,-2) + 1000
        basecost <- c(c1,0,0,0,0,0)
@@ -453,7 +466,7 @@ server <- function(input, output, session) {
        basePass <- 1.05 ^ starCatch * c(0.45,0.35,0.3,0.3,0.25,0.25,0.20,0.15,0.1,0.05,0,0,0,0,0)
        boom <- c(0,0,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,rep(0,5))
      }
-     if(input$type %in% c("KMS/MSEA Adventure 25*","GMS Adventure 25*")) {
+     if(input$type %in% c("KMS/MSEA Adventure 25*","GMS Adventure 25*", "GMS Destiny 25*")) {
        basePass <- 1.05 ^ starCatch * c(0.5, 0.45, 0.4, 0.35, 0.3, rep(0.3,7),0.03,0.02,0.01) 
        boom <- c(0,0,0.01,0.02,0.02,rep(0.03,3),0.04,0.04,rep(0.1,2),0.2,0.3,0.4)
      }

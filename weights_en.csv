@@ -71,7 +71,7 @@ Weapon,120,Legendary,ATT per 10 character levels,1,2,Red
 Weapon,120,Legendary,Magic ATT per 10 character levels,1,2,Red
 Weapon,120,Legendary,Ignore Enemy DEF %,35,2,Red
 Weapon,120,Legendary,Ignore Enemy DEF %,40,2,Red
-Weapon,120,Legendary,Boss Damage %,30,2,Red
+Weapon,120,Legendary,Boss Damage %,35,2,Red
 Weapon,120,Legendary,Boss Damage %,35,2,Red
 Weapon,120,Legendary,Boss Damage %,40,2,Red
 Emblem,100,Normal,STR,6,3,Red
@@ -221,7 +221,7 @@ Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF 
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,40,2,Red
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 20% damage received,1,3,Red
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 40% damage received,1,3,Red
-Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,30,2,Red
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,35,2,Red
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,35,2,Red
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,40,2,Red
 Force Shield/Soul Ring,100,Normal,STR,6,3,Red
@@ -297,7 +297,7 @@ Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,35,2,Red
 Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,40,2,Red
 Force Shield/Soul Ring,100,Legendary,10% chance to ignore 20% damage received,1,3,Red
 Force Shield/Soul Ring,100,Legendary,10% chance to ignore 40% damage received,1,3,Red
-Force Shield/Soul Ring,100,Legendary,Boss Damage %,30,2,Red
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,35,2,Red
 Force Shield/Soul Ring,100,Legendary,Boss Damage %,35,2,Red
 Force Shield/Soul Ring,100,Legendary,Boss Damage %,40,2,Red
 Shield,120,Normal,STR,6,3,Red
@@ -376,7 +376,7 @@ Shield,120,Legendary,Ignore Enemy DEF %,35,2,Red
 Shield,120,Legendary,Ignore Enemy DEF %,40,2,Red
 Shield,120,Legendary,10% chance to ignore 20% damage received,1,3,Red
 Shield,120,Legendary,10% chance to ignore 40% damage received,1,3,Red
-Shield,120,Legendary,Boss Damage %,30,2,Red
+Shield,120,Legendary,Boss Damage %,35,2,Red
 Shield,120,Legendary,Boss Damage %,35,2,Red
 Shield,120,Legendary,Boss Damage %,40,2,Red
 Helmet,120,Normal,STR,6,1,Red
@@ -1246,7 +1246,7 @@ Weapon,120,Legendary,ATT per 10 character levels,1,2,Black
 Weapon,120,Legendary,Magic ATT per 10 character levels,1,2,Black
 Weapon,120,Legendary,Ignore Enemy DEF %,35,2,Black
 Weapon,120,Legendary,Ignore Enemy DEF %,40,2,Black
-Weapon,120,Legendary,Boss Damage %,30,2,Black
+Weapon,120,Legendary,Boss Damage %,35,2,Black
 Weapon,120,Legendary,Boss Damage %,35,2,Black
 Weapon,120,Legendary,Boss Damage %,40,2,Black
 Emblem,100,Normal,STR,6,3,Black
@@ -1396,7 +1396,7 @@ Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF 
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Ignore Enemy DEF %,40,2,Black
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 20% damage received,1,3,Black
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,10% chance to ignore 40% damage received,1,3,Black
-Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,30,2,Black
+Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,35,2,Black
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,35,2,Black
 Secondary (except Force Shield/Soul Ring/Shield),100,Legendary,Boss Damage %,40,2,Black
 Force Shield/Soul Ring,100,Normal,STR,6,3,Black
@@ -1472,7 +1472,7 @@ Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,35,2,Black
 Force Shield/Soul Ring,100,Legendary,Ignore Enemy DEF %,40,2,Black
 Force Shield/Soul Ring,100,Legendary,10% chance to ignore 20% damage received,1,3,Black
 Force Shield/Soul Ring,100,Legendary,10% chance to ignore 40% damage received,1,3,Black
-Force Shield/Soul Ring,100,Legendary,Boss Damage %,30,2,Black
+Force Shield/Soul Ring,100,Legendary,Boss Damage %,35,2,Black
 Force Shield/Soul Ring,100,Legendary,Boss Damage %,35,2,Black
 Force Shield/Soul Ring,100,Legendary,Boss Damage %,40,2,Black
 Shield,120,Normal,STR,6,3,Black
@@ -1551,7 +1551,7 @@ Shield,120,Legendary,Ignore Enemy DEF %,35,2,Black
 Shield,120,Legendary,Ignore Enemy DEF %,40,2,Black
 Shield,120,Legendary,10% chance to ignore 20% damage received,1,3,Black
 Shield,120,Legendary,10% chance to ignore 40% damage received,1,3,Black
-Shield,120,Legendary,Boss Damage %,30,2,Black
+Shield,120,Legendary,Boss Damage %,35,2,Black
 Shield,120,Legendary,Boss Damage %,35,2,Black
 Shield,120,Legendary,Boss Damage %,40,2,Black
 Helmet,120,Normal,STR,6,1,Black
